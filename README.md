@@ -116,7 +116,7 @@ Because AAB offers two distinct Hybrid Dimming methods, screen recordings captur
 
 > **The Takeaway:**
 > *   **Unprivileged Mode:** The recording looks broken/black because it's literally drawing darkness on top of your apps.
-> *   **Privileged Mode:** The recording looks "too bright" because the dimming is happening physically in the display controller, which yields a much higher quality result in real life. **This is why it is recommend to grant elevated permissions.**
+> *   **Privileged Mode:** The recording looks "too bright" because the dimming is happening physically in the display controller, which yields a much higher quality result in real life. **This is why it is recommended to grant elevated permissions.**
 
 ### Circadian scaling
 
