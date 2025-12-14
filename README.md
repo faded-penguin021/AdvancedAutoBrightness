@@ -13,7 +13,7 @@
   </a>
 </p>
 
-A glass box replacement for Android's adaptive brightness system.
+## *A glass box replacement for Android's adaptive brightness system.*
 
 Stock Android adaptive auto brightness relies on opaque machine learning. You teach it by adjusting the slider, but you never see what it learned, can't inspect the curve, and have no undo beyond "reset everything." Advanced Auto Brightness (AAB) rejects this black box approach entirely.
 
@@ -78,7 +78,7 @@ Fit Stability: Moderate (Max Impact: 48.4%)
 <p align="center">
   <img src="assets/images/reactivity_settings.jpg" alt="Reactivity Settings" width="350"/>
   <br/>
-  <em>Configure sensor dead zones and smoothing behavior</em>
+  <em>Configure sensor dead zones and reactivity behavior</em>
 </p>
 
 Ambient light sensors are noisy. Shadows from your hand, passing clouds, or screen reflections shouldn't trigger brightness changes. AAB uses multiple layers of intelligence:
