@@ -269,10 +269,7 @@ Controls time-of-day brightness adaptation:
 Configures super dimming or hybrid dimming behavior:
 * Strength Setpoint: Maximum dimming strength for super dimming (capped to 65% to prevent black screens).
 * SD Exponent: Gamma-like correction for perceptual dimming linearity
-* SD Thresh: Brightness level at which super dimming kicks in
-
-**Or**
-* PWM Thresh: Hardware brightness floor, AAB never goes below this
+* SD Thresh: Brightness level at which super dimming kicks in **Or** PWM Thresh: Hardware brightness floor, AAB never goes below this
 * Privilege Check: detects available elevated access (Write Secure/Root/ADB WiFi/Shizuku)
 * Software Exp: Gamma correction specifically for Hybrid Dimming
 
