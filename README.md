@@ -297,15 +297,21 @@ The curve solver is what makes AAB adaptive without being opaque.
 
 ### Troubleshooting
 
-*Accidentally configured a Black Screen?*
+*Accidentally configured a black screen?*
 
 Turn your phone upside down (charging port facing up) and shake vertically. AAB will acknowledge with an S.O.S. vibration pattern, immediately stop all tasks, disable overlays, and force brightness to maximum.
 
-#### Curve solver poor fit?
+*Curve solver poor fit?*
+
 * Collect more data points across broader lux range
 * Note: you can be very precise with the brightness slider as the adjustment isn't logged until you let go of the slider
 * Ensure data points are spread evenly (not all clustered in one lighting condition)
 * Check %AAB_Test output for specific zone issues and collect more data in weak zones
+
+*Brightness suddenly stops adapting / not responsive after a while?*
+
+Please visit [don't kill my app](https://dontkillmyapp.com/) to see how to mitigate agressive OEM battery managementn that kills the service.
+
 
 ### Contributing
 This project is "my child." I do not accept pull requests. The main branch is reserved strictly for my own releases. Any PRs opened will be closed without review.
