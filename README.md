@@ -56,7 +56,8 @@ Graphs include:
 
 ### Automatic Curve Fitting
 
-> **📹 [Watch: AAB Curve Fitting Demo](assets/videos/aab_curve_fitting.mp4)**  
+https://github.com/user-attachments/assets/d00b2529-91a4-4ef4-9df2-9f15d5b951ec
+> **📹 Watch: AAB Curve Fitting Demo**  
 > *See the automatic curve solver in action, fitting a three-zone brightness model to real usage data*
 
 In AAB, manual brightness adjustments can be used as training data **if** you enable override detection. Each manual adjustment gets logged the moment you let go of the brightness slider. When you have enough data (a minimum of 9 data points) spread across different lighting conditions, go to the Brightness Graph and hit the Suggest values button.
@@ -98,7 +99,9 @@ AAB's Solution: Hybrid dimming
 * Further dimming uses Android's Reduce Bright Colors API (with elevated permissions) or a software overlay (without)
 * Your screen dims smoothly without ever entering the flicker zone
 
-> **📹 [Watch: Hybrid Dimming Comparison - Privileged vs Unprivileged Mode](assets/videos/aab_hybrid_dimming_vs_unpriv.mp4)**  
+
+https://github.com/user-attachments/assets/a9a2d577-edad-43ec-8fe6-116c1f49b583
+> **📹 Watch: Hybrid Dimming Comparison - Privileged vs Unprivileged Mode**  
 > *Side-by-side demonstration of system-level Reduce Bright Colors vs software overlay dimming*
 
 #### Visualizing Hybrid Dimming: Why the videos look different
@@ -109,11 +112,11 @@ Because AAB offers two distinct Hybrid Dimming methods, screen recordings captur
 | :---: | :---: |
 | *Left hand side recording* | *Right hand side recording* |
 | **Technique:** `Reduce Bright Colors` API | **Technique:** Software Overlay |
-| **What the Recorder sees:** The recorder captures the perfect digital image **before** it is sent to the display driver. The dimming happens at the hardware level, invisible to the recorder. | **What the Recorder sees:** The recorder captures the **black pixel layer** drawn over the screen. As it gets stronger, the recording goes pitch black. |
-| **What YOU see:** The screen gets dimmer while maintaining perfect contrast and color accuracy. | **What YOU see:** The screen gets dimmer, but contrast is reduced ("Black Crush"). |
+| **What the recorder sees:** The recorder captures the perfect digital image **before** it is sent to the display driver. The dimming happens at the hardware level, invisible to the recorder. | **What the recorder sees:** The recorder captures the **black pixel layer** drawn over the screen. As it gets stronger, the recording goes very dark. |
+| **What *you* see:** The screen gets dimmer while maintaining perfect contrast and color accuracy. | **What *you* see:** The screen gets dimmer, but contrast is reduced (i.e. black crush). |
 
 > **The Takeaway:**
-> *   **Unprivileged Mode:** The recording looks broken/black because it's literally drawing darkness on top of your apps.
+> *   **Unprivileged Mode:** The recording looks broken/black because it's literally drawing transparent black pixels on top of your screen.
 > *   **Privileged Mode:** The recording looks "too bright" because the dimming is happening physically in the display controller, which yields a much higher quality result in real life. **This is why it is recommended to grant elevated permissions.**
 
 ### Circadian scaling
