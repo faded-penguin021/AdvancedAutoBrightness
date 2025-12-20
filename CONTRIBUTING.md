@@ -2,9 +2,9 @@
 
 Thank you for your interest in AAB. 
 
-### No Pull Requests
-This project is "my child". **I do not accept Pull Requests.** 
-The `main` branch is reserved strictly for my own releases. Any PRs opened will be closed without review.
+### No Direct Pull Requests
+This project is "my child". **I do not accept direct Pull Requests.** 
+The `main` branch is reserved strictly for my own releases. Please open an [Issue](https://github.com/faded-penguin021/AdvancedAutoBrightness/issues) and discuss prior to opening the PR.
 
 ### Forking
 You are highly encouraged to **Fork** this repository. Under the MIT License, you are free to modify the logic, adopt the algorithms, and release your own versions in your own repositories.
