@@ -317,12 +317,11 @@ Please visit [don't kill my app](https://dontkillmyapp.com/) to see how to mitig
 
 
 ### Contributing
-This project is "my child." I do not accept pull requests. The main branch is reserved strictly for my own releases. Any PRs opened will be closed without review.
+This project is "my child." I do not accept direct pull requests. 
 
 However:
-* Forking is strongly encouraged: Under the MIT License, you're free to modify the logic, adopt the algorithms, build your own variants, and release them in your own repositories
+* Please discuss changes by opening a new issue and only open a PR if approved by me
 * Bug reports welcome: Open an Issue if you find crashes, logic errors, or unexpected behavior
-* Feature discussions: Use the Discussions tab for math questions, feature suggestions, or implementation ideas
 * See [CONTRIBUTING](CONTRIBUTING.md) for full details.
 
 ### License
