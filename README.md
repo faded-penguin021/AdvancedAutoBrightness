@@ -4,11 +4,18 @@
   <img src="assets/images/logo.png" alt="AAB Logo" width="200"/>
 </p> 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-3.2-blue?style=for-the-badge" alt="Version"/>
   <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
-    <img src="https://img.shields.io/github/v/release/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=blue" alt="Latest Release"/></a> <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/v/release/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=blue" alt="Latest Release"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
+    <img src="https://img.shields.io/github/downloads/faded-penguin021/AdvancedAutoBrightness/total?style=for-the-badge&logo=github&color=brightgreen" alt="Total Downloads"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/stargazers">
+    <img src="https://img.shields.io/github/stars/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/>
-  </a>
+  </a> 
 </p>
 
 ## *A glass box replacement for Android's adaptive brightness system.*
