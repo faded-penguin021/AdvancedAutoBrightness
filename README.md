@@ -24,6 +24,23 @@ Stock Android adaptive auto brightness relies on opaque machine learning. You te
 
 AAB is a full replacement for native Android auto brightness with deterministic math you can see and control. A plugin free solution built natively in Tasker with Java-accelerated core logic.
 
+
+<p align="center">
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/assets/pitch/AAB_SlideDeck.pdf">
+    <img 
+      src="https://github.com/user-attachments/assets/5cea4658-ebb3-46f8-af79-fb2bf30dde87"
+      width="344"
+      height="192"
+      alt="Pitch Deck Cover"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <i>Tl;dr? Click or tap the image above to view an <strong>AI generated</strong> slide deck that summarizes the project!</i>
+</p>
+
+
 ## Table of Contents
 
 - [Features at a Glance](#features-at-a-glance)
