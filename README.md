@@ -24,6 +24,41 @@ Stock Android adaptive auto brightness relies on opaque machine learning. You te
 
 AAB is a full replacement for native Android auto brightness with deterministic math you can see and control. A plugin free solution built natively in Tasker with Java-accelerated core logic.
 
+## Table of Contents
+
+- [Features at a Glance](#features-at-a-glance)
+- [Live Visual Feedback](#live-visual-feedback)
+- [Automatic Curve Fitting](#automatic-curve-fitting)
+- [Reactivity](#reactivity)
+- [Hybrid Dimming](#hybrid-dimming)
+  - [Visualizing Hybrid Dimming: Why the videos look different](#visualizing-hybrid-dimming-why-the-videos-look-different)
+- [Circadian Scaling](#circadian-scaling)
+- [Target Audience](#target-audience)
+  - [Former Velis Auto Brightness users](#former-velis-auto-brightness-users)
+  - [PWM Sensitive users](#pwm-sensitive-users)
+  - [Night Owls](#night-owls)
+- [Core Architecture](#core-architecture)
+  - [Glass Box Engineering](#glass-box-engineering)
+  - [Three-Zone Perceptual Model](#three-zone-perceptual-model)
+  - [Java-Accelerated Core](#java-accelerated-core)
+  - [Battery Efficiency](#battery-efficiency)
+- [Installation & Setup](#installation--setup)
+  - [Requirements](#requirements)
+  - [Download](#download)
+  - [Basic Setup](#basic-setup)
+  - [Privilege Levels](#privilege-levels)
+- [Configuration Guide](#configuration-guide)
+  - [Brightness Settings](#brightness-settings)
+  - [Reactivity Settings](#reactivity-settings)
+  - [Misc Settings](#misc-settings)
+  - [Circadian Settings](#circadian-settings)
+  - [Super Dimming Settings](#super-dimming-settings)
+- [Live Debug Info](#live-debug-info)
+- [Using the Curve Fitting Engine](#using-the-curve-fitting-engine)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+
 <p align="center">
   <img src="assets/images/main_settings.jpg" alt="Main Settings Interface" width="350"/>
   <br/>
