@@ -33,12 +33,12 @@ AAB is a full replacement for native Android auto brightness with deterministic 
     alt="AAB visual abstract"
   />
 </p>
+<i>The visual abstract above was <strong>AI generated</strong></i>.
+<br><br>
 
-<p align="center">
- Readme tl;dr? <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/assets/pitch/AAB_SlideDeck.pdf">
+Readme tl;dr? <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/assets/pitch/AAB_SlideDeck.pdf">
   <strong>AI generated slide deck</strong>
   </a> which summarizes the project!
-</p>
 
 
 ## Table of Contents
