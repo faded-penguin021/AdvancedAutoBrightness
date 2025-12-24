@@ -20,6 +20,8 @@
 
 ## *A glass box replacement for Android's adaptive brightness system.*
 
+*Tired of Android auto-brightness that's too dim or too bright? Advanced Auto Brightness (AAB) is a customizable alternative to apps like Lux and Velis Auto Brightness. Fix flickering or jittering OLED screens, eliminate PWM-induced eye strain, and create bespoke brightness curves that actually match your lighting conditions.*
+
 Stock Android adaptive auto brightness relies on opaque machine learning. You teach it by adjusting the slider, but you never see what it learned, can't inspect the curve, and have no undo beyond "reset everything." Advanced Auto Brightness (AAB) rejects this black box approach entirely.
 
 AAB is a full replacement for native Android auto brightness with deterministic math you can see and control. A plugin free solution built natively in Tasker with Java-accelerated core logic.
