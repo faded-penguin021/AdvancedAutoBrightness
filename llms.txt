@@ -1,0 +1,111 @@
+# Advanced Auto Brightness (AAB)
+
+> A deterministic, glass-box Android auto-brightness replacement using mathematical curve fitting instead of opaque machine learning. Built with Tasker and Java for transparency, customization, and PWM flicker elimination.
+
+## Quick Links
+- **Releases**: [Download APK & Source](https://github.com/faded-penguin021/AdvancedAutoBrightness/releases)
+- **Documentation**: [README](README.md) | [Contributing](CONTRIBUTING.md) | [Security](SECURITY.md)
+- **License**: MIT (fork-friendly)
+
+---
+
+## What This Project Does
+AAB replaces Android's native adaptive brightness with a user-controllable system that:
+1. **Eliminates PWM flicker** via Hybrid Dimming (hardware brightness locking + software/system-level dimming)
+2. **Auto-learns brightness preferences** using curve fitting (basin-hopping optimization) from manual adjustments
+3. **Provides circadian scaling** (brightness curves shift with sunrise/sunset)
+4. **Shows all internal state** (sensor readings, smoothing parameters, zone boundaries) in real-time graphs
+
+---
+
+## Deployment Types
+| Format | Description | Requires Tasker? |
+|--------|-------------|------------------|
+| **APK** | Standalone Android app | ❌ No |
+| **XML** | Raw Tasker project source | ✅ Yes |
+
+---
+
+## Key Technical Details
+
+### Architecture
+- **Implementation**: Tasker logic (XML) + Java Code actions for performance-critical math
+- **Execution Model**: Event-driven background service (no active polling)
+- **Privilege Modes**: 
+  - Standard (works on all devices)
+  - Elevated (ADB/Root/Shizuku for system-level `Reduce Bright Colors` API)
+
+### Mathematical Model
+- **Three-zone piecewise function**: Square root (low light) → Cube root (midrange) → Asymptotic (high brightness)
+- **Curve fitting**: Basin-hopping solver with R², nRMSE, and bias metrics
+- **Continuity**: Auto-calculated C0 continuity at zone boundaries
+
+### PWM Mitigation
+- **Hybrid Dimming**: Locks hardware brightness above flicker threshold (e.g., 120/255), uses software overlay or `Reduce Bright Colors` for further dimming
+- **Two modes**: 
+  - Privileged (system API, better quality)
+  - Unprivileged (software overlay, works everywhere)
+
+---
+
+## Common Use Cases
+1. **Former Velis Auto Brightness users** seeking a maintained alternative
+2. **PWM-sensitive users** experiencing eye strain/headaches from OLED flicker
+3. **Night owls** needing super-dim brightness below Android minimum
+4. **Control enthusiasts** wanting to inspect and modify brightness algorithms
+
+---
+
+## File Structure Overview
+```
+├── README.md              # Full feature documentation
+├── CONTRIBUTING.md        # No PRs policy, fork-encouraged
+├── LICENSE                # MIT License
+├── SECURITY.md            # Network usage disclosure (ip-api.com fallback)
+├── assets/
+│   ├── images/           # UI screenshots
+│   └── pitch/            # AI-generated slide deck
+└── [Tasker XML/Java]     # Source code (in releases)
+```
+
+---
+
+## Development Notes
+- **No Direct PRs**: This is a personal project. Open an Issue before contributing.
+- **Fork-Friendly**: MIT licensed—feel free to create derivative works.
+- **AI-Generated Content**: Visual abstract and slide deck are AI-created (disclosed in README).
+
+---
+
+## Configuration Entry Points
+For developers/AI assistants helping users:
+1. **Brightness Tuning**: Main Settings → Brightness Graph → Adjust zone parameters
+2. **PWM Safety**: Super Dimming Settings → Set PWM Threshold + enable Hybrid Dimming
+3. **Curve Fitting**: Reactivity Settings → Enable Override Detection → Collect data → Brightness Graph → "Suggest values"
+4. **Circadian Mode**: Circadian Settings → Configure spread/steepness → Set location (GPS or manual)
+
+---
+
+## Troubleshooting Quick Reference
+| Issue | Solution |
+|-------|----------|
+| Black screen | Flip phone upside down + shake vertically (SOS vibration) |
+| Poor curve fit | Collect >8 data points across diverse lighting conditions |
+| Not responsive | Check [dontkillmyapp.com](https://dontkillmyapp.com/) for OEM battery restrictions |
+
+---
+
+## Network Disclosure
+**Single API call**: If GPS is unavailable, AAB calls `http://ip-api.com/json` for approximate coordinates (circadian feature). Avoid by manually setting `%AAB_Latitude` and `%AAB_Longitude`.
+
+---
+
+## Keywords for Discovery
+Android, auto-brightness, adaptive brightness, PWM flicker, OLED eye strain, Tasker, curve fitting, circadian rhythm, brightness control, Velis alternative, DC dimming, accessible algorithms, glass-box engineering
+
+---
+
+## This Project Is NOT
+- A machine learning system (it's deterministic math)
+- A root-required app (elevated permissions are optional)
+- A black-box solution (all logic is transparent)
