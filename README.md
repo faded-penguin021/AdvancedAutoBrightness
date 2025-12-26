@@ -167,6 +167,9 @@ https://github.com/user-attachments/assets/a9a2d577-edad-43ec-8fe6-116c1f49b583
 
 #### Visualizing Hybrid Dimming: Why the videos look different
 
+<details>
+<summary>Click to understand why the recordings look different</summary>
+
 Because AAB offers two distinct Hybrid Dimming methods, screen recordings capture them very differently.
 
 | **Privileged Mode (Root/ADB WiFi/Write Secure Settings/Shizuku)** | **Unprivileged Mode (Standard)** |
@@ -179,6 +182,8 @@ Because AAB offers two distinct Hybrid Dimming methods, screen recordings captur
 > **The Takeaway:**
 > *   **Unprivileged Mode:** The recording looks broken/black because it's literally drawing transparent black pixels on top of your screen.
 > *   **Privileged Mode:** The recording looks "too bright" because the dimming is happening physically in the display controller, which yields a much higher quality result in real life. **This is why it is recommended to grant elevated permissions.**
+
+</details>
 
 ### Circadian scaling
 
@@ -196,6 +201,9 @@ _Note: if no location and/or date are set, AAB will try to use your current loca
 
 ### Target audience
 
+<details>
+<summary>Click to view "who this is for"</summary>
+  
 #### Former Velis Auto Brightness users
 Velis was a major inspiration to AAB. It's no longer being maintained and risks being broken by Android permission hardening. AAB is designed to provide the same philosophy of user empowerment, rebuilt for modern Android.
 
@@ -204,8 +212,12 @@ If low brightness gives you headaches or eye strain, you're likely reacting to P
 
 #### Night Owls
 Do you use your phone in dimly lit environments and do you feel your screen doesn't get dim enough? AAB's Super Dimming functionality solves exactly this issue! It enables dimming that is not dependent on your minimum backlight level, yet can further darken the screen.
+</details>
 
-### Core Architecture
+## Core Architecture
+
+<details>
+<summary>Click to view architecture details</summary>
 
 #### Glass Box Engineering
 Most important metrics are accessible through the UI in real-time via the Live Debug Info scene or visualized in various Chart.js graphs.
@@ -235,16 +247,17 @@ The Java engine tracks hardware state. If calculated brightness matches current 
 
 Exception: PWM safe mode with overlay dimming uses slightly more power (higher backlight + software mask). For PWM sensitive users, preventing headaches might be worth the trade-off.
 
+</details>
+
 ### Installation & Setup
 
 ### Requirements
-* Tasker (latest beta recommended until Java Code and Sunrise/Sunset actions hit stable)
-* Android 8.1+ (tested primarily on Android 15)
+* Tasker (latest beta recommended until Java Code and Sunrise/Sunset actions hit stable) **Or** Android 8.1+ (tested primarily on Android 15)
 
 Note: for the standalone apk file you must bypass Google Play Protect and manually navigate a complex permission setup. This is **not** normal. You should generally **never** trust an app that forces you to bypass system security warnings, targets older Android versions to evade restrictions, or requires manual "fixes" to basic permission flows as that is behavior typically found in malware.
 
 ### Download
-GitHub Releases (includes source .prj.xml for verification)
+GitHub Releases (includes both .apk-file and source .prj.xml for verification)
 
 ### Basic Setup
 * Disable stock Adaptive Brightness
@@ -284,7 +297,10 @@ This is the configuration designed for most users running the .apk file.
 #### Elevated permissions
 Unlocks system-level Reduce Bright Colors API (Android 12+) for Hybrid Dimming and Super Dimming, which is more efficient than overlays.
 
-### Configuration Guide
+## Configuration Guide
+
+<details>
+<summary>Click to view full configuration guide</summary>
 
 #### Brightness Settings
 This is where you design your core brightness response. The three-zone model gives you precise control across the full lux spectrum:
@@ -335,6 +351,8 @@ Configures super dimming or hybrid dimming behavior:
 * Privilege Check: detects available elevated access (Write Secure/Root/ADB WiFi/Shizuku)
 * Software Exp: Gamma correction specifically for Hybrid Dimming
 
+</details>
+
 ### Live Debug Info
 Shows real-time information:
 * Current smoothed lux and raw sensor readings
@@ -359,7 +377,10 @@ The curve solver is what makes AAB adaptive without being opaque.
 * Apply new parameters if fit quality is good, or continue collecting data if not
 * Tip: you can tap a blue dot (override data point) to delete it
 
-### Troubleshooting
+## Troubleshooting
+
+<details>
+<summary>Click to view troubleshooting steps</summary>
 
 *Accidentally configured a black screen?*
 
@@ -376,6 +397,7 @@ Turn your phone upside down (charging port facing up) and shake vertically. AAB 
 
 Please visit [don't kill my app](https://dontkillmyapp.com/) to see how to mitigate agressive OEM battery managementn that kills the service.
 
+</details>
 
 ### Contributing
 This project is "my child." I do not accept direct pull requests. 
