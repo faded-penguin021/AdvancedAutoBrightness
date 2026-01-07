@@ -58,7 +58,7 @@ Readme tl;dr? <a href="https://github.com/faded-penguin021/AdvancedAutoBrightnes
 ### Features at a Glance
 * **Three-zone perceptual brightness model** with real-time curve visualization
 * **Automatic curve fitting** from your manual adjustments using stochastic optimization
-* **Profile system**: Save and switch between brightness configurations (Default, Battery Saver, Video Streaming, Outdoors, Night Reading)
+* **Profile system**: Save and switch between customizable brightness configurations (Presets are: Default, Battery Saver, Video Streaming, Outdoors, Night Reading)
 * **Context automation**: Automatically load profiles based on app, time, location, battery state, or day of week
 * **Hybrid Dimming**: Lock hardware brightness above PWM flicker threshold, dim using privileged APIs or software overlay
 * **Circadian scaling**: Brightness curve shifts with sunrise/sunset for natural day/night adaptation
@@ -92,13 +92,13 @@ Fit Stability: Moderate (Max Impact: 48.4%)
   <em>Save profiles and create automation rules</em>
 </p>
 
-**Profiles** let you save complete brightness configurations—curve parameters, reactivity settings, circadian scaling, super dimming—and switch between them instantly. AAB ships with five defaults:
+**Profiles** let you save complete brightness configurations (curve parameters, reactivity settings, circadian scaling, super dimming) and switch between them instantly. AAB ships with five defaults, but customization options are endless:
 
 * **Default**: Balanced baseline for general use
 * **Battery Saver**: Aggressive dimming, minimal animations, high reactivity thresholds
 * **Video Streaming**: Slow reactivity, super dimming enabled for dark room viewing
 * **Outdoors**: Extended high-brightness range, faster transitions, no dimming
-* **Night Reading**: Ultra-low brightness with PWM-safe mode enabled
+* **Night Reading**: Low brightness with Hybrid Dimming mode enabled
 
 **Context Automation** makes profiles load automatically based on triggers:
 
