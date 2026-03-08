@@ -94,11 +94,11 @@ Fit Stability: Moderate (Max Impact: 48.4%)
 
 **Profiles** let you save complete brightness configurations (curve parameters, reactivity settings, circadian scaling, super dimming) and switch between them instantly. AAB ships with five defaults, but customization options are endless:
 
-* **Default**: Balanced baseline for general use
-* **Battery Saver**: Aggressive dimming, minimal animations, high reactivity thresholds
-* **Video Streaming**: Slow reactivity, super dimming enabled for dark room viewing
-* **Outdoors**: Extended high-brightness range, faster transitions, no dimming
-* **Night Reading**: Low brightness with Hybrid Dimming mode enabled
+* Default: Balanced baseline for general use
+* Battery Saver: Aggressive dimming, minimal animations, high reactivity thresholds
+* Video Streaming: Slow reactivity, super dimming enabled for dark room viewing
+* Outdoors: Extended high-brightness range, faster transitions, no dimming
+* Night Reading: Low brightness with Hybrid Dimming mode enabled
 
 **Context Automation** makes profiles load automatically based on triggers:
 
@@ -107,6 +107,7 @@ Fit Stability: Moderate (Max Impact: 48.4%)
 * **Time range**: Dim at night, brighten in morning (with midnight wraparound support)
 * **Battery level**: Switch to "Battery Saver" below 20%
 * **Location**: "Outdoors" profile when you leave home/work geofence
+* **WiFi state**: Switch profiles for specific locations (alternative to location)
 
 **Priority & Specificity**: When multiple contexts match, highest priority wins. Equal priority? Most specific context wins (e.g., "App + Time + Location" beats "Time only"). This prevents conflicts and gives you precise control.
 
@@ -249,7 +250,7 @@ Watch the Brightness Graph update in real-time as you adjust parameters.
 #### Profile & Context Settings
 * **Save Profile**: Store current configuration with custom name
 * **Load Profile**: Apply saved configuration
-* **Add Context**: Create automation rule with triggers (day, app, time, battery, location) and priority
+* **Add Context**: Create automation rule with triggers (day, app, time, battery, location, WiFi) and priority
 * **Edit/Delete**: Modify or remove existing contexts
 
 </details>
