@@ -195,7 +195,7 @@
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
 		<clp>true</clp>
-		<edate>1771255510429</edate>
+		<edate>1773033633831</edate>
 		<flags>40</flags>
 		<id>758</id>
 		<mid0>90</mid0>
@@ -385,8 +385,7 @@ Values
 	</Profile>
 	<Profile sr="prof761" ve="2">
 		<cdate>1772804411685</cdate>
-		<clp>true</clp>
-		<edate>1772202987425</edate>
+		<edate>1773034052291</edate>
 		<flags>8</flags>
 		<id>761</id>
 		<mid0>618</mid0>
@@ -394,7 +393,6 @@ Values
 		<pri>7</pri>
 		<Event sr="con0" ve="2">
 			<code>208</code>
-			<pri>1</pri>
 		</Event>
 	</Profile>
 	<Profile sr="prof762" ve="2">
@@ -744,7 +742,8 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Profile>
 	<Profile sr="prof8" ve="2">
 		<cdate>1772885569564</cdate>
-		<edate>1772895116191</edate>
+		<clp>true</clp>
+		<edate>1772897113135</edate>
 		<flags>8</flags>
 		<id>8</id>
 		<mid0>26</mid0>
@@ -769,9 +768,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Project sr="proj0" ve="2">
 		<cdate>1772002014254</cdate>
 		<name>Advanced Auto Brightness V3.3</name>
-		<pids>755,754,764,768,759,766,758,756,762,760,757,767,761,765,753,763,8,769</pids>
-		<scenes>AAB Menu,AAB Debug Scene,AAB Alpha Graph,AAB Profile,AAB Reactivity Settings,AAB Chart.Js License,AAB Taper Graph,AAB Superdimming Settings,AAB About,AAB Experiment Graph,AAB User Guide,AAB Reactivity Graph,AAB Circadian Dimming Graph,AAB Experiment Settings,AAB Color Filter,AAB Brightness Settings,AAB Dimming Graph,AAB Brightness Graph,AAB Misc Settings,AAB Power Draw Graph</scenes>
-		<tids>676,540,613,721,481,618,564,607,701,544,417,665,717,584,421,638,692,412,90,719,693,571,674,409,515,616,391,660,663,563,570,614,681,647,737,473,534,643,546,595,605,615,713,405,732,505,740,710,703,536,747,633,598,704,611,610,606,406,642,566,738,688,705,723,702,513,619,698,752,591,712,578,403,742,748,695,568,386,627,506,666,726,554,677,531,716,507,668,728,714,639,603,593,736,579,696,557,490,646,751,608,518,706,644,700,576,651,727,569,640,500,509,673,526,553,641,542,725,671,659,466,669,685,715,729,601,750,684,731,735,718,592,404,589,630,730,720,558,709,599,493,559,734,667,620,514,648,537,567,622,596,384,547,580,519,690,588,522,637,582,652,650,699,746,697,533,741,680,654,661,581,724,656,396,402,609,586,694,555,585,675,662,560,543,631,516,683,520,552,397,626,465,744,545,517,105,508,530,535,525,492,385,383,587,733,539,602,562,561,664,378,583,632,628,538,739,711,565,556,691,708,462,657,548,575,549,749,682,658,679,653,707,407,395,604,597,390,523,612,745,689,511,590,722,655,521,621,577,678,594,600,527,541,411,649,645,617,670,672,529,687,510,743,551,380,686,634,532,528,636,624,26,629,625,381,401,382,623,512,635,379,524,550</tids>
+		<pids>753,768,762,766,761,758,760,764,755,754,765,756,767,757,763,769,759,8</pids>
+		<scenes>AAB Profile,AAB Brightness Settings,AAB Menu,AAB Dimming Graph,AAB Debug Scene,AAB Alpha Graph,AAB Circadian Dimming Graph,AAB Misc Settings,AAB Reactivity Graph,AAB Experiment Graph,AAB Experiment Settings,AAB Reactivity Settings,AAB Superdimming Settings,AAB Brightness Graph,AAB User Guide,AAB Color Filter,AAB About,AAB Chart.Js License,AAB Taper Graph,AAB Power Draw Graph</scenes>
+		<tids>586,570,708,726,748,588,646,739,105,520,733,650,523,561,525,509,511,557,657,605,630,746,637,611,692,648,490,638,641,592,691,606,664,750,710,533,643,727,734,732,536,721,701,695,531,747,564,633,700,680,566,548,627,551,585,568,719,705,584,713,591,689,542,507,735,737,717,614,567,679,90,649,505,407,397,640,513,654,519,395,462,404,481,698,517,685,580,718,412,682,745,678,571,707,514,743,670,618,668,658,473,547,543,562,729,529,714,385,673,644,578,653,601,645,699,390,690,589,631,409,538,628,661,465,683,396,555,554,672,599,632,703,723,565,731,704,569,677,666,716,651,590,610,652,597,411,706,693,539,607,541,508,559,720,616,741,663,406,730,527,674,552,742,600,595,671,608,526,596,667,384,492,752,583,622,602,676,466,669,697,540,736,619,724,639,617,553,544,549,688,545,738,500,684,604,709,751,581,378,711,593,546,696,493,675,563,582,558,579,722,598,620,391,686,647,594,725,659,694,522,621,702,642,534,613,421,744,560,405,728,715,660,510,506,403,740,530,587,665,537,662,603,577,521,749,515,402,576,626,681,656,612,417,518,575,615,516,609,386,26,655,687,383,535,556,712,629,401,524,634,635,550,623,528,625,379,381,532,382,512,624,380,636</tids>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
 			<feat0>android.hardware.sensor.accelerometer:y</feat0>
@@ -781,13 +780,13 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>29</vTarg>
 			<vnme>3.3</vnme>
-			<vnum>11</vnum>
+			<vnum>12</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
 			<d>&lt;div id="aab-description"&gt; &lt;style&gt; #aab-description { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background-color: #2c2c2c; color: #E0E0E0; line-height: 1.6; margin: 0; padding: 5px; } #aab-description h3 { color: #00A986; border-bottom: 2px solid #00A986; padding-bottom: 8px; margin-top: 20px; margin-bottom: 15px; } #aab-description h4 { color: #00C79E; margin-top: 25px; margin-bottom: 10px; } #aab-description ul { padding-left: 25px; list-style-type: disc; } #aab-description li { margin-bottom: 10px; } #aab-description code { background-color: #444; color: #FFC107; padding: 3px 7px; border-radius: 5px; font-family: 'Droid Sans Mono', monospace; font-size: 0.95em; } #aab-description strong { color: #FFC107; font-weight: bold; } #aab-description hr { border: 0; border-top: 1px solid #555; margin: 30px 0; } #aab-description .callout-critical { background-color: #4d2a2a; border-left: 4px solid #ff5555; padding: 12px 18px; margin: 20px 0; border-radius: 0 4px 4px 0; } &lt;/style&gt; &lt;h3&gt;Advanced Auto Brightness V3.3&lt;/h3&gt; &lt;p&gt; Advanced Auto Brightness (AAB) is a complete replacement for Android's stock adaptive brightness system. It runs entirely within Tasker but uses an embedded Java engine for high performance and low battery usage. &lt;/p&gt; &lt;p&gt; Stock Android uses opaque "black box" machine learning to guess your preferences. AAB uses a "glass box" approach based on &lt;strong&gt;deterministic mathematics&lt;/strong&gt;. It gives you full control over the brightness curve, sensor sensitivity, and automation logic. &lt;/p&gt; &lt;hr&gt; &lt;h3&gt;Core Logic &amp; Features&lt;/h3&gt; &lt;h4&gt;1. The Three-Zone Curve&lt;/h4&gt; &lt;p&gt; Instead of a linear response, AAB calculates brightness using a customizable three-part formula designed for human vision. &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Dark Zone:&lt;/strong&gt; Uses a square-root curve to prevent black crush in dim environments.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Indoor Zone:&lt;/strong&gt; Uses a power-law curve to handle typical artificial lighting.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Bright Zone:&lt;/strong&gt; Asymptotically approaches maximum brightness for readability in sunlight.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;2. Dynamic Hysteresis (Reactivity)&lt;/h4&gt; &lt;p&gt; AAB eliminates screen flicker (jitter) by calculating a dynamic "dead zone" around the light sensor. The screen only updates when the ambient light changes significantly. The system reacts quickly to large changes (like walking outside) but ignores subtle fluctuations. &lt;/p&gt; &lt;h4&gt;3. The Context Engine&lt;/h4&gt; &lt;p&gt; Brightness needs change based on what you are doing. AAB V3.3 includes a state machine that automatically switches between stored &lt;strong&gt;Profiles&lt;/strong&gt; based on rules you define. &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Triggers:&lt;/strong&gt; Application Focus, Battery Level, Charging State, Location, Time of Day, and Day of the Week.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Profiles:&lt;/strong&gt; Save your settings into JSON files (e.g., &lt;i&gt;Social Media&lt;/i&gt;, &lt;i&gt;Outdoors&lt;/i&gt; or &lt;i&gt;Night Reading&lt;/i&gt;) and have the engine load them automatically.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;4. Super Dimming &amp; PWM Control&lt;/h4&gt; &lt;p&gt; For usage in pitch-black rooms, AAB can dim the screen below the hardware limit of your device. &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;System Integration:&lt;/strong&gt; Uses Android's "Extra Dim" feature (requires permissions) for efficient, system-level dimming.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;PWM Sensitivity:&lt;/strong&gt; Can lock the hardware backlight at a specific floor to prevent OLED flicker while using software dimming to lower the perceived brightness.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;5. Live Visualization&lt;/h4&gt; &lt;p&gt; The settings interface includes real-time Chart.js graphs. You can visualize your Brightness Curve, Reactivity Thresholds, and Circadian Scaling schedules before applying them. &lt;/p&gt; &lt;hr&gt; &lt;h3&gt;Safety &amp; Usage&lt;/h3&gt; &lt;h4&gt;The Panic Button&lt;/h4&gt; &lt;p&gt; If a configuration makes your screen unreadable, &lt;strong&gt;shake the device vertically&lt;/strong&gt; while holding it upside down. This triggers an emergency reset to safe defaults. &lt;/p&gt; &lt;h4&gt;Curve Fitting&lt;/h4&gt; &lt;p&gt; If you manually adjust the brightness slider, AAB pauses automation and logs the data point. You can use the built-in Curve Fitting tool to mathematically calculate a new curve that matches your manual overrides. &lt;/p&gt; &lt;hr&gt; &lt;h3&gt;Setup Instructions&lt;/h3&gt; &lt;ol&gt; &lt;li&gt; &lt;div class="callout-critical"&gt; &lt;strong&gt;CRITICAL:&lt;/strong&gt; You &lt;strong&gt;MUST&lt;/strong&gt; disable the system &lt;strong&gt;"Adaptive Brightness"&lt;/strong&gt; in Android Settings. Running both systems simultaneously will cause conflicts. &lt;/div&gt; &lt;/li&gt; &lt;li&gt;&lt;strong&gt;Permissions:&lt;/strong&gt; On first launch, the app will request necessary permissions (Write Settings, Overlay, Location).&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Initialization:&lt;/strong&gt; Run the &lt;code&gt;Advanced Auto Brightness&lt;/code&gt; task. Use the hamburger menu (☰) to access the settings dashboard.&lt;/li&gt; &lt;/ol&gt;</d>
 			<g>Display</g>
-			<p>false</p>
+			<p>true</p>
 			<t>Advanced Auto Brightness</t>
 		</Share>
 		<Img sr="icon" ve="2">
@@ -9414,11 +9413,12 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task26">
 		<cdate>1772885585520</cdate>
-		<edate>1772895116191</edate>
+		<edate>1772897113135</edate>
 		<id>26</id>
 		<nme>_ResetContextCacheDaily</nme>
 		<Action sr="act0" ve="7">
 			<code>549</code>
+			<label>Force the cache to become invalid once a day and repopulate it from disk (failsafe)</label>
 			<Str sr="arg0" ve="3">%AAB_ContextJSONCache</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
@@ -18826,7 +18826,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<edate>1769324689974</edate>
 		<id>567</id>
 		<nme>Manual Override</nme>
-		<pri>11</pri>
+		<pri>6</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -33241,7 +33241,7 @@ for (int i = 0; i &lt; varNames.length; i++) {
 	</Task>
 	<Task sr="task657">
 		<cdate>1745400000000</cdate>
-		<edate>1767417201504</edate>
+		<edate>1772956483048</edate>
 		<id>657</id>
 		<nme>_GenerateCompressionGraph (Java)</nme>
 		<pri>100</pri>
@@ -34219,7 +34219,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task663">
 		<cdate>1750682237885</cdate>
-		<edate>1772215534381</edate>
+		<edate>1772956469474</edate>
 		<id>663</id>
 		<nme>_GenerateGraph (Java)</nme>
 		<pri>100</pri>
@@ -40557,7 +40557,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 	</Task>
 	<Task sr="task90">
 		<cdate>1745400000000</cdate>
-		<edate>1772204903597</edate>
+		<edate>1773033633831</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
 		<pri>6</pri>
@@ -40666,19 +40666,13 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 			<coll>false</coll>
 			<label>The Goto action is meant to be efficient, i.e. before doing any work or nagging the user.</label>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>And</bool1>
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%LOC</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%AAB_Latitude</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%AAB_Longitude</lhs>
 					<op>12</op>
 					<rhs></rhs>
@@ -40728,85 +40722,6 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act26" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%gl_latitude</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%AAB_Latitude</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>339</code>
-			<label>This fallback purely exists for the exported kid app version of the project.</label>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
-Data
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
-Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
-Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://ip-api.com/json</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%gl_latitude</Str>
-			<Str sr="arg1" ve="3">%http_data[lat]</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%gl_longitude</Str>
-			<Str sr="arg1" ve="3">%http_data[lon]</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">Calc_sun</Str>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act31" ve="7">
 			<code>366</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -40862,6 +40777,85 @@ Time in milliseconds that it took for Tasker to get the location&lt;/_array_net.
 			<Int sr="arg7" val="0"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%gl_latitude</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_Latitude</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>339</code>
+			<label>This fallback purely exists for the exported kid app version of the project.</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://ip-api.com/json</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%gl_latitude</Str>
+			<Str sr="arg1" ve="3">%http_data[lat]</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Calc_sun</Str>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%gl_longitude</Str>
+			<Str sr="arg1" ve="3">%http_data[lon]</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>37</code>
