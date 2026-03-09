@@ -59,7 +59,7 @@ Readme tl;dr? <a href="https://github.com/faded-penguin021/AdvancedAutoBrightnes
 * **Three-zone perceptual brightness model** with real-time curve visualization
 * **Automatic curve fitting** from your manual adjustments using stochastic optimization
 * **Profile system**: Save and switch between customizable brightness configurations (Presets are: Default, Battery Saver, Video Streaming, Outdoors, Night Reading)
-* **Context automation**: Automatically load profiles based on app, time, location, battery state, or day of week
+* **Context automation**: Automatically load profiles based on app, time, location, battery state, WiFi state, or day of week
 * **Hybrid Dimming**: Lock hardware brightness above PWM flicker threshold, dim using privileged APIs or software overlay
 * **Circadian scaling**: Brightness curve shifts with sunrise/sunset for natural day/night adaptation
 * **Reactivity controls**: Eliminate sensor jitter with configurable dead zones and dynamic smoothing
