@@ -8,7 +8,7 @@ This project is designed to run locally. However, one specific feature requires 
 
 *   Circadian Engine (Sunrise/Sunset Calculation)
 *   If your device fails to provide GPS coordinates (e.g. due to location being disabled), the app falls back to `http://ip-api.com/json` to determine your approximate latitude/longitude.
-*   You can avoid this call by manually entering your Latitude and Longitude in the **Experiment Settings** page or directly setting `%AAB_Latitude` and `%AAB_Longitude`.
+*   You can avoid this call by manually entering your Latitude and Longitude in the **Circadian Settings** page or directly setting `%AAB_Latitude` and `%AAB_Longitude`.
 
 ### Verification
 For security, I recommend verifying the integrity of the APK before installation.
