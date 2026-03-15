@@ -20,26 +20,35 @@
 
 ## *A glass box replacement for Android's adaptive brightness system.*
 
-*Tired of Android auto-brightness that's too dim or too bright? Advanced Auto Brightness (AAB) is a customizable alternative to apps like Lux and Velis Auto Brightness. Create bespoke brightness curves that match your lighting conditions, eliminate PWM-induced eye strain, and let your phone automatically adapt to different contexts like watching videos, being outdoors, or reading at night.*
+# Advanced Auto Brightness
 
-Stock Android adaptive auto brightness is a black box. You teach it by adjusting the slider, but you never see what it learned. Advanced Auto Brightness (AAB) rejects this approach entirely.
-
-AAB is a full replacement built natively in Tasker with deterministic math you can see and control. Java-accelerated core logic, context-aware profile switching, and real-time visual feedback give you complete authority over your display.
-
----
 <p align="center">
-  <img 
-    src="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/assets/images/aab_visual_abstract.png"
-    width="100%"
-    alt="AAB visual abstract"
-  />
+  <img src="assets/images/logo.png" alt="AAB Logo" width="200"/>
+</p> 
+<p align="center">
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
+    <img src="https://img.shields.io/github/v/release/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=blue" alt="Latest Release"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
+    <img src="https://img.shields.io/github/downloads/faded-penguin021/AdvancedAutoBrightness/total?style=for-the-badge&logo=github&color=brightgreen" alt="Total Downloads"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/stargazers">
+    <img src="https://img.shields.io/github/stars/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
+  </a> 
+  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/>
+  </a> 
 </p>
-<i>The visual abstract above was <strong>AI generated</strong></i>.
-<br><br>
 
-Readme tl;dr? <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/assets/pitch/AAB_SlideDeck.pdf">
-  <strong>AI generated slide deck</strong>
-  </a> which summarizes the project!
+## *You taught Android your brightness preferences. It ignored you anyway.*
+
+Stock adaptive brightness is a black box. You nudge the slider to train it, but you never see what it learned and it keeps getting it wrong. 
+
+**Advanced Auto Brightness (AAB)** replaces the whole system with deterministic math you can see and control. Define exactly how your screen responds to light, eliminate PWM flickering that causes eye strain, and let your phone switch brightness profiles automatically based on what you're doing, where you are, and what time it is.
+
+Reject the black box and replace it by something way better!
+
+> **Works as a standalone APK** (Android 8.1+) or as a Tasker project. Elevated privileges (Root, Shizuku, ADB WiFi or write secure settings) are entirely optional.
 
 ## Table of Contents
 
