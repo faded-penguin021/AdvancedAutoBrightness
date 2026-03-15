@@ -18,28 +18,6 @@
   </a> 
 </p>
 
-## *A glass box replacement for Android's adaptive brightness system.*
-
-# Advanced Auto Brightness
-
-<p align="center">
-  <img src="assets/images/logo.png" alt="AAB Logo" width="200"/>
-</p> 
-<p align="center">
-  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
-    <img src="https://img.shields.io/github/v/release/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=blue" alt="Latest Release"/>
-  </a> 
-  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/releases">
-    <img src="https://img.shields.io/github/downloads/faded-penguin021/AdvancedAutoBrightness/total?style=for-the-badge&logo=github&color=brightgreen" alt="Total Downloads"/>
-  </a> 
-  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/stargazers">
-    <img src="https://img.shields.io/github/stars/faded-penguin021/AdvancedAutoBrightness?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
-  </a> 
-  <a href="https://github.com/faded-penguin021/AdvancedAutoBrightness/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/>
-  </a> 
-</p>
-
 ## *You taught Android your brightness preferences. It ignored you anyway.*
 
 Stock adaptive brightness is a black box. You nudge the slider to train it, but you never see what it learned and it keeps getting it wrong. 
@@ -188,7 +166,7 @@ Each zone has tunable parameters. The curve solver finds optimal values automati
 Critical logic runs in Java Code actions: regression, signal processing, curve generation, context evaluation. Direct Thread.sleep() control eliminates Tasker Wait action overhead. Animation task calculates optimal sleep duration from actual loop timing.
 
 #### Battery Efficiency
-Event-driven architecture avoids polling. Java engine tracks hardware state—if calculated brightness matches current, AAB does nothing. Context veto system reduces evaluations by ~85%: only processes relevant state changes (app switch if app is cached, battery ≥5% delta, location ≥100m drift, midnight rollover).
+Event-driven architecture avoids polling. Java engine tracks hardware state—if calculated brightness matches current, AAB does nothing. Context veto system reduces evaluations: only processes relevant state changes (app switch if app is cached, battery ≥5% delta, location ≥100m drift, midnight rollover).
 
 </details>
 
