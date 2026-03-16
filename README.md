@@ -18,17 +18,13 @@
   </a> 
 </p>
 
-## *You taught Android your brightness preferences, or did you?*
+## *You taught Android your brightness preferences. It is still wrong.*
 
 Stock adaptive brightness is a black box. You nudge the slider to train it, but you never see what it learned and it keeps getting it wrong. 
 
 **Advanced Auto Brightness (AAB)** replaces the whole system with deterministic math you can see and control. Define exactly how your screen responds to light, eliminate PWM flickering that causes eye strain, and let your phone switch brightness profiles automatically based on what you're doing, where you are, and what time it is.
 
-Reject the black box and replace it by something way better!
-
 > **Works as a standalone APK** (Android 8.1+) or as a Tasker project. Elevated privileges (Root, Shizuku, ADB WiFi or write secure settings) are entirely optional.
-
-## *A glass box replacement for Android's adaptive brightness system.*
 
 ## Table of Contents
 
