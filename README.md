@@ -18,7 +18,7 @@
   </a> 
 </p>
 
-## *You taught Android your brightness preferences. It ignored you anyway.*
+## *You taught Android your brightness preferences, or did you?*
 
 Stock adaptive brightness is a black box. You nudge the slider to train it, but you never see what it learned and it keeps getting it wrong. 
 
@@ -27,6 +27,8 @@ Stock adaptive brightness is a black box. You nudge the slider to train it, but 
 Reject the black box and replace it by something way better!
 
 > **Works as a standalone APK** (Android 8.1+) or as a Tasker project. Elevated privileges (Root, Shizuku, ADB WiFi or write secure settings) are entirely optional.
+
+## *A glass box replacement for Android's adaptive brightness system.*
 
 ## Table of Contents
 
@@ -89,16 +91,16 @@ Fit Stability: Moderate (Max Impact: 48.4%)
 
 **Context Automation** makes profiles load automatically based on triggers:
 
-* **Day of week**: Different brightness on weekdays vs weekends
-* **App focus**: Load "Video Streaming" when YouTube opens
-* **Time range**: Dim at night, brighten in morning (with midnight wraparound support)
-* **Battery level**: Switch to "Battery Saver" below 20%
-* **Location**: "Outdoors" profile when you leave home/work geofence
-* **WiFi state**: Switch profiles for specific locations (alternative to location)
+* Day of week: Different brightness on weekdays vs weekends
+* App focus: Load "Video Streaming" when YouTube opens
+* Time range: Dim at night, brighten in morning (with midnight wraparound support)
+* Battery level: Switch to "Battery Saver" below 20%
+* Location: "Outdoors" profile when you leave home/work geofence
+* WiFi state: Switch profiles for specific locations (alternative to location)
 
 **Priority & Specificity**: When multiple contexts match, highest priority wins. Equal priority? Most specific context wins (e.g., "App + Time + Location" beats "Time only"). This prevents conflicts and gives you precise control.
 
-The veto system ensures battery efficiency: context evaluation only runs when relevant state changes (app switch, battery delta ≥5%, location drift ≥100m, midnight rollover).
+The veto system ensures battery efficiency: context evaluation only runs when relevant state changes (app switch, battery delta ≥5%, location drift ≥100m, midnight rollover, WiFi connection state change).
 
 ### Hybrid Dimming
 
@@ -115,24 +117,7 @@ If you're sensitive to PWM flicker (headaches, eye strain at low brightness), AA
 3. Further dimming uses Android's Reduce Bright Colors API (privileged mode) or software overlay (unprivileged)
 4. Screen dims smoothly without entering flicker zone
 
-https://github.com/user-attachments/assets/a9a2d577-edad-43ec-8fe6-116c1f49b583
-> **📹 Watch: Hybrid Dimming Comparison**  
-> *Privileged mode (Reduce Bright Colors) vs unprivileged (overlay)*
-
-<details>
-<summary>Why do the recordings look different?</summary>
-
-Screen recorders capture differently depending on dimming method:
-
-| **Privileged Mode** | **Unprivileged Mode** |
-| :---: | :---: |
-| Uses `Reduce Bright Colors` API | Uses software overlay |
-| Recording looks "too bright" (dimming happens at hardware level after capture) | Recording looks very dark (captures the black pixel layer) |
-| **What you see:** Perfect contrast, accurate colors | **What you see:** Reduced contrast, black crush |
-
 Privileged mode yields superior quality. Grant elevated permissions for best results.
-
-</details>
 
 ### Circadian Scaling
 
@@ -156,9 +141,9 @@ Every metric is accessible in real-time. Live debug scene shows sensor data, zon
 
 #### Three-Zone Perceptual Model
 Human brightness perception isn't linear. AAB uses C0 continuous piecewise functions:
-* **Zone 1**: Square root scaling for low-light sensitivity
-* **Zone 2**: Cube root(ish) scaling for mid-range balance
-* **Zone 3**: Asymptotic tail for high-brightness compression
+* Square root scaling for low-light sensitivity (Zone 1)
+* Cube root(ish) scaling for mid-range balance (Zone 2)
+* Asymptotic tail for high-brightness compression (Zone 3)
 
 Each zone has tunable parameters. The curve solver finds optimal values automatically from your training data.
 
@@ -166,7 +151,7 @@ Each zone has tunable parameters. The curve solver finds optimal values automati
 Critical logic runs in Java Code actions: regression, signal processing, curve generation, context evaluation. Direct Thread.sleep() control eliminates Tasker Wait action overhead. Animation task calculates optimal sleep duration from actual loop timing.
 
 #### Battery Efficiency
-Event-driven architecture avoids polling. Java engine tracks hardware state—if calculated brightness matches current, AAB does nothing. Context veto system reduces evaluations: only processes relevant state changes (app switch if app is cached, battery ≥5% delta, location ≥100m drift, midnight rollover).
+Event-driven architecture avoids polling. Java engine tracks hardware state: if calculated brightness matches current, AAB does nothing. Context veto system reduces evaluations: only processes relevant state changes.
 
 </details>
 
@@ -264,7 +249,7 @@ Aggressive OEM battery management may kill the service. Visit [dontkillmyapp.com
 
 **Context not triggering?**
 
-* Open debug scene to see active context and veto logs
+* Open debug scene to see active context
 * Check priority conflicts (higher priority contexts override lower)
 * Verify trigger cache (app must appear in installed apps, location must have valid GPS)
 * Enable debug mode (`%AAB_Debug` = 8) for detailed evaluation logs
@@ -272,7 +257,7 @@ Aggressive OEM battery management may kill the service. Visit [dontkillmyapp.com
 </details>
 
 ## Contributing
-This project is "my child." I do not accept direct pull requests.
+Please discuss prior to opening a PR. I do not accept direct pull requests.
 
 However:
 * Discuss changes by opening an issue first
