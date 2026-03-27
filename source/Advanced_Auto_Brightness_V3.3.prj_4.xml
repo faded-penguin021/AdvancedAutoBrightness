@@ -1,5 +1,5 @@
-<TaskerData sr="" dvi="1" tv="6.6.20">
-	<dmetric>1080.0,2376.0</dmetric>
+<TaskerData sr="" dvi="1" tv="6.7.1-beta">
+	<dmetric>1440.0,3168.0</dmetric>
 	<Profile sr="prof753" ve="2">
 		<cdate>1772804411678</cdate>
 		<clp>true</clp>
@@ -195,8 +195,7 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
-		<clp>true</clp>
-		<edate>1773126522883</edate>
+		<edate>1774601398428</edate>
 		<flags>40</flags>
 		<id>758</id>
 		<mid0>90</mid0>
@@ -323,6 +322,7 @@
 		<edate>1765113902743</edate>
 		<flags>24</flags>
 		<id>760</id>
+		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -400,7 +400,7 @@ Values
 	<Profile sr="prof762" ve="2">
 		<cdate>1772804411685</cdate>
 		<clp>true</clp>
-		<edate>1773127266258</edate>
+		<edate>1773671202321</edate>
 		<flags>8</flags>
 		<id>762</id>
 		<mid0>43</mid0>
@@ -677,7 +677,8 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Profile>
 	<Profile sr="prof768" ve="2">
 		<cdate>1772804411690</cdate>
-		<edate>1772608131622</edate>
+		<clp>true</clp>
+		<edate>1773671193342</edate>
 		<flags>8</flags>
 		<id>768</id>
 		<mid0>43</mid0>
@@ -689,6 +690,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Int sr="arg3" val="2"/>
+			<Int sr="arg4" val="1"/>
 		</State>
 		<State sr="con1" ve="2">
 			<code>165</code>
@@ -769,9 +771,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Project sr="proj0" ve="2">
 		<cdate>1772002014254</cdate>
 		<name>Advanced Auto Brightness V3.3</name>
-		<pids>758,759,756,768,767,761,765,757,760,764,766,753,763,762,755,754,769,8</pids>
-		<scenes>AAB Color Filter,AAB Superdimming Settings,AAB Dimming Graph,AAB Experiment Settings,AAB Reactivity Settings,AAB Chart.Js License,AAB Misc Settings,AAB About,AAB Alpha Graph,AAB Taper Graph,AAB User Guide,AAB Reactivity Graph,AAB Experiment Graph,AAB Menu,AAB Brightness Graph,AAB Brightness Settings,AAB Circadian Dimming Graph,AAB Profile,AAB Debug Scene,AAB Power Draw Graph</scenes>
-		<tids>505,647,585,383,582,618,577,554,558,652,583,522,509,584,664,655,396,536,718,728,609,630,701,679,720,397,575,556,462,690,405,633,619,713,506,525,565,743,724,733,601,650,594,591,391,737,653,513,465,627,723,386,521,702,500,671,105,631,559,689,43,738,603,742,705,697,721,707,412,543,595,557,493,709,651,531,639,666,529,699,537,658,660,749,568,545,395,534,578,542,646,510,535,613,581,597,402,90,645,580,717,736,492,643,602,608,694,599,677,688,607,539,731,654,687,563,640,740,649,610,541,729,659,725,747,409,466,540,517,716,752,626,706,680,406,744,490,538,734,526,661,700,564,544,711,712,604,552,611,656,555,739,523,527,683,667,719,586,692,520,722,511,515,378,684,617,620,514,748,735,407,560,682,714,548,547,380,669,751,663,678,533,685,546,579,665,672,704,549,698,676,657,730,638,569,746,621,632,696,571,615,411,588,417,605,686,675,508,587,641,727,516,473,519,741,576,648,561,703,622,403,691,589,693,562,384,710,670,570,421,662,481,598,750,600,695,606,593,567,530,637,551,623,616,553,681,614,566,390,674,590,592,596,708,628,715,732,612,644,726,624,381,528,629,625,401,532,524,379,635,512,550,26,634,636,382</tids>
+		<pids>758,760,763,756,768,755,766,764,754,762,761,757,759,753,765,767,769,8</pids>
+		<scenes>AAB User Guide,AAB Reactivity Graph,AAB Reactivity Settings,AAB Brightness Settings,AAB Debug Scene,AAB Experiment Settings,AAB Color Filter,AAB Brightness Graph,AAB Superdimming Settings,AAB Misc Settings,AAB Dimming Graph,AAB Alpha Graph,AAB Chart.Js License,AAB Experiment Graph,AAB About,AAB Taper Graph,AAB Profile,AAB Menu,AAB Circadian Dimming Graph,AAB Power Draw Graph</scenes>
+		<tids>600,725,551,701,538,537,652,749,409,386,552,473,620,665,586,671,597,677,610,674,515,490,522,703,711,722,605,567,555,651,593,549,681,710,570,641,390,695,466,582,658,566,406,378,736,631,560,628,462,632,645,735,571,706,583,545,43,585,607,509,547,556,653,682,690,481,662,402,535,602,500,752,542,664,724,731,675,589,700,744,714,687,646,644,395,584,670,667,578,613,704,640,654,563,727,576,596,603,526,543,519,383,696,581,565,693,697,655,397,709,734,733,721,561,615,737,601,492,708,739,730,577,546,568,562,699,742,527,656,611,540,630,740,748,738,637,751,684,588,382,384,678,707,513,698,417,514,534,525,531,599,559,541,726,650,539,694,407,666,688,516,592,465,723,590,648,683,523,609,411,746,622,728,647,554,633,657,587,621,517,575,660,510,105,569,506,686,663,672,529,692,718,639,548,521,594,617,612,689,618,614,713,626,520,553,747,679,558,579,396,680,511,604,729,598,741,564,391,606,649,90,676,643,627,616,661,403,732,591,659,719,743,580,557,421,533,508,685,705,720,608,405,505,536,530,702,715,716,669,638,712,691,544,717,750,524,619,634,595,493,412,379,629,550,512,636,624,26,381,380,528,625,401,635,532,623</tids>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
 			<feat0>android.hardware.sensor.accelerometer:y</feat0>
@@ -781,7 +783,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>29</vTarg>
 			<vnme>3.3</vnme>
-			<vnum>14</vnum>
+			<vnum>16</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -8866,7 +8868,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Task sr="task105">
 		<cdate>1772373307824</cdate>
-		<edate>1772884314055</edate>
+		<edate>1774006740444</edate>
 		<id>105</id>
 		<nme>_GetWifiNoLocation V3</nme>
 		<pri>100</pri>
@@ -9446,6 +9448,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<edate>1773346096956</edate>
 		<id>26</id>
 		<nme>_ResetContextCacheDaily</nme>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>549</code>
 			<label>Force the cache to become invalid once a day and repopulate it from disk (failsafe)</label>
@@ -23799,7 +23802,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765829828462</cdate>
 		<edate>1769883162058</edate>
 		<id>607</id>
-		<pri>12</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -23947,7 +23950,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765830296855</cdate>
 		<edate>1765830296855</edate>
 		<id>610</id>
-		<pri>12</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -38923,7 +38926,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<cdate>1750825517290</cdate>
 		<edate>1772204932888</edate>
 		<id>724</id>
-		<pri>105</pri>
+		<pri>15</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_UpdateBrightnessFormulae</Str>
@@ -40117,10 +40120,10 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 	</Task>
 	<Task sr="task90">
 		<cdate>1745400000000</cdate>
-		<edate>1773126522883</edate>
+		<edate>1774601398428</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
-		<pri>6</pri>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -40340,8 +40343,9 @@ Time in milliseconds that it took for Tasker to get the location&lt;/_array_net.
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>37</code>
+			<label>BUG: this was set to "OR" instead of "AND", thereby needlessly calling ip-api.com. Fixed in 3.3.0.4</label>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%gl_latitude</lhs>
 					<op>13</op>
