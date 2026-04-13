@@ -195,6 +195,7 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
+		<clp>true</clp>
 		<edate>1774601398428</edate>
 		<flags>40</flags>
 		<id>758</id>
@@ -322,7 +323,6 @@
 		<edate>1765113902743</edate>
 		<flags>24</flags>
 		<id>760</id>
-		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -386,8 +386,7 @@ Values
 	</Profile>
 	<Profile sr="prof761" ve="2">
 		<cdate>1772804411685</cdate>
-		<clp>true</clp>
-		<edate>1773034052291</edate>
+		<edate>1775325449872</edate>
 		<flags>8</flags>
 		<id>761</id>
 		<mid0>618</mid0>
@@ -771,9 +770,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Project sr="proj0" ve="2">
 		<cdate>1772002014254</cdate>
 		<name>Advanced Auto Brightness V3.3</name>
-		<pids>758,760,763,756,768,755,766,764,754,762,761,757,759,753,765,767,769,8</pids>
-		<scenes>AAB User Guide,AAB Reactivity Graph,AAB Reactivity Settings,AAB Brightness Settings,AAB Debug Scene,AAB Experiment Settings,AAB Color Filter,AAB Brightness Graph,AAB Superdimming Settings,AAB Misc Settings,AAB Dimming Graph,AAB Alpha Graph,AAB Chart.Js License,AAB Experiment Graph,AAB About,AAB Taper Graph,AAB Profile,AAB Menu,AAB Circadian Dimming Graph,AAB Power Draw Graph</scenes>
-		<tids>600,725,551,701,538,537,652,749,409,386,552,473,620,665,586,671,597,677,610,674,515,490,522,703,711,722,605,567,555,651,593,549,681,710,570,641,390,695,466,582,658,566,406,378,736,631,560,628,462,632,645,735,571,706,583,545,43,585,607,509,547,556,653,682,690,481,662,402,535,602,500,752,542,664,724,731,675,589,700,744,714,687,646,644,395,584,670,667,578,613,704,640,654,563,727,576,596,603,526,543,519,383,696,581,565,693,697,655,397,709,734,733,721,561,615,737,601,492,708,739,730,577,546,568,562,699,742,527,656,611,540,630,740,748,738,637,751,684,588,382,384,678,707,513,698,417,514,534,525,531,599,559,541,726,650,539,694,407,666,688,516,592,465,723,590,648,683,523,609,411,746,622,728,647,554,633,657,587,621,517,575,660,510,105,569,506,686,663,672,529,692,718,639,548,521,594,617,612,689,618,614,713,626,520,553,747,679,558,579,396,680,511,604,729,598,741,564,391,606,649,90,676,643,627,616,661,403,732,591,659,719,743,580,557,421,533,508,685,705,720,608,405,505,536,530,702,715,716,669,638,712,691,544,717,750,524,619,634,595,493,412,379,629,550,512,636,624,26,381,380,528,625,401,635,532,623</tids>
+		<pids>761,755,753,767,766,760,765,756,758,768,764,762,754,759,757,763,769,8</pids>
+		<scenes>AAB Debug Scene,AAB Menu,AAB Brightness Settings,AAB Experiment Settings,AAB User Guide,AAB Dimming Graph,AAB Reactivity Settings,AAB Experiment Graph,AAB Profile,AAB Taper Graph,AAB Reactivity Graph,AAB Alpha Graph,AAB Chart.Js License,AAB Superdimming Settings,AAB Circadian Dimming Graph,AAB About,AAB Color Filter,AAB Misc Settings,AAB Brightness Graph,AAB Power Draw Graph</scenes>
+		<tids>660,696,566,577,541,697,721,723,395,708,630,748,718,717,665,747,617,674,421,553,523,735,378,720,744,705,513,704,613,698,684,473,520,563,586,391,726,580,492,590,595,733,667,689,638,700,743,539,692,546,663,530,685,397,405,599,41,719,737,386,90,609,562,621,403,585,514,570,603,732,646,633,551,509,677,594,462,650,607,749,658,571,554,534,655,706,587,564,402,384,746,602,521,648,531,670,543,584,557,734,608,592,707,727,490,538,645,626,679,649,559,493,686,618,519,631,680,578,687,500,662,466,565,576,533,560,561,725,740,390,547,552,728,690,752,596,610,598,549,675,544,713,612,622,701,516,694,606,722,628,659,536,714,542,715,693,508,465,742,537,526,682,396,688,711,597,506,702,529,583,664,545,527,678,568,653,567,591,712,709,750,605,620,417,589,407,724,739,582,588,647,615,616,604,730,43,579,522,614,661,481,640,637,699,548,105,632,581,601,517,751,672,683,681,510,666,593,741,611,515,535,710,656,412,651,556,654,383,639,409,669,600,619,652,525,575,540,558,644,411,641,738,569,731,671,716,703,657,691,695,511,406,729,505,643,736,676,528,555,635,629,550,26,532,634,382,524,625,401,623,381,512,379,636,624,380</tids>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
 			<feat0>android.hardware.sensor.accelerometer:y</feat0>
@@ -783,7 +782,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>29</vTarg>
 			<vnme>3.3</vnme>
-			<vnum>16</vnum>
+			<vnum>17</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -1037,7 +1036,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Alpha Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773346113009</edate>
+		<edate>1775819955987</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Alpha Graph</nme>
@@ -1201,7 +1200,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Brightness Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773345629715</edate>
+		<edate>1775819340650</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Brightness Graph</nme>
@@ -1414,7 +1413,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Brightness Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1773345732104</edate>
+		<edate>1775818868343</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -6562,7 +6561,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Reactivity Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773345700977</edate>
+		<edate>1775405467546</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Reactivity Graph</nme>
@@ -6738,7 +6737,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Reactivity Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1773345648095</edate>
+		<edate>1775405493462</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Reactivity Settings</nme>
@@ -8386,7 +8385,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Taper Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773345662896</edate>
+		<edate>1775405477883</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Taper Graph</nme>
@@ -9460,7 +9459,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task378">
 		<cdate>1756231723320</cdate>
-		<edate>1773242754392</edate>
+		<edate>1775405656116</edate>
 		<id>378</id>
 		<nme>_PrivilegeDetection V5 (Java)</nme>
 		<pri>100</pri>
@@ -10246,7 +10245,7 @@ if (isAnon &amp;&amp; finalPrivilege != null &amp;&amp; !finalPrivilege.equals("
 		<cdate>1750825517290</cdate>
 		<edate>1752600530865</edate>
 		<id>391</id>
-		<pri>17</pri>
+		<pri>133</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ExitButton</Str>
@@ -10673,6 +10672,1115 @@ if (isAnon &amp;&amp; finalPrivilege != null &amp;&amp; !finalPrivilege.equals("
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
+	<Task sr="task41">
+		<cdate>1761480034987</cdate>
+		<edate>1775221974595</edate>
+		<id>41</id>
+		<nme>_SuggestCurveParameters V23 (Hybrid)</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_Overrides(#)</lhs>
+					<op>7</op>
+					<rhs>8</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Commencing curve fitting.</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">Top,0,77</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">aab_prediction</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Advanced Auto Brightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">&lt;small&gt;%suggest_r2_1&lt;br&gt;&lt;br&gt;
+
+%suggest_r2_2&lt;br&gt;
+%suggest_r2_3&lt;br&gt;
+%suggest_r2_4&lt;/small&gt;</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">Bottom,0,232</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">aab_prediction</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">10000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_Test</Str>
+			<Str sr="arg1" ve="3">%AAB_Test</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%AAB_Test</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">⚠️ Not enough data points to suggest the parameters. Please ensure there are at least nine overrides.</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">Bottom,0,232</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">%aab_toast</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>Inertia regularization factor, prevents overfitting. Lower values adapt quicker to new measurements, while higher values will prioritize the existing curve until &lt;b&gt;a lot&lt;/b&gt; of override data is provided.&lt;br&gt;&lt;br&gt;
+
+&lt;i&gt;After&lt;/i&gt; you have set your personal curve that captures your preferences, setting Tau to a high value is recommended in order to prevent overfitting to new measurements &lt;br&gt;&lt;br&gt;
+Recommended range: 0.001 - 5 (do not set 0 for potential div/0 errors).</label>
+			<Str sr="arg0" ve="3">%tau</Str>
+			<Str sr="arg1" ve="3">0.001</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>Failsafe.</label>
+			<Str sr="arg0" ve="3">%suggest</Str>
+			<Str sr="arg1" ve="3">error</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>474</code>
+			<Str sr="arg0" ve="3">/*
+AAB Curve Fitting Engine V43.6 (Confidence Fix)
+- Fix: Restored pre-blend metric assignments so Inertia Confidence calculates correctly.
+- Fix: Recalculates metrics AFTER blending to ensure honest logs.
+- Fix: Absolute Failure state aborts properly instead of fake fallback.
+- Fix: Brightness inputs clamped to &gt;= 0.0.
+- Fix: Replaced 6 duplicated error/bias methods with unified evaluateMetrics().
+- Constants: Power=0.33, Z2 Buffer=0.5, RMSE Cost=50.0, Tau=4.0
+*/
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
+import java.util.Comparator;
+
+logBuffer = new StringBuffer();
+suggestion_made = false;
+
+/* Helper: Safe Power with Floor (Prevents NaN on negative bases) */
+double safePowDelta(double val, double p) {
+    double delta = Math.max(val, 1e-9);
+    return Math.pow(delta, p);
+}
+
+/* Helper: Log-Space Weighting (Inverse Lux) */
+double getLogWeight(double[] pt) {
+    if (pt == null || pt.length &lt; 3) return 0.1;
+    if (pt.length &gt; 3 &amp;&amp; Math.abs(pt[3] - 3.0) &lt; 0.1) {
+        return (pt[2] * 0.05) / (pt[0] + 2.0); 
+    }
+    return pt[2] / (pt[0] + 2.0);
+}
+
+/* Helper: Check if a point is real data (not a ghost point) */
+boolean isRealDataPoint(double[] pt) {
+    return (pt.length &lt;= 3 || pt[3] &lt; 2.5);
+}
+
+/* Helper: Calculate adaptive number of refinement points */
+int calculateRefinePoints(double gap_start, double gap_end, double current_pos) {
+    double gap_ratio, gap_size;
+    boolean is_dark_zone;
+    if (gap_start &lt;= 1e-9) return 5;
+    gap_ratio = gap_end / gap_start;
+    gap_size = gap_end - gap_start;
+    is_dark_zone = (current_pos &lt; 100.0);
+    
+    if (gap_ratio &lt; 1.5 || gap_size &lt; 10.0) return 0;
+    if (gap_ratio &lt; 3.0) return is_dark_zone ? 3 : 5;
+    return is_dark_zone ? 5 : 8;
+}
+
+/* Helper: Generate log-spaced points */
+List generateSmartRefinementPoints(double start, double end, double current, int count) {
+    List points = new ArrayList();
+    double log_start, log_end, log_current, total_span, left_span;
+    int left_points, right_points, i;
+    double left_step, right_step, val;
+    
+    if (count &lt;= 0) { points.add(new Double(current)); return points; }
+    if (start &lt;= 1e-9 || end &lt;= 1e-9 || start &gt;= end || current &lt; start || current &gt; end) {
+        points.add(new Double(current)); return points;
+    }
+
+    log_start = Math.log(start); log_end = Math.log(end); log_current = Math.log(current);
+    total_span = log_end - log_start;
+    
+    if (total_span &lt; 1e-9) { points.add(new Double(current)); return points; }
+
+    left_span = log_current - log_start;
+    left_points = (int)Math.round(count * (left_span / total_span));
+    right_points = count - left_points;
+    
+    if (left_points &gt; 0 &amp;&amp; left_span &gt; 1e-9) {
+        left_step = left_span / (left_points + 1);
+        for (i = 1; i &lt;= left_points; i++) {
+            val = Math.exp(log_start + i * left_step);
+            points.add(new Double(val));
+        }
+    }
+    points.add(new Double(current));
+    if (right_points &gt; 0 &amp;&amp; (log_end - log_current) &gt; 1e-9) {
+        right_step = (log_end - log_current) / (right_points + 1);
+        for (i = 1; i &lt;= right_points; i++) {
+            val = Math.exp(log_current + i * right_step);
+            points.add(new Double(val));
+        }
+    }
+    return points;
+}
+
+/* UNIFIED HELPER: Calculate R2, nRMSE, and Bias */
+double[] evaluateMetrics(int zone, List points, double max_bright, double fA, double fB, double fC, double z1e) {
+    double[] res = {-2.0, 0.0, 0.0}; // [R2, nRMSE, Bias]
+    if (points.size() == 0) return res;
+    
+    double sum_w = 0.0, sum_wy = 0.0, ss_tot = 0.0, ss_res = 0.0, sum_sq = 0.0, sum_err = 0.0;
+    double w, y, y_pred = 0.0, e; double[] pt; int count_valid = 0;
+    
+    for(int i=0; i&lt;points.size(); i++) {
+        pt = (double[])points.get(i); w = getLogWeight(pt);
+        sum_w += w; sum_wy += w * pt[1];
+    }
+    if (sum_w &lt; 1e-9) return res;
+    double mean_y = sum_wy / sum_w;
+    
+    double term_d2 = 0.0;
+    if (zone == 2) term_d2 = safePowDelta(z1e - fC, 0.33);
+
+    for(int i=0; i&lt;points.size(); i++) {
+        pt = (double[])points.get(i); w = getLogWeight(pt); y = pt[1];
+        if (zone == 1) {
+            y_pred = fA * Math.sqrt(pt[0]);
+        } else if (zone == 2) {
+            if (pt[0] &lt;= fC) continue;
+            y_pred = fA + fB * (safePowDelta(pt[0] - fC, 0.33) - term_d2);
+        } else { // Zone 3
+            y_pred = max_bright - (fA / pt[0]) * max_bright;
+        }
+        
+        e = y_pred - y;
+        sum_err += w * e;
+        sum_sq += w * e * e;
+        ss_tot += w * Math.pow(y - mean_y, 2.0);
+        ss_res += w * e * e;
+        count_valid++;
+    }
+    
+    if (count_valid == 0) return res;
+    
+    res[0] = (ss_tot &lt; 1e-9) ? 0.0 : 1.0 - (ss_res / ss_tot);
+    res[1] = (max_bright &gt; 1e-9) ? (Math.sqrt(sum_sq / sum_w) / max_bright) : 0.0;
+    res[2] = sum_err / sum_w;
+    return res;
+}
+
+/* Helper: Zone 1 (sqrt) Weighted fit */
+double[] fitZone1(List points) {
+    double[] result = {0.0, -2.0};
+    int i; double sum_wy = 0.0, sum_w = 0.0, mean_y_w, sum_w_xy = 0.0, sum_w_xx = 0.0, param_a, ss_total_w = 0.0, ss_residual_w = 0.0;
+    double x, y, w, x_prime, y_pred; double[] pt;
+
+    if (points.size() &lt; 3) return result;
+
+    for (i = 0; i &lt; points.size(); i++) {
+        pt = (double[]) points.get(i); w = getLogWeight(pt);
+        sum_wy += w * pt[1]; sum_w += w;
+    }
+    mean_y_w = (sum_w &gt; 1e-9) ? (sum_wy / sum_w) : 0.0;
+
+    for (i = 0; i &lt; points.size(); i++) {
+        pt = (double[]) points.get(i);
+        x = pt[0]; y = pt[1]; w = getLogWeight(pt);
+        x_prime = Math.sqrt(x);
+        sum_w_xy += w * x_prime * y; sum_w_xx += w * x_prime * x_prime;
+    }
+
+    param_a = (sum_w_xx &gt; 1e-9) ? (sum_w_xy / sum_w_xx) : 0.0;
+    result[0] = param_a;
+
+    for (i = 0; i &lt; points.size(); i++) {
+        pt = (double[]) points.get(i);
+        x = pt[0]; y = pt[1]; w = getLogWeight(pt);
+        y_pred = param_a * Math.sqrt(x);
+        ss_total_w += w * Math.pow(y - mean_y_w, 2.0);
+        ss_residual_w += w * Math.pow(y - y_pred, 2.0);
+    }
+    if (ss_total_w &lt; 1e-9) result[1] = 0.0; else result[1] = 1.0 - (ss_residual_w / ss_total_w);
+    return result;
+}
+
+/* Helper: Zone 2 Weighted R²-only fit */
+double getR2_Z2_only(List points, double form2c, double form2d, double start_a, double start_b) {
+    int i; double sum_wy_valid = 0.0, sum_w_valid = 0.0, mean_y_valid, a, b, term, term_d, w;
+    double ss_total_w = 0.0, ss_residual_w = 0.0, y_pred, sum_num = 0.0, sum_den = 0.0;
+    double[] pt; List valid_points = new ArrayList();
+
+    if (points.size() &lt; 3) return -2.0;
+    if (form2c &lt; -50.0) form2c = -50.0;
+
+    term_d = safePowDelta(form2d - form2c, 0.33);
+
+    for (i = 0; i &lt; points.size(); i++) {
+        pt = (double[]) points.get(i);
+        if (pt[0] &gt; form2c &amp;&amp; form2d &gt; form2c) {
+            valid_points.add(pt); w = getLogWeight(pt);
+            sum_wy_valid += w * pt[1]; sum_w_valid += w;
+        }
+    }
+    
+    if (valid_points.size() &lt; 3) return -2.0;
+    mean_y_valid = (sum_w_valid &gt; 1e-9) ? (sum_wy_valid / sum_w_valid) : 0.0;
+
+    a = start_a; 
+    for (i = 0; i &lt; valid_points.size(); i++) {
+        pt = (double[]) valid_points.get(i); w = getLogWeight(pt);
+        term = safePowDelta(pt[0] - form2c, 0.33) - term_d;
+        sum_num += w * (pt[1] - a) * term; sum_den += w * term * term;
+    }
+    if (sum_den &gt; 1e-9) b = sum_num / sum_den; else b = start_b;
+    if (b &lt; 0.0) b = 0.01;
+
+    for (i = 0; i &lt; valid_points.size(); i++) {
+        pt = (double[]) valid_points.get(i); w = getLogWeight(pt);
+        term = safePowDelta(pt[0] - form2c, 0.33) - term_d;
+        y_pred = a + b * term;
+        ss_total_w += w * Math.pow(pt[1] - mean_y_valid, 2.0);
+        ss_residual_w += w * Math.pow(pt[1] - y_pred, 2.0);
+    }
+    if (ss_total_w &lt; 1e-9) return 0.0;
+    return 1.0 - (ss_residual_w / ss_total_w);
+}
+
+double calculateSizePenalty(int count) {
+    if (count &gt;= 4) return 0.0;
+    double diff = 4.0 - count; return 0.25 * diff * diff; 
+}
+
+/* Helper: Calculate blended point count based on quality */
+double getWeightedCount(int count, double r2, double nrmse) {
+    if (count &lt;= 0) return 0.0;
+    double r2_safe = (r2 &lt; 0.0) ? 0.0 : r2;
+    if (r2_safe &gt; 1.0) r2_safe = 1.0;
+    double err_pen = (nrmse &gt; 0.5) ? 0.5 : nrmse;
+    double quality = r2_safe * (1.0 - err_pen);
+    double weight = 0.25 + 0.75 * quality;
+    return count * weight;
+}
+
+/* Helper: Analytic Approximation Cost */
+double approximateCost(double z1e, double z2e, List dataPoints, int N, double form1a, double old_form2b, double form2c, double max_bright) {
+    List z1_pts = new ArrayList(); List z2_pts = new ArrayList(); List z3_pts = new ArrayList();
+    int i; double[] pt; 
+    double boundary_y2_end, approx_form2a, approx_form3a, z1_nrmse, z2_nrmse, z3_nrmse, z1_bias, z2_bias, z3_bias;
+    double sum_num, sum_den, term_x, term_d, best_b, x, w;
+
+    if (z1e &gt;= z2e) return 1e12; 
+
+    for (i = 0; i &lt; N; i++) {
+        pt = (double[]) dataPoints.get(i);
+        if (pt[0] &lt;= z1e) z1_pts.add(pt);
+        else if (pt[0] &lt;= z2e) z2_pts.add(pt);
+        else z3_pts.add(pt);
+    }
+    
+    if (z1_pts.size() &lt; 3 || z2_pts.size() &lt; 3) return 1e12;
+    if (z3_pts.size() == 0 &amp;&amp; N &lt; 12) return 1e12;
+
+    approx_form2a = form1a * Math.sqrt(z1e);
+    term_d = safePowDelta(z1e - form2c, 0.33);
+
+    sum_num = 0.0; sum_den = 0.0;
+    for (i=0; i&lt;z2_pts.size(); i++) {
+        pt = (double[]) z2_pts.get(i); x = pt[0]; w = getLogWeight(pt);
+        if (x &lt;= form2c) continue;
+        term_x = safePowDelta(x - form2c, 0.33) - term_d;
+        sum_num += w * (pt[1] - approx_form2a) * term_x;
+        sum_den += w * term_x * term_x;
+    }
+    if (sum_den &gt; 1e-9) best_b = sum_num / sum_den; else best_b = old_form2b;
+    if (best_b &lt; 0.0) best_b = 0.01;
+
+    boundary_y2_end = approx_form2a + best_b * (safePowDelta(z2e - form2c, 0.33) - term_d);
+    if (boundary_y2_end &gt; max_bright) return 1e12;
+    
+    approx_form3a = (max_bright &gt; 0.01) ? (z2e * (max_bright - boundary_y2_end) / max_bright) : 0.0;
+    if (approx_form3a &lt; 0.0) approx_form3a = 0.0;
+    
+    double[] ev1 = evaluateMetrics(1, z1_pts, max_bright, form1a, 0.0, 0.0, 0.0);
+    double[] ev2 = evaluateMetrics(2, z2_pts, max_bright, approx_form2a, best_b, form2c, z1e);
+    z1_nrmse = ev1[1]; z1_bias = ev1[2]; z2_nrmse = ev2[1]; z2_bias = ev2[2];
+    
+    if (z3_pts.size() &gt;= 2) {
+        double[] ev3 = evaluateMetrics(3, z3_pts, max_bright, approx_form3a, 0.0, 0.0, 0.0);
+        z3_nrmse = ev3[1]; z3_bias = ev3[2];
+    } else { z3_nrmse = 0.0; z3_bias = 0.0; }
+    
+    double size_p = calculateSizePenalty(z1_pts.size()) + calculateSizePenalty(z2_pts.size()) + calculateSizePenalty(z3_pts.size());
+    double reg_p = 0.001 * best_b * best_b + 0.0005 * Math.abs(form2c);
+
+    return (50.0 * (z1_nrmse + z2_nrmse + z3_nrmse)) + 
+           (Math.abs(z1_bias) + Math.abs(z2_bias) + Math.abs(z3_bias)) + 
+           size_p + reg_p;
+}
+
+/* Helper: Full fit and cost calculation */
+double[] calculateFitAndCost(double z1e, double z2e, List dataPoints, int N, double current_form2b, double current_form2c, double max_bright) {
+    double[] results = new double[18];
+    int i, j, iter, max_iter, valid_z2_pts;
+    double cand_form2a, cand_form2b, cand_form2c, cand_form2d, cand_r2_z2, MB;
+    double cand_form1a, cand_r2_z1, b, c, form2d;
+    double x, y_actual, term_x, term_d, y_predicted, error, d_term_c, base, base_d;
+    double boundary_y2_end, cand_form3a, cand_r2_z3, w;
+    double z1_nrmse, z1_bias, z2_nrmse, z2_bias, z3_nrmse, z3_bias, size_penalty, cost, r2_penalty, reg_penalty;
+    double[] fitZ1_final, pt;
+    double sum_num, sum_den, err_c, lr_c, sum_w2;
+    List z1_pts, z2_pts, z3_pts;
+    double prev_c;
+
+    for (i=0; i&lt;18; i++) results[i] = 0.0;
+    results[0] = 1e12; 
+
+    if (z1e &gt;= z2e || z1e &lt; 0) return results;
+
+    z1_pts = new ArrayList(N); z2_pts = new ArrayList(N); z3_pts = new ArrayList(N);
+    for (i = 0; i &lt; N; i++) {
+        pt = (double[]) dataPoints.get(i); 
+        if (pt[0] &lt;= z1e) z1_pts.add(pt);
+        else if (pt[0] &lt;= z2e) z2_pts.add(pt);
+        else z3_pts.add(pt);
+    }
+    
+    if (z1_pts.size() &lt; 3 || z2_pts.size() &lt; 3) return results;
+
+    fitZ1_final = fitZone1(z1_pts); cand_form1a = fitZ1_final[0]; cand_r2_z1 = fitZ1_final[1];
+    
+    b = current_form2b; c = current_form2c; if (c &lt; -50.0) c = -50.0;
+    cand_form2a = cand_form1a * Math.sqrt(z1e); form2d = z1e;
+
+    max_iter = 100; lr_c = 0.2; prev_c = c;
+    
+    for (iter = 0; iter &lt; max_iter; iter++) {
+        sum_num = 0.0; sum_den = 0.0; valid_z2_pts = 0; sum_w2 = 0.0;
+        base_d = form2d - c; if (base_d &lt; 0.5) base_d = 0.5;
+        term_d = safePowDelta(base_d, 0.33);
+        
+        for (i = 0; i &lt; z2_pts.size(); i++) {
+            pt = (double[]) z2_pts.get(i); w = getLogWeight(pt);
+            if (pt[0] &lt;= c || form2d &lt;= c) continue;
+            term_x = safePowDelta(pt[0] - c, 0.33) - term_d;
+            sum_num += w * (pt[1] - cand_form2a) * term_x; sum_den += w * term_x * term_x;
+            valid_z2_pts++; sum_w2 += w;
+        }
+        
+        if (valid_z2_pts &lt; 3) break;
+        if (sum_den &gt; 1e-9) b = sum_num / sum_den;
+        if (b &lt; 0.0) b = 0.01;
+
+        err_c = 0.0;
+        for (i = 0; i &lt; z2_pts.size(); i++) {
+            pt = (double[]) z2_pts.get(i); x = pt[0]; y_actual = pt[1]; w = getLogWeight(pt);
+            if (x &lt;= c || form2d &lt;= c) continue;
+            term_x = safePowDelta(x - c, 0.33); 
+            y_predicted = cand_form2a + b * (term_x - term_d);
+            error = y_predicted - y_actual;
+            base = x - c; if (base &lt; 0.5) base = 0.5;
+            
+            d_term_c = (0.33 * b) * (Math.pow(base_d, -0.67) - Math.pow(base, -0.67));
+            err_c += w * error * d_term_c;
+        }
+        if (sum_w2 &gt; 1e-9) c -= (lr_c * err_c) / sum_w2;
+        c = Math.min(c, form2d - 0.5); if (c &lt; -50.0) c = -50.0;
+        if (Math.abs(c - prev_c) &lt; 0.002) break;
+        prev_c = c; lr_c *= 0.95;
+    }
+
+    cand_form2b = b; cand_form2c = c; cand_form2d = form2d;
+    cand_r2_z2 = getR2_Z2_only(z2_pts, cand_form2c, cand_form2d, cand_form2a, cand_form2b);
+
+    MB = max_bright; 
+    boundary_y2_end = cand_form2a + cand_form2b * (safePowDelta(z2e - cand_form2c, 0.33) - safePowDelta(z1e - cand_form2c, 0.33));
+    cand_form3a = 0.0; 
+    if (MB &gt; 0.01) cand_form3a = z2e * (MB - boundary_y2_end) / MB;
+    if (cand_form3a &lt; 0.0) cand_form3a = 0.0;
+
+    z1_nrmse = 0.0; z1_bias = 0.0; z2_nrmse = 0.0; z2_bias = 0.0; z3_nrmse = 0.0; z3_bias = 0.0; cand_r2_z3 = -2.0;
+    
+    if (z1_pts.size() &gt; 0) {
+        double[] ev1 = evaluateMetrics(1, z1_pts, max_bright, cand_form1a, 0.0, 0.0, 0.0);
+        z1_nrmse = ev1[1]; z1_bias = ev1[2];
+    }
+    if (z2_pts.size() &gt; 0) {
+        double[] ev2 = evaluateMetrics(2, z2_pts, max_bright, cand_form2a, cand_form2b, cand_form2c, z1e);
+        z2_nrmse = ev2[1]; z2_bias = ev2[2];
+    }
+    if (z3_pts.size() &gt; 0) {
+        double[] ev3 = evaluateMetrics(3, z3_pts, max_bright, cand_form3a, 0.0, 0.0, 0.0);
+        cand_r2_z3 = ev3[0]; z3_nrmse = ev3[1]; z3_bias = ev3[2];
+    }
+    
+    size_penalty = calculateSizePenalty(z1_pts.size()) + calculateSizePenalty(z2_pts.size()) + calculateSizePenalty(z3_pts.size());
+    reg_penalty = 0.001 * cand_form2b * cand_form2b + 0.0005 * Math.abs(cand_form2c);
+    
+    double z3_weight = 1.0; r2_penalty = 0.0;
+    if (cand_r2_z3 &gt; -2.0) {
+        if (cand_r2_z3 &lt; 0.65) { z3_weight = 0.5; r2_penalty += 0.5 * (0.65 - cand_r2_z3); }
+    } else { if (N &gt; 12) size_penalty += 0.5; }
+
+    if (cand_r2_z2 &gt; -2.0 &amp;&amp; cand_r2_z2 &lt; 0.65) {
+        r2_penalty += 3.0 * (0.65 - cand_r2_z2); 
+    }
+    
+    if (boundary_y2_end &gt; max_bright) {
+        cost = 1e6;
+    } else {
+        cost = (50.0 * (z1_nrmse + z2_nrmse + z3_weight*z3_nrmse)) + 
+               (Math.abs(z1_bias) + Math.abs(z2_bias) + Math.abs(z3_bias)) + 
+               size_penalty + reg_penalty + r2_penalty;
+    }
+
+    results[0] = cost; results[1] = z1e; results[2] = z2e; results[3] = cand_form1a;
+    results[4] = cand_form2a; results[5] = cand_form2b; results[6] = cand_form2c;
+    results[7] = cand_form2d; results[8] = cand_form3a; results[9] = cand_r2_z1;
+    results[10] = cand_r2_z2; results[11] = cand_r2_z3; results[12] = z1_nrmse;
+    results[13] = z2_nrmse; results[14] = z3_nrmse; results[15] = z1_bias;
+    results[16] = z2_bias; results[17] = z3_bias;
+
+    return results;
+}
+
+/* ======================= MAIN ======================= */
+try {
+    int arraySize = 0, N, TOP_K_Z1, i, k, t, R, j, pt_idx, i_z1, i_z2;
+    double current_form1a, current_form2a, current_form2b, current_form2c, current_zone1end, current_zone2end, max_bright, current_lux;
+    double[] firstPt, lastPt, z1_scores, z1_values, fitZ1, fitZ3;
+    double tmpS, tmpV, combinedScore, r2_z1_temp, r2_z2_temp, temp_form2d;
+    double global_bestCost = 1e12, best_z1_end, best_z2_end, best_form1a, best_form2a, best_form2b;
+    double best_form2c, best_form2d, best_form3a, best_r2_z1 = 0.0, best_r2_z2 = 0.0, best_r2_z3 = 0.0;
+    double best_z1_nrmse = 0.0, best_z2_nrmse = 0.0, best_z3_nrmse = 0.0, best_z1_bias = 0.0, best_z2_bias = 0.0, best_z3_bias = 0.0;
+    double cand_z1_end, cand_z2_end;
+    double lux_before_z1, lux_after_z1, refined_z1_end, refined_z2_end;
+    double k_bestCost, EARLY_STOP_COST;
+    double[] pt, z1_refine_results, z2_refine_results, k_best_results;
+    List dataPoints, remainingPoints, temp_zone1, temp_zone2, z1_candidates, z2_candidates;
+    double best_approx_cost_z1, best_approx_z1e, approx_cost, best_approx_cost_z2, best_approx_z2e;
+    int hop_count, MAX_HOPS; boolean hopped;
+    double hop_threshold;
+    String[] parts;
+    String z1_r2_str, z2_r2_str, z3_r2_str, z1ErrQual, z2ErrQual, z3ErrQual, z1BiasDir, z2BiasDir, z3BiasDir;
+    String z1BiasQual, z2BiasQual, z3BiasQual, z1ShapeQual, z2ShapeQual, z3ShapeQual, overallQual;
+    String overallLine, z1Line, z2Line, z3Line;
+    double z1_err_pct, z2_err_pct, z3_err_pct, avgErr, absB1, absB2, absB3;
+    int iter_pass; 
+    int idx_75, idx_90, step;
+    double test_z2e_75, test_z2e_90, cost_75, cost_90, best_z2_init_cost, test_z2e, test_cost;
+    int current_z2_idx, start_idx, end_idx;
+    double z2_search_min, z2_search_max;
+    List final_z1, final_z2, final_z3;
+    double[] fz1, fz2, fz3;
+    
+    logBuffer.append("--- Engine V43.6 (Confidence Fix) ---\n");
+    current_form1a = Double.parseDouble(tasker.getVariable("AAB_Form1A"));
+    current_form2a = Double.parseDouble(tasker.getVariable("AAB_Form2A"));
+    current_form2b = Double.parseDouble(tasker.getVariable("AAB_Form2B"));
+    current_form2c = Double.parseDouble(tasker.getVariable("AAB_Form2C"));
+    if (current_form2c &lt; -50.0) current_form2c = -50.0;
+    current_zone1end = Double.parseDouble(tasker.getVariable("AAB_Zone1End"));
+    current_zone2end = Double.parseDouble(tasker.getVariable("AAB_Zone2End"));
+    max_bright       = Double.parseDouble(tasker.getVariable("AAB_MaxBright"));
+    
+    logBuffer.append("[Input Parameters]\n");
+    logBuffer.append(String.format("  Form1a (current): %.3f\n", new Object[]{new Double(current_form1a)}));
+    logBuffer.append(String.format("  Form2a (current): %.3f\n", new Object[]{new Double(current_form2a)}));
+    logBuffer.append(String.format("  Form2b (current): %.3f\n", new Object[]{new Double(current_form2b)}));
+    logBuffer.append(String.format("  Form2c (current): %.3f\n", new Object[]{new Double(current_form2c)}));
+    logBuffer.append(String.format("  Zone1End (current): %.1f\n", new Object[]{new Double(current_zone1end)}));
+    logBuffer.append(String.format("  Zone2End (current): %.1f\n", new Object[]{new Double(current_zone2end)}));
+    logBuffer.append(String.format("  MaxBright: %.1f\n\n", new Object[]{new Double(max_bright)}));
+
+    dataPoints = new ArrayList();
+    int idx = 1;
+    int emptyCount = 0; 
+    
+    while (idx &lt; 1000) { 
+        String val = tasker.getVariable("AAB_Overrides" + idx);
+        
+        if (val == null) {
+            if (emptyCount &gt; 2) break; 
+            emptyCount++;
+            idx++;
+            continue;
+        }
+        emptyCount = 0; 
+        
+        try {
+            parts = val.split(",");
+            if (parts.length &gt;= 2) {
+                double[] newPt = new double[4];
+                String p0 = parts[0].trim();
+                String p1 = parts[1].trim();
+                
+                if (p0.length() &gt; 0 &amp;&amp; p1.length() &gt; 0) {
+                    newPt[0] = Double.parseDouble(p0); 
+                    double rawVal = Double.parseDouble(p1);
+                    newPt[1] = Math.max(0.0, Math.min(rawVal, max_bright));
+                    
+                    if (parts.length == 2) {
+                        newPt[2] = 1.0; newPt[3] = 1.0; 
+                    } else if (parts.length == 3) {
+                        String p2 = parts[2].trim();
+                        newPt[2] = (p2.length() &gt; 0) ? Double.parseDouble(p2) : 1.0;
+                        newPt[3] = 2.0; 
+                    } else {
+                        String p2 = parts[2].trim();
+                        String p3 = parts[3].trim();
+                        newPt[2] = (p2.length() &gt; 0) ? Double.parseDouble(p2) : 1.0;
+                        newPt[3] = (p3.length() &gt; 0) ? Double.parseDouble(p3) : 1.0;
+                    }
+                    dataPoints.add(newPt);
+                }
+            }
+        } catch (Exception parseEx) {}
+        idx++;
+    }
+
+    Collections.sort(dataPoints, new Comparator() {
+        public int compare(Object o1, Object o2) {
+            double[] p1 = (double[]) o1; 
+            double[] p2 = (double[]) o2;
+            return Double.compare(p1[0], p2[0]);
+        }
+    });
+
+    int realCount = 0;
+    boolean[] binsFilled = new boolean[]{false, false, false, false, false};
+    
+    for (i=0; i&lt;dataPoints.size(); i++) {
+        pt = (double[]) dataPoints.get(i);
+        if (isRealDataPoint(pt)) {
+            realCount++;
+            double lx = pt[0];
+            if (lx &lt; 10.0) binsFilled[0] = true;
+            else if (lx &lt; 100.0) binsFilled[1] = true;
+            else if (lx &lt; 1000.0) binsFilled[2] = true;
+            else if (lx &lt; 10000.0) binsFilled[3] = true;
+            else binsFilled[4] = true;
+        }
+    }
+
+    double ghostWeight = 0.1 + (0.4 * (realCount / 50.0));
+    if (ghostWeight &gt; 0.5) ghostWeight = 0.5;
+
+    double cur_term_d = safePowDelta(current_zone1end - current_form2c, 0.33);
+    double cur_y_z2 = current_form2a + current_form2b * (safePowDelta(current_zone2end - current_form2c, 0.33) - cur_term_d);
+    double cur_form3a = 0.0;
+    if (max_bright &gt; 0.01) cur_form3a = current_zone2end * (max_bright - cur_y_z2) / max_bright;
+    if (cur_form3a &lt; 0.0) cur_form3a = 0.0;
+    
+    double[] ghostLuxes = {3.0, 31.0, 316.0, 3162.0, 15000.0};
+    boolean ghostsAdded = false;
+    
+    for (i=0; i&lt;5; i++) {
+        if (!binsFilled[i]) {
+            double gLux = ghostLuxes[i];
+            double gBright = 0.0;
+            if (gLux &lt;= current_zone1end) {
+                String f1aStr = tasker.getVariable("AAB_Form1A"); double f1a = 0.0;
+                if (f1aStr != null &amp;&amp; f1aStr.length() &gt; 0) { try { f1a = Double.parseDouble(f1aStr); } catch(Exception e){} }
+                if (f1a &lt;= 1e-9 &amp;&amp; dataPoints.size() &gt; 0) {
+                     double[] fpt = (double[]) dataPoints.get(0);
+                     if (fpt[0] &gt; 1e-9) f1a = fpt[1] / Math.sqrt(fpt[0]);
+                }
+                gBright = f1a * Math.sqrt(gLux);
+            } else if (gLux &lt;= current_zone2end) {
+                gBright = current_form2a + current_form2b * (safePowDelta(gLux - current_form2c, 0.33) - cur_term_d);
+            } else {
+                gBright = max_bright - (cur_form3a / gLux) * max_bright;
+            }
+            if (gBright &lt; 0.0) gBright = 0.0; if (gBright &gt; max_bright) gBright = max_bright;
+            dataPoints.add(new double[]{gLux, gBright, ghostWeight, 3.0});
+            ghostsAdded = true;
+            logBuffer.append("  + Ghost Point: " + gLux + " lux -&gt; " + Math.round(gBright) + " br (Bin " + (i+1) + " empty)\n");
+        }
+    }
+
+    if (ghostsAdded) {
+        Collections.sort(dataPoints, new Comparator() {
+            public int compare(Object o1, Object o2) {
+                double[] p1 = (double[]) o1; double[] p2 = (double[]) o2; return Double.compare(p1[0], p2[0]);
+            }
+        });
+    }
+    
+    double sumRaw = 0.0; int cntRaw = 0;
+    for (i=0; i&lt;dataPoints.size(); i++) {
+        pt = (double[]) dataPoints.get(i);
+        if (isRealDataPoint(pt)) { sumRaw += pt[2]; cntRaw++; }
+    }
+    double meanRaw = (cntRaw &gt; 0) ? (sumRaw / cntRaw) : 1.0;
+    double globalScale = 1.0 / Math.max(meanRaw, 1e-9);
+
+    for (i=0; i&lt;dataPoints.size(); i++) { pt = (double[]) dataPoints.get(i); pt[2] = pt[2] * globalScale; }
+    logBuffer.append(String.format("Global Weight Norm: Scale=%.4f (Mean Raw=%.4f)\n\n", new Object[]{new Double(globalScale), new Double(meanRaw)}));
+
+    if (dataPoints.size() &lt; 9) {
+        logBuffer.append("Not enough data points (" + dataPoints.size() + "). Aborting.\n");
+        tasker.setVariable("AAB_Test", logBuffer.toString()); return;
+    }
+
+    firstPt = (double[]) dataPoints.get(0); lastPt = (double[]) dataPoints.get(dataPoints.size() - 1);
+    logBuffer.append("[Input Data] " + dataPoints.size() + " points from " + firstPt[0] + " to " + lastPt[0] + " lux.\n\n");
+
+    N = dataPoints.size();
+    
+    double[] current_fit = calculateFitAndCost(current_zone1end, current_zone2end, dataPoints, N, current_form2b, current_form2c, max_bright);
+    
+    if (current_fit[0] &lt; 1e11) {
+        global_bestCost = current_fit[0];
+        best_z1_end = current_zone1end; best_z2_end = current_zone2end;
+        best_form1a = current_fit[3]; best_form2a = current_fit[4]; best_form2b = current_fit[5];
+        best_form2c = current_fit[6]; best_form2d = current_fit[7]; best_form3a = current_fit[8];
+        // V43.6: Restored metric assignments for pre-blend confidence evaluation!
+        best_r2_z1 = current_fit[9]; best_r2_z2 = current_fit[10]; best_r2_z3 = current_fit[11];
+        best_z1_nrmse = current_fit[12]; best_z2_nrmse = current_fit[13]; best_z3_nrmse = current_fit[14];
+        best_z1_bias = current_fit[15]; best_z2_bias = current_fit[16]; best_z3_bias = current_fit[17];
+        suggestion_made = true; 
+        logBuffer.append(String.format("Current Benchmark Valid: Cost=%.5f (Z1e=%.1f, Z2e=%.1f)\n\n", new Object[]{new Double(global_bestCost), new Double(best_z1_end), new Double(best_z2_end)}));
+    } else {
+        global_bestCost = 1e12; suggestion_made = false;
+        logBuffer.append("Current Benchmark INVALID. Optimizer forced to find new layout.\n\n");
+    }
+
+    TOP_K_Z1 = Math.min(5, N - 8); if (TOP_K_Z1 &lt; 1) TOP_K_Z1 = 1;
+    EARLY_STOP_COST = 5.0; MAX_HOPS = Math.min(8, Math.max(3, (int)(N / 5)));
+
+    logBuffer.append("--- Stage 1: Searching for Top " + TOP_K_Z1 + " Zone1End Candidates ---\n");
+    z1_scores = new double[TOP_K_Z1]; z1_values = new double[TOP_K_Z1];
+    for (i = 0; i &lt; TOP_K_Z1; i++) { z1_scores[i] = -9999.0; z1_values[i] = current_zone1end; }
+
+    for (i = 2; i &lt; N - 6; i++) {
+        temp_zone1 = dataPoints.subList(0, i + 1); temp_zone2 = dataPoints.subList(i + 1, N);
+        if (temp_zone1.size() &lt; 3 || temp_zone2.size() &lt; 3) continue;
+        fitZ1 = fitZone1(temp_zone1); r2_z1_temp = fitZ1[1];
+        temp_form2d = ((double[]) temp_zone1.get(temp_zone1.size() - 1))[0];
+        r2_z2_temp = getR2_Z2_only(temp_zone2, current_form2c, temp_form2d, current_form2a, current_form2b);
+        
+        double penalty = (temp_zone1.size() &lt; 4) ? 0.2 : 0.0;
+        combinedScore = r2_z1_temp + r2_z2_temp - penalty;
+        
+        if (combinedScore &gt; z1_scores[TOP_K_Z1 - 1]) {
+            z1_scores[TOP_K_Z1 - 1] = combinedScore; z1_values[TOP_K_Z1 - 1] = temp_form2d;
+            for (t = TOP_K_Z1 - 1; t &gt; 0; t--) {
+                if (z1_scores[t] &gt; z1_scores[t - 1]) {
+                    tmpS = z1_scores[t - 1]; tmpV = z1_values[t - 1];
+                    z1_scores[t - 1] = z1_scores[t]; z1_values[t - 1] = z1_values[t];
+                    z1_scores[t] = tmpS; z1_values[t] = tmpV;
+                }
+            }
+        }
+    }
+    for (i = 0; i &lt; TOP_K_Z1; i++) logBuffer.append(String.format("  Top Cand #%d: Z1End=%.2f (Score: %.3f)\n", new Object[]{new Integer(i+1), new Double(z1_values[i]), new Double(z1_scores[i])}));
+
+    logBuffer.append("\n--- Stage 2 &amp; 3: Global Search &amp; Coordinate Descent ---\n");
+    for (k = 0; k &lt; TOP_K_Z1; k++) {
+        if (k &gt; 0 &amp;&amp; global_bestCost &lt; EARLY_STOP_COST) break;
+        if (z1_scores[k] &lt;= -9998.0) continue;
+        
+        cand_z1_end = z1_values[k]; remainingPoints = new ArrayList();
+        for (i = 0; i &lt; N; i++) { pt = (double[]) dataPoints.get(i); if (pt[0] &gt; cand_z1_end) remainingPoints.add(pt); }
+        if (remainingPoints.size() &lt; 4) continue;
+
+        best_z2_init_cost = 1e12; cand_z2_end = current_zone2end;
+        if (remainingPoints.size() &gt; 4) {
+            idx_75 = Math.min((int)(remainingPoints.size() * 0.75), remainingPoints.size() - 2);
+            idx_90 = Math.min((int)(remainingPoints.size() * 0.90), remainingPoints.size() - 2);
+            test_z2e_75 = ((double[]) remainingPoints.get(idx_75))[0];
+            test_z2e_90 = ((double[]) remainingPoints.get(idx_90))[0];
+            cost_75 = approximateCost(cand_z1_end, test_z2e_75, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
+            cost_90 = approximateCost(cand_z1_end, test_z2e_90, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
+            if (cost_75 &lt; best_z2_init_cost) { best_z2_init_cost = cost_75; cand_z2_end = test_z2e_75; }
+            if (cost_90 &lt; best_z2_init_cost) { best_z2_init_cost = cost_90; cand_z2_end = test_z2e_90; }
+        }
+
+        step = Math.max(1, remainingPoints.size() / 10);
+        for (j = 1; j &lt; remainingPoints.size() - 2; j += step) {
+            test_z2e = ((double[]) remainingPoints.get(j))[0];
+            if (test_z2e &lt;= cand_z1_end + 2.0) continue;
+            test_cost = approximateCost(cand_z1_end, test_z2e, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
+            if (test_cost &lt; best_z2_init_cost) { best_z2_init_cost = test_cost; cand_z2_end = test_z2e; }
+        }
+
+        logBuffer.append(String.format(" -&gt; Cand(k=%d): Z1e=%.2f, Initial Z2e Split=%.1f\n", new Object[]{new Integer(k), new Double(cand_z1_end), new Double(cand_z2_end)}));
+        
+        k_best_results = calculateFitAndCost(cand_z1_end, cand_z2_end, dataPoints, N, current_form2b, current_form2c, max_bright);
+        if (k_best_results[0] &gt; 1e11) continue;
+        k_bestCost = k_best_results[0];
+        
+        for (iter_pass = 0; iter_pass &lt; 3; iter_pass++) {
+            hop_count = 0; hopped = true;
+            while (hopped &amp;&amp; hop_count &lt; MAX_HOPS &amp;&amp; k_best_results[12] &gt; 0.015) {
+                hopped = false;
+                lux_before_z1 = ((double[]) dataPoints.get(0))[0]; lux_after_z1 = ((double[]) dataPoints.get(dataPoints.size() - 1))[0];
+                for(pt_idx = 1; pt_idx &lt; dataPoints.size(); pt_idx++) {
+                    current_lux = ((double[]) dataPoints.get(pt_idx))[0];
+                    if (current_lux &gt;= k_best_results[1]) {
+                        lux_before_z1 = ((double[]) dataPoints.get(pt_idx - 1))[0];
+                        if (pt_idx &lt; dataPoints.size() - 1) lux_after_z1 = ((double[]) dataPoints.get(pt_idx + 1))[0]; else lux_after_z1 = current_lux;
+                        break;
+                    }
+                }
+                z1_candidates = generateSmartRefinementPoints(lux_before_z1, lux_after_z1, k_best_results[1], calculateRefinePoints(lux_before_z1, lux_after_z1, k_best_results[1]));
+                
+                best_approx_cost_z1 = 1e12; best_approx_z1e = k_best_results[1];
+                for (i_z1 = 0; i_z1 &lt; z1_candidates.size(); i_z1++) {
+                    refined_z1_end = ((Double)z1_candidates.get(i_z1)).doubleValue();
+                    if (refined_z1_end &gt;= k_best_results[2] - 1.0) continue;
+                    approx_cost = approximateCost(refined_z1_end, k_best_results[2], dataPoints, N, k_best_results[3], k_best_results[5], k_best_results[6], max_bright);
+                    if (approx_cost &lt; best_approx_cost_z1) { best_approx_cost_z1 = approx_cost; best_approx_z1e = refined_z1_end; }
+                }
+                
+                hop_threshold = Math.max(0.5, k_best_results[1] * 0.005);
+                if (Math.abs(best_approx_z1e - k_best_results[1]) &gt; hop_threshold) {
+                    z1_refine_results = calculateFitAndCost(best_approx_z1e, k_best_results[2], dataPoints, N, k_best_results[5], k_best_results[6], max_bright);
+                    if (z1_refine_results[0] &lt; k_bestCost) {
+                        k_bestCost = z1_refine_results[0]; k_best_results = z1_refine_results; hopped = true; hop_count++;
+                        logBuffer.append(String.format("    [Pass %d] * Z1 Hopped to %.2f (Cost: %.4f)\n", new Object[]{new Integer(iter_pass+1), new Double(k_best_results[1]), new Double(k_bestCost)}));
+                    }
+                }
+            }
+
+            if (k_bestCost &gt;= EARLY_STOP_COST) {
+                current_z2_idx = 0;
+                for(int m=0; m&lt;dataPoints.size(); m++) { if (((double[])dataPoints.get(m))[0] &gt;= k_best_results[2]) { current_z2_idx = m; break; } }
+                start_idx = Math.max(0, current_z2_idx - 3); end_idx = Math.min(dataPoints.size() - 1, current_z2_idx + 5);
+                z2_search_min = ((double[])dataPoints.get(start_idx))[0]; z2_search_max = ((double[])dataPoints.get(end_idx))[0];
+                z2_candidates = generateSmartRefinementPoints(z2_search_min, z2_search_max, k_best_results[2], 8);
+                
+                best_approx_cost_z2 = 1e12; best_approx_z2e = k_best_results[2];
+                for (i_z2 = 0; i_z2 &lt; z2_candidates.size(); i_z2++) {
+                    refined_z2_end = ((Double)z2_candidates.get(i_z2)).doubleValue();
+                    if (refined_z2_end &lt;= k_best_results[1] + 5.0) continue;
+                    approx_cost = approximateCost(k_best_results[1], refined_z2_end, dataPoints, N, k_best_results[3], k_best_results[5], k_best_results[6], max_bright);
+                    if (approx_cost &lt; best_approx_cost_z2) { best_approx_cost_z2 = approx_cost; best_approx_z2e = refined_z2_end; }
+                }
+                
+                if (Math.abs(best_approx_z2e - k_best_results[2]) &gt; 1.0) {
+                    z2_refine_results = calculateFitAndCost(k_best_results[1], best_approx_z2e, dataPoints, N, k_best_results[5], k_best_results[6], max_bright);
+                    if(z2_refine_results[0] &lt; k_bestCost) { 
+                        k_bestCost = z2_refine_results[0]; k_best_results = z2_refine_results; 
+                        logBuffer.append(String.format("    * Z2 Hopped to %.2f (Cost: %.4f)\n", new Object[]{new Double(k_best_results[2]), new Double(k_bestCost)}));
+                    }
+                }
+            }
+        } 
+
+        if (k_best_results[0] &lt; global_bestCost) {
+            global_bestCost = k_best_results[0];
+            best_z1_end = k_best_results[1]; best_z2_end = k_best_results[2];
+            best_form1a = k_best_results[3]; best_form2a = k_best_results[4]; best_form2b = k_best_results[5];
+            best_form2c = k_best_results[6]; best_form2d = k_best_results[7]; best_form3a = k_best_results[8];
+            // V43.6: Restored metric assignments for pre-blend confidence evaluation!
+            best_r2_z1 = k_best_results[9]; best_r2_z2 = k_best_results[10]; best_r2_z3 = k_best_results[11];
+            best_z1_nrmse = k_best_results[12]; best_z2_nrmse = k_best_results[13]; best_z3_nrmse = k_best_results[14];
+            best_z1_bias = k_best_results[15]; best_z2_bias = k_best_results[16]; best_z3_bias = k_best_results[17];
+            suggestion_made = true;
+        }
+    }
+
+    if (!suggestion_made) {
+        logBuffer.append("\n--- FATAL: No valid candidates found AND baseline is invalid. ---\n");
+        logBuffer.append("⚠️ ABORTING. Cannot generate a safe curve.\n");
+        tasker.setVariable("suggest", "error");
+    } else {
+        int nz1 = 0, nz2 = 0;
+        for(i=0; i&lt;dataPoints.size(); i++) {
+            pt = (double[]) dataPoints.get(i);
+            if (!isRealDataPoint(pt)) continue; 
+            if (pt[0] &lt;= best_z1_end) nz1++;
+            else if (pt[0] &lt;= best_z2_end) nz2++;
+        }
+
+        // Because we restored best_r2_z1/nrmse assignments, these confidence scores will now evaluate correctly!
+        double n1_w = getWeightedCount(nz1, best_r2_z1, best_z1_nrmse);
+        double n2_w = getWeightedCount(nz2, best_r2_z2, best_z2_nrmse);
+
+        double tau = 4.0; String tVal = tasker.getVariable("tau");
+        if (tVal != null &amp;&amp; tVal.length() &gt; 0) { try { tau = Double.parseDouble(tVal); } catch (Exception e) {} }
+        
+        double conf_z1 = 1.0 - Math.exp(-n1_w / tau);
+        double conf_z2 = 1.0 - Math.exp(-n2_w / tau);
+        
+        logBuffer.append(String.format("\n[Inertia Blending] Confidence: Z1=%.2f, Z2=%.2f (Tau=%.1f)\n", new Object[]{new Double(conf_z1), new Double(conf_z2), new Double(tau)}));
+
+        best_z1_end = best_z1_end * conf_z1 + current_zone1end * (1.0 - conf_z1);
+        best_form1a = best_form1a * conf_z1 + current_form1a * (1.0 - conf_z1);
+
+        best_z2_end = best_z2_end * conf_z2 + current_zone2end * (1.0 - conf_z2);
+        best_form2a = best_form2a * conf_z2 + current_form2a * (1.0 - conf_z2);
+        best_form2b = best_form2b * conf_z2 + current_form2b * (1.0 - conf_z2);
+        best_form2c = best_form2c * conf_z2 + current_form2c * (1.0 - conf_z2);
+        
+        best_form2d = best_z1_end; 
+
+        double term_d_final = safePowDelta(best_z1_end - best_form2c, 0.33);
+        double term_x_final = safePowDelta(best_z2_end - best_form2c, 0.33);
+        double y_boundary_z2 = best_form2a + best_form2b * (term_x_final - term_d_final);
+        
+        if (y_boundary_z2 &gt; max_bright - 0.5) {
+            y_boundary_z2 = max_bright - 0.5;
+            double den = term_x_final - term_d_final;
+            if (den &gt; 1e-9) best_form2b = (y_boundary_z2 - best_form2a) / den;
+            if (best_form2b &lt; 0.0) best_form2b = 0.001;
+        }
+        
+        if (max_bright &gt; 0.01) best_form3a = best_z2_end * (max_bright - y_boundary_z2) / max_bright;
+        else best_form3a = 0.0;
+        
+        if (best_form3a &lt; 0.001) best_form3a = 0.001;
+        
+        // =================================================================
+        // Recalculate ALL metrics AFTER blending/clamping for honest logs
+        // This overwrites the temporary pre-blend metrics.
+        // =================================================================
+        final_z1 = new ArrayList(); final_z2 = new ArrayList(); final_z3 = new ArrayList();
+        for (i = 0; i &lt; dataPoints.size(); i++) {
+            pt = (double[]) dataPoints.get(i);
+            if (pt[0] &lt;= best_z1_end) final_z1.add(pt);
+            else if (pt[0] &lt;= best_z2_end) final_z2.add(pt);
+            else final_z3.add(pt);
+        }
+        fz1 = evaluateMetrics(1, final_z1, max_bright, best_form1a, 0.0, 0.0, 0.0);
+        fz2 = evaluateMetrics(2, final_z2, max_bright, best_form2a, best_form2b, best_form2c, best_z1_end);
+        fz3 = evaluateMetrics(3, final_z3, max_bright, best_form3a, 0.0, 0.0, 0.0);
+
+        best_r2_z1 = fz1[0]; best_z1_nrmse = fz1[1]; best_z1_bias = fz1[2];
+        best_r2_z2 = fz2[0]; best_z2_nrmse = fz2[1]; best_z2_bias = fz2[2];
+        best_r2_z3 = fz3[0]; best_z3_nrmse = fz3[1]; best_z3_bias = fz3[2];
+        // =================================================================
+
+        tasker.setVariable("suggest", "true");
+        tasker.setVariable("suggestion_zone1end", String.valueOf(Math.round(best_z1_end)));
+        tasker.setVariable("suggestion_zone2end", String.valueOf(Math.round(best_z2_end)));
+        tasker.setVariable("suggestion_form1a", String.format("%.3f", new Object[]{new Double(best_form1a)}));
+        tasker.setVariable("suggestion_form2a", String.format("%.3f", new Object[]{new Double(best_form2a)}));
+        tasker.setVariable("suggestion_form2b", String.format("%.3f", new Object[]{new Double(best_form2b)}));
+        tasker.setVariable("suggestion_form2c", String.format("%.3f", new Object[]{new Double(best_form2c)}));
+        tasker.setVariable("suggestion_form2d", String.valueOf(Math.round(best_form2d)));
+        tasker.setVariable("suggestion_form3a", String.format("%.3f", new Object[]{new Double(best_form3a)}));
+        
+        double max_impact = 0.0; double w;
+        if (dataPoints.size() &gt; 3) {
+            double base_sq_err = 0.0; double y_curve;
+            double term_d_z2 = safePowDelta(best_z1_end - best_form2c, 0.33);
+
+            for (i=0; i&lt;dataPoints.size(); i++) {
+                pt = (double[])dataPoints.get(i); w = getLogWeight(pt);
+                if(pt[0] &lt;= best_z1_end) y_curve = best_form1a * Math.sqrt(pt[0]);
+                else if(pt[0] &lt;= best_z2_end) y_curve = best_form2a + best_form2b * (safePowDelta(pt[0]-best_form2c, 0.33) - term_d_z2);
+                else y_curve = max_bright - (best_form3a / pt[0]) * max_bright;
+                base_sq_err += w * Math.pow(y_curve - pt[1], 2.0);
+            }
+            
+            for (i=0; i&lt;dataPoints.size(); i++) {
+                pt = (double[])dataPoints.get(i); w = getLogWeight(pt);
+                if(pt[0] &lt;= best_z1_end) y_curve = best_form1a * Math.sqrt(pt[0]);
+                else if(pt[0] &lt;= best_z2_end) y_curve = best_form2a + best_form2b * (safePowDelta(pt[0]-best_form2c, 0.33) - term_d_z2);
+                else y_curve = max_bright - (best_form3a / pt[0]) * max_bright;
+                double err_contrib = w * Math.pow(y_curve - pt[1], 2.0);
+                double impact = err_contrib / (base_sq_err + 1e-9);
+                if(impact &gt; max_impact) max_impact = impact;
+            }
+        }
+        String stabilityRating = (max_impact &lt; 0.3) ? "High" : (max_impact &lt; 0.6) ? "Moderate" : "Low (Outlier Driven)";
+        
+        logBuffer.append("\n--- Final Curve Diagnostics (Post-Blend) ---\n");
+        logBuffer.append("Fit Stability: " + stabilityRating + String.format(" (Max Impact: %.1f%%)\n\n", new Object[]{new Double(max_impact*100.0)}));
+        logBuffer.append("[Zone Boundaries]\n");
+        logBuffer.append(String.format("  Zone1End: %.2f (lux)\n", new Object[]{new Double(best_z1_end)}));
+        logBuffer.append(String.format("  Zone2End: %.2f (lux)\n\n", new Object[]{new Double(best_z2_end)}));
+        logBuffer.append("[Curve Parameters]\n");
+        logBuffer.append(String.format("  Form1a (sqrt scale): %.4f\n", new Object[]{new Double(best_form1a)}));
+        logBuffer.append(String.format("  Form2a (align): %.4f\n", new Object[]{new Double(best_form2a)}));
+        logBuffer.append(String.format("  Form2b (scale): %.4f\n", new Object[]{new Double(best_form2b)}));
+        logBuffer.append(String.format("  Form2c (offset): %.4f\n", new Object[]{new Double(best_form2c)}));
+        logBuffer.append(String.format("  Form2d (Z1 align): %.4f\n", new Object[]{new Double(best_form2d)}));
+        logBuffer.append(String.format("  Form3a (tail align): %.4f\n\n", new Object[]{new Double(best_form3a)}));
+        logBuffer.append("[Goodness of Fit (R²)]\n");
+        logBuffer.append(String.format("  R² Zone 1: %.3f\n", new Object[]{new Double(best_r2_z1)}));
+        logBuffer.append(String.format("  R² Zone 2: %.3f\n", new Object[]{new Double(best_r2_z2)}));
+        logBuffer.append(String.format("  R² Zone 3: %.3f\n\n", new Object[]{new Double(best_r2_z3)}));
+        logBuffer.append("[Error Metrics]\n");
+        logBuffer.append(String.format("  nRMSE Z1: %.2f%%\n", new Object[]{new Double(best_z1_nrmse * 100.0)}));
+        logBuffer.append(String.format("  nRMSE Z2: %.2f%%\n", new Object[]{new Double(best_z2_nrmse * 100.0)}));
+        logBuffer.append(String.format("  nRMSE Z3: %.2f%%\n", new Object[]{new Double(best_z3_nrmse * 100.0)}));
+        logBuffer.append(String.format("  Bias Z1:  %.2f\n", new Object[]{new Double(best_z1_bias)}));
+        logBuffer.append(String.format("  Bias Z2:  %.2f\n", new Object[]{new Double(best_z2_bias)}));
+        logBuffer.append(String.format("  Bias Z3:  %.2f\n", new Object[]{new Double(best_z3_bias)}));
+        logBuffer.append("--------------------------\n\n");
+
+        z1_r2_str = (best_r2_z1 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z1)}) : "N/A";
+        z2_r2_str = (best_r2_z2 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z2)}) : "N/A";
+        z3_r2_str = (best_r2_z3 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z3)}) : "N/A";
+
+        z1_err_pct = best_z1_nrmse * 100.0; z2_err_pct = best_z2_nrmse * 100.0; z3_err_pct = best_z3_nrmse * 100.0;
+        if (z1_err_pct &lt; 1) z1ErrQual = "Excellent"; else if (z1_err_pct &lt; 3) z1ErrQual = "Very Good"; else if (z1_err_pct &lt; 7) z1ErrQual = "Good"; else if (z1_err_pct &lt; 15) z1ErrQual = "Fair"; else z1ErrQual = "Poor";
+        if (z2_err_pct &lt; 1) z2ErrQual = "Excellent"; else if (z2_err_pct &lt; 3) z2ErrQual = "Very Good"; else if (z2_err_pct &lt; 7) z2ErrQual = "Good"; else if (z2_err_pct &lt; 15) z2ErrQual = "Fair"; else z2ErrQual = "Poor";
+        if (z3_err_pct &lt; 1) z3ErrQual = "Excellent"; else if (z3_err_pct &lt; 3) z3ErrQual = "Very Good"; else if (z3_err_pct &lt; 7) z3ErrQual = "Good"; else if (z3_err_pct &lt; 15) z3ErrQual = "Fair"; else z3ErrQual = "Poor";
+        if (best_z1_bias &gt; 0.2) z1BiasDir = "brighter"; else if (best_z1_bias &lt; -0.2) z1BiasDir = "dimmer"; else z1BiasDir = "neutral";
+        if (best_z2_bias &gt; 0.2) z2BiasDir = "brighter"; else if (best_z2_bias &lt; -0.2) z2BiasDir = "dimmer"; else z2BiasDir = "neutral";
+        if (best_z3_bias &gt; 0.2) z3BiasDir = "brighter"; else if (best_z3_bias &lt; -0.2) z3BiasDir = "dimmer"; else z3BiasDir = "neutral";
+        absB1 = Math.abs(best_z1_bias); absB2 = Math.abs(best_z2_bias); absB3 = Math.abs(best_z3_bias);
+        if (absB1 &lt; 0.5) z1BiasQual = "Minimal"; else if (absB1 &lt; 2) z1BiasQual = "Slight"; else if (absB1 &lt; 5) z1BiasQual = "Moderate"; else z1BiasQual = "Strong";
+        if (absB2 &lt; 0.5) z2BiasQual = "Minimal"; else if (absB2 &lt; 2) z2BiasQual = "Slight"; else if (absB2 &lt; 5) z2BiasQual = "Moderate"; else z2BiasQual = "Strong";
+        if (absB3 &lt; 0.5) z3BiasQual = "Minimal"; else if (absB3 &lt; 2) z3BiasQual = "Slight"; else if (absB3 &lt; 5) z3BiasQual = "Moderate"; else z3BiasQual = "Strong";
+        
+        if (best_r2_z1 &gt;= 0.9) z1ShapeQual = "Excellent"; else if (best_r2_z1 &gt;= 0.75) z1ShapeQual = "Good"; else if (best_r2_z1 &gt;= 0.4) z1ShapeQual = "Moderate"; else z1ShapeQual = "Poor";
+        if (best_r2_z2 &gt;= 0.9) z2ShapeQual = "Excellent"; else if (best_r2_z2 &gt;= 0.75) z2ShapeQual = "Good"; else if (best_r2_z2 &gt;= 0.4) z2ShapeQual = "Moderate"; else z2ShapeQual = "Poor";
+        if (best_r2_z3 &gt;= 0.9) z3ShapeQual = "Excellent"; else if (best_r2_z3 &gt;= 0.75) z3ShapeQual = "Good"; else if (best_r2_z3 &gt;= 0.4) z3ShapeQual = "Moderate"; else z3ShapeQual = "Poor";
+
+        avgErr = (z1_err_pct + z2_err_pct + z3_err_pct) / 3.0;
+        if (avgErr &lt; 2) overallQual = "Excellent"; else if (avgErr &lt; 4) overallQual = "Very Good"; else if (avgErr &lt; 8) overallQual = "Good"; else if (avgErr &lt; 15) overallQual = "Fair"; else overallQual = "Poor";
+
+        overallLine = "🏆 Overall Fit: " + overallQual;
+        z1Line = String.format("⚫ Dark: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z1ErrQual, new Double(z1_err_pct), z1ShapeQual, z1_r2_str, z1BiasQual, z1BiasDir, new Double(best_z1_bias)});
+        z2Line = String.format("⚪ Dim: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z2ErrQual, new Double(z2_err_pct), z2ShapeQual, z2_r2_str, z2BiasQual, z2BiasDir, new Double(best_z2_bias)});
+        z3Line = String.format("☀️ Bright: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z3ErrQual, new Double(z3_err_pct), z3ShapeQual, z3_r2_str, z3BiasQual, z3BiasDir, new Double(best_z3_bias)});
+
+        tasker.setVariable("suggest_r2_1", overallLine);
+        tasker.setVariable("suggest_r2_2", z1Line);
+        tasker.setVariable("suggest_r2_3", z2Line);
+        tasker.setVariable("suggest_r2_4", z3Line);
+        
+        logBuffer.append("[Human Summary]\n" + overallLine + "\n" + z1Line + "\n" + z2Line + "\n" + z3Line + "\n");
+    }
+} catch (Exception e) {
+    logBuffer.append("CRITICAL ERROR: " + e.toString() + "\n");
+    e.printStackTrace();
+} finally {
+    logBuffer.append("\n--- Analysis Engine Finished ---\n");
+    tasker.setVariable("AAB_Test", logBuffer.toString());
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%suggest</lhs>
+					<op>2</op>
+					<rhs>error</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">&lt;small&gt;⚠️ Fatal error. Aborted.&lt;/small&gt;</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">Bottom,0,232</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">aab_prediction</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">10000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
 	<Task sr="task411">
 		<cdate>1751565146803</cdate>
 		<edate>1751565146803</edate>
@@ -10754,7 +11862,7 @@ if (isAnon &amp;&amp; finalPrivilege != null &amp;&amp; !finalPrivilege.equals("
 		<cdate>1751570897342</cdate>
 		<edate>1751570897342</edate>
 		<id>412</id>
-		<pri>107</pri>
+		<pri>128</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -10810,8 +11918,8 @@ if (isAnon &amp;&amp; finalPrivilege != null &amp;&amp; !finalPrivilege.equals("
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%aab_form1a,%aab_form2b,%aab_form2c,%aab_form2d,%aab_zone1end,%aab_zone2end</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
@@ -11818,7 +12926,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1750825517290</cdate>
 		<edate>1750825517290</edate>
 		<id>473</id>
-		<pri>12</pri>
+		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_GenerateReactivityGraph (Java)</Str>
@@ -12161,7 +13269,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1751564464950</cdate>
 		<edate>1751564464950</edate>
 		<id>508</id>
-		<pri>1013</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -12433,7 +13541,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1750825517290</cdate>
 		<edate>1760726161746</edate>
 		<id>513</id>
-		<pri>12</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -12578,7 +13686,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1751565146803</cdate>
 		<edate>1751565146803</edate>
 		<id>516</id>
-		<pri>14</pri>
+		<pri>22</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
 			<se>false</se>
@@ -12627,7 +13735,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1756750605775</cdate>
 		<edate>1760290183368</edate>
 		<id>517</id>
-		<pri>16</pri>
+		<pri>24</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -13830,7 +14938,7 @@ waiter.await();</Str>
 		<cdate>1751564464950</cdate>
 		<edate>1751564464950</edate>
 		<id>530</id>
-		<pri>12</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -14152,7 +15260,7 @@ return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 		<cdate>1752829198522</cdate>
 		<edate>1752829198522</edate>
 		<id>537</id>
-		<pri>12</pri>
+		<pri>36</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ExitButton</Str>
@@ -14209,7 +15317,7 @@ return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 	</Task>
 	<Task sr="task540">
 		<cdate>1751559130583</cdate>
-		<edate>1766951065159</edate>
+		<edate>1775845105198</edate>
 		<id>540</id>
 		<nme>_ExperimentScene</nme>
 		<pri>100</pri>
@@ -14231,7 +15339,7 @@ return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 			<Str sr="arg4" ve="3">=</Str>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
@@ -19203,7 +20311,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task565">
 		<cdate>1751559130583</cdate>
-		<edate>1770964115967</edate>
+		<edate>1775845127951</edate>
 		<id>565</id>
 		<nme>_MiscScene</nme>
 		<pri>100</pri>
@@ -19230,7 +20338,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Str sr="arg4" ve="3">=</Str>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
@@ -20521,7 +21629,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task575">
 		<cdate>1751559130583</cdate>
-		<edate>1766934665579</edate>
+		<edate>1775845555970</edate>
 		<id>575</id>
 		<nme>_ReactivityScene</nme>
 		<pri>100</pri>
@@ -20549,7 +21657,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Str sr="arg4" ve="3">=</Str>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
@@ -21180,7 +22288,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task580">
 		<cdate>1750685644979</cdate>
-		<edate>1772561409618</edate>
+		<edate>1775845151352</edate>
 		<id>580</id>
 		<nme>Advanced Auto Brightness</nme>
 		<pc>Add this task to the launcher for an app-like experience!</pc>
@@ -21249,7 +22357,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Str sr="arg4" ve="3">=</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act12" ve="7">
@@ -22299,7 +23407,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task586">
 		<cdate>1756229955456</cdate>
-		<edate>1772692001410</edate>
+		<edate>1775845523152</edate>
 		<id>586</id>
 		<nme>_SuperDimmingScene</nme>
 		<pri>100</pri>
@@ -22322,7 +23430,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Str sr="arg4" ve="3">=</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
@@ -22911,7 +24019,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<cdate>1765821919279</cdate>
 		<edate>1765821919279</edate>
 		<id>590</id>
-		<pri>14</pri>
+		<pri>30</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">AAB Misc Settings</Str>
@@ -23295,7 +24403,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765821996685</cdate>
 		<edate>1765821996685</edate>
 		<id>593</id>
-		<pri>12</pri>
+		<pri>106</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
@@ -23421,7 +24529,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765822119813</cdate>
 		<edate>1765822119813</edate>
 		<id>599</id>
-		<pri>14</pri>
+		<pri>30</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
@@ -23484,7 +24592,7 @@ writeProfile("Night Reading", profNight);</Str>
 	</Task>
 	<Task sr="task601">
 		<cdate>1765826045846</cdate>
-		<edate>1767894931355</edate>
+		<edate>1775845540741</edate>
 		<id>601</id>
 		<nme>_KeyEventBackMenu</nme>
 		<Action sr="act0" ve="7">
@@ -23658,7 +24766,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765822173043</cdate>
 		<edate>1765822173043</edate>
 		<id>602</id>
-		<pri>15</pri>
+		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
@@ -23780,7 +24888,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765824240626</cdate>
 		<edate>1765824240626</edate>
 		<id>606</id>
-		<pri>12</pri>
+		<pri>14</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_KeyEventBackMenu</Str>
@@ -23899,7 +25007,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765830232855</cdate>
 		<edate>1765830232855</edate>
 		<id>609</id>
-		<pri>16</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -23950,7 +25058,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765830296855</cdate>
 		<edate>1765830296855</edate>
 		<id>610</id>
-		<pri>20</pri>
+		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -24007,7 +25115,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765830352493</cdate>
 		<edate>1765830352493</edate>
 		<id>611</id>
-		<pri>12</pri>
+		<pri>20</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -24116,7 +25224,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 		<cdate>1765830708236</cdate>
 		<edate>1765830708236</edate>
 		<id>613</id>
-		<pri>105</pri>
+		<pri>126</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -24314,7 +25422,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 		<cdate>1765830920340</cdate>
 		<edate>1765830920340</edate>
 		<id>615</id>
-		<pri>105</pri>
+		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -24394,7 +25502,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 		<cdate>1765830939358</cdate>
 		<edate>1765830939358</edate>
 		<id>616</id>
-		<pri>105</pri>
+		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -24618,10 +25726,10 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 	</Task>
 	<Task sr="task618">
 		<cdate>1749848387367</cdate>
-		<edate>1773127208045</edate>
+		<edate>1775325449872</edate>
 		<id>618</id>
 		<nme>Set Initial Brightness (Java) V3</nme>
-		<pri>8</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>This flag prevents this task from being flagged as a manual brightness change.</label>
@@ -24960,6 +26068,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 		<Action sr="act36" ve="7">
 			<code>30</code>
 			<label>This prevents Monitor Ambient Light profile from interfering from the brightness set in this task.</label>
+			<se>false</se>
 			<Int sr="arg0">
 				<var>%AAB_DefaultThrottle</var>
 			</Int>
@@ -24967,8 +26076,49 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_DefaultThrottle</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%test</lhs>
+					<op>2</op>
+					<rhs>over</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act37" ve="7">
+			<code>474</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">long waitTime = 0;
+try {
+    /* Tasker will replace %AAB_DefaultThrottle with its value before running */
+    waitTime = Long.parseLong("%AAB_DefaultThrottle");
+} catch (Exception e) {
+    /* Fallback just in case the variable is empty or not a number */
+}
+
+if (waitTime &gt; 0) {
+    try {
+        Thread.sleep(waitTime);
+    } catch (InterruptedException e) {
+        // Thread was interrupted
+    }
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_DefaultThrottle</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ContextF5NetLoc V8</Str>
 			<Int sr="arg1">
@@ -25009,14 +26159,9 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act38" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
 		<Action sr="act39" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Proximity Detection</Str>
+			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -25037,17 +26182,22 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
+			<Str sr="arg0" ve="3">Proximity Detection</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Allow Override</Str>
+			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act42" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Allow Override</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act43" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%AAB_Initializing</Str>
 			<Int sr="arg1" val="0"/>
@@ -25231,7 +26381,7 @@ Values
 	</Task>
 	<Task sr="task620">
 		<cdate>1766748378226</cdate>
-		<edate>1772545572357</edate>
+		<edate>1775845458714</edate>
 		<id>620</id>
 		<nme>_AdaptiveBrightnessSceneSize V4</nme>
 		<pri>100</pri>
@@ -26231,1229 +27381,6 @@ tasker.setVariable("json_state", state.toString());</Str>
 			<Str sr="arg1" ve="3">Profile Dashboard</Str>
 			<Int sr="arg2" val="6"/>
 			<Str sr="arg3" ve="3">javascript:updateDashboardValues(%json_state);</Str>
-		</Action>
-	</Task>
-	<Task sr="task627">
-		<cdate>1761480034987</cdate>
-		<edate>1767894681295</edate>
-		<id>627</id>
-		<nme>_SuggestCurveParameters V22 (Hybrid)</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AAB_Overrides(#)</lhs>
-					<op>7</op>
-					<rhs>8</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Commencing curve fitting.</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">Top,0,77</Str>
-			<Int sr="arg14" val="1"/>
-			<Str sr="arg15" ve="3">aab_prediction</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">#007C63</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">⚠️ Not enough data points to suggest the parameters. Please ensure there are at least nine overrides.</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">Bottom,0,232</Str>
-			<Int sr="arg14" val="1"/>
-			<Str sr="arg15" ve="3">%aab_toast</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">#007C63</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<label>Inertia regularization factor, prevents overfitting. Lower values adapt quicker to new measurements, while higher values will prioritize the existing curve until &lt;b&gt;a lot&lt;/b&gt; of override data is provided.&lt;br&gt;&lt;br&gt;
-
-&lt;i&gt;After&lt;/i&gt; you have set your personal curve that captures your preferences, setting Tau to a high value is recommended in order to prevent overfitting to new measurements &lt;br&gt;&lt;br&gt;
-Recommended range: 0 - 5</label>
-			<Str sr="arg0" ve="3">%tau</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>474</code>
-			<Str sr="arg0" ve="3">/*
-AAB Curve Fitting Engine V43.3 (Hybrid Safety)
-- New: Solution 1 - Sanitizes override data (clamped to max_bright) to prevent ceiling violations.
-- New: Solution 2 - Cost function penalizes Zone 2 overshoot to enforce physical constraints.
-- New: Solution 3 - Asymptotic floor for Zone 3 ensures positive slope near ceiling.
-- Keep: Ghost Weight Scaling, Z2 Safety Buffer, King of the Hill architecture.
-*/
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collections;
-import java.util.Comparator;
-
-logBuffer = new StringBuffer();
-suggestion_made = false;
-
-/* FIX 1: Safe Power with Floor (Preserve Gradient) */
-double safePowDelta(double val, double p) {
-    double delta = Math.max(val, 1e-9);
-    return Math.pow(delta, p);
-}
-
-/* Helper: Log-Space Weighting (Inverse Lux) */
-double getLogWeight(double[] pt) {
-    if (pt == null || pt.length &lt; 3) return 0.1;
-    
-    // Fix: Scale ghosts by lux so they don't overpower real data in bright zones
-    // We use the same denominator structure as real points to maintain relative importance
-    if (pt.length &gt; 3 &amp;&amp; Math.abs(pt[3] - 3.0) &lt; 0.1) {
-        return (pt[2] * 0.05) / (pt[0] + 2.0); 
-    }
-    
-    // Revert: Back to (Lux + 2.0). (Lux + 8.0) made it too numb to dark changes.
-    return pt[2] / (pt[0] + 2.0);
-}
-
-/* Helper: Calculate adaptive number of refinement points */
-int calculateRefinePoints(double gap_start, double gap_end, double current_pos) {
-    double gap_ratio, gap_size;
-    boolean is_dark_zone;
-    if (gap_start &lt;= 1e-9) return 5;
-    gap_ratio = gap_end / gap_start;
-    gap_size = gap_end - gap_start;
-    is_dark_zone = (current_pos &lt; 100.0);
-    
-    if (gap_ratio &lt; 1.5 || gap_size &lt; 10.0) return 0;
-    if (gap_ratio &lt; 3.0) return is_dark_zone ? 3 : 5;
-    return is_dark_zone ? 5 : 8;
-}
-
-/* Helper: Generate log-spaced points */
-List generateSmartRefinementPoints(double start, double end, double current, int count) {
-    List points = new ArrayList();
-    double log_start, log_end, log_current, total_span, left_span;
-    int left_points, right_points, i;
-    double left_step, right_step, val;
-    
-    if (count &lt;= 0) { points.add(new Double(current)); return points; }
-    if (start &lt;= 1e-9 || end &lt;= 1e-9 || start &gt;= end || current &lt; start || current &gt; end) {
-        points.add(new Double(current)); return points;
-    }
-
-    log_start = Math.log(start); log_end = Math.log(end); log_current = Math.log(current);
-    total_span = log_end - log_start;
-    
-    if (total_span &lt; 1e-9) { points.add(new Double(current)); return points; }
-
-    left_span = log_current - log_start;
-    left_points = (int)Math.round(count * (left_span / total_span));
-    right_points = count - left_points;
-    
-    if (left_points &gt; 0 &amp;&amp; left_span &gt; 1e-9) {
-        left_step = left_span / (left_points + 1);
-        for (i = 1; i &lt;= left_points; i++) {
-            val = Math.exp(log_start + i * left_step);
-            points.add(new Double(val));
-        }
-    }
-    points.add(new Double(current));
-    if (right_points &gt; 0 &amp;&amp; (log_end - log_current) &gt; 1e-9) {
-        right_step = (log_end - log_current) / (right_points + 1);
-        for (i = 1; i &lt;= right_points; i++) {
-            val = Math.exp(log_current + i * right_step);
-            points.add(new Double(val));
-        }
-    }
-    return points;
-}
-
-/* Helper: Zone 1 (sqrt) Weighted fit */
-double[] fitZone1(List points) {
-    double[] result = {0.0, -2.0};
-    int i; double sum_wy = 0.0, sum_w = 0.0, mean_y_w, sum_w_xy = 0.0, sum_w_xx = 0.0, param_a, ss_total_w = 0.0, ss_residual_w = 0.0;
-    double x, y, w, x_prime, y_pred; double[] pt;
-
-    if (points.size() &lt; 3) return result;
-
-    for (i = 0; i &lt; points.size(); i++) {
-        pt = (double[]) points.get(i); w = getLogWeight(pt);
-        sum_wy += w * pt[1]; sum_w += w;
-    }
-    mean_y_w = (sum_w &gt; 1e-9) ? (sum_wy / sum_w) : 0.0;
-
-    for (i = 0; i &lt; points.size(); i++) {
-        pt = (double[]) points.get(i);
-        x = pt[0]; y = pt[1]; w = getLogWeight(pt);
-        x_prime = Math.sqrt(x);
-        sum_w_xy += w * x_prime * y; sum_w_xx += w * x_prime * x_prime;
-    }
-
-    param_a = (sum_w_xx &gt; 1e-9) ? (sum_w_xy / sum_w_xx) : 0.0;
-    result[0] = param_a;
-
-    for (i = 0; i &lt; points.size(); i++) {
-        pt = (double[]) points.get(i);
-        x = pt[0]; y = pt[1]; w = getLogWeight(pt);
-        y_pred = param_a * Math.sqrt(x);
-        ss_total_w += w * Math.pow(y - mean_y_w, 2.0);
-        ss_residual_w += w * Math.pow(y - y_pred, 2.0);
-    }
-    if (ss_total_w &lt; 1e-9) result[1] = 0.0; else result[1] = 1.0 - (ss_residual_w / ss_total_w);
-    return result;
-}
-
-/* Helper: Zone 2 Weighted R²-only fit */
-double getR2_Z2_only(List points, double form2c, double form2d, double start_a, double start_b) {
-    int i; double sum_wy_valid = 0.0, sum_w_valid = 0.0, mean_y_valid, a, b, term, term_d, w, base_d;
-    double ss_total_w = 0.0, ss_residual_w = 0.0, y_pred, sum_num = 0.0, sum_den = 0.0;
-    double[] pt; List valid_points = new ArrayList();
-
-    if (points.size() &lt; 3) return -2.0;
-    if (form2c &lt; -50.0) form2c = -50.0;
-
-    base_d = form2d - form2c; if (base_d &lt; 1e-9) base_d = 1e-9;
-    term_d = safePowDelta(base_d, 0.33);
-
-    for (i = 0; i &lt; points.size(); i++) {
-        pt = (double[]) points.get(i);
-        if (pt[0] &gt; form2c &amp;&amp; form2d &gt; form2c) {
-            valid_points.add(pt); w = getLogWeight(pt);
-            sum_wy_valid += w * pt[1]; sum_w_valid += w;
-        }
-    }
-    
-    if (valid_points.size() &lt; 3) return -2.0;
-    mean_y_valid = (sum_w_valid &gt; 1e-9) ? (sum_wy_valid / sum_w_valid) : 0.0;
-
-    a = start_a; 
-    for (i = 0; i &lt; valid_points.size(); i++) {
-        pt = (double[]) valid_points.get(i); w = getLogWeight(pt);
-        term = safePowDelta(pt[0] - form2c, 0.33) - term_d;
-        sum_num += w * (pt[1] - a) * term; sum_den += w * term * term;
-    }
-    if (sum_den &gt; 1e-9) b = sum_num / sum_den; else b = start_b;
-    if (b &lt; 0.0) b = 0.01;
-
-    for (i = 0; i &lt; valid_points.size(); i++) {
-        pt = (double[]) valid_points.get(i); w = getLogWeight(pt);
-        term = safePowDelta(pt[0] - form2c, 0.33) - term_d;
-        y_pred = a + b * term;
-        ss_total_w += w * Math.pow(pt[1] - mean_y_valid, 2.0);
-        ss_residual_w += w * Math.pow(pt[1] - y_pred, 2.0);
-    }
-    if (ss_total_w &lt; 1e-9) return 0.0;
-    return 1.0 - (ss_residual_w / ss_total_w);
-}
-
-/* Helper: Zone 3 Weighted R²-only fit */
-double[] fitZone3(List points, double max_bright) {
-    int i; double sum_wy = 0.0, sum_w = 0.0, mean_y_w, sum_w_xy = 0.0, sum_w_xx = 0.0, param_a, ss_total_w = 0.0, ss_residual_w = 0.0;
-    double x, y, w, x_prime, y_prime, y_pred; double[] pt; List work_points = new ArrayList();
-    double[] result = {0.0, -2.0};
-    
-    if (points.size() == 0) return result;
-    for (i = 0; i &lt; points.size(); i++) { pt = (double[]) points.get(i); if (pt[0] &gt; 10.0) work_points.add(pt); }
-    if (work_points.size() &lt; 3) { if (points.size() &gt;= 3) work_points = points; else return result; }
-
-    for (i = 0; i &lt; work_points.size(); i++) {
-        pt = (double[]) work_points.get(i); w = getLogWeight(pt);
-        sum_wy += w * pt[1]; sum_w += w;
-    }
-    mean_y_w = (sum_w &gt; 1e-9) ? (sum_wy / sum_w) : 0.0;
-
-    for (i = 0; i &lt; work_points.size(); i++) {
-        pt = (double[]) work_points.get(i); x = pt[0]; y = pt[1]; w = getLogWeight(pt);
-        x_prime = 1.0 / x; y_prime = (max_bright - y) / max_bright;
-        sum_w_xy += w * x_prime * y_prime; sum_w_xx += w * x_prime * x_prime;
-    }
-
-    param_a = (sum_w_xx &gt; 1e-9) ? (sum_w_xy / sum_w_xx) : 0.0;
-    result[0] = param_a;
-
-    for (i = 0; i &lt; work_points.size(); i++) {
-        pt = (double[]) work_points.get(i); x = pt[0]; y = pt[1]; w = getLogWeight(pt);
-        ss_total_w += w * Math.pow(y - mean_y_w, 2.0);
-        y_pred = max_bright - (param_a / x) * max_bright;
-        ss_residual_w += w * Math.pow(y - y_pred, 2.0);
-    }
-    if (ss_total_w &lt; 1e-9) result[1] = 0.0; else result[1] = 1.0 - (ss_residual_w / ss_total_w);
-    return result;
-}
-
-/* Fast Error/Bias Helpers */
-double fastZone1Error(List points, double form1a, double max_bright) {
-    if (points.size() == 0 || max_bright &lt; 1e-9) return 0.0;
-    double sum_sq_w = 0.0, sum_w = 0.0, e1, w; int j; double[] pt1;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt1 = (double[]) points.get(j); w = getLogWeight(pt1);
-        e1 = (form1a * Math.sqrt(pt1[0])) - pt1[1];
-        sum_sq_w += w * e1 * e1; sum_w += w;
-    }
-    if (sum_w &lt; 1e-9) return 0.0;
-    return Math.sqrt(sum_sq_w / sum_w) / max_bright;
-}
-double fastZone1Bias(List points, double form1a) {
-    if (points.size() == 0) return 0.0;
-    double sum_err_w = 0.0, sum_w = 0.0, e1, w; int j; double[] pt1;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt1 = (double[]) points.get(j); w = getLogWeight(pt1);
-        e1 = (form1a * Math.sqrt(pt1[0])) - pt1[1];
-        sum_err_w += w * e1; sum_w += w;
-    }
-    if (sum_w &lt; 1e-9) return 0.0; return sum_err_w / sum_w;
-}
-double fastZone2Error(List points, double form2a, double form2b, double form2c, double z1e, double max_bright) {
-    if (max_bright &lt; 1e-9) return 0.0;
-    double sum_sq2_w = 0.0, sum_w2 = 0.0, w; int count_valid = 0; int j; double[] pt2m; double x2, term_x2, term_d2, y_pred2, e2;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt2m = (double[]) points.get(j); x2 = pt2m[0]; if (x2 &lt;= form2c) continue;
-        w = getLogWeight(pt2m);
-        term_x2 = safePowDelta(x2 - form2c, 0.33); term_d2 = safePowDelta(z1e - form2c, 0.33);
-        y_pred2 = form2a + form2b * (term_x2 - term_d2);
-        e2 = y_pred2 - pt2m[1]; sum_sq2_w += w * e2 * e2; sum_w2 += w; count_valid++;
-    }
-    if (count_valid == 0 || sum_w2 &lt; 1e-9) return 0.0;
-    return Math.sqrt(sum_sq2_w / sum_w2) / max_bright;
-}
-double fastZone2Bias(List points, double form2a, double form2b, double form2c, double z1e) {
-    double sum_err2_w = 0.0, sum_w2 = 0.0, w; int count_valid = 0; int j; double[] pt2m; double x2, term_x2, term_d2, y_pred2, e2;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt2m = (double[]) points.get(j); x2 = pt2m[0]; if (x2 &lt;= form2c) continue;
-        w = getLogWeight(pt2m);
-        term_x2 = safePowDelta(x2 - form2c, 0.33); term_d2 = safePowDelta(z1e - form2c, 0.33);
-        y_pred2 = form2a + form2b * (term_x2 - term_d2);
-        e2 = y_pred2 - pt2m[1]; sum_err2_w += w * e2; sum_w2 += w; count_valid++;
-    }
-    if (count_valid == 0 || sum_w2 &lt; 1e-9) return 0.0; return sum_err2_w / sum_w2;
-}
-double fastZone3Error(List points, double form3a, double max_bright) {
-    if (points.size() == 0 || max_bright &lt; 1e-9) return 0.0;
-    double sum_sq3_w = 0.0, sum_w3 = 0.0, e3, w; int j; double[] pt3m;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt3m = (double[]) points.get(j); w = getLogWeight(pt3m);
-        e3 = (max_bright - (form3a / pt3m[0]) * max_bright) - pt3m[1];
-        sum_sq3_w += w * e3 * e3; sum_w3 += w;
-    }
-    if (sum_w3 &lt; 1e-9) return 0.0;
-    return Math.sqrt(sum_sq3_w / sum_w3) / max_bright;
-}
-double fastZone3Bias(List points, double form3a, double max_bright) {
-    if (points.size() == 0) return 0.0;
-    double sum_err3_w = 0.0, sum_w3 = 0.0, e3, w; int j; double[] pt3m;
-    for (j = 0; j &lt; points.size(); j++) {
-        pt3m = (double[]) points.get(j); w = getLogWeight(pt3m);
-        e3 = (max_bright - (form3a / pt3m[0]) * max_bright) - pt3m[1];
-        sum_err3_w += w * e3; sum_w3 += w;
-    }
-    if (sum_w3 &lt; 1e-9) return 0.0; return sum_err3_w / sum_w3;
-}
-double calculateSizePenalty(int count) {
-    if (count &gt;= 4) return 0.0;
-    double diff = 4.0 - count; return 0.25 * diff * diff; 
-}
-
-/* Helper: Calculate blended point count based on quality (R² + nRMSE) */
-double getWeightedCount(int count, double r2, double nrmse) {
-    if (count &lt;= 0) return 0.0;
-    double r2_safe = (r2 &lt; 0.0) ? 0.0 : r2;
-    if (r2_safe &gt; 1.0) r2_safe = 1.0;
-    double err_pen = (nrmse &gt; 0.5) ? 0.5 : nrmse;
-    double quality = r2_safe * (1.0 - err_pen);
-    double weight = 0.25 + 0.75 * quality;
-    return count * weight;
-}
-
-/* Helper: Analytic Approximation Cost (Balanced Weighting) */
-double approximateCost(double z1e, double z2e, List dataPoints, int N, double form1a, double old_form2b, double form2c, double max_bright) {
-    List z1_pts = new ArrayList(); List z2_pts = new ArrayList(); List z3_pts = new ArrayList();
-    int i; double[] pt; 
-    double boundary_y2_end, approx_form2a, approx_form3a, z1_nrmse, z2_nrmse, z3_nrmse, z1_bias, z2_bias, z3_bias;
-    double sum_num, sum_den, term_x, term_d, best_b, x, w, base_d;
-
-    if (z1e &gt;= z2e) return 1e12; 
-
-    for (i = 0; i &lt; N; i++) {
-        pt = (double[]) dataPoints.get(i);
-        if (pt[0] &lt;= z1e) z1_pts.add(pt);
-        else if (pt[0] &lt;= z2e) z2_pts.add(pt);
-        else z3_pts.add(pt);
-    }
-    
-    if (z1_pts.size() &lt; 3 || z2_pts.size() &lt; 3) return 1e12;
-    if (z3_pts.size() == 0 &amp;&amp; N &lt; 12) return 1e12;
-
-    approx_form2a = form1a * Math.sqrt(z1e);
-    base_d = z1e - form2c; if (base_d &lt; 1e-9) base_d = 1e-9;
-    term_d = safePowDelta(base_d, 0.33);
-
-    sum_num = 0.0; sum_den = 0.0;
-    for (i=0; i&lt;z2_pts.size(); i++) {
-        pt = (double[]) z2_pts.get(i); x = pt[0]; w = getLogWeight(pt);
-        if (x &lt;= form2c) continue;
-        term_x = safePowDelta(x - form2c, 0.33) - term_d;
-        sum_num += w * (pt[1] - approx_form2a) * term_x;
-        sum_den += w * term_x * term_x;
-    }
-    if (sum_den &gt; 1e-9) best_b = sum_num / sum_den; else best_b = old_form2b;
-    if (best_b &lt; 0.0) best_b = 0.01;
-
-    base_d = z2e - form2c; if(base_d &lt; 1e-9) base_d = 1e-9;
-    boundary_y2_end = approx_form2a + best_b * (safePowDelta(base_d, 0.33) - term_d);
-    
-    // FIX 2b: Penalize approximation if Z2 shoots past max_bright
-    if (boundary_y2_end &gt; max_bright) return 1e12;
-    
-    approx_form3a = (max_bright &gt; 0.01) ? (z2e * (max_bright - boundary_y2_end) / max_bright) : 0.0;
-    if (approx_form3a &lt; 0.0) approx_form3a = 0.0;
-    
-    z1_nrmse = fastZone1Error(z1_pts, form1a, max_bright);
-    z2_nrmse = fastZone2Error(z2_pts, approx_form2a, best_b, form2c, z1e, max_bright);
-    z1_bias = fastZone1Bias(z1_pts, form1a);
-    z2_bias = fastZone2Bias(z2_pts, approx_form2a, best_b, form2c, z1e);
-    
-    if (z3_pts.size() &gt;= 2) {
-        z3_nrmse = fastZone3Error(z3_pts, approx_form3a, max_bright);
-        z3_bias = fastZone3Bias(z3_pts, approx_form3a, max_bright);
-    } else { z3_nrmse = 0.0; z3_bias = 0.0; }
-    
-    double size_p = calculateSizePenalty(z1_pts.size()) + calculateSizePenalty(z2_pts.size()) + calculateSizePenalty(z3_pts.size());
-    double reg_p = 0.001 * best_b * best_b + 0.0005 * Math.abs(form2c);
-
-    // FIX: Multiply nRMSE by 50 to balance against raw Bias (1% RMSE ~= 0.5 Bias)
-    return (50.0 * (z1_nrmse + z2_nrmse + z3_nrmse)) + 
-           (Math.abs(z1_bias) + Math.abs(z2_bias) + Math.abs(z3_bias)) + 
-           size_p + reg_p;
-}
-
-/* Helper: Full fit and cost calculation (Balanced Weighting) */
-double[] calculateFitAndCost(double z1e, double z2e, List dataPoints, int N, double current_form2b, double current_form2c, double max_bright) {
-    double[] results = new double[18];
-    int i, j, iter, max_iter, valid_z2_pts;
-    double cand_form2a, cand_form2b, cand_form2c, cand_form2d, cand_r2_z2, MB;
-    double cand_form1a, cand_r2_z1, b, c, form2d;
-    double x, y_actual, term_x, term_d, y_predicted, error, d_term_c, base, base_d;
-    double boundary_y2_end, cand_form3a, cand_r2_z3, w;
-    double z1_nrmse, z1_bias, z2_nrmse, z2_bias, z3_nrmse, z3_bias, size_penalty, cost, r2_penalty, reg_penalty;
-    double[] fitZ1_final, pt, pt1, pt2m, pt3m;
-    double sum_sq, sum_err, sum_sq2, sum_err2, sum_sq3, sum_err3, sum_w, sum_w2, sum_w3;
-    double y_pred1, e1, x2, term_x2, term_d2, y_pred2, e2, y_pred3m, e3;
-    double sum_num, sum_den, err_c, lr_c;
-    List z1_pts, z2_pts, z3_pts;
-    double sum_wy_z3, sum_w_z3, mean_y_z3, ss_total_z3, ss_res_z3;
-    double prev_c;
-
-    for (i=0; i&lt;18; i++) results[i] = 0.0;
-    results[0] = 1e12; 
-
-    if (z1e &gt;= z2e || z1e &lt; 0) return results;
-
-    z1_pts = new ArrayList(N); z2_pts = new ArrayList(N); z3_pts = new ArrayList(N);
-    for (i = 0; i &lt; N; i++) {
-        pt = (double[]) dataPoints.get(i); 
-        if (pt[0] &lt;= z1e) z1_pts.add(pt);
-        else if (pt[0] &lt;= z2e) z2_pts.add(pt);
-        else z3_pts.add(pt);
-    }
-    
-    if (z1_pts.size() &lt; 3 || z2_pts.size() &lt; 3) return results;
-
-    fitZ1_final = fitZone1(z1_pts); cand_form1a = fitZ1_final[0]; cand_r2_z1 = fitZ1_final[1];
-    
-    b = current_form2b; c = current_form2c; if (c &lt; -50.0) c = -50.0;
-    cand_form2a = cand_form1a * Math.sqrt(z1e); form2d = z1e;
-
-    max_iter = 100; lr_c = 0.2; prev_c = c;
-    
-    for (iter = 0; iter &lt; max_iter; iter++) {
-        sum_num = 0.0; sum_den = 0.0; valid_z2_pts = 0; sum_w2 = 0.0;
-        base_d = form2d - c; if (base_d &lt; 0.5) base_d = 0.5; // Fix: Z2 Safe buffer increased to 0.5
-        term_d = safePowDelta(base_d, 0.33);
-        
-        for (i = 0; i &lt; z2_pts.size(); i++) {
-            pt = (double[]) z2_pts.get(i); w = getLogWeight(pt);
-            if (pt[0] &lt;= c || form2d &lt;= c) continue;
-            term_x = safePowDelta(pt[0] - c, 0.33) - term_d;
-            sum_num += w * (pt[1] - cand_form2a) * term_x; sum_den += w * term_x * term_x;
-            valid_z2_pts++; sum_w2 += w;
-        }
-        
-        if (valid_z2_pts &lt; 3) break;
-        if (sum_den &gt; 1e-9) b = sum_num / sum_den;
-        if (b &lt; 0.0) b = 0.01;
-
-        err_c = 0.0;
-        for (i = 0; i &lt; z2_pts.size(); i++) {
-            pt = (double[]) z2_pts.get(i); x = pt[0]; y_actual = pt[1]; w = getLogWeight(pt);
-            if (x &lt;= c || form2d &lt;= c) continue;
-            term_x = safePowDelta(x - c, 0.33); 
-            y_predicted = cand_form2a + b * (term_x - term_d);
-            error = y_predicted - y_actual;
-            base = x - c; if (base &lt; 0.5) base = 0.5; // Fix: Z2 Safe buffer
-            d_term_c = (0.33 * b) * (Math.pow(base_d, -0.67) - Math.pow(base, -0.67));
-            err_c += w * error * d_term_c;
-        }
-        if (sum_w2 &gt; 1e-9) c -= (lr_c * err_c) / sum_w2;
-        c = Math.min(c, form2d - 0.5); if (c &lt; -50.0) c = -50.0;
-        if (Math.abs(c - prev_c) &lt; 0.002) break;
-        prev_c = c; lr_c *= 0.95;
-    }
-
-    cand_form2b = b; cand_form2c = c; cand_form2d = form2d;
-    cand_r2_z2 = getR2_Z2_only(z2_pts, cand_form2c, cand_form2d, cand_form2a, cand_form2b);
-
-    MB = max_bright; 
-    base_d = z2e - cand_form2c; if(base_d &lt; 1e-9) base_d = 1e-9;
-    double term_z2e = safePowDelta(base_d, 0.33);
-    base_d = z1e - cand_form2c; if(base_d &lt; 1e-9) base_d = 1e-9;
-    double term_z1e = safePowDelta(base_d, 0.33);
-
-    boundary_y2_end = cand_form2a + cand_form2b * (term_z2e - term_z1e);
-    cand_form3a = 0.0; 
-    if (MB &gt; 0.01) cand_form3a = z2e * (MB - boundary_y2_end) / MB;
-    if (cand_form3a &lt; 0.0) cand_form3a = 0.0;
-
-    z1_nrmse = 0.0; z1_bias = 0.0; z2_nrmse = 0.0; z2_bias = 0.0; z3_nrmse = 0.0; z3_bias = 0.0; cand_r2_z3 = -2.0;
-    
-    if (z1_pts.size() &gt; 0) {
-        sum_sq = 0.0; sum_err = 0.0; sum_w = 0.0;
-        for (j = 0; j &lt; z1_pts.size(); j++) {
-            pt1 = (double[]) z1_pts.get(j); w = getLogWeight(pt1);
-            y_pred1 = cand_form1a * Math.sqrt(pt1[0]); e1 = y_pred1 - pt1[1];
-            sum_err += w * e1; sum_sq += w * e1 * e1; sum_w += w;
-        } 
-        if (sum_w &gt; 1e-9) { z1_bias = sum_err / sum_w; z1_nrmse = Math.sqrt(sum_sq / sum_w) / max_bright; }
-    }
-    
-    if (z2_pts.size() &gt; 0) {
-        sum_sq2 = 0.0; sum_err2 = 0.0; sum_w2 = 0.0; valid_z2_pts = 0;
-        for (j = 0; j &lt; z2_pts.size(); j++) {
-            pt2m = (double[]) z2_pts.get(j); x2 = pt2m[0]; if (x2 &lt;= cand_form2c) continue;
-            w = getLogWeight(pt2m);
-            term_x2 = safePowDelta(x2 - cand_form2c, 0.33); term_d2 = safePowDelta(z1e - cand_form2c, 0.33);
-            y_pred2 = cand_form2a + cand_form2b * (term_x2 - term_d2);
-            e2 = y_pred2 - pt2m[1]; sum_err2 += w * e2; sum_sq2 += w * e2 * e2; sum_w2 += w; valid_z2_pts++;
-        } 
-        if (valid_z2_pts &gt; 0 &amp;&amp; sum_w2 &gt; 1e-9) {
-            z2_bias = sum_err2 / sum_w2; z2_nrmse = Math.sqrt(sum_sq2 / sum_w2) / max_bright;
-        }
-    }
-    
-    if (z3_pts.size() &gt; 0) {
-        sum_wy_z3 = 0.0; sum_w_z3 = 0.0;
-        for(j=0; j&lt;z3_pts.size(); j++) { 
-            pt3m = (double[])z3_pts.get(j); w = getLogWeight(pt3m);
-            sum_wy_z3 += w * pt3m[1]; sum_w_z3 += w;
-        }
-        mean_y_z3 = (sum_w_z3 &gt; 1e-9) ? (sum_wy_z3 / sum_w_z3) : 0.0;
-        
-        sum_sq3 = 0.0; sum_err3 = 0.0; ss_total_z3 = 0.0; ss_res_z3 = 0.0;
-        for (j = 0; j &lt; z3_pts.size(); j++) {
-            pt3m = (double[]) z3_pts.get(j); w = getLogWeight(pt3m);
-            y_pred3m = MB - (cand_form3a / pt3m[0]) * MB;
-            e3 = y_pred3m - pt3m[1];
-            sum_err3 += w * e3; sum_sq3 += w * e3 * e3;
-            ss_total_z3 += w * Math.pow(pt3m[1] - mean_y_z3, 2.0);
-            ss_res_z3 += w * e3 * e3;
-        }
-        if (sum_w_z3 &gt; 1e-9) { z3_bias = sum_err3 / sum_w_z3; z3_nrmse = Math.sqrt(sum_sq3 / sum_w_z3) / max_bright; }
-        if (ss_total_z3 &gt; 1e-9) cand_r2_z3 = 1.0 - (ss_res_z3 / ss_total_z3); else cand_r2_z3 = 0.0;
-    }
-    
-    size_penalty = calculateSizePenalty(z1_pts.size()) + calculateSizePenalty(z2_pts.size()) + calculateSizePenalty(z3_pts.size());
-    reg_penalty = 0.001 * cand_form2b * cand_form2b + 0.0005 * Math.abs(cand_form2c);
-    
-    double z3_weight = 1.0;
-    r2_penalty = 0.0;
-    if (cand_r2_z3 &gt; -2.0) {
-        if (cand_r2_z3 &lt; 0.65) { z3_weight = 0.5; r2_penalty += 0.5 * (0.65 - cand_r2_z3); } // Revert: Mild penalty
-    } else { if (N &gt; 12) size_penalty += 0.5; }
-
-    // FIX: Add Zone 2 R² Penalty to prevent drift into bad shapes
-    if (cand_r2_z2 &gt; -2.0 &amp;&amp; cand_r2_z2 &lt; 0.65) {
-        r2_penalty += 3.0 * (0.65 - cand_r2_z2); 
-    }
-    
-    // FIX 2a: Optimization Death Penalty (Cost Function)
-    // If Zone 2 shoots past max_bright, apply a massive penalty to force the optimizer elsewhere.
-    if (boundary_y2_end &gt; max_bright) {
-        cost = 1e6;
-    } else {
-        // FIX: Multiply nRMSE by 50 to balance against raw Bias
-        cost = (50.0 * (z1_nrmse + z2_nrmse + z3_weight*z3_nrmse)) + 
-               (Math.abs(z1_bias) + Math.abs(z2_bias) + Math.abs(z3_bias)) + 
-               size_penalty + reg_penalty + r2_penalty;
-    }
-
-    results[0] = cost; results[1] = z1e; results[2] = z2e; results[3] = cand_form1a;
-    results[4] = cand_form2a; results[5] = cand_form2b; results[6] = cand_form2c;
-    results[7] = cand_form2d; results[8] = cand_form3a; results[9] = cand_r2_z1;
-    results[10] = cand_r2_z2; results[11] = cand_r2_z3; results[12] = z1_nrmse;
-    results[13] = z2_nrmse; results[14] = z3_nrmse; results[15] = z1_bias;
-    results[16] = z2_bias; results[17] = z3_bias;
-
-    return results;
-}
-
-
-/* ======================= MAIN ======================= */
-try {
-    /* Declare variables explicitly to prevent Rhino/BeanShell errors */
-    int arraySize = 0, N, TOP_K_Z1, i, k, t, R, j, pt_idx, i_z1, i_z2;
-    double current_form1a, current_form2a, current_form2b, current_form2c, current_zone1end, current_zone2end, max_bright, current_lux;
-    double[] firstPt, lastPt, z1_scores, z1_values, fitZ1, fitZ3;
-    double tmpS, tmpV, combinedScore, r2_z1_temp, r2_z2_temp, r2_z3_temp, temp_form2d;
-    double global_bestCost = 1e12, best_z1_end, best_z2_end, best_form1a, best_form2a, best_form2b;
-    double best_form2c, best_form2d, best_form3a, best_r2_z1, best_r2_z2, best_r2_z3;
-    double best_z1_nrmse, best_z2_nrmse, best_z3_nrmse, best_z1_bias, best_z2_bias, best_z3_bias;
-    double cand_z1_end, best_z2_score_local, cand_z2_end, combined_z2z3;
-    double lux_before_z1, lux_after_z1, lux_before_z2, lux_after_z2, refined_z1_end, refined_z2_end;
-    double k_bestCost, EARLY_STOP_COST;
-    double[] pt, initial_results, z1_refine_results, z2_refine_results, k_best_results;
-    List dataPoints, remainingPoints, temp_zone1, temp_zone2, temp_zone3, z1_candidates, z2_candidates;
-    List promising_z1_candidates, promising_z2_candidates, z1_approx_costs, z2_approx_costs;
-    double best_approx_cost_z1, best_approx_z1e, approx_cost, best_approx_cost_z2, best_approx_z2e;
-    int hop_count, MAX_HOPS; boolean hopped;
-    double hop_threshold;
-    String[] parts;
-    String z1_r2_str, z2_r2_str, z3_r2_str, z1ErrQual, z2ErrQual, z3ErrQual, z1BiasDir, z2BiasDir, z3BiasDir;
-    String z1BiasQual, z2BiasQual, z3BiasQual, z1ShapeQual, z2ShapeQual, z3ShapeQual, overallQual;
-    String overallLine, z1Line, z2Line, z3Line;
-    double z1_err_pct, z2_err_pct, z3_err_pct, avgErr, absB1, absB2, absB3;
-    int iter_pass; 
-    
-    // Variables for new Sparse Data Fix
-    int idx_75, idx_90, step;
-    double test_z2e_75, test_z2e_90, cost_75, cost_90, best_z2_init_cost, test_z2e, test_cost;
-    int current_z2_idx, start_idx, end_idx;
-    double z2_search_min, z2_search_max;
-    
-    logBuffer.append("--- Engine V43.3 (Hybrid Safety) ---\n");
-    current_form1a = Double.parseDouble(tasker.getVariable("AAB_Form1A"));
-    current_form2a = Double.parseDouble(tasker.getVariable("AAB_Form2A"));
-    current_form2b = Double.parseDouble(tasker.getVariable("AAB_Form2B"));
-    current_form2c = Double.parseDouble(tasker.getVariable("AAB_Form2C"));
-    if (current_form2c &lt; -50.0) current_form2c = -50.0;
-    current_zone1end = Double.parseDouble(tasker.getVariable("AAB_Zone1End"));
-    current_zone2end = Double.parseDouble(tasker.getVariable("AAB_Zone2End"));
-    max_bright       = Double.parseDouble(tasker.getVariable("AAB_MaxBright"));
-    
-    logBuffer.append("[Input Parameters]\n");
-    logBuffer.append(String.format("  Form1a (current): %.3f\n", new Object[]{new Double(current_form1a)}));
-    logBuffer.append(String.format("  Form2a (current): %.3f\n", new Object[]{new Double(current_form2a)}));
-    logBuffer.append(String.format("  Form2b (current): %.3f\n", new Object[]{new Double(current_form2b)}));
-    logBuffer.append(String.format("  Form2c (current): %.3f\n", new Object[]{new Double(current_form2c)}));
-    logBuffer.append(String.format("  Zone1End (current): %.1f\n", new Object[]{new Double(current_zone1end)}));
-    logBuffer.append(String.format("  Zone2End (current): %.1f\n", new Object[]{new Double(current_zone2end)}));
-    logBuffer.append(String.format("  MaxBright: %.1f\n\n", new Object[]{new Double(max_bright)}));
-
-    /* Improved Parsing Logic (Iterative) */
-    dataPoints = new ArrayList();
-    int idx = 1;
-    int emptyCount = 0; 
-    
-    while (idx &lt; 1000) { 
-        String val = tasker.getVariable("AAB_Overrides" + idx);
-        
-        if (val == null) {
-            if (emptyCount &gt; 2) break; 
-            emptyCount++;
-            idx++;
-            continue;
-        }
-        emptyCount = 0; 
-        
-        try {
-            parts = val.split(",");
-            if (parts.length &gt;= 2) {
-                double[] newPt = new double[4];
-                String p0 = parts[0].trim();
-                String p1 = parts[1].trim();
-                
-                if (p0.length() &gt; 0 &amp;&amp; p1.length() &gt; 0) {
-                    newPt[0] = Double.parseDouble(p0); // Lux
-                    
-                    // FIX 1: Solution 1 - Pre-Processor Sanitization
-                    // Cap override brightness at max_bright to prevent impossible targets
-                    double rawVal = Double.parseDouble(p1);
-                    newPt[1] = Math.min(rawVal, max_bright);
-                    
-                    if (parts.length == 2) {
-                        newPt[2] = 1.0; newPt[3] = 1.0; 
-                    } else if (parts.length == 3) {
-                        String p2 = parts[2].trim();
-                        newPt[2] = (p2.length() &gt; 0) ? Double.parseDouble(p2) : 1.0;
-                        newPt[3] = 2.0; 
-                    } else {
-                        String p2 = parts[2].trim();
-                        String p3 = parts[3].trim();
-                        newPt[2] = (p2.length() &gt; 0) ? Double.parseDouble(p2) : 1.0;
-                        newPt[3] = (p3.length() &gt; 0) ? Double.parseDouble(p3) : 1.0;
-                    }
-                    dataPoints.add(newPt);
-                }
-            }
-        } catch (Exception parseEx) {}
-        idx++;
-    }
-
-    Collections.sort(dataPoints, new Comparator() {
-        public int compare(Object o1, Object o2) {
-            double[] p1 = (double[]) o1; 
-            double[] p2 = (double[]) o2;
-            return Double.compare(p1[0], p2[0]);
-        }
-    });
-
-    /* --- GHOST POINT INJECTION (Logic Bins) --- */
-    int realCount = 0;
-    boolean[] binsFilled = new boolean[]{false, false, false, false, false};
-    
-    for (i=0; i&lt;dataPoints.size(); i++) {
-        pt = (double[]) dataPoints.get(i);
-        if (pt.length &gt; 3 &amp;&amp; pt[3] == 1.0) {
-            realCount++;
-            double lx = pt[0];
-            if (lx &lt; 10.0) binsFilled[0] = true;
-            else if (lx &lt; 100.0) binsFilled[1] = true;
-            else if (lx &lt; 1000.0) binsFilled[2] = true;
-            else if (lx &lt; 10000.0) binsFilled[3] = true;
-            else binsFilled[4] = true;
-        }
-    }
-
-    double ghostWeight = 0.1 + (0.4 * (realCount / 50.0));
-    if (ghostWeight &gt; 0.5) ghostWeight = 0.5;
-
-    double cur_term_d = Math.pow(current_zone1end - current_form2c, 0.33);
-    double cur_y_z2 = current_form2a + current_form2b * (Math.pow(current_zone2end - current_form2c, 0.33) - cur_term_d);
-    double cur_form3a = 0.0;
-    if (max_bright &gt; 0.01) cur_form3a = current_zone2end * (max_bright - cur_y_z2) / max_bright;
-    if (cur_form3a &lt; 0.0) cur_form3a = 0.0;
-    
-    double[] ghostLuxes = {3.0, 31.0, 316.0, 3162.0, 15000.0};
-    boolean ghostsAdded = false;
-    
-    for (i=0; i&lt;5; i++) {
-        if (!binsFilled[i]) {
-            double gLux = ghostLuxes[i];
-            double gBright = 0.0;
-            
-            if (gLux &lt;= current_zone1end) {
-                String f1aStr = tasker.getVariable("AAB_Form1A");
-                double f1a = 0.0;
-                if (f1aStr != null &amp;&amp; f1aStr.length() &gt; 0) {
-                     try { f1a = Double.parseDouble(f1aStr); } catch(Exception e){}
-                }
-                if (f1a &lt;= 1e-9 &amp;&amp; dataPoints.size() &gt; 0) {
-                     double[] fpt = (double[]) dataPoints.get(0);
-                     if (fpt[0] &gt; 1e-9) f1a = fpt[1] / Math.sqrt(fpt[0]);
-                }
-                gBright = f1a * Math.sqrt(gLux);
-            } else if (gLux &lt;= current_zone2end) {
-                gBright = current_form2a + current_form2b * (Math.pow(gLux - current_form2c, 0.33) - cur_term_d);
-            } else {
-                gBright = max_bright - (cur_form3a / gLux) * max_bright;
-            }
-            if (gBright &lt; 0.0) gBright = 0.0;
-            if (gBright &gt; max_bright) gBright = max_bright;
-            dataPoints.add(new double[]{gLux, gBright, ghostWeight, 3.0});
-            ghostsAdded = true;
-            logBuffer.append("  + Ghost Point: " + gLux + " lux -&gt; " + Math.round(gBright) + " br (Bin " + (i+1) + " empty)\n");
-        }
-    }
-
-    if (ghostsAdded) {
-        Collections.sort(dataPoints, new Comparator() {
-            public int compare(Object o1, Object o2) {
-                double[] p1 = (double[]) o1; double[] p2 = (double[]) o2; return Double.compare(p1[0], p2[0]);
-            }
-        });
-    }
-    
-    /* FIX 2: Global Weight Normalization */
-    double sumRaw = 0.0; int cntRaw = 0;
-    for (i=0; i&lt;dataPoints.size(); i++) {
-        pt = (double[]) dataPoints.get(i);
-        // Check for REAL points (Real=1.0)
-        boolean isReal = true;
-        if (pt.length &gt; 3 &amp;&amp; Math.abs(pt[3] - 1.0) &gt; 0.1) isReal = false;
-
-        if (isReal) { sumRaw += pt[2]; cntRaw++; }
-    }
-    double meanRaw = (cntRaw &gt; 0) ? (sumRaw / cntRaw) : 1.0;
-    double globalScale = 1.0 / Math.max(meanRaw, 1e-9);
-
-    for (i=0; i&lt;dataPoints.size(); i++) {
-        pt = (double[]) dataPoints.get(i);
-        pt[2] = pt[2] * globalScale;
-    }
-    logBuffer.append(String.format("Global Weight Norm: Scale=%.4f (Mean Raw=%.4f)\n\n", new Object[]{new Double(globalScale), new Double(meanRaw)}));
-
-    if (dataPoints.size() &lt; 9) {
-        logBuffer.append("Not enough data points (" + dataPoints.size() + "). Aborting.\n");
-        tasker.setVariable("AAB_Test", logBuffer.toString());
-        return;
-    }
-
-    firstPt = (double[]) dataPoints.get(0);
-    lastPt = (double[]) dataPoints.get(dataPoints.size() - 1);
-    logBuffer.append("[Input Data] " + dataPoints.size() + " points from " + firstPt[0] + " to " + lastPt[0] + " lux.\n\n");
-
-    N = dataPoints.size();
-    
-    /* FIX: Set Current Position as the "Benchmark" to beat */
-    // This solves the drift issue. The optimizer must beat the current setup to propose changes.
-    double[] current_fit = calculateFitAndCost(current_zone1end, current_zone2end, dataPoints, N, current_form2b, current_form2c, max_bright);
-    
-    global_bestCost = current_fit[0];
-    best_z1_end = current_zone1end; best_z2_end = current_zone2end;
-    best_form1a = current_fit[3]; best_form2a = current_fit[4]; best_form2b = current_fit[5];
-    best_form2c = current_fit[6]; best_form2d = current_fit[7]; best_form3a = current_fit[8];
-    best_r2_z1 = current_fit[9]; best_r2_z2 = current_fit[10]; best_r2_z3 = current_fit[11];
-    best_z1_nrmse = current_fit[12]; best_z2_nrmse = current_fit[13]; best_z3_nrmse = current_fit[14];
-    best_z1_bias = current_fit[15]; best_z2_bias = current_fit[16]; best_z3_bias = current_fit[17];
-    
-    logBuffer.append(String.format("Current Benchmark Cost: %.5f (Z1e=%.1f, Z2e=%.1f)\n\n", new Object[]{new Double(global_bestCost), new Double(best_z1_end), new Double(best_z2_end)}));
-    suggestion_made = true; // Default to keeping current if nothing beats it
-
-    TOP_K_Z1 = Math.min(5, N - 8);
-    if (TOP_K_Z1 &lt; 1) TOP_K_Z1 = 1;
-    
-    EARLY_STOP_COST = 5.0;
-    MAX_HOPS = Math.min(8, Math.max(3, (int)(N / 5)));
-
-    logBuffer.append("--- Stage 1: Searching for Top " + TOP_K_Z1 + " Zone1End Candidates ---\n");
-    z1_scores = new double[TOP_K_Z1]; z1_values = new double[TOP_K_Z1];
-    for (i = 0; i &lt; TOP_K_Z1; i++) { z1_scores[i] = -9999.0; z1_values[i] = current_zone1end; }
-
-    for (i = 2; i &lt; N - 6; i++) {
-        temp_zone1 = dataPoints.subList(0, i + 1); temp_zone2 = dataPoints.subList(i + 1, N);
-        if (temp_zone1.size() &lt; 3 || temp_zone2.size() &lt; 3) continue;
-        fitZ1 = fitZone1(temp_zone1); r2_z1_temp = fitZ1[1];
-        temp_form2d = ((double[]) temp_zone1.get(temp_zone1.size() - 1))[0];
-        
-        r2_z2_temp = getR2_Z2_only(temp_zone2, current_form2c, temp_form2d, current_form2a, current_form2b);
-        
-        // V43.1: Penalize clustered candidates with too few points
-        double penalty = (temp_zone1.size() &lt; 4) ? 0.2 : 0.0;
-        combinedScore = r2_z1_temp + r2_z2_temp - penalty;
-        
-        if (combinedScore &gt; z1_scores[TOP_K_Z1 - 1]) {
-            z1_scores[TOP_K_Z1 - 1] = combinedScore; z1_values[TOP_K_Z1 - 1] = temp_form2d;
-            for (t = TOP_K_Z1 - 1; t &gt; 0; t--) {
-                if (z1_scores[t] &gt; z1_scores[t - 1]) {
-                    tmpS = z1_scores[t - 1]; tmpV = z1_values[t - 1];
-                    z1_scores[t - 1] = z1_scores[t]; z1_values[t - 1] = z1_values[t];
-                    z1_scores[t] = tmpS; z1_values[t] = tmpV;
-                }
-            }
-        }
-    }
-    for (i = 0; i &lt; TOP_K_Z1; i++) {
-        logBuffer.append(String.format("  Top Cand #%d: Z1End=%.2f (Score: %.3f)\n", new Object[]{new Integer(i+1), new Double(z1_values[i]), new Double(z1_scores[i])}));
-    }
-
-    logBuffer.append("\n--- Stage 2 &amp; 3: Global Search &amp; Coordinate Descent ---\n");
-
-    for (k = 0; k &lt; TOP_K_Z1; k++) {
-        if (k &gt; 0 &amp;&amp; global_bestCost &lt; EARLY_STOP_COST) break;
-        if (z1_scores[k] &lt;= -9998.0) continue;
-        
-        cand_z1_end = z1_values[k];
-        remainingPoints = new ArrayList();
-        for (i = 0; i &lt; N; i++) {
-            pt = (double[]) dataPoints.get(i); if (pt[0] &gt; cand_z1_end) remainingPoints.add(pt);
-        }
-        
-        if (remainingPoints.size() &lt; 4) continue;
-
-        /* IMPROVED: Global Scan for Z2End */
-        best_z2_init_cost = 1e12;
-        cand_z2_end = current_zone2end;
-        
-        /* NEW: Explicitly test high-percentile boundaries for sparse data with Safety */
-        if (remainingPoints.size() &gt; 4) {
-            // Safety: Ensure index is at least 2 steps from the end to allow for a valid Zone 3
-            idx_75 = Math.min((int)(remainingPoints.size() * 0.75), remainingPoints.size() - 2);
-            idx_90 = Math.min((int)(remainingPoints.size() * 0.90), remainingPoints.size() - 2);
-            
-            test_z2e_75 = ((double[]) remainingPoints.get(idx_75))[0];
-            test_z2e_90 = ((double[]) remainingPoints.get(idx_90))[0];
-            
-            cost_75 = approximateCost(cand_z1_end, test_z2e_75, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
-            cost_90 = approximateCost(cand_z1_end, test_z2e_90, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
-            
-            if (cost_75 &lt; best_z2_init_cost) { best_z2_init_cost = cost_75; cand_z2_end = test_z2e_75; }
-            if (cost_90 &lt; best_z2_init_cost) { best_z2_init_cost = cost_90; cand_z2_end = test_z2e_90; }
-        }
-
-        step = Math.max(1, remainingPoints.size() / 10); // Scan 10 potential split points
-        for (j = 1; j &lt; remainingPoints.size() - 2; j += step) {
-            test_z2e = ((double[]) remainingPoints.get(j))[0];
-            if (test_z2e &lt;= cand_z1_end + 2.0) continue;
-
-            test_cost = approximateCost(cand_z1_end, test_z2e, dataPoints, N, current_form1a, current_form2b, current_form2c, max_bright);
-            
-            if (test_cost &lt; best_z2_init_cost) {
-                best_z2_init_cost = test_cost;
-                cand_z2_end = test_z2e;
-            }
-        }
-
-        logBuffer.append(String.format(" -&gt; Cand(k=%d): Z1e=%.2f, Initial Z2e Split=%.1f\n", new Object[]{new Integer(k), new Double(cand_z1_end), new Double(cand_z2_end)}));
-        
-        k_best_results = calculateFitAndCost(cand_z1_end, cand_z2_end, dataPoints, N, current_form2b, current_form2c, max_bright);
-        if (k_best_results[0] &gt; 1e11) continue;
-        k_bestCost = k_best_results[0];
-        
-        /* Iterative Refinement */
-        for (iter_pass = 0; iter_pass &lt; 3; iter_pass++) {
-            
-            /* Refine Z1 (Local) */
-            hop_count = 0; hopped = true;
-            while (hopped &amp;&amp; hop_count &lt; MAX_HOPS &amp;&amp; k_best_results[12] &gt; 0.015) {
-                hopped = false;
-                lux_before_z1 = ((double[]) dataPoints.get(0))[0]; lux_after_z1 = ((double[]) dataPoints.get(dataPoints.size() - 1))[0];
-                for(pt_idx = 1; pt_idx &lt; dataPoints.size(); pt_idx++) {
-                    current_lux = ((double[]) dataPoints.get(pt_idx))[0];
-                    if (current_lux &gt;= k_best_results[1]) {
-                        lux_before_z1 = ((double[]) dataPoints.get(pt_idx - 1))[0];
-                        if (pt_idx &lt; dataPoints.size() - 1) lux_after_z1 = ((double[]) dataPoints.get(pt_idx + 1))[0]; else lux_after_z1 = current_lux;
-                        break;
-                    }
-                }
-                z1_candidates = generateSmartRefinementPoints(lux_before_z1, lux_after_z1, k_best_results[1], calculateRefinePoints(lux_before_z1, lux_after_z1, k_best_results[1]));
-                
-                best_approx_cost_z1 = 1e12; best_approx_z1e = k_best_results[1];
-                for (i_z1 = 0; i_z1 &lt; z1_candidates.size(); i_z1++) {
-                    refined_z1_end = ((Double)z1_candidates.get(i_z1)).doubleValue();
-                    /* Safe proximity check */
-                    if (refined_z1_end &gt;= k_best_results[2] - 1.0) continue;
-                    
-                    approx_cost = approximateCost(refined_z1_end, k_best_results[2], dataPoints, N, k_best_results[3], k_best_results[5], k_best_results[6], max_bright);
-                    if (approx_cost &lt; best_approx_cost_z1) { best_approx_cost_z1 = approx_cost; best_approx_z1e = refined_z1_end; }
-                }
-                
-                hop_threshold = Math.max(0.5, k_best_results[1] * 0.005);
-                if (Math.abs(best_approx_z1e - k_best_results[1]) &gt; hop_threshold) {
-                    z1_refine_results = calculateFitAndCost(best_approx_z1e, k_best_results[2], dataPoints, N, k_best_results[5], k_best_results[6], max_bright);
-                    if (z1_refine_results[0] &lt; k_bestCost) {
-                        k_bestCost = z1_refine_results[0]; k_best_results = z1_refine_results;
-                        hopped = true; hop_count++;
-                        logBuffer.append(String.format("    [Pass %d] * Z1 Hopped to %.2f (Cost: %.4f)\n", new Object[]{new Integer(iter_pass+1), new Double(k_best_results[1]), new Double(k_bestCost)}));
-                    }
-                }
-            }
-
-            /* --- REVISED Refine Z2 (Wider Area) --- */
-            if (k_bestCost &gt;= EARLY_STOP_COST) {
-                List wide_z2_candidates = new ArrayList();
-                current_z2_idx = 0;
-                for(int m=0; m&lt;dataPoints.size(); m++) {
-                    if (((double[])dataPoints.get(m))[0] &gt;= k_best_results[2]) { current_z2_idx = m; break; }
-                }
-                
-                start_idx = Math.max(0, current_z2_idx - 3);
-                end_idx = Math.min(dataPoints.size() - 1, current_z2_idx + 5);
-                
-                z2_search_min = ((double[])dataPoints.get(start_idx))[0];
-                z2_search_max = ((double[])dataPoints.get(end_idx))[0];
-                
-                z2_candidates = generateSmartRefinementPoints(z2_search_min, z2_search_max, k_best_results[2], 8);
-                
-                best_approx_cost_z2 = 1e12; best_approx_z2e = k_best_results[2];
-                for (i_z2 = 0; i_z2 &lt; z2_candidates.size(); i_z2++) {
-                    refined_z2_end = ((Double)z2_candidates.get(i_z2)).doubleValue();
-                    if (refined_z2_end &lt;= k_best_results[1] + 5.0) continue;
-
-                    approx_cost = approximateCost(k_best_results[1], refined_z2_end, dataPoints, N, k_best_results[3], k_best_results[5], k_best_results[6], max_bright);
-                    if (approx_cost &lt; best_approx_cost_z2) { best_approx_cost_z2 = approx_cost; best_approx_z2e = refined_z2_end; }
-                }
-                
-                if (Math.abs(best_approx_z2e - k_best_results[2]) &gt; 1.0) {
-                    z2_refine_results = calculateFitAndCost(k_best_results[1], best_approx_z2e, dataPoints, N, k_best_results[5], k_best_results[6], max_bright);
-                    if(z2_refine_results[0] &lt; k_bestCost) { 
-                        k_bestCost = z2_refine_results[0]; k_best_results = z2_refine_results; 
-                        logBuffer.append(String.format("    * Z2 Hopped to %.2f (Cost: %.4f)\n", new Object[]{new Double(k_best_results[2]), new Double(k_bestCost)}));
-                    }
-                }
-            }
-        } 
-
-        if (k_best_results[0] &lt; global_bestCost) {
-            global_bestCost = k_best_results[0];
-            best_z1_end = k_best_results[1]; best_z2_end = k_best_results[2];
-            best_form1a = k_best_results[3]; best_form2a = k_best_results[4]; best_form2b = k_best_results[5];
-            best_form2c = k_best_results[6]; best_form2d = k_best_results[7]; best_form3a = k_best_results[8];
-            best_r2_z1 = k_best_results[9]; best_r2_z2 = k_best_results[10]; best_r2_z3 = k_best_results[11];
-            best_z1_nrmse = k_best_results[12]; best_z2_nrmse = k_best_results[13]; best_z3_nrmse = k_best_results[14];
-            best_z1_bias = k_best_results[15]; best_z2_bias = k_best_results[16]; best_z3_bias = k_best_results[17];
-            suggestion_made = true;
-        }
-    }
-
-    if (!suggestion_made) {
-        logBuffer.append("\n--- No valid candidate found. ---\n");
-        logBuffer.append("⚠️ FALLBACK TO CURRENT PARAMETERS\n");
-        tasker.setVariable("suggest", "fallback");
-    } else {
-        /* FIX 3: Inertia / Regularization Blending */
-        int nz1 = 0, nz2 = 0, nz3 = 0;
-        for(i=0; i&lt;dataPoints.size(); i++) {
-            pt = (double[]) dataPoints.get(i);
-            boolean isReal = (pt.length &lt;= 3 || Math.abs(pt[3] - 1.0) &lt; 0.1);
-            if (!isReal) continue;
-            if (pt[0] &lt;= best_z1_end) nz1++;
-            else if (pt[0] &lt;= best_z2_end) nz2++;
-            else nz3++;
-        }
-
-        /* Logic update: Use quality (R2, nRMSE) AND quantity (N) to determine blend strength */
-        double n1_w = getWeightedCount(nz1, best_r2_z1, best_z1_nrmse);
-        double n2_w = getWeightedCount(nz2, best_r2_z2, best_z2_nrmse);
-        double n3_w = getWeightedCount(nz3, best_r2_z3, best_z3_nrmse);
-
-        /* TASK: Read tau from variable, default to 4.0 */
-        double tau = 4.0;
-        String tVal = tasker.getVariable("tau");
-        if (tVal != null &amp;&amp; tVal.length() &gt; 0) {
-            try { 
-                tau = Double.parseDouble(tVal); 
-            } catch (Exception e) { 
-                tau = 4.0; 
-            }
-        }
-        if (Double.isNaN(tau)) tau = 4.0;
-        
-        double conf_z1 = 1.0 - Math.exp(-n1_w / tau);
-        double conf_z2 = 1.0 - Math.exp(-n2_w / tau);
-        double conf_z3 = 1.0 - Math.exp(-n3_w / tau);
-        
-        logBuffer.append(String.format("\n[Inertia Blending] Confidence: Z1=%.2f, Z2=%.2f, Z3=%.2f (Tau=%.1f)\n", new Object[]{new Double(conf_z1), new Double(conf_z2), new Double(conf_z3), new Double(tau)}));
-
-        // Blend Z1
-        best_z1_end = best_z1_end * conf_z1 + current_zone1end * (1.0 - conf_z1);
-        best_form1a = best_form1a * conf_z1 + current_form1a * (1.0 - conf_z1);
-
-        // Blend Z2
-        best_z2_end = best_z2_end * conf_z2 + current_zone2end * (1.0 - conf_z2);
-        best_form2a = best_form2a * conf_z2 + current_form2a * (1.0 - conf_z2);
-        best_form2b = best_form2b * conf_z2 + current_form2b * (1.0 - conf_z2);
-        best_form2c = best_form2c * conf_z2 + current_form2c * (1.0 - conf_z2);
-        
-        // Form2D is tied to Z1 end
-        best_form2d = best_z1_end; 
-
-        // Re-calculate Dependent Continuity Params (Form3A) based on blended values
-        double term_d_final = safePowDelta(best_z1_end - best_form2c, 0.33);
-        double term_x_final = safePowDelta(best_z2_end - best_form2c, 0.33);
-        double y_boundary_z2 = best_form2a + best_form2b * (term_x_final - term_d_final);
-        
-        if (max_bright &gt; 0.01) best_form3a = best_z2_end * (max_bright - y_boundary_z2) / max_bright;
-        else best_form3a = 0.0;
-        
-        // FIX 3: Solution 3 - Asymptotic Floor Protection
-        // Ensure form3a is slightly positive so Zone 3 is never flat or inverted.
-        if (best_form3a &lt; 0.001) best_form3a = 0.001;
-        
-        tasker.setVariable("suggest", "true");
-        tasker.setVariable("suggestion_zone1end", String.valueOf(Math.round(best_z1_end)));
-        tasker.setVariable("suggestion_zone2end", String.valueOf(Math.round(best_z2_end)));
-        tasker.setVariable("suggestion_form1a", String.format("%.3f", new Object[]{new Double(best_form1a)}));
-        tasker.setVariable("suggestion_form2a", String.format("%.3f", new Object[]{new Double(best_form2a)}));
-        tasker.setVariable("suggestion_form2b", String.format("%.3f", new Object[]{new Double(best_form2b)}));
-        tasker.setVariable("suggestion_form2c", String.format("%.3f", new Object[]{new Double(best_form2c)}));
-        tasker.setVariable("suggestion_form2d", String.valueOf(Math.round(best_form2d)));
-        tasker.setVariable("suggestion_form3a", String.format("%.3f", new Object[]{new Double(best_form3a)}));
-        
-        double max_impact = 0.0; double w;
-        if (dataPoints.size() &gt; 3) {
-            double base_sq_err = 0.0; double y_curve;
-            double term_d_z2 = safePowDelta(best_z1_end - best_form2c, 0.33);
-            double mb_z3_term = (best_z2_end * (max_bright - (best_form2a + best_form2b*(safePowDelta(best_z2_end-best_form2c,0.33)-term_d_z2)))/max_bright);
-            if(mb_z3_term &lt; 0) mb_z3_term = 0.0;
-
-            for (i=0; i&lt;dataPoints.size(); i++) {
-                pt = (double[])dataPoints.get(i); w = getLogWeight(pt);
-                if(pt[0] &lt;= best_z1_end) y_curve = best_form1a * Math.sqrt(pt[0]);
-                else if(pt[0] &lt;= best_z2_end) y_curve = best_form2a + best_form2b * (safePowDelta(pt[0]-best_form2c, 0.33) - term_d_z2);
-                else y_curve = max_bright - (mb_z3_term / pt[0]) * max_bright;
-                base_sq_err += w * Math.pow(y_curve - pt[1], 2.0);
-            }
-            
-            for (i=0; i&lt;dataPoints.size(); i++) {
-                pt = (double[])dataPoints.get(i); w = getLogWeight(pt);
-                if(pt[0] &lt;= best_z1_end) y_curve = best_form1a * Math.sqrt(pt[0]);
-                else if(pt[0] &lt;= best_z2_end) y_curve = best_form2a + best_form2b * (safePowDelta(pt[0]-best_form2c, 0.33) - term_d_z2);
-                else y_curve = max_bright - (mb_z3_term / pt[0]) * max_bright;
-                double err_contrib = w * Math.pow(y_curve - pt[1], 2.0);
-                double impact = err_contrib / (base_sq_err + 1e-9);
-                if(impact &gt; max_impact) max_impact = impact;
-            }
-        }
-        String stabilityRating = (max_impact &lt; 0.3) ? "High" : (max_impact &lt; 0.6) ? "Moderate" : "Low (Outlier Driven)";
-        
-        logBuffer.append("\n--- Best Fit Diagnostics ---\n");
-        logBuffer.append(String.format("Cost Function Value: %.5f\n", new Object[]{new Double(global_bestCost)}));
-        logBuffer.append("Fit Stability: " + stabilityRating + String.format(" (Max Impact: %.1f%%)\n\n", new Object[]{new Double(max_impact*100.0)}));
-        logBuffer.append("[Zone Boundaries]\n");
-        logBuffer.append(String.format("  Zone1End: %.2f (lux)\n", new Object[]{new Double(best_z1_end)}));
-        logBuffer.append(String.format("  Zone2End: %.2f (lux)\n\n", new Object[]{new Double(best_z2_end)}));
-        logBuffer.append("[Curve Parameters]\n");
-        logBuffer.append(String.format("  Form1a (sqrt scale): %.4f\n", new Object[]{new Double(best_form1a)}));
-        logBuffer.append(String.format("  Form2a (align): %.4f\n", new Object[]{new Double(best_form2a)}));
-        logBuffer.append(String.format("  Form2b (scale): %.4f\n", new Object[]{new Double(best_form2b)}));
-        logBuffer.append(String.format("  Form2c (offset): %.4f\n", new Object[]{new Double(best_form2c)}));
-        logBuffer.append(String.format("  Form2d (Z1 align): %.4f\n", new Object[]{new Double(best_form2d)}));
-        logBuffer.append(String.format("  Form3a (tail align): %.4f\n\n", new Object[]{new Double(best_form3a)}));
-        logBuffer.append("[Goodness of Fit (R²)]\n");
-        logBuffer.append(String.format("  R² Zone 1: %.3f\n", new Object[]{new Double(best_r2_z1)}));
-        logBuffer.append(String.format("  R² Zone 2: %.3f\n", new Object[]{new Double(best_r2_z2)}));
-        logBuffer.append(String.format("  R² Zone 3: %.3f\n\n", new Object[]{new Double(best_r2_z3)}));
-        logBuffer.append("[Error Metrics]\n");
-        logBuffer.append(String.format("  nRMSE Z1: %.2f%%\n", new Object[]{new Double(best_z1_nrmse * 100.0)}));
-        logBuffer.append(String.format("  nRMSE Z2: %.2f%%\n", new Object[]{new Double(best_z2_nrmse * 100.0)}));
-        logBuffer.append(String.format("  nRMSE Z3: %.2f%%\n", new Object[]{new Double(best_z3_nrmse * 100.0)}));
-        logBuffer.append(String.format("  Bias Z1:  %.2f\n", new Object[]{new Double(best_z1_bias)}));
-        logBuffer.append(String.format("  Bias Z2:  %.2f\n", new Object[]{new Double(best_z2_bias)}));
-        logBuffer.append(String.format("  Bias Z3:  %.2f\n", new Object[]{new Double(best_z3_bias)}));
-        logBuffer.append("--------------------------\n\n");
-
-        z1_r2_str = (best_r2_z1 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z1)}) : "N/A";
-        z2_r2_str = (best_r2_z2 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z2)}) : "N/A";
-        z3_r2_str = (best_r2_z3 &gt; -2.0) ? String.format("%.2f", new Object[]{new Double(best_r2_z3)}) : "N/A";
-
-        z1_err_pct = best_z1_nrmse * 100.0; z2_err_pct = best_z2_nrmse * 100.0; z3_err_pct = best_z3_nrmse * 100.0;
-        if (z1_err_pct &lt; 1) z1ErrQual = "Excellent"; else if (z1_err_pct &lt; 3) z1ErrQual = "Very Good"; else if (z1_err_pct &lt; 7) z1ErrQual = "Good"; else if (z1_err_pct &lt; 15) z1ErrQual = "Fair"; else z1ErrQual = "Poor";
-        if (z2_err_pct &lt; 1) z2ErrQual = "Excellent"; else if (z2_err_pct &lt; 3) z2ErrQual = "Very Good"; else if (z2_err_pct &lt; 7) z2ErrQual = "Good"; else if (z2_err_pct &lt; 15) z2ErrQual = "Fair"; else z2ErrQual = "Poor";
-        if (z3_err_pct &lt; 1) z3ErrQual = "Excellent"; else if (z3_err_pct &lt; 3) z3ErrQual = "Very Good"; else if (z3_err_pct &lt; 7) z3ErrQual = "Good"; else if (z3_err_pct &lt; 15) z3ErrQual = "Fair"; else z3ErrQual = "Poor";
-        if (best_z1_bias &gt; 0.2) z1BiasDir = "brighter"; else if (best_z1_bias &lt; -0.2) z1BiasDir = "dimmer"; else z1BiasDir = "neutral";
-        if (best_z2_bias &gt; 0.2) z2BiasDir = "brighter"; else if (best_z2_bias &lt; -0.2) z2BiasDir = "dimmer"; else z2BiasDir = "neutral";
-        if (best_z3_bias &gt; 0.2) z3BiasDir = "brighter"; else if (best_z3_bias &lt; -0.2) z3BiasDir = "dimmer"; else z3BiasDir = "neutral";
-        absB1 = Math.abs(best_z1_bias); absB2 = Math.abs(best_z2_bias); absB3 = Math.abs(best_z3_bias);
-        if (absB1 &lt; 0.5) z1BiasQual = "Minimal"; else if (absB1 &lt; 2) z1BiasQual = "Slight"; else if (absB1 &lt; 5) z1BiasQual = "Moderate"; else z1BiasQual = "Strong";
-        if (absB2 &lt; 0.5) z2BiasQual = "Minimal"; else if (absB2 &lt; 2) z2BiasQual = "Slight"; else if (absB2 &lt; 5) z2BiasQual = "Moderate"; else z2BiasQual = "Strong";
-        if (absB3 &lt; 0.5) z3BiasQual = "Minimal"; else if (absB3 &lt; 2) z3BiasQual = "Slight"; else if (absB3 &lt; 5) z3BiasQual = "Moderate"; else z3BiasQual = "Strong";
-        
-        if (best_r2_z1 &gt;= 0.9) z1ShapeQual = "Excellent"; else if (best_r2_z1 &gt;= 0.75) z1ShapeQual = "Good"; else if (best_r2_z1 &gt;= 0.4) z1ShapeQual = "Moderate"; else z1ShapeQual = "Poor";
-        if (best_r2_z2 &gt;= 0.9) z2ShapeQual = "Excellent"; else if (best_r2_z2 &gt;= 0.75) z2ShapeQual = "Good"; else if (best_r2_z2 &gt;= 0.4) z2ShapeQual = "Moderate"; else z2ShapeQual = "Poor";
-        if (best_r2_z3 &gt;= 0.9) z3ShapeQual = "Excellent"; else if (best_r2_z3 &gt;= 0.75) z3ShapeQual = "Good"; else if (best_r2_z3 &gt;= 0.4) z3ShapeQual = "Moderate"; else z3ShapeQual = "Poor";
-
-        avgErr = (z1_err_pct + z2_err_pct + z3_err_pct) / 3.0;
-        if (avgErr &lt; 2) overallQual = "Excellent"; else if (avgErr &lt; 4) overallQual = "Very Good"; else if (avgErr &lt; 8) overallQual = "Good"; else if (avgErr &lt; 15) overallQual = "Fair"; else overallQual = "Poor";
-
-        overallLine = "🏆 Overall Fit: " + overallQual;
-        z1Line = String.format("⚫ Dark: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z1ErrQual, new Double(z1_err_pct), z1ShapeQual, z1_r2_str, z1BiasQual, z1BiasDir, new Double(best_z1_bias)});
-        z2Line = String.format("⚪ Dim: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z2ErrQual, new Double(z2_err_pct), z2ShapeQual, z2_r2_str, z2BiasQual, z2BiasDir, new Double(best_z2_bias)});
-        z3Line = String.format("☀️ Bright: %s (%.1f%%) | Shape: %s (R²: %s) | Bias: %s %s (%.1f)", new Object[]{z3ErrQual, new Double(z3_err_pct), z3ShapeQual, z3_r2_str, z3BiasQual, z3BiasDir, new Double(best_z3_bias)});
-
-        tasker.setVariable("suggest_r2_1", overallLine);
-        tasker.setVariable("suggest_r2_2", z1Line);
-        tasker.setVariable("suggest_r2_3", z2Line);
-        tasker.setVariable("suggest_r2_4", z3Line);
-        
-        logBuffer.append("[Human Summary]\n" + overallLine + "\n" + z1Line + "\n" + z2Line + "\n" + z3Line + "\n");
-    }
-} catch (Exception e) {
-    logBuffer.append("CRITICAL ERROR: " + e.toString() + "\n");
-    e.printStackTrace();
-} finally {
-    logBuffer.append("\n--- Analysis Engine Finished ---\n");
-    tasker.setVariable("AAB_Test", logBuffer.toString());
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Advanced Auto Brightness</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">&lt;small&gt;%suggest_r2_1&lt;br&gt;&lt;br&gt;
-
-%suggest_r2_2&lt;br&gt;
-%suggest_r2_3&lt;br&gt;
-%suggest_r2_4&lt;/small&gt;</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">Bottom,0,232</Str>
-			<Int sr="arg14" val="1"/>
-			<Str sr="arg15" ve="3">aab_prediction</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3">#007C63</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">10000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AAB_Test</Str>
-			<Str sr="arg1" ve="3">%AAB_Test</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%AAB_Test</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>43</code>
 		</Action>
 	</Task>
 	<Task sr="task628">
@@ -32299,12 +32226,12 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task651">
 		<cdate>1751570897342</cdate>
-		<edate>1751570897342</edate>
+		<edate>1775324648045</edate>
 		<id>651</id>
 		<pri>107</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">_SuggestCurveParameters V22 (Hybrid)</Str>
+			<Str sr="arg0" ve="3">_SuggestCurveParameters V23 (Hybrid)</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -33437,7 +33364,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 		<cdate>1751564464950</cdate>
 		<edate>1751564464950</edate>
 		<id>660</id>
-		<pri>1013</pri>
+		<pri>40</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_scalesteepness</Str>
@@ -34722,7 +34649,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1751565146803</cdate>
 		<edate>1751565146803</edate>
 		<id>671</id>
-		<pri>14</pri>
+		<pri>46</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
 			<se>false</se>
@@ -34796,7 +34723,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1750825517290</cdate>
 		<edate>1760290194970</edate>
 		<id>674</id>
-		<pri>12</pri>
+		<pri>44</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -35115,7 +35042,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1751565146803</cdate>
 		<edate>1751565146803</edate>
 		<id>680</id>
-		<pri>18</pri>
+		<pri>34</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
 			<se>false</se>
@@ -35295,7 +35222,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1750825517290</cdate>
 		<edate>1750825517290</edate>
 		<id>686</id>
-		<pri>16</pri>
+		<pri>32</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Please be patient. Generating the graph might take a few seconds. </Str>
@@ -35460,7 +35387,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1753469047800</cdate>
 		<edate>1753469047800</edate>
 		<id>689</id>
-		<pri>1013</pri>
+		<pri>28</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -35536,7 +35463,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1751564464950</cdate>
 		<edate>1751564464950</edate>
 		<id>691</id>
-		<pri>1013</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_scaletapersteepness</Str>
@@ -36784,7 +36711,7 @@ Target brightness: %AAB_CurrentBright</Str>
 		<cdate>1751562325510</cdate>
 		<edate>1751562325510</edate>
 		<id>701</id>
-		<pri>16</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_threshdark_c</Str>
@@ -37227,7 +37154,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 		<cdate>1751562446152</cdate>
 		<edate>1751562446152</edate>
 		<id>704</id>
-		<pri>16</pri>
+		<pri>28</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_threshdim_c</Str>
@@ -38328,7 +38255,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf((long)calc_dusk));</Str>
 		<cdate>1751562466471</cdate>
 		<edate>1751562466471</edate>
 		<id>708</id>
-		<pri>12</pri>
+		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_threshbright_c</Str>
@@ -38926,7 +38853,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<cdate>1750825517290</cdate>
 		<edate>1772204932888</edate>
 		<id>724</id>
-		<pri>15</pri>
+		<pri>126</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_UpdateBrightnessFormulae</Str>
@@ -39380,7 +39307,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<cdate>1750706362684</cdate>
 		<edate>1751787246372</edate>
 		<id>734</id>
-		<pri>112</pri>
+		<pri>126</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_form1a</Str>
@@ -39757,7 +39684,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<cdate>1750825517290</cdate>
 		<edate>1750825517290</edate>
 		<id>743</id>
-		<pri>12</pri>
+		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_GenerateAlphaGraph (Java)</Str>
@@ -39891,7 +39818,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<cdate>1751565146803</cdate>
 		<edate>1751565146803</edate>
 		<id>748</id>
-		<pri>14</pri>
+		<pri>18</pri>
 		<Action sr="act0" ve="7">
 			<code>389</code>
 			<Bundle sr="arg0">
@@ -40123,7 +40050,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 		<edate>1774601398428</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
