@@ -24,7 +24,7 @@ Stock adaptive brightness is a black box. You nudge the slider to train it, but 
 
 **Advanced Auto Brightness (AAB)** replaces the whole system with deterministic math you can see and control. Define exactly how your screen responds to light, eliminate PWM flickering that causes eye strain, and let your phone switch brightness profiles automatically based on what you're doing, where you are, and what time it is.
 
-> **Works as a standalone APK** (Android 8.1+) or as a Tasker project. Elevated privileges (Root, Shizuku, ADB WiFi or write secure settings) are entirely optional.
+> **Works as a standalone APK** This project is a Tasker project, but can be installed as an .apk-file. Recommended for non-Tasker users: A native Android port of AAB: [Tideo Auto Brightness](https://github.com/faded-penguin021/Tideo-Auto-Brightness)
 
 ## Table of Contents
 
