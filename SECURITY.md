@@ -7,7 +7,7 @@ If you discover a security issue (e.g., intent injection risks), please report i
 This project is designed to run locally. However, one specific feature requires network access:
 
 *   Circadian Engine (Sunrise/Sunset Calculation)
-*   If your device fails to provide GPS coordinates (e.g. due to location being disabled), the app falls back to `http://ip-api.com/json` to determine your approximate latitude/longitude.
+*   If your device fails to provide GPS coordinates (e.g. due to location being disabled), the app falls back to `https://ipwho.is` to determine your approximate latitude/longitude.
 *   You can avoid this call by manually entering your Latitude and Longitude in the **Circadian Settings** page or directly setting `%AAB_Latitude` and `%AAB_Longitude`.
 
 ### Verification
