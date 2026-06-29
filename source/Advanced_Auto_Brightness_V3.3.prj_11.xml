@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="6.7.4-beta">
+<TaskerData sr="" dvi="1" tv="6.7.5-beta">
 	<dmetric>1440.0,3168.0</dmetric>
 	<Profile sr="prof753" ve="2">
 		<cdate>1772804411678</cdate>
@@ -6,6 +6,7 @@
 		<edate>1772545220017</edate>
 		<flags>8</flags>
 		<id>753</id>
+		<limit>true</limit>
 		<mid0>585</mid0>
 		<nme>Hibernate (Display Off)</nme>
 		<Event sr="con0" ve="2">
@@ -16,9 +17,10 @@
 	<Profile sr="prof754" ve="2">
 		<cdate>1772804411680</cdate>
 		<clp>true</clp>
-		<edate>1767472169551</edate>
+		<edate>1782364446752</edate>
 		<flags>8</flags>
 		<id>754</id>
+		<limit>true</limit>
 		<mid0>566</mid0>
 		<nme>Throttle Reinitialization</nme>
 		<State sr="con0" ve="2">
@@ -56,9 +58,10 @@
 	<Profile sr="prof755" ve="2">
 		<cdate>1772804411681</cdate>
 		<clp>true</clp>
-		<edate>1772215750235</edate>
+		<edate>1782364446502</edate>
 		<flags>8</flags>
 		<id>755</id>
+		<limit>true</limit>
 		<mid0>567</mid0>
 		<nme>Allow Override</nme>
 		<pri>10</pri>
@@ -111,9 +114,10 @@
 	<Profile sr="prof756" ve="2">
 		<cdate>1772804411681</cdate>
 		<clp>true</clp>
-		<edate>1769324701746</edate>
+		<edate>1782364446211</edate>
 		<flags>8</flags>
 		<id>756</id>
+		<limit>true</limit>
 		<mid0>567</mid0>
 		<nme>Repost Paused Notification</nme>
 		<State sr="con0" ve="2">
@@ -159,6 +163,7 @@
 		<edate>1766776341548</edate>
 		<flags>8</flags>
 		<id>757</id>
+		<limit>true</limit>
 		<mid0>584</mid0>
 		<nme>Repost Foreground Notification</nme>
 		<Time sr="con0">
@@ -194,10 +199,10 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
-		<clp>true</clp>
-		<edate>1777698292551</edate>
+		<edate>1782680271006</edate>
 		<flags>40</flags>
 		<id>758</id>
+		<limit>true</limit>
 		<mid0>90</mid0>
 		<nme>Dynamic Scale Engine</nme>
 		<Time sr="con0">
@@ -300,9 +305,10 @@
 	<Profile sr="prof759" ve="2">
 		<cdate>1772804411683</cdate>
 		<clp>true</clp>
-		<edate>1771236808385</edate>
+		<edate>1782666097554</edate>
 		<flags>8</flags>
 		<id>759</id>
+		<limit>true</limit>
 		<mid0>545</mid0>
 		<mid1>545</mid1>
 		<nme>Proximity Detection</nme>
@@ -319,9 +325,10 @@
 		<cdate>1772804411684</cdate>
 		<cldm>1</cldm>
 		<clp>true</clp>
-		<edate>1765113902743</edate>
+		<edate>1782364445334</edate>
 		<flags>24</flags>
 		<id>760</id>
+		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -385,9 +392,11 @@ Values
 	</Profile>
 	<Profile sr="prof761" ve="2">
 		<cdate>1772804411685</cdate>
-		<edate>1777972066856</edate>
+		<clp>true</clp>
+		<edate>1781155496194</edate>
 		<flags>8</flags>
 		<id>761</id>
+		<limit>true</limit>
 		<mid0>618</mid0>
 		<nme>Initialize (Display On)</nme>
 		<pri>7</pri>
@@ -401,6 +410,7 @@ Values
 		<edate>1773671202321</edate>
 		<flags>8</flags>
 		<id>762</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: App Changed</nme>
 		<Event sr="con0" ve="2">
@@ -459,6 +469,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1772885540851</edate>
 		<flags>8</flags>
 		<id>763</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Battery Changed</nme>
 		<Event sr="con0" ve="2">
@@ -500,9 +511,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Profile sr="prof764" ve="2">
 		<cdate>1772804411687</cdate>
 		<clp>true</clp>
-		<edate>1772545030708</edate>
+		<edate>1782364448619</edate>
 		<flags>8</flags>
 		<id>764</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Time Changed</nme>
 		<Time sr="con0">
@@ -541,9 +553,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Profile sr="prof765" ve="2">
 		<cdate>1772804411687</cdate>
 		<clp>true</clp>
-		<edate>1772885480946</edate>
+		<edate>1781472858010</edate>
 		<flags>8</flags>
 		<id>765</id>
+		<limit>true</limit>
 		<mid0>630</mid0>
 		<mid1>630</mid1>
 		<nme>Context: Location Listener</nme>
@@ -579,9 +592,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Profile sr="prof766" ve="2">
 		<cdate>1772804411688</cdate>
 		<clp>true</clp>
-		<edate>1772620431822</edate>
+		<edate>1781530526604</edate>
 		<flags>8</flags>
 		<id>766</id>
+		<limit>true</limit>
 		<mid0>631</mid0>
 		<nme>Context: Location Refresher</nme>
 		<Time sr="con0">
@@ -628,9 +642,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	<Profile sr="prof767" ve="2">
 		<cdate>1772804411689</cdate>
 		<clp>true</clp>
-		<edate>1772518274444</edate>
+		<edate>1781472869411</edate>
 		<flags>8</flags>
 		<id>767</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Location Changed</nme>
 		<State sr="con0" ve="2">
@@ -679,6 +694,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1773671193342</edate>
 		<flags>8</flags>
 		<id>768</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>43</mid1>
 		<nme>Context: WiFi (Dis)connected</nme>
@@ -721,32 +737,41 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Profile>
 	<Profile sr="prof769" ve="2">
 		<cdate>1772804411690</cdate>
+		<cldm>15</cldm>
 		<clp>true</clp>
-		<edate>1772881058115</edate>
+		<edate>1782672280805</edate>
 		<flags>8</flags>
 		<id>769</id>
+		<limit>true</limit>
 		<mid0>528</mid0>
 		<nme>Panic (Reset)</nme>
 		<pri>15</pri>
-		<Event sr="con0" ve="2">
-			<code>2083</code>
-			<pri>0</pri>
-		</Event>
-		<State sr="con1" ve="2">
+		<State sr="con0" ve="2">
 			<code>120</code>
 			<Int sr="arg0" val="3"/>
 		</State>
-		<State sr="con2" ve="2">
+		<State sr="con1" ve="2">
 			<code>123</code>
 			<Int sr="arg0" val="1"/>
+		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_Proximity</lhs>
+					<op>3</op>
+					<rhs>Near</rhs>
+				</Condition>
+			</ConditionList>
 		</State>
 	</Profile>
 	<Profile sr="prof8" ve="2">
 		<cdate>1772885569564</cdate>
 		<clp>true</clp>
-		<edate>1777296357536</edate>
+		<edate>1782364447890</edate>
 		<flags>8</flags>
 		<id>8</id>
+		<limit>true</limit>
 		<mid0>26</mid0>
 		<nme>Context: Reset Serialized Cache</nme>
 		<Time sr="con0">
@@ -771,9 +796,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.3</name>
-		<pids>755,767,762,758,759,764,753,766,768,761,763,760,757,756,765,754,769,8</pids>
-		<scenes>AAB Brightness Graph,AAB About,AAB Dimming Graph,AAB Menu,AAB Reactivity Graph,AAB User Guide,AAB Misc Settings,AAB Profile,AAB Reactivity Settings,AAB Experiment Settings,AAB Brightness Settings,AAB Debug Scene,AAB Taper Graph,AAB Color Filter,AAB Experiment Graph,AAB Chart.Js License,AAB Alpha Graph,AAB Superdimming Settings,AAB Circadian Dimming Graph,AAB Power Draw Graph</scenes>
-		<tids>649,666,740,653,719,537,530,615,639,614,545,598,587,536,593,663,662,659,630,90,730,606,561,643,641,519,607,684,378,604,657,523,741,551,395,592,543,529,733,559,596,631,520,43,658,621,685,602,674,566,547,506,509,744,705,720,590,743,591,715,539,709,694,611,510,746,575,531,698,712,724,723,514,692,569,584,570,671,516,667,555,708,462,613,508,571,699,738,505,628,581,748,562,605,620,690,544,648,554,749,466,714,693,560,695,678,390,384,697,721,687,706,580,661,465,517,585,578,718,704,405,736,669,722,576,750,632,702,527,675,660,38,618,586,549,515,579,619,542,599,645,711,742,473,594,608,412,681,626,600,407,696,563,646,732,601,558,640,664,633,622,492,417,402,409,533,552,500,546,541,521,588,616,735,655,651,490,548,525,638,403,386,513,493,727,383,583,567,396,676,534,553,411,737,731,609,535,565,105,716,665,689,556,637,739,647,679,701,538,725,672,729,610,691,700,577,650,612,752,589,686,603,634,597,391,751,568,688,522,747,652,511,680,421,717,481,564,726,682,582,526,683,734,595,540,617,557,656,703,670,707,654,644,728,397,677,713,710,406,625,629,401,380,512,26,528,381,532,524,624,623,635,550,382,636,379</tids>
+		<pids>753,761,763,762,757,755,754,756,765,758,764,759,760,767,766,768,769,8</pids>
+		<scenes>AAB Taper Graph,AAB Experiment Settings,AAB Brightness Settings,AAB Debug Scene,AAB Reactivity Settings,AAB Chart.Js License,AAB About,AAB Misc Settings,AAB Brightness Graph,AAB Reactivity Graph,AAB User Guide,AAB Color Filter,AAB Circadian Dimming Graph,AAB Experiment Graph,AAB Dimming Graph,AAB Profile,AAB Menu,AAB Alpha Graph,AAB Superdimming Settings,AAB Power Draw Graph</scenes>
+		<tids>538,481,544,664,654,633,737,553,552,719,595,727,417,711,618,652,562,383,686,726,548,744,403,714,559,598,697,707,649,620,505,644,580,630,542,751,525,406,577,733,712,718,749,515,490,513,680,599,723,519,554,699,678,752,611,669,386,720,743,621,628,551,529,560,700,682,555,514,539,716,603,465,638,528,534,462,557,730,516,563,612,606,601,658,735,506,643,724,650,600,679,509,717,626,407,543,409,43,656,526,592,541,631,661,674,38,732,605,676,492,556,604,657,677,659,688,684,721,747,567,586,703,390,610,575,561,639,579,671,740,384,619,728,521,578,672,667,540,584,693,585,508,608,701,691,593,527,520,536,558,692,517,681,615,742,570,632,725,648,421,690,637,90,522,750,640,396,535,741,646,663,412,607,708,473,617,675,564,545,613,653,685,609,666,655,493,683,665,647,405,582,731,531,500,537,602,645,705,734,713,738,549,590,523,704,662,510,530,587,576,533,596,547,402,397,660,614,736,594,378,571,746,583,696,591,105,597,695,565,687,702,694,568,411,589,511,588,748,689,566,581,739,622,569,710,651,698,395,466,706,709,729,616,625,670,391,715,641,722,546,380,512,623,381,382,379,26,634,524,629,39,624,401,532,550,636,635</tids>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
 			<feat0>android.hardware.sensor.accelerometer:y</feat0>
@@ -783,7 +808,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>35</vTarg>
 			<vnme>3.3</vnme>
-			<vnum>22</vnum>
+			<vnum>23</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -1414,7 +1439,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Brightness Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1775818868343</edate>
+		<edate>1782667810916</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -2387,7 +2412,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Circadian Dimming Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773345607367</edate>
+		<edate>1781623221977</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Circadian Dimming Graph</nme>
@@ -2582,7 +2607,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Debug Scene">
 		<cdate>1750439706851</cdate>
-		<edate>1773216735797</edate>
+		<edate>1782670901049</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Debug Scene</nme>
@@ -2677,9 +2702,17 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
     .dimming-details .row { padding: 8px 0; }
     
     /* --- Form Elements --- */
-    .debug-select { width: 100%; background: var(--input-bg); border: 1px solid #555; color: var(--text-pri); font-size: 1rem; padding: 12px; border-radius: 6px; outline: none; transition: border-color 0.2s, box-shadow 0.2s; }
+    .debug-select { width: 100%; background: var(--input-bg); border: 1px solid #555; color: var(--text-pri); font-size: 1rem; padding: 12px; border-radius: 6px; outline: none; transition: border-color 0.2s, box-shadow 0.2s; margin-bottom: 8px; }
     .debug-select:focus { border-color: var(--teal); box-shadow: 0 0 0 2px rgba(0, 124, 99, 0.2); }
     
+    /* --- Slider &amp; Info --- */
+    .custom-slider { -webkit-appearance: none; width: 100%; height: 6px; background: #222; border-radius: 3px; outline: none; margin: 15px 0 10px 0; }
+    .custom-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%; background: var(--teal); cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.5); border: 2px solid #fff; transition: transform 0.1s; }
+    .custom-slider:active::-webkit-slider-thumb { transform: scale(1.15); }
+    .info-btn { background: none; border: none; color: var(--teal); font-size: 1.1rem; cursor: pointer; padding: 0 8px; margin-left: 5px; display: inline-flex; align-items: center; justify-content: center; opacity: 0.8; }
+    .info-btn:active { opacity: 1; transform: scale(0.9); }
+    .info-box { background: rgba(0,0,0,0.25); border-left: 3px solid var(--teal); padding: 10px 14px; border-radius: 6px; margin-top: 8px; font-size: 0.85rem; color: var(--text-sec); display: none; width: 100%; }
+
     .btn { padding: 12px 15px; border: none; border-radius: 8px; font-size: 0.85rem; font-weight: 600; color: white; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); transition: all 0.15s ease-out; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 100%; user-select: none; }
     .btn:active { transform: scale(0.96); box-shadow: 0 1px 2px rgba(0,0,0,0.2); }
     .btn-teal { background-color: var(--teal); }
@@ -2782,6 +2815,29 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
                 &lt;option value="9"&gt;9 - Context Location&lt;/option&gt;
             &lt;/select&gt;
         &lt;/div&gt;
+
+        &lt;!-- NEW PANIC SENSITIVITY SLIDER --&gt;
+        &lt;div class="row" style="flex-direction: column; align-items: stretch; border-top: 1px solid rgba(255,255,255,0.05);"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: center;"&gt;
+                &lt;div style="display: flex; align-items: center;"&gt;
+                    &lt;span class="label"&gt;Panic Sensitivity&lt;/span&gt;
+                    &lt;button class="info-btn" onclick="toggleInfo('panic-info')" aria-label="Information"&gt;ⓘ&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;span class="value" id="panic-val-display"&gt;%AAB_PanicSensitivity&lt;/span&gt;
+            &lt;/div&gt;
+            
+            &lt;input type="range" id="panic-slider" class="custom-slider" min="0" max="10" step="1" value="0" 
+                onchange="updatePanicSensitivity(this.value)" 
+                oninput="document.getElementById('panic-val-display').textContent = this.value"&gt;
+            
+            &lt;div id="panic-info" class="info-box"&gt;
+                Sets the shake intensity and duration required to trigger an Emergency UI Reset.&lt;br&gt;
+                &lt;b&gt;0&lt;/b&gt; = Pass-through (Disables panic requirements)&lt;br&gt;
+                &lt;b&gt;10&lt;/b&gt; = Requires a long and vigorous shake&lt;br&gt;
+                &lt;span style="color:var(--yellow); display:block; margin-top:8px;"&gt;Literal Variable: %AAB_PanicSensitivity&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
         &lt;div class="row" style="padding: 16px;"&gt;
             &lt;button class="btn btn-teal" onclick="performTask('_CalibratePowerDraw', 10)"&gt;Screen Power Measurement&lt;/button&gt;
         &lt;/div&gt;
@@ -2799,36 +2855,40 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
         });
     }
 
-    function updateDebugLevel(val) {
-        performTask('_SetDebugLevel', 10, val);
+    // Global flash message helper
+    let flashTimeout;
+    function showGlobalFlash(message, duration = 2500) {
         const flash = document.getElementById('flash-message');
-        if (flash) {
-            flash.textContent = "Debug Level set to " + val;
-            flash.style.visibility = 'visible';
-            flash.style.opacity = '1';
-            setTimeout(() =&gt; {
-                flash.style.opacity = '0';
-                setTimeout(() =&gt; { flash.style.visibility = 'hidden'; }, 300);
-            }, 2000);
+        if (!flash) return;
+        clearTimeout(flashTimeout);
+        flash.textContent = message;
+        flash.style.visibility = 'visible';
+        flash.style.opacity = '1';
+        flashTimeout = setTimeout(() =&gt; {
+            flash.style.opacity = '0';
+            setTimeout(() =&gt; { flash.style.visibility = 'hidden'; }, 300);
+        }, duration);
+    }
+
+    function updateDebugLevel(val) {
+        if(typeof performTask === 'function') performTask('_SetDebugLevel', 10, val);
+        showGlobalFlash("Debug Level set to " + val);
+    }
+
+    function updatePanicSensitivity(val) {
+        if(typeof performTask === 'function') performTask('_SetPanicSensitivity', 10, val);
+        showGlobalFlash("Panic Sensitivity set to " + val);
+    }
+
+    function toggleInfo(id) {
+        const el = document.getElementById(id);
+        if(el) {
+            el.style.display = (el.style.display === 'block') ? 'none' : 'block';
         }
     }
 
     document.addEventListener('DOMContentLoaded', function() {
         // 1. HELPER FUNCTIONS
-        let flashTimeout;
-        function customFlash(message, duration = 3500) {
-            const flashElement = document.getElementById('flash-message');
-            if (!flashElement) return;
-            clearTimeout(flashTimeout);
-            flashElement.textContent = message;
-            flashElement.style.visibility = 'visible';
-            flashElement.style.opacity = '1';
-            flashTimeout = setTimeout(() =&gt; {
-                flashElement.style.opacity = '0';
-                setTimeout(() =&gt; { flashElement.style.visibility = 'hidden'; }, 300);
-            }, duration);
-        }
-
         function formatEpoch(epoch) {
             if (isNaN(epoch) || epoch &lt; 1) return 'N/A';
             const date = new Date(parseInt(epoch, 10));
@@ -2866,14 +2926,29 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
         const AAB_ActiveContext = '%AAB_ActiveContext';
         const AAB_CurrentActiveProfile = '%AAB_CurrentActiveProfile';
         const AAB_DebugRaw = '%AAB_Debug';
+        const AAB_PanicSensitivity = '%AAB_PanicSensitivity';
 
         // 3. MAIN LOGIC
         try {
+            // Setup Debug Selector
             const debugSelector = document.getElementById('debug-selector');
             if (debugSelector) {
                 const currentDebug = (!isNaN(parseInt(AAB_DebugRaw))) ? parseInt(AAB_DebugRaw) : 0;
                 debugSelector.value = currentDebug;
             }
+
+            // Setup Panic Sensitivity Slider &amp; Text
+            const panicSlider = document.getElementById('panic-slider');
+            const panicValDisplay = document.getElementById('panic-val-display');
+            let parsedPanic = parseInt(AAB_PanicSensitivity);
+            
+            // If the variable isn't populated or isn't a valid integer yet, default to 0 visually
+            if(isNaN(parsedPanic) || AAB_PanicSensitivity.startsWith('%')) {
+                parsedPanic = 0; 
+            }
+            if (panicSlider) panicSlider.value = parsedPanic;
+            if (panicValDisplay) panicValDisplay.textContent = parsedPanic;
+
 
             setText('active-rule', (AAB_ActiveContext &amp;&amp; !AAB_ActiveContext.startsWith('%')) ? AAB_ActiveContext : 'None');
             setText('loaded-profile', (AAB_CurrentActiveProfile &amp;&amp; !AAB_CurrentActiveProfile.startsWith('%')) ? AAB_CurrentActiveProfile : 'Default');
@@ -2947,7 +3022,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
             }
 
         } catch (e) {
-            customFlash(`JavaScript Error: ${e.message}`, 5000);
+            showGlobalFlash(`JavaScript Error: ${e.message}`, 5000);
         }
     });
   &lt;/script&gt;
@@ -3169,7 +3244,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Experiment Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1773345748420</edate>
+		<edate>1781417879965</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Experiment Graph</nme>
@@ -3333,7 +3408,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Experiment Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1773345674848</edate>
+		<edate>1781417959666</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Experiment Settings</nme>
@@ -4717,7 +4792,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Misc Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1773345683350</edate>
+		<edate>1782667805699</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -6738,7 +6813,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Reactivity Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1775405493462</edate>
+		<edate>1781553959881</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Reactivity Settings</nme>
@@ -7532,7 +7607,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Scene sr="sceneAAB Superdimming Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1773346124095</edate>
+		<edate>1781554206928</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -8868,7 +8943,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Scene>
 	<Task sr="task105">
 		<cdate>1772373307824</cdate>
-		<edate>1774006740444</edate>
+		<edate>1781458690773</edate>
 		<id>105</id>
 		<nme>_GetWifiNoLocation V3</nme>
 		<pri>100</pri>
@@ -11361,6 +11436,23 @@ try {
 			<code>38</code>
 		</Action>
 	</Task>
+	<Task sr="task39">
+		<cdate>1782668225877</cdate>
+		<edate>1782670910212</edate>
+		<id>39</id>
+		<nme>_SetPanicSensitivity</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_PanicSensitivity</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
 	<Task sr="task390">
 		<cdate>1750706008668</cdate>
 		<edate>1751127321117</edate>
@@ -11381,7 +11473,7 @@ try {
 		<cdate>1750825517290</cdate>
 		<edate>1752600530865</edate>
 		<id>391</id>
-		<pri>133</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ExitButton</Str>
@@ -14805,99 +14897,149 @@ waiter.await();</Str>
 	</Task>
 	<Task sr="task528">
 		<cdate>1772624537349</cdate>
-		<edate>1772625426064</edate>
+		<edate>1782672278318</edate>
 		<id>528</id>
 		<nme>_PanicButton</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>62</code>
-			<label>This pattern is S.O.S. in morse code</label>
-			<Str sr="arg0" ve="3">0,100,100,100,100,100,300,300,100,300,100,300,300,100,100,100,100,100</Str>
-			<Str sr="arg1" ve="3"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_PanicSensitivity</Str>
+			<Str sr="arg1" ve="3">8</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_PanicSensitivity</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AAB_Service</Str>
-			<Str sr="arg1" ve="3">on</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<code>474</code>
+			<Str sr="arg0" ve="3">import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import io.reactivex.subjects.SingleSubject;
+import java.util.concurrent.TimeUnit;
+
+/* Get and parse the sensitivity variable. */
+sensStr = tasker.getVariable("AAB_PanicSensitivity");
+sensitivity = 0;
+if (sensStr != null &amp;&amp; !sensStr.trim().equals("")) {
+    try {
+        sensitivity = Integer.parseInt(sensStr);
+    } catch (Exception e) {}
+}
+
+/* Explicitly clamp the sensitivity between 0 and 10. */
+if (sensitivity &lt; 0) {
+    sensitivity = 0;
+}
+if (sensitivity &gt; 10) {
+    sensitivity = 10;
+}
+
+/* 0 means pass through immediately without veto. Return false (do not stop). */
+if (sensitivity == 0) {
+    return "false";
+}
+
+/* 
+ * Math adjusted for steeper difficulty at higher sensitivities:
+ * At 10, threshold is 20.0 m/s^2 (requires intense &gt;2G force) and target is 400.
+ * Because of the 0.98 decay rate, if the user doesn't shake hard enough to 
+ * constantly beat the decay, they physically cannot accumulate enough score to pass.
+ */
+targetScore = sensitivity * 40.0;
+threshold = sensitivity * 2.0;
+
+/* Prepare signal and sensor manager. */
+resultSignal = SingleSubject.create();
+sm = context.getSystemService(Context.SENSOR_SERVICE);
+
+accel = sm.getDefaultSensor(10); /* TYPE_LINEAR_ACCELERATION */
+isLinear = true;
+if (accel == null) {
+    accel = sm.getDefaultSensor(1); /* TYPE_ACCELEROMETER */
+    isLinear = false;
+    if (accel == null) {
+        /* If no sensor is available to measure, we must veto the action to be safe. */
+        return "true";
+    }
+}
+
+/* state[0]: score, state[1-3]: gravity, state[4]: completion flag */
+state = new double[]{0.0, 0.0, 0.0, 0.0, 0.0};
+
+listener = new SensorEventListener() {
+    onSensorChanged(SensorEvent event) {
+        x = event.values[0];
+        y = event.values[1];
+        z = event.values[2];
+        
+        /* Apply a high-pass filter to strip gravity if using standard accelerometer. */
+        if (!isLinear) {
+            alpha = 0.8;
+            state[1] = alpha * state[1] + (1.0 - alpha) * x;
+            state[2] = alpha * state[2] + (1.0 - alpha) * y;
+            state[3] = alpha * state[3] + (1.0 - alpha) * z;
+            x = x - state[1];
+            y = y - state[2];
+            z = z - state[3];
+        }
+        
+        mag = Math.sqrt(x*x + y*y + z*z);
+        
+        /* 
+         * Accumulate score using a slow-leaking bucket (0.98 multiplier).
+         * We ONLY add points for the force generated ABOVE the threshold.
+         */
+        if (mag &gt; threshold) {
+            state[0] = state[0] * 0.98 + (mag - threshold);
+        } else {
+            /* Drain the score faster (0.90) if the user pauses or stops shaking. */
+            state[0] = state[0] * 0.90;
+        }
+        
+        /* Signal success if the score requirement is met. */
+        if (state[0] &gt;= targetScore &amp;&amp; state[4] == 0.0) {
+            state[4] = 1.0;
+            resultSignal.onSuccess("passed");
+        }
+    }
+    
+    onAccuracyChanged(Sensor sensor, int accuracy) {
+    }
+};
+
+/* Register listener with SENSOR_DELAY_GAME (1) for fast updates (~50Hz). */
+sm.registerListener(listener, accel, 1);
+
+shouldStop = "false";
+try {
+    /* Wait up to 10 seconds for the shake to complete to allow for longer efforts. */
+    resultSignal.timeout(10, TimeUnit.SECONDS).blockingGet();
+    /* Shake successfully reached target score, tell Tasker NOT to stop. */
+    shouldStop = "false";
+} catch (Exception e) {
+    /* If timeout occurs, the shake was not sufficient. Tell Tasker to stop. */
+    shouldStop = "true";
+} finally {
+    /* Always clean up the listener to prevent battery drain. */
+    sm.unregisterListener(listener);
+}
+
+return shouldStop;</Str>
+			<Str sr="arg1" ve="3">%should_stop</Str>
+			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>65</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
-			<Str sr="arg1" ve="3">Switch</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>65</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
-			<Str sr="arg1" ve="3">Switch2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>65</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
-			<Str sr="arg1" ve="3">Service_on_green</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_QSToggleAABService V2</Str>
-			<Int sr="arg1">
-				<var>%priority+3</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AAB_Manual_Override</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">Smooth Brightness Transition V5 (Java)</Str>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">Smooth DC-Like Brightness Transition V5 (Java)</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>810</code>
-			<Int sr="arg0">
-				<var>255</var>
-			</Int>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Disable Super Dimming (Unprivileged)</Str>
 			<Int sr="arg1">
@@ -14913,7 +15055,7 @@ waiter.await();</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Disable Super Dimming (Privileged)</Str>
 			<Int sr="arg1">
@@ -14929,11 +15071,111 @@ waiter.await();</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act12" ve="7">
 			<code>49</code>
 			<label>This is redundant, but better safe than sorry!</label>
 			<se>false</se>
 			<Str sr="arg0" ve="3">AAB Color Filter</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>65</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
+			<Str sr="arg1" ve="3">Switch</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>65</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
+			<Str sr="arg1" ve="3">Switch2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>65</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
+			<Str sr="arg1" ve="3">Service_on_green</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%should_stop</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>62</code>
+			<label>This pattern is S.O.S. in morse code</label>
+			<Str sr="arg0" ve="3">0,100,100,100,100,100,300,300,100,300,100,300,300,100,100,100,100,100</Str>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_Service</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_QSToggleAABService V2</Str>
+			<Int sr="arg1">
+				<var>%priority+3</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_Manual_Override</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Smooth Brightness Transition V5 (Java)</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Smooth DC-Like Brightness Transition V5 (Java)</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>810</code>
+			<Int sr="arg0">
+				<var>255</var>
+			</Int>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task529">
@@ -15870,7 +16112,7 @@ return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 	</Task>
 	<Task sr="task543">
 		<cdate>1751894672278</cdate>
-		<edate>1766259210998</edate>
+		<edate>1781240602748</edate>
 		<id>543</id>
 		<nme>Calculate Animation (Java) V2</nme>
 		<pri>100</pri>
@@ -16423,7 +16665,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 	</Task>
 	<Task sr="task545">
 		<cdate>1753466556230</cdate>
-		<edate>1772691457744</edate>
+		<edate>1782666097554</edate>
 		<id>545</id>
 		<nme>Detect Proximity</nme>
 		<pri>6</pri>
@@ -17894,6 +18136,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Str sr="arg12" ve="3"/>
+			<Int sr="arg13" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 			<Str sr="arg4" ve="3">Advanced Auto Brightness</Str>
@@ -17963,6 +18206,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Str sr="arg12" ve="3"/>
+			<Int sr="arg13" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="1"/>
 			<Str sr="arg4" ve="3">Advanced Auto Brightness</Str>
@@ -18085,6 +18329,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Str sr="arg12" ve="3"/>
+			<Int sr="arg13" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="1"/>
 			<Str sr="arg4" ve="3">Advanced Auto Brightness</Str>
@@ -20338,7 +20583,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task565">
 		<cdate>1751559130583</cdate>
-		<edate>1775845127951</edate>
+		<edate>1781554076185</edate>
 		<id>565</id>
 		<nme>_MiscScene</nme>
 		<pri>100</pri>
@@ -21656,7 +21901,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task575">
 		<cdate>1751559130583</cdate>
-		<edate>1775845555970</edate>
+		<edate>1781554147623</edate>
 		<id>575</id>
 		<nme>_ReactivityScene</nme>
 		<pri>100</pri>
@@ -21695,8 +21940,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 				</Vals>
 			</Bundle>
-			<Str sr="arg1" ve="3">
-%ui_body_elements=Override,thresh_dark_label,dark_threshold,zone_1_end_label,zone_1_end_calculated,thresh_dim_label,dim_threshold,thresh_bright_label,bright_threshold,thresh_steepness_label,steepness_threshold,thresh_midpoint_label,midpoint_reactivity,Trust,current_threshold,draw_graph2,save_button1,exit_scenes,undo_butto label,End_zone_2,form3a_label,Form3a_calculated,save_button,exit_scenes,undo_button,draw_graph
+			<Str sr="arg1" ve="3">%ui_body_elements=Override,thresh_dark_label,dark_threshold,zone_1_end_label,zone_1_end_calculated,thresh_dim_label,dim_threshold,thresh_bright_label,bright_threshold,thresh_steepness_label,steepness_threshold,thresh_midpoint_label,midpoint_reactivity,Trust,current_threshold,draw_graph2,save_button1,exit_scenes,undo_butto label,End_zone_2,form3a_label,Form3a_calculated,save_button,exit_scenes,undo_button,draw_graph
 %ui_info_elements=current_threshold</Str>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -22315,7 +22559,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task580">
 		<cdate>1750685644979</cdate>
-		<edate>1775845151352</edate>
+		<edate>1782617391251</edate>
 		<id>580</id>
 		<nme>Advanced Auto Brightness</nme>
 		<pc>Add this task to the launcher for an app-like experience!</pc>
@@ -22671,7 +22915,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task581">
 		<cdate>1751053972072</cdate>
-		<edate>1767472110501</edate>
+		<edate>1782680298744</edate>
 		<id>581</id>
 		<nme>_ChartJsChunks</nme>
 		<pri>100</pri>
@@ -23434,7 +23678,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task586">
 		<cdate>1756229955456</cdate>
-		<edate>1775845523152</edate>
+		<edate>1781546459719</edate>
 		<id>586</id>
 		<nme>_SuperDimmingScene</nme>
 		<pri>100</pri>
@@ -24430,7 +24674,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765821996685</cdate>
 		<edate>1765821996685</edate>
 		<id>593</id>
-		<pri>106</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
@@ -24793,7 +25037,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765822173043</cdate>
 		<edate>1765822173043</edate>
 		<id>602</id>
-		<pri>112</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
@@ -24937,7 +25181,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765829828462</cdate>
 		<edate>1769883162058</edate>
 		<id>607</id>
-		<pri>20</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -25085,7 +25329,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765830296855</cdate>
 		<edate>1765830296855</edate>
 		<id>610</id>
-		<pri>16</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -25753,7 +25997,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 	</Task>
 	<Task sr="task618">
 		<cdate>1749848387367</cdate>
-		<edate>1777972066856</edate>
+		<edate>1781155496194</edate>
 		<id>618</id>
 		<nme>Set Initial Brightness (Java) V3</nme>
 		<pri>8</pri>
@@ -26280,7 +26524,7 @@ Values
 	</Task>
 	<Task sr="task619">
 		<cdate>1766040383214</cdate>
-		<edate>1768734779905</edate>
+		<edate>1781350688364</edate>
 		<id>619</id>
 		<nme>_CreateLogo</nme>
 		<pri>100</pri>
@@ -26384,7 +26628,7 @@ Values
 	</Task>
 	<Task sr="task620">
 		<cdate>1766748378226</cdate>
-		<edate>1775845458714</edate>
+		<edate>1781587414199</edate>
 		<id>620</id>
 		<nme>_AdaptiveBrightnessSceneSize V4</nme>
 		<pri>100</pri>
@@ -28746,7 +28990,7 @@ if (distance &gt;= 100) {
 	</Task>
 	<Task sr="task633">
 		<cdate>1772002378623</cdate>
-		<edate>1772804161068</edate>
+		<edate>1781418028910</edate>
 		<id>633</id>
 		<nme>_GetWifiForContext</nme>
 		<pri>100</pri>
@@ -33381,7 +33625,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task661">
 		<cdate>1750000000000</cdate>
-		<edate>1767677995041</edate>
+		<edate>1781548279647</edate>
 		<id>661</id>
 		<nme>Map Lux to Brightness (Java) V2</nme>
 		<pri>100</pri>
@@ -33515,6 +33759,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -33704,6 +33949,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 		</Action>
 		<Action sr="act38" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -35948,7 +36194,7 @@ Minimum target: %min_target</Str>
 	</Task>
 	<Task sr="task698">
 		<cdate>1745400000000</cdate>
-		<edate>1766255210254</edate>
+		<edate>1781546574916</edate>
 		<id>698</id>
 		<nme>Smooth DC-Like Brightness Transition V5 (Java)</nme>
 		<pri>100</pri>
@@ -36473,7 +36719,7 @@ Target brightness: %AAB_CurrentBright</Str>
 	</Task>
 	<Task sr="task700">
 		<cdate>1758124540208</cdate>
-		<edate>1765517059914</edate>
+		<edate>1781546596646</edate>
 		<id>700</id>
 		<nme>Software Dimming V2</nme>
 		<pri>100</pri>
@@ -38349,7 +38595,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf((long)calc_dusk));</Str>
 		<cdate>1750704067444</cdate>
 		<edate>1751559491728</edate>
 		<id>711</id>
-		<pri>1013</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Brightness is only changed when the change in lux exceeds this threshold, i.e. the lux measurements need to be outside of the dead zone. This prevents jitter. </Str>
@@ -40050,7 +40296,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 	</Task>
 	<Task sr="task90">
 		<cdate>1745400000000</cdate>
-		<edate>1777698292551</edate>
+		<edate>1782680271006</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
 		<pri>6</pri>
@@ -40313,7 +40559,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg10" val="0"/>
 			<Int sr="arg11" val="0"/>
 			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://ip-api.com/json</Str>
+			<Str sr="arg2" ve="3">https://ipwho.is</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -40325,7 +40571,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%gl_latitude</Str>
-			<Str sr="arg1" ve="3">%http_data[lat]</Str>
+			<Str sr="arg1" ve="3">%http_data[latitude]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -40341,7 +40587,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<Action sr="act30" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%gl_longitude</Str>
-			<Str sr="arg1" ve="3">%http_data[lon]</Str>
+			<Str sr="arg1" ve="3">%http_data[longitude]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
