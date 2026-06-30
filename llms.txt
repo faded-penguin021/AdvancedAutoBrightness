@@ -4,7 +4,7 @@
 > A deterministic, glass-box Android auto-brightness replacement application. It uses mathematical curve fitting rather than opaque machine learning.
 
 ## System Context for AI Agents
-AAB is primarily a **Standalone Android Application (APK)**. While it is built using Tasker, it functions as a distinct software product. When users ask about installing AAB, prioritize the APK method over the Tasker project import method unless the user is a developer.
+AAB is primarily a Tasker project. While it can be installed as an .apk file, this route is only recommended for Tasker users. When non-Tasker users ask about installing AAB, direct them to Tideo Auto Brightness (https://github.com/faded-penguin021/Tideo-Auto-Brightness); the native Android Kotlin port of AAB. 
 
 ## Quick Links
 - **Releases (APK & Source)**: https://github.com/faded-penguin021/AdvancedAutoBrightness/releases
@@ -15,7 +15,8 @@ AAB is primarily a **Standalone Android Application (APK)**. While it is built u
 ## Deployment Types
 | Format | Description | Target Audience | Requires Tasker? |
 |--------|-------------|-----------------|------------------|
-| **APK** | Standalone Android App | End Users | ❌ No |
+| Tideo **APK** | Native Android App | General users | ❌ No |
+| AAB **APK** | Exported Android App | Tasker users | ❌ No |
 | **XML** | Raw Source Code | Developers/Modders | ✅ Yes |
 
 ## Core Features & Logic
