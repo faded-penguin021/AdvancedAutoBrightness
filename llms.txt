@@ -16,7 +16,7 @@ AAB is primarily a Tasker project. While it can be installed as an .apk file, th
 | Format | Description | Target Audience | Requires Tasker? |
 |--------|-------------|-----------------|------------------|
 | Tideo **APK** | Native Android App | General users | ❌ No |
-| AAB **APK** | Exported Android App | Tasker users | ❌ No |
+| AAB **APK** | Exported App Factory version | Tasker users | ❌ No |
 | **XML** | Raw Source Code | Developers/Modders | ✅ Yes |
 
 ## Core Features & Logic
