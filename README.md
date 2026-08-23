@@ -48,7 +48,10 @@ Stock adaptive brightness is a black box. You nudge the slider to train it, but 
 * **Hybrid Dimming**: Lock hardware brightness above PWM flicker threshold, dim using privileged APIs or software overlay
 * **Circadian scaling**: Brightness curve shifts with sunrise/sunset for natural day/night adaptation
 * **Reactivity controls**: Eliminate sensor jitter with configurable dead zones and dynamic smoothing
+* **Privileged display toggles**: Control supported Night Light, color correction, inversion, AOD, stay-awake, and Force SDR settings directly
 * **Live debug info**: Real-time readouts of sensor data, algorithmic decisions, and active context
+* * **External control**: Opt-in (via Live Debug Info toggle) broadcast intents for service control, profile switching, pause/resume, recovery, and state events. See [Automation](AUTOMATION.md)
+* * **Force Dark**: Read and set Android's `debug.hwui.force_dark` system property from Live Debug Info
 * **Emergency recovery**: Flip phone upside down and shake for S.O.S. vibration and immediate brightness restore
 * **Plugin-free**: Pure Tasker + Java, no external dependencies
 
