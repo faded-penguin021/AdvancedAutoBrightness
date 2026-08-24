@@ -58,22 +58,15 @@ Target: Broadcast Receiver
 
 ```bash
 # Load a profile
-adb shell am broadcast \
-  -a com.tideo.aab.control \
-  --es type LOAD_PROFILE \
-  --es name "Night Reading"
+adb shell am broadcast -a com.tideo.aab.control --es type LOAD_PROFILE --es name "Night Reading"
 ```
 ```bash
 # Turn AAB off
-adb shell am broadcast \
-  -a com.tideo.aab.control \
-  --es type SERVICE_OFF
+adb shell am broadcast -a com.tideo.aab.control --es type SERVICE_OFF
 ```
 ```bash
 # Emergency recovery
-adb shell am broadcast \
-  -a com.tideo.aab.control \
-  --es type PANIC
+adb shell am broadcast -a com.tideo.aab.control --es type PANIC
 ```
 
 ---
