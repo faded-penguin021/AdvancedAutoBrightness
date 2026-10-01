@@ -226,7 +226,7 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
-		<edate>1790448645478</edate>
+		<edate>1790768393080</edate>
 		<flags>40</flags>
 		<id>758</id>
 		<limit>true</limit>
@@ -426,7 +426,7 @@ Values
 	<Profile sr="prof761" ve="2">
 		<cdate>1772804411685</cdate>
 		<clp>true</clp>
-		<edate>1784137274382</edate>
+		<edate>1790795137693</edate>
 		<flags>8</flags>
 		<id>761</id>
 		<limit>true</limit>
@@ -547,6 +547,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1782364448619</edate>
 		<flags>8</flags>
 		<id>764</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Time Changed</nme>
 		<Time sr="con0">
@@ -827,9 +828,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.4</name>
-		<pids>767,754,753,59,761,768,759,760,757,756,764,758,763,766,765,762,755,769,8</pids>
-		<scenes>AAB Superdimming Settings,AAB User Guide,AAB Brightness Settings,AAB Brightness Graph,AAB Privileged Scene,AAB Alpha Graph,AAB Debug Scene,AAB About,AAB Chart.Js License,AAB Dimming Graph,AAB Color Filter,AAB Circadian Dimming Graph,AAB Profile,AAB Taper Graph,AAB Reactivity Settings,AAB Experiment Graph,AAB Menu,AAB Experiment Settings,AAB Misc Settings,AAB Reactivity Graph,AAB Power Draw Graph</scenes>
-		<tids>752,577,405,714,678,595,676,713,597,631,530,651,672,473,646,43,514,686,700,552,575,563,517,531,90,569,402,744,660,723,739,655,91,493,611,701,650,696,590,105,544,683,378,571,695,691,675,525,508,585,522,702,729,465,534,692,630,406,730,610,633,38,659,536,667,601,549,576,622,564,608,750,560,688,731,641,742,558,647,737,621,421,523,515,614,407,396,583,557,417,616,677,722,600,603,538,716,403,743,596,645,588,671,662,492,567,640,643,537,568,462,383,626,67,741,619,632,466,580,519,685,717,565,703,648,533,718,697,589,411,395,391,613,657,520,506,527,409,397,746,680,689,725,628,654,511,551,72,618,698,521,708,652,390,604,721,715,712,663,653,735,711,720,593,747,546,591,644,548,748,669,693,88,679,727,561,540,699,586,615,612,666,661,505,554,724,607,706,734,542,617,529,490,578,620,500,584,582,664,606,528,535,681,710,687,649,637,736,656,598,609,539,80,412,587,602,543,749,732,513,599,481,82,592,707,384,670,705,556,751,658,510,704,639,559,665,555,581,547,728,684,738,674,509,605,545,570,719,733,726,682,553,526,386,516,694,709,68,541,594,623,579,638,566,690,60,740,562,26,81,89,379,634,635,87,624,39,69,401,629,66,380,382,512,532,524,381,625,636,550</tids>
+		<pids>761,753,763,762,758,755,59,766,759,760,764,767,768,754,765,757,756,8,769</pids>
+		<scenes>AAB Dimming Graph,AAB Color Filter,AAB Menu,AAB Experiment Graph,AAB Chart.Js License,AAB Misc Settings,AAB Reactivity Settings,AAB Circadian Dimming Graph,AAB Debug Scene,AAB Profile,AAB Reactivity Graph,AAB User Guide,AAB Superdimming Settings,AAB About,AAB Experiment Settings,AAB Alpha Graph,AAB Taper Graph,AAB Brightness Settings,AAB Privileged Scene,AAB Brightness Graph,AAB Power Draw Graph</scenes>
+		<tids>674,605,409,546,714,553,462,534,552,517,613,601,730,505,535,492,663,506,533,687,631,639,589,537,530,417,689,738,576,617,676,514,747,632,585,651,743,584,598,560,539,622,594,725,640,735,655,675,579,391,571,559,661,515,378,620,564,542,591,721,522,643,662,719,481,536,403,630,511,685,752,60,508,669,693,744,607,618,695,525,521,523,411,741,698,82,700,567,672,473,562,603,590,547,549,595,742,609,466,421,608,713,72,682,465,593,586,699,647,734,611,528,545,681,566,68,702,551,581,599,637,657,638,626,715,610,708,737,670,667,650,694,555,544,733,383,407,740,705,706,541,724,67,653,587,597,697,684,691,406,561,633,578,390,395,746,540,592,688,588,526,43,736,696,678,91,619,531,570,90,596,580,680,716,728,493,405,105,490,723,554,656,739,604,402,384,412,577,652,649,548,606,600,543,751,641,677,722,727,690,645,520,710,396,386,516,565,644,712,665,749,615,621,711,628,720,686,509,575,703,679,732,558,397,602,519,569,731,718,88,666,648,510,658,582,683,557,616,654,660,750,512,538,704,614,726,717,38,500,729,527,583,709,529,568,513,671,80,563,707,612,659,664,646,701,556,748,692,381,66,550,625,379,87,69,26,380,635,624,39,382,629,524,636,81,634,401,532,623,89</tids>
+		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
 			<feat0>android.hardware.sensor.accelerometer:y</feat0>
@@ -839,7 +841,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>35</vTarg>
 			<vnme>3.4</vnme>
-			<vnum>27</vnum>
+			<vnum>30</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -9023,7 +9025,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Profile">
 		<cdate>1751917745014</cdate>
-		<edate>1786361300177</edate>
+		<edate>1790796052254</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Profile</nme>
@@ -9328,18 +9330,26 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                             &lt;div&gt;
                                 &lt;label class="form-label" style="margin-top:0; font-size:0.75rem;"&gt;Start Time&lt;/label&gt;
                                 &lt;div class="input-row"&gt;
-                                    &lt;input type="time" id="ctxTimeStart" class="modal-input" onchange="this.style.color='var(--text-pri)'; this.disabled=false; document.getElementById('ctxStartType').value = 'time';"&gt;
+                                    &lt;input type="time" id="ctxTimeStart" class="modal-input" onchange="this.style.color='var(--text-pri)'; this.disabled=false; document.getElementById('ctxStartType').value='time'; document.getElementById('offsetRowStart').style.display='none'; document.getElementById('ctxOffsetStart').value='';"&gt;
                                     &lt;button type="button" class="btn" style="padding:8px 12px; font-size:0.7rem; background-color:#555" onclick="setSolarTime('Start', 'SUNRISE')"&gt;Sunrise&lt;/button&gt;
                                     &lt;button type="button" class="btn" style="padding:8px 12px; font-size:0.7rem; background-color:#555" onclick="setSolarTime('Start', 'SUNSET')"&gt;Sunset&lt;/button&gt;
+                                &lt;/div&gt;
+                                &lt;div class="input-row" id="offsetRowStart" style="display:none; margin-top:8px;"&gt;
+                                    &lt;span style="min-width:90px; font-size:0.75rem; color:var(--text-sec); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;"&gt;Offset (min)&lt;/span&gt;
+                                    &lt;input type="text" id="ctxOffsetStart" class="modal-input" placeholder="e.g. +30 or -15" oninput="updateSolarDisplay('Start')" style="padding:8px 12px; font-size:0.9rem;"&gt;
                                 &lt;/div&gt;
                                 &lt;input type="hidden" id="ctxStartType" value="time"&gt;
                             &lt;/div&gt;
                             &lt;div&gt;
                                 &lt;label class="form-label" style="margin-top:0; font-size:0.75rem;"&gt;End Time&lt;/label&gt;
                                 &lt;div class="input-row"&gt;
-                                    &lt;input type="time" id="ctxTimeEnd" class="modal-input" onchange="this.style.color='var(--text-pri)'; this.disabled=false; document.getElementById('ctxEndType').value = 'time';"&gt;
+                                    &lt;input type="time" id="ctxTimeEnd" class="modal-input" onchange="this.style.color='var(--text-pri)'; this.disabled=false; document.getElementById('ctxEndType').value='time'; document.getElementById('offsetRowEnd').style.display='none'; document.getElementById('ctxOffsetEnd').value='';"&gt;
                                     &lt;button type="button" class="btn" style="padding:8px 12px; font-size:0.7rem; background-color:#555" onclick="setSolarTime('End', 'SUNRISE')"&gt;Sunrise&lt;/button&gt;
                                     &lt;button type="button" class="btn" style="padding:8px 12px; font-size:0.7rem; background-color:#555" onclick="setSolarTime('End', 'SUNSET')"&gt;Sunset&lt;/button&gt;
+                                &lt;/div&gt;
+                                &lt;div class="input-row" id="offsetRowEnd" style="display:none; margin-top:8px;"&gt;
+                                    &lt;span style="min-width:90px; font-size:0.75rem; color:var(--text-sec); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;"&gt;Offset (min)&lt;/span&gt;
+                                    &lt;input type="text" id="ctxOffsetEnd" class="modal-input" placeholder="e.g. +30 or -15" oninput="updateSolarDisplay('End')" style="padding:8px 12px; font-size:0.9rem;"&gt;
                                 &lt;/div&gt;
                                 &lt;input type="hidden" id="ctxEndType" value="time"&gt;
                             &lt;/div&gt;
@@ -9681,15 +9691,19 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             content.style.display = isChecked ? 'block' : 'none';
         }
         
-        /* --- SOLAR TIME UTC-TO-LOCAL FIX --- */
+        /* --- SOLAR TIME UTC-TO-LOCAL FIX &amp; MINUTE FLOORING (C-1 &amp; C-3) --- */
         function formatSecondsToTime(secs) {
-            if (!secs) return "--:--";
-
-            let s = parseInt(secs);
+            if (secs === null || secs === undefined || secs === "") return "--:--";
+            let s = Number(secs);
             if (isNaN(s)) return "--:--";
             
             let offsetSeconds = new Date().getTimezoneOffset() * 60;
-            s = (s - offsetSeconds + 86400) % 86400;
+            /* Convert UTC to local seconds */
+            s = s - offsetSeconds;
+            /* Wrap to 0-86399 */
+            s = ((s % 86400) + 86400) % 86400;
+            /* Floor to the start of the minute */
+            s = Math.floor(s / 60) * 60;
             
             let h = Math.floor(s / 3600);
             let m = Math.floor((s % 3600) / 60);
@@ -9697,27 +9711,55 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             return (h &lt; 10 ? "0" + h : h) + ":" + (m &lt; 10 ? "0" + m : m);
         }
 
+        /* --- LIVE OFFSET PREVIEW (C-2 &amp; C-3) --- */
+        function updateSolarDisplay(type) {
+            const typeInput = document.getElementById('ctx' + type + 'Type');
+            const timeInput = document.getElementById('ctxTime' + type);
+            const offsetInput = document.getElementById('ctxOffset' + type);
+
+            if (typeInput.value === 'time') return;
+
+            const baseSecs = (typeInput.value === 'SUNRISE') ? solarStart : solarEnd;
+            const rawVal = offsetInput ? offsetInput.value.trim() : "";
+            
+            /* Blank equals 0; non-empty strings are parsed if integral */
+            let offsetMin = 0;
+            if (rawVal !== "" &amp;&amp; /^[+-]?\d+$/.test(rawVal)) {
+                offsetMin = parseInt(rawVal, 10);
+            }
+
+            const adjustedSecs = Number(baseSecs) + (offsetMin * 60);
+            timeInput.value = formatSecondsToTime(adjustedSecs);
+            timeInput.style.color = 'var(--yellow)';
+        }
+
         function setSolarTime(type, solarEvent) {
             const timeInput = document.getElementById('ctxTime' + type);
             const typeInput = document.getElementById('ctx' + type + 'Type');
+            const offsetRow = document.getElementById('offsetRow' + type);
+            const offsetInput = document.getElementById('ctxOffset' + type);
 
             if (typeInput.value === solarEvent) {
                 timeInput.disabled = false;
                 timeInput.value = '';
                 timeInput.style.color = 'var(--text-pri)';
                 typeInput.value = 'time';
+                if (offsetInput) offsetInput.value = '';
+                if (offsetRow) offsetRow.style.display = 'none';
             } else {
                 const solarTimeSeconds =
                     solarEvent === 'SUNRISE' ? solarStart : solarEnd;
 
                 if (hasSolar &amp;&amp;
-                    solarTimeSeconds &amp;&amp;
+                    solarTimeSeconds !== null &amp;&amp;
+                    solarTimeSeconds !== undefined &amp;&amp;
+                    solarTimeSeconds !== "" &amp;&amp;
                     !isNaN(parseFloat(solarTimeSeconds))) {
 
-                    timeInput.disabled = true;
-                    timeInput.value = formatSecondsToTime(solarTimeSeconds);
-                    timeInput.style.color = 'var(--yellow)';
                     typeInput.value = solarEvent;
+                    timeInput.disabled = true;
+                    if (offsetRow) offsetRow.style.display = 'flex';
+                    updateSolarDisplay(type);
                 } else {
                     showUIWarning(
                         "Solar Data Missing",
@@ -9900,12 +9942,15 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
                 ['Start', 'End'].forEach(type =&gt; {
                     const el = document.getElementById('ctxTime' + type);
-
                     el.value = '';
                     el.disabled = false;
                     el.style.color = 'var(--text-pri)';
-
                     document.getElementById('ctx' + type + 'Type').value = 'time';
+
+                    const offEl = document.getElementById('ctxOffset' + type);
+                    if (offEl) offEl.value = '';
+                    const offRow = document.getElementById('offsetRow' + type);
+                    if (offRow) offRow.style.display = 'none';
                 });
 
                 document.getElementById('ctxBattMin').value = '0';
@@ -9982,57 +10027,38 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
                         const [sVal, eVal] = triggers.time_range;
 
-                        const sType =
-                            (sVal === 'SUNRISE' || sVal === 'SUNSET')
-                                ? sVal
-                                : 'time';
+                        [ { type: 'Start', val: sVal }, { type: 'End', val: eVal } ].forEach(item =&gt; {
+                            const type = item.type;
+                            const val = String(item.val || '').trim();
+                            const timeInput = document.getElementById('ctxTime' + type);
+                            const typeInput = document.getElementById('ctx' + type + 'Type');
+                            const offsetInput = document.getElementById('ctxOffset' + type);
+                            const offsetRow = document.getElementById('offsetRow' + type);
 
-                        const eType =
-                            (eVal === 'SUNRISE' || eVal === 'SUNSET')
-                                ? eVal
-                                : 'time';
-                        
-                        document.getElementById('ctxStartType').value = sType;
+                            if (val.startsWith('SUNRISE') || val.startsWith('SUNSET')) {
+                                const solarEvent = val.startsWith('SUNRISE') ? 'SUNRISE' : 'SUNSET';
+                                typeInput.value = solarEvent;
 
-                        const startTimeInput =
-                            document.getElementById('ctxTimeStart');
+                                let offsetStr = '';
+                                if (val.includes('+')) {
+                                    offsetStr = '+' + val.substring(val.indexOf('+') + 1).trim();
+                                } else if (val.includes('-')) {
+                                    offsetStr = '-' + val.substring(val.indexOf('-') + 1).trim();
+                                }
 
-                        if (sType === 'time') {
-                            startTimeInput.value = sVal;
-                            startTimeInput.disabled = false;
-                            startTimeInput.style.color = 'var(--text-pri)';
-                        } else {
-                            startTimeInput.value =
-                                formatSecondsToTime(
-                                    sType === 'SUNRISE'
-                                        ? solarStart
-                                        : solarEnd
-                                );
-
-                            startTimeInput.disabled = true;
-                            startTimeInput.style.color = 'var(--yellow)';
-                        }
-                        
-                        document.getElementById('ctxEndType').value = eType;
-
-                        const endTimeInput =
-                            document.getElementById('ctxTimeEnd');
-
-                        if (eType === 'time') {
-                            endTimeInput.value = eVal;
-                            endTimeInput.disabled = false;
-                            endTimeInput.style.color = 'var(--text-pri)';
-                        } else {
-                            endTimeInput.value =
-                                formatSecondsToTime(
-                                    eType === 'SUNRISE'
-                                        ? solarStart
-                                        : solarEnd
-                                );
-
-                            endTimeInput.disabled = true;
-                            endTimeInput.style.color = 'var(--yellow)';
-                        }
+                                if (offsetInput) offsetInput.value = offsetStr;
+                                if (offsetRow) offsetRow.style.display = 'flex';
+                                timeInput.disabled = true;
+                                updateSolarDisplay(type);
+                            } else {
+                                typeInput.value = 'time';
+                                if (offsetInput) offsetInput.value = '';
+                                if (offsetRow) offsetRow.style.display = 'none';
+                                timeInput.value = val;
+                                timeInput.disabled = false;
+                                timeInput.style.color = 'var(--text-pri)';
+                            }
+                        });
                     }
 
                     if (triggers.battery) {
@@ -10083,6 +10109,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             }
         }
 
+        /* --- VALIDATION &amp; COMMIT RULES (C-2) --- */
         function commitContext(e) {
             if (e) e.preventDefault();
 
@@ -10126,21 +10153,39 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             let timeData = null;
 
             if (document.getElementById('useTime').checked) {
-                const sType =
-                    document.getElementById('ctxStartType').value;
+                function getCommittedTime(type) {
+                    const typeVal = document.getElementById('ctx' + type + 'Type').value;
+                    if (typeVal === 'time') {
+                        return document.getElementById('ctxTime' + type).value;
+                    }
+                    
+                    const rawOffset = document.getElementById('ctxOffset' + type).value.trim();
+                    
+                    /* Blank means 0 */
+                    if (rawOffset === "") {
+                        return typeVal;
+                    }
+                    
+                    /* Require a signed whole number of minutes */
+                    if (!/^[+-]?\d+$/.test(rawOffset)) {
+                        showUIWarning(
+                            "Invalid Offset", 
+                            "Offset for " + type + " Time must be a signed whole number of minutes (e.g. +30, -15)."
+                        );
+                        return null;
+                    }
+                    
+                    const offsetVal = parseInt(rawOffset, 10);
+                    if (offsetVal &gt; 0) return typeVal + "+" + offsetVal;
+                    if (offsetVal &lt; 0) return typeVal + offsetVal; // Minus sign already present
+                    return typeVal;
+                }
 
-                const eType =
-                    document.getElementById('ctxEndType').value;
+                const sVal = getCommittedTime('Start');
+                if (sVal === null) return; /* Validation blocked save */
 
-                const sVal =
-                    sType === 'time'
-                        ? document.getElementById('ctxTimeStart').value
-                        : sType;
-
-                const eVal =
-                    eType === 'time'
-                        ? document.getElementById('ctxTimeEnd').value
-                        : eType;
+                const eVal = getCommittedTime('End');
+                if (eVal === null) return; /* Validation blocked save */
 
                 if (!sVal || !eVal) {
                     showUIWarning(
@@ -11521,7 +11566,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Superdimming Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1785632335068</edate>
+		<edate>1790870067056</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -15222,7 +15267,7 @@ try {
 		<cdate>1750825517290</cdate>
 		<edate>1773345293362</edate>
 		<id>386</id>
-		<pri>15</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -15527,7 +15572,7 @@ try {
 		<cdate>1750742177322</cdate>
 		<edate>1752082948062</edate>
 		<id>397</id>
-		<pri>15</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_QSToggleAABService V2</Str>
@@ -16009,7 +16054,7 @@ try {
 	</Task>
 	<Task sr="task43">
 		<cdate>1767258576780</cdate>
-		<edate>1784134360368</edate>
+		<edate>1790796598137</edate>
 		<id>43</id>
 		<nme>_EvaluateContexts V2</nme>
 		<pri>6</pri>
@@ -16104,11 +16149,11 @@ try {
     /* 4. Update Last Run Time */
     tasker.setVariable("AAB_LastEvalTime", String.valueOf(nowMs));
 
-    /* --- NEW: SOLAR VARIABLES --- */
+    /* --- SOLAR VARIABLES --- */
     varSunR = tasker.getVariable("AAB_Sunrise");
     varSunS = tasker.getVariable("AAB_Sunset");
 
-    /* Default to 06:00 (21600s) and 18:00 (64800s) if missing/invalid to prevent crash */
+    /* Default to 06:00 (21600s) and 18:00 (64800s) if missing/invalid */
     valSunrise = 21600L;
     if (varSunR != null &amp;&amp; varSunR.matches("\\d+")) {
         valSunrise = Long.parseLong(varSunR);
@@ -16194,26 +16239,23 @@ try {
 
     cal = Calendar.getInstance();
     nowSecs = (cal.get(Calendar.HOUR_OF_DAY) * 3600) + (cal.get(Calendar.MINUTE) * 60) + cal.get(Calendar.SECOND);
+    nowMinute = (cal.get(Calendar.HOUR_OF_DAY) * 3600) + (cal.get(Calendar.MINUTE) * 60);
     curDay = cal.get(Calendar.DAY_OF_WEEK); 
 
     /* --- Fetch current Wi-Fi SSID (Location Bypass Integration) --- */
-    
-    /* 1. First, check if our bypass task fetched the SSID */
     bypassSsid = tasker.getVariable("bypass_ssid");
     curWifi = "";
     
     if (bypassSsid != null &amp;&amp; bypassSsid.length() &gt; 0) {
         curWifi = bypassSsid;
     } else {
-        /* 2. Fallback to standard API if bypass didn't run or failed */
-        wifiMgr = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+        wifiMgr = context.getSystemService(Context.WIFI_SERVICE);
         if (wifiMgr != null) {
             try {
                 wifiInfo = wifiMgr.getConnectionInfo();
                 if (wifiInfo != null &amp;&amp; wifiInfo.getNetworkId() != -1) {
                     rawSsid = wifiInfo.getSSID();
                     if (rawSsid != null &amp;&amp; !rawSsid.equals("&lt;unknown ssid&gt;")) {
-                        /* Strip quotes wrapped by Android OS */
                         if (rawSsid.startsWith("\"") &amp;&amp; rawSsid.endsWith("\"")) {
                             curWifi = rawSsid.substring(1, rawSsid.length() - 1);
                         } else {
@@ -16226,7 +16268,6 @@ try {
     }
 
     /* --- PASS 2: VETO GATES --- */
-    
     cache = tasker.getVariable("AAB_ContextCache");
     if (cache == null) cache = "";
     
@@ -16287,13 +16328,11 @@ try {
     if (!proceedToEval) return;
 
     if (updateState) {
-        /* Append curWifi to state to prevent duplicate runs */
         newState = curApp + "#" + curLat + "#" + curLon + "#" + curBatt + "#" + curPlug + "#" + curDay + "#" + curWifi;
         tasker.setVariable("AAB_ContextState", newState);
     }
 
-     /* --- PASS 3: EVALUATE RULES (RAM CACHED + CRASH PROOF LOAD) --- */
-    
+    /* --- PASS 3: EVALUATE RULES (RAM CACHED + CRASH PROOF LOAD) --- */
     contexts = new JSONArray();
     cachedJsonStr = tasker.getVariable("AAB_ContextJSONCache");
     loadedFromDisk = false;
@@ -16303,7 +16342,7 @@ try {
         try {
             contexts = new JSONArray(cachedJsonStr);
         } catch (Exception e) {
-            cachedJsonStr = null; /* Corrupt cache or daily reload triggered, force disk fallback */
+            cachedJsonStr = null;
         }
     }
 
@@ -16317,7 +16356,6 @@ try {
                 content = new String(Files.readAllBytes(Paths.get(path)));
                 contexts = new JSONArray(content);
                 
-                /* Repopulate the RAM cache for next time */
                 tasker.setVariable("AAB_ContextJSONCache", content);
                 loadedFromDisk = true;
                 
@@ -16328,7 +16366,7 @@ try {
     }
     
     if (isDebug &amp;&amp; loadedFromDisk) {
-        String currentLog = tasker.getVariable("eval_log");
+        currentLog = tasker.getVariable("eval_log");
         if (currentLog == null) currentLog = "";
         tasker.setVariable("eval_log", currentLog + "\n[Loaded from Disk]");
     }
@@ -16359,42 +16397,56 @@ try {
         if (hasTime) {
             range = triggers.getJSONArray("time_range");
             
+            /* 1. Parse Start Time (Floored to Minute Boundary) */
             start = 0L;
-            sRaw = range.getString(0);
-            
-            if (sRaw.equals("SUNRISE")) {
-                start = valSunrise;
-            } else if (sRaw.equals("SUNSET")) {
-                start = valSunset;
+            sRaw = range.getString(0).trim();
+            if (sRaw.startsWith("SUNRISE") || sRaw.startsWith("SUNSET")) {
+                baseSolar = sRaw.startsWith("SUNRISE") ? valSunrise : valSunset;
+                sOffsetMin = 0L;
+                if (sRaw.contains("+")) {
+                    try { sOffsetMin = Long.parseLong(sRaw.substring(sRaw.indexOf("+") + 1).trim()); } catch(Exception ex){}
+                } else if (sRaw.contains("-")) {
+                    try { sOffsetMin = -Long.parseLong(sRaw.substring(sRaw.indexOf("-") + 1).trim()); } catch(Exception ex){}
+                }
+                rawSolar = ((baseSolar + (sOffsetMin * 60L)) % 86400L + 86400L) % 86400L;
+                start = (rawSolar / 60L) * 60L;
             } else {
                 sT = sRaw.split(":"); 
                 start = (Long.parseLong(sT[0]) * 3600) + (Long.parseLong(sT[1]) * 60);
             }
 
+            /* 2. Parse End Time (Floored to Minute Boundary) */
             end = 0L;
-            eRaw = range.getString(1);
-            
-            if (eRaw.equals("SUNRISE")) {
-                end = valSunrise;
-            } else if (eRaw.equals("SUNSET")) {
-                end = valSunset;
+            eRaw = range.getString(1).trim();
+            if (eRaw.startsWith("SUNRISE") || eRaw.startsWith("SUNSET")) {
+                baseSolar = eRaw.startsWith("SUNRISE") ? valSunrise : valSunset;
+                eOffsetMin = 0L;
+                if (eRaw.contains("+")) {
+                    try { eOffsetMin = Long.parseLong(eRaw.substring(eRaw.indexOf("+") + 1).trim()); } catch(Exception ex){}
+                } else if (eRaw.contains("-")) {
+                    try { eOffsetMin = -Long.parseLong(eRaw.substring(eRaw.indexOf("-") + 1).trim()); } catch(Exception ex){}
+                }
+                rawSolar = ((baseSolar + (eOffsetMin * 60L)) % 86400L + 86400L) % 86400L;
+                end = (rawSolar / 60L) * 60L;
             } else {
                 eT = eRaw.split(":");
                 end = (Long.parseLong(eT[0]) * 3600) + (Long.parseLong(eT[1]) * 60);
             }
-            
+
+            /* Schedule wake at entry (start) and immediately after inclusive exit (end + 60s) */
             wakeTimes.add(new Long(start)); 
-            wakeTimes.add(new Long(end));
+            wakeTimes.add(new Long((end + 60L) % 86400L));
 
             activeToday = (activeDays.isEmpty() || activeDays.contains(curDay));
 
+            /* Evaluate matching against the current inclusive minute */
             if (start &lt;= end) {
-                if (!activeToday || nowSecs &lt; start || nowSecs &gt; end) timeDayMatch = false;
+                if (!activeToday || nowMinute &lt; start || nowMinute &gt; end) timeDayMatch = false;
             } else {
                 prevDay = (curDay == 1) ? 7 : curDay - 1;
                 activeYesterday = (activeDays.isEmpty() || activeDays.contains(prevDay));
-                matchToday = activeToday &amp;&amp; (nowSecs &gt;= start);
-                matchYest = activeYesterday &amp;&amp; (nowSecs &lt;= end);
+                matchToday = activeToday &amp;&amp; (nowMinute &gt;= start);
+                matchYest = activeYesterday &amp;&amp; (nowMinute &lt;= end);
                 if (!matchToday &amp;&amp; !matchYest) timeDayMatch = false;
             }
             
@@ -16464,7 +16516,6 @@ try {
     }
 
     /* --- PASS 4: OUTPUT &amp; OVERRIDE LOGIC --- */
-    
     if (!isOverrideActive) {
         userProfile = tasker.getVariable("AAB_ProfileUser");
         targetProfile = (userProfile != null &amp;&amp; userProfile.length() &gt; 0) ? userProfile : "Default";
@@ -16498,13 +16549,13 @@ try {
             tasker.setVariable("eval_log", log.toString());
         }
     } else {
-        if(isDebug) tasker.setVariable("eval_log", "Override Active. Wake times updated, Profile switch skipped.");
+        if (isDebug) tasker.setVariable("eval_log", "Override Active. Wake times updated, Profile switch skipped.");
     }
 
     minDiff = 9223372036854775807L;
     nextWake = -1;
     for (k = 0; k &lt; wakeTimes.size(); k++) {
-        timeValue = ((Long)wakeTimes.get(k)).longValue();
+        timeValue = wakeTimes.get(k).longValue();
         diff = timeValue - nowSecs;
         if (diff &lt;= 0) diff += 86400;
         if (diff &lt; minDiff) { minDiff = diff; nextWake = timeValue; }
@@ -22542,7 +22593,7 @@ try {
 	</Task>
 	<Task sr="task556">
 		<cdate>1745394500000</cdate>
-		<edate>1767418470308</edate>
+		<edate>1790870110906</edate>
 		<id>556</id>
 		<nme>_GenerateDimmingCurveGraph (Java)</nme>
 		<pri>100</pri>
@@ -23833,7 +23884,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task563">
 		<cdate>1752321296941</cdate>
-		<edate>1772823855357</edate>
+		<edate>1790862459201</edate>
 		<id>563</id>
 		<nme>_AskPermissionsV7</nme>
 		<pri>100</pri>
@@ -25275,7 +25326,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task570">
 		<cdate>1750095076798</cdate>
-		<edate>1767895002083</edate>
+		<edate>1790862370978</edate>
 		<id>570</id>
 		<nme>Initialize AAB Defaults</nme>
 		<pri>100</pri>
@@ -26332,7 +26383,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task578">
 		<cdate>1755715731211</cdate>
-		<edate>1786703273847</edate>
+		<edate>1790870291696</edate>
 		<id>578</id>
 		<nme>Dimming Decider</nme>
 		<pri>1000</pri>
@@ -26340,10 +26391,16 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_Privilege</lhs>
 					<op>3</op>
 					<rhs>None</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_SDK</lhs>
+					<op>7</op>
+					<rhs>30</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -27758,7 +27815,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task586">
 		<cdate>1756229955456</cdate>
-		<edate>1781546459719</edate>
+		<edate>1790862467958</edate>
 		<id>586</id>
 		<nme>_SuperDimmingScene</nme>
 		<pri>100</pri>
@@ -30482,7 +30539,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 	</Task>
 	<Task sr="task618">
 		<cdate>1749848387367</cdate>
-		<edate>1784200882525</edate>
+		<edate>1790795137693</edate>
 		<id>618</id>
 		<nme>Set Initial Brightness (Java) V3</nme>
 		<pri>8</pri>
@@ -36365,7 +36422,7 @@ ADB WiFi shell commands are reasonably efficient albeit slow. Note: May need re-
 	</Task>
 	<Task sr="task646">
 		<cdate>1745400000001</cdate>
-		<edate>1786703295608</edate>
+		<edate>1790870298217</edate>
 		<id>646</id>
 		<nme>Calculate Super Dimming (Privileged) V4</nme>
 		<pri>100</pri>
@@ -37190,7 +37247,7 @@ Strength setpoint: %AAB_DimmingStrength</Str>
 	</Task>
 	<Task sr="task650">
 		<cdate>1758261433019</cdate>
-		<edate>1786808645864</edate>
+		<edate>1790870321740</edate>
 		<id>650</id>
 		<nme>Apply Dimming (Privileged)</nme>
 		<pri>1000</pri>
@@ -38626,7 +38683,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task661">
 		<cdate>1750000000000</cdate>
-		<edate>1781548279647</edate>
+		<edate>1790870402628</edate>
 		<id>661</id>
 		<nme>Map Lux to Brightness (Java) V2</nme>
 		<pri>100</pri>
@@ -38760,7 +38817,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -39872,7 +39929,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 	</Task>
 	<Task sr="task67">
 		<cdate>1784721213372</cdate>
-		<edate>1790447857099</edate>
+		<edate>1790830564744</edate>
 		<id>67</id>
 		<nme>_ApplyPrivilegedDisplay</nme>
 		<pri>100</pri>
@@ -41798,7 +41855,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 	</Task>
 	<Task sr="task696">
 		<cdate>1745400000000</cdate>
-		<edate>1767363284423</edate>
+		<edate>1790870340829</edate>
 		<id>696</id>
 		<nme>Smooth Brightness Transition V5 (Java)</nme>
 		<pri>100</pri>
@@ -42054,7 +42111,7 @@ Minimum target: %min_target</Str>
 	</Task>
 	<Task sr="task698">
 		<cdate>1745400000000</cdate>
-		<edate>1781546574916</edate>
+		<edate>1790870586356</edate>
 		<id>698</id>
 		<nme>Smooth DC-Like Brightness Transition V5 (Java)</nme>
 		<pri>100</pri>
@@ -42170,10 +42227,13 @@ dimStart = Double.parseDouble(tasker.getVariable("dim_start"));
 /* Feature Flags */
 privilege = tasker.getVariable("AAB_Privilege");
 detectOverrides = "On".equals(tasker.getVariable("AAB_DetectOverrides"));
+sdk = Integer.parseInt(tasker.getVariable("AAB_SDK"));
+isAtLeastSdk31 = (sdk &gt;= 31);
 
 /* Logic Flags */
-isUnprivileged = "None".equals(privilege);
-isNativeSecure = "Write Secure".equals(privilege);
+/* Extra Dim requires Android 12 (SDK 31); older versions fall back to unprivileged overlay */
+isUnprivileged = "None".equals(privilege) || !isAtLeastSdk31;
+isNativeSecure = "Write Secure".equals(privilege) &amp;&amp; isAtLeastSdk31;
 requiresTaskCall = !isUnprivileged &amp;&amp; !isNativeSecure;
 
 /* System Access */
@@ -42844,13 +42904,12 @@ Target brightness: %AAB_CurrentBright</Str>
 	</Task>
 	<Task sr="task702">
 		<cdate>1764155023733</cdate>
-		<edate>1764155023733</edate>
+		<edate>1790870104595</edate>
 		<id>702</id>
 		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">Gamma-like exponent. Controls the shape of the dimming curve.
-Higher values keep the screen brighter for longer and fade more steeply near the threshold; lower values dim more quickly. Adjusts how brightness transitions, not how much(!) </Str>
+			<Str sr="arg0" ve="3">Enables or disables the software dimming feature. When enabled the max hardware brightness is fixated to the PWM threshold.</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg10" ve="3"/>
 			<Int sr="arg11" val="1"/>
@@ -43843,7 +43902,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf((long)calc_dusk));</Str>
 	</Task>
 	<Task sr="task706">
 		<cdate>1764224506296</cdate>
-		<edate>1786799860920</edate>
+		<edate>1790862970472</edate>
 		<id>706</id>
 		<nme>_Updates</nme>
 		<pri>100</pri>
@@ -44254,15 +44313,39 @@ tasker.setVariable("profile_migration_failed", migrationFailed ? "true" : "false
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%profile_migration_failed</lhs>
-					<op>3</op>
-					<rhs>true</rhs>
+					<lhs>%AAB_Version</lhs>
+					<op>6</op>
+					<rhs>3.45</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act34" ve="7">
+			<code>474</code>
+			<Str sr="arg0" ve="3">import android.os.Build;
+
+tasker.setVariable("AAB_SDK", String.valueOf(Build.VERSION.SDK_INT));</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_Version</Str>
+			<Str sr="arg1" ve="3">3.45</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act36" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -44980,7 +45063,7 @@ E.g. 10^%AAB_ThreshMidpoint equals %aab_10xthreshmidpoint lx</Str>
 	</Task>
 	<Task sr="task72">
 		<cdate>1785559537834</cdate>
-		<edate>1790464900854</edate>
+		<edate>1790830506486</edate>
 		<id>72</id>
 		<nme>_AllPrivilegedToggles</nme>
 		<rty>2</rty>
@@ -46526,7 +46609,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task80">
 		<cdate>1787133471180</cdate>
-		<edate>1790448558708</edate>
+		<edate>1790831252700</edate>
 		<id>80</id>
 		<nme>_ReadPrivilegedDisplayState</nme>
 		<pri>100</pri>
@@ -47174,23 +47257,67 @@ if (!nightLightAvailable) {
     /* Night Light temperature                               */
     /* ----------------------------------------------------- */
 
+    /*
+     * Protect the static baseline temperature whenever Circadian
+     * is currently active, requested active, or transitioning.
+     *
+     * - Stored active: hardware Kelvin is dynamic, do not adopt.
+     * - Transitioning OFF: stored is still active at read time, so
+     *   hardware Kelvin is still circadian and must not clobber baseline.
+     * - Transitioning ON: requested is active, do not adopt.
+     */
+
+    circadianStored =
+        "true".equalsIgnoreCase(
+            tasker.getVariable("AAB_NightLightCircadian")
+        );
+
+    circadianRequested =
+        isApplyCaller
+        &amp;&amp; p != null
+        &amp;&amp; p.length &gt; 2
+        &amp;&amp; p[2] != null
+        &amp;&amp; "true".equalsIgnoreCase(p[2].trim());
+
+    protectStaticTemp =
+        circadianStored || circadianRequested;
+
     if (values[1] == null
             || values[1].trim().length() == 0) {
 
-        tasker.setVariable(
-            "AAB_NightLightTemp",
-            null
-        );
+        /*
+         * Only clear the user preference if static temp is not protected.
+         */
+        if (!protectStaticTemp) {
+            tasker.setVariable(
+                "AAB_NightLightTemp",
+                null
+            );
+        }
 
     } else {
 
         currentTemp =
             values[1].trim();
 
+        /*
+         * Record the actual hardware Kelvin state for diagnostics/monitoring.
+         */
         tasker.setVariable(
-            "AAB_NightLightTemp",
+            "AAB_NightLightHardwareTemp",
             currentTemp
         );
+
+        /*
+         * Only update the persistent user setting when static temp is not protected.
+         * Otherwise, dynamic circadian Kelvin would overwrite the user's manual baseline.
+         */
+        if (!protectStaticTemp) {
+            tasker.setVariable(
+                "AAB_NightLightTemp",
+                currentTemp
+            );
+        }
 
         /*
          * "unset" already means no Android write.
@@ -48060,7 +48187,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task87">
 		<cdate>1790405087200</cdate>
-		<edate>1790447829552</edate>
+		<edate>1790594031603</edate>
 		<id>87</id>
 		<nme>_DetermineNightLightThresh</nme>
 		<pri>100</pri>
@@ -48501,7 +48628,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task89">
 		<cdate>1790464858887</cdate>
-		<edate>1790465952549</edate>
+		<edate>1790831625162</edate>
 		<id>89</id>
 		<nme>_SensorDump</nme>
 		<pri>100</pri>
@@ -48682,10 +48809,10 @@ h != "" &amp;&amp; /^[0-9:]+ [-+] / &amp;&amp; index($0, " " h " ") &amp;&amp; r
 	</Task>
 	<Task sr="task90">
 		<cdate>1745400000000</cdate>
-		<edate>1790448645478</edate>
+		<edate>1790830602772</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
