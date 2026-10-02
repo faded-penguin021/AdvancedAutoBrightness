@@ -226,6 +226,7 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
+		<clp>true</clp>
 		<edate>1790768393080</edate>
 		<flags>40</flags>
 		<id>758</id>
@@ -498,8 +499,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Profile>
 	<Profile sr="prof763" ve="2">
 		<cdate>1772804411686</cdate>
-		<clp>true</clp>
-		<edate>1772885540851</edate>
+		<edate>1790924333106</edate>
 		<flags>8</flags>
 		<id>763</id>
 		<limit>true</limit>
@@ -828,9 +828,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.4</name>
-		<pids>761,753,763,762,758,755,59,766,759,760,764,767,768,754,765,757,756,8,769</pids>
-		<scenes>AAB Dimming Graph,AAB Color Filter,AAB Menu,AAB Experiment Graph,AAB Chart.Js License,AAB Misc Settings,AAB Reactivity Settings,AAB Circadian Dimming Graph,AAB Debug Scene,AAB Profile,AAB Reactivity Graph,AAB User Guide,AAB Superdimming Settings,AAB About,AAB Experiment Settings,AAB Alpha Graph,AAB Taper Graph,AAB Brightness Settings,AAB Privileged Scene,AAB Brightness Graph,AAB Power Draw Graph</scenes>
-		<tids>674,605,409,546,714,553,462,534,552,517,613,601,730,505,535,492,663,506,533,687,631,639,589,537,530,417,689,738,576,617,676,514,747,632,585,651,743,584,598,560,539,622,594,725,640,735,655,675,579,391,571,559,661,515,378,620,564,542,591,721,522,643,662,719,481,536,403,630,511,685,752,60,508,669,693,744,607,618,695,525,521,523,411,741,698,82,700,567,672,473,562,603,590,547,549,595,742,609,466,421,608,713,72,682,465,593,586,699,647,734,611,528,545,681,566,68,702,551,581,599,637,657,638,626,715,610,708,737,670,667,650,694,555,544,733,383,407,740,705,706,541,724,67,653,587,597,697,684,691,406,561,633,578,390,395,746,540,592,688,588,526,43,736,696,678,91,619,531,570,90,596,580,680,716,728,493,405,105,490,723,554,656,739,604,402,384,412,577,652,649,548,606,600,543,751,641,677,722,727,690,645,520,710,396,386,516,565,644,712,665,749,615,621,711,628,720,686,509,575,703,679,732,558,397,602,519,569,731,718,88,666,648,510,658,582,683,557,616,654,660,750,512,538,704,614,726,717,38,500,729,527,583,709,529,568,513,671,80,563,707,612,659,664,646,701,556,748,692,381,66,550,625,379,87,69,26,380,635,624,39,382,629,524,636,81,634,401,532,623,89</tids>
+		<pids>766,761,762,768,755,759,59,758,763,765,754,760,764,756,753,767,757,8,769</pids>
+		<scenes>AAB Superdimming Settings,AAB Taper Graph,AAB Debug Scene,AAB Menu,AAB Dimming Graph,AAB User Guide,AAB Reactivity Graph,AAB Privileged Scene,AAB Color Filter,AAB About,AAB Profile,AAB Brightness Settings,AAB Chart.Js License,AAB Circadian Dimming Graph,AAB Experiment Settings,AAB Alpha Graph,AAB Experiment Graph,AAB Brightness Graph,AAB Misc Settings,AAB Reactivity Settings,AAB Power Draw Graph</scenes>
+		<tids>473,384,609,727,703,554,654,525,585,615,531,659,545,527,511,716,740,530,708,611,699,693,664,541,395,631,417,548,602,412,596,730,707,562,726,620,514,567,581,646,462,677,663,749,67,534,584,639,718,651,644,674,658,724,657,91,510,667,38,553,391,520,575,493,605,594,559,680,630,610,647,587,656,597,601,523,606,582,652,669,637,509,648,712,589,720,617,748,580,546,725,697,521,616,645,540,719,555,607,569,660,676,588,583,685,695,689,715,90,603,698,528,650,694,390,690,481,742,722,672,533,706,661,576,407,626,717,670,741,529,600,746,466,465,537,683,386,738,536,68,696,599,678,544,490,649,691,591,709,516,564,713,640,586,535,747,736,638,662,538,396,628,604,679,744,619,681,508,500,397,578,743,563,705,692,571,566,513,750,519,383,687,711,622,728,82,556,522,598,723,621,732,403,612,561,506,653,549,105,551,751,704,492,543,505,593,613,80,88,592,570,515,701,557,539,560,590,710,411,552,632,72,735,734,421,614,700,721,671,43,517,526,402,675,579,608,406,702,633,666,405,655,547,409,565,688,60,737,618,643,686,577,595,641,684,714,729,568,636,378,739,542,731,665,752,558,733,682,26,629,87,69,382,635,625,532,379,66,550,624,381,380,623,512,39,89,634,524,81,401</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
@@ -841,7 +841,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>35</vTarg>
 			<vnme>3.4</vnme>
-			<vnum>30</vnum>
+			<vnum>31</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -9025,7 +9025,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Profile">
 		<cdate>1751917745014</cdate>
-		<edate>1790796052254</edate>
+		<edate>1790924618614</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Profile</nme>
@@ -9364,7 +9364,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                     &lt;/div&gt;
                     &lt;div id="battFields" class="trigger-content"&gt;
                         &lt;div class="input-row"&gt;&lt;input type="number" id="ctxBattMin" class="modal-input" placeholder="Min %" value="0"&gt;&lt;input type="number" id="ctxBattMax" class="modal-input" placeholder="Max %" value="100"&gt;&lt;/div&gt;
-                        &lt;div style="display:flex; justify-content:space-between; align-items:center; color:white; font-size:0.9rem; margin-top:10px;"&gt;Only While Charging &lt;input type="checkbox" id="ctxBattPower"&gt;&lt;/div&gt;
+                        &lt;div style="display:flex; justify-content:space-between; align-items:center; color:white; font-size:0.9rem; margin-top:10px;"&gt;Only While Plugged In&lt;input type="checkbox" id="ctxBattPower"&gt;&lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
 
@@ -16054,7 +16054,7 @@ try {
 	</Task>
 	<Task sr="task43">
 		<cdate>1767258576780</cdate>
-		<edate>1790796598137</edate>
+		<edate>1790924413354</edate>
 		<id>43</id>
 		<nme>_EvaluateContexts V2</nme>
 		<pri>6</pri>
@@ -16233,8 +16233,7 @@ try {
 
     ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
     batteryStatus = context.registerReceiver(null, ifilter);
-    status = batteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
-    isPlugged = (status == BatteryManager.BATTERY_STATUS_CHARGING || status == BatteryManager.BATTERY_STATUS_FULL);
+    isPlugged = batteryStatus.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0) &gt; 0;
     curPlug = isPlugged ? 1 : 0;
 
     cal = Calendar.getInstance();
@@ -20073,7 +20072,7 @@ return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 	</Task>
 	<Task sr="task543">
 		<cdate>1751894672278</cdate>
-		<edate>1781240602748</edate>
+		<edate>1790872215745</edate>
 		<id>543</id>
 		<nme>Calculate Animation (Java) V2</nme>
 		<pri>100</pri>
@@ -48439,7 +48438,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task88">
 		<cdate>1790428757875</cdate>
-		<edate>1790464924062</edate>
+		<edate>1790870716494</edate>
 		<id>88</id>
 		<nme>_NightLightAPI</nme>
 		<Action sr="act0" ve="7">
