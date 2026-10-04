@@ -34,7 +34,6 @@
 		<edate>1772545220017</edate>
 		<flags>8</flags>
 		<id>753</id>
-		<limit>true</limit>
 		<mid0>585</mid0>
 		<nme>Hibernate (Display Off)</nme>
 		<Event sr="con0" ve="2">
@@ -89,7 +88,6 @@
 		<edate>1790258052860</edate>
 		<flags>8</flags>
 		<id>755</id>
-		<limit>true</limit>
 		<mid0>567</mid0>
 		<nme>Allow Override</nme>
 		<pri>10</pri>
@@ -190,7 +188,6 @@
 		<edate>1766776341548</edate>
 		<flags>8</flags>
 		<id>757</id>
-		<limit>true</limit>
 		<mid0>584</mid0>
 		<nme>Repost Foreground Notification</nme>
 		<Time sr="con0">
@@ -230,7 +227,6 @@
 		<edate>1790768393080</edate>
 		<flags>40</flags>
 		<id>758</id>
-		<limit>true</limit>
 		<mid0>90</mid0>
 		<nme>Dynamic Scale Engine</nme>
 		<Time sr="con0">
@@ -338,11 +334,9 @@
 	</Profile>
 	<Profile sr="prof759" ve="2">
 		<cdate>1772804411683</cdate>
-		<clp>true</clp>
-		<edate>1782762556593</edate>
+		<edate>1791091232055</edate>
 		<flags>8</flags>
 		<id>759</id>
-		<limit>true</limit>
 		<mid0>545</mid0>
 		<mid1>545</mid1>
 		<nme>Proximity Detection</nme>
@@ -362,7 +356,6 @@
 		<edate>1787771559517</edate>
 		<flags>24</flags>
 		<id>760</id>
-		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -430,7 +423,6 @@ Values
 		<edate>1790795137693</edate>
 		<flags>8</flags>
 		<id>761</id>
-		<limit>true</limit>
 		<mid0>618</mid0>
 		<nme>Initialize (Display On)</nme>
 		<pri>7</pri>
@@ -444,7 +436,6 @@ Values
 		<edate>1773671202321</edate>
 		<flags>8</flags>
 		<id>762</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: App Changed</nme>
 		<Event sr="con0" ve="2">
@@ -499,10 +490,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Profile>
 	<Profile sr="prof763" ve="2">
 		<cdate>1772804411686</cdate>
+		<clp>true</clp>
 		<edate>1790924333106</edate>
 		<flags>8</flags>
 		<id>763</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Battery Changed</nme>
 		<Event sr="con0" ve="2">
@@ -547,7 +538,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1782364448619</edate>
 		<flags>8</flags>
 		<id>764</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Time Changed</nme>
 		<Time sr="con0">
@@ -589,7 +579,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781472858010</edate>
 		<flags>8</flags>
 		<id>765</id>
-		<limit>true</limit>
 		<mid0>630</mid0>
 		<mid1>630</mid1>
 		<nme>Context: Location Listener</nme>
@@ -628,7 +617,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781530526604</edate>
 		<flags>8</flags>
 		<id>766</id>
-		<limit>true</limit>
 		<mid0>631</mid0>
 		<nme>Context: Location Refresher</nme>
 		<Time sr="con0">
@@ -678,7 +666,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1784134360368</edate>
 		<flags>8</flags>
 		<id>767</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Location Changed</nme>
 		<State sr="con0" ve="2">
@@ -727,7 +714,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1773671193342</edate>
 		<flags>8</flags>
 		<id>768</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>43</mid1>
 		<nme>Context: WiFi (Dis)connected</nme>
@@ -828,9 +814,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.4</name>
-		<pids>766,761,762,768,755,759,59,758,763,765,754,760,764,756,753,767,757,8,769</pids>
-		<scenes>AAB Superdimming Settings,AAB Taper Graph,AAB Debug Scene,AAB Menu,AAB Dimming Graph,AAB User Guide,AAB Reactivity Graph,AAB Privileged Scene,AAB Color Filter,AAB About,AAB Profile,AAB Brightness Settings,AAB Chart.Js License,AAB Circadian Dimming Graph,AAB Experiment Settings,AAB Alpha Graph,AAB Experiment Graph,AAB Brightness Graph,AAB Misc Settings,AAB Reactivity Settings,AAB Power Draw Graph</scenes>
-		<tids>473,384,609,727,703,554,654,525,585,615,531,659,545,527,511,716,740,530,708,611,699,693,664,541,395,631,417,548,602,412,596,730,707,562,726,620,514,567,581,646,462,677,663,749,67,534,584,639,718,651,644,674,658,724,657,91,510,667,38,553,391,520,575,493,605,594,559,680,630,610,647,587,656,597,601,523,606,582,652,669,637,509,648,712,589,720,617,748,580,546,725,697,521,616,645,540,719,555,607,569,660,676,588,583,685,695,689,715,90,603,698,528,650,694,390,690,481,742,722,672,533,706,661,576,407,626,717,670,741,529,600,746,466,465,537,683,386,738,536,68,696,599,678,544,490,649,691,591,709,516,564,713,640,586,535,747,736,638,662,538,396,628,604,679,744,619,681,508,500,397,578,743,563,705,692,571,566,513,750,519,383,687,711,622,728,82,556,522,598,723,621,732,403,612,561,506,653,549,105,551,751,704,492,543,505,593,613,80,88,592,570,515,701,557,539,560,590,710,411,552,632,72,735,734,421,614,700,721,671,43,517,526,402,675,579,608,406,702,633,666,405,655,547,409,565,688,60,737,618,643,686,577,595,641,684,714,729,568,636,378,739,542,731,665,752,558,733,682,26,629,87,69,382,635,625,532,379,66,550,624,381,380,623,512,39,89,634,524,81,401</tids>
+		<pids>755,754,758,763,760,767,762,757,756,766,765,59,753,764,761,768,759,8,769</pids>
+		<scenes>AAB Color Filter,AAB Debug Scene,AAB Reactivity Graph,AAB Menu,AAB Circadian Dimming Graph,AAB Taper Graph,AAB Brightness Settings,AAB Brightness Graph,AAB Profile,AAB Misc Settings,AAB About,AAB Superdimming Settings,AAB Chart.Js License,AAB Privileged Scene,AAB Alpha Graph,AAB Experiment Graph,AAB Experiment Settings,AAB Reactivity Settings,AAB User Guide,AAB Dimming Graph,AAB Power Draw Graph</scenes>
+		<tids>105,67,540,88,411,549,82,638,615,648,618,674,43,725,578,390,606,582,672,628,675,681,91,542,634,735,736,632,90,525,526,595,546,611,466,746,733,569,60,750,511,698,737,594,554,697,691,719,649,575,68,563,622,644,584,517,556,531,729,670,551,537,663,538,565,409,553,559,405,543,715,724,704,665,710,535,521,689,601,683,568,589,592,718,731,560,403,751,509,557,655,657,653,667,583,684,591,579,506,558,613,666,686,709,639,716,585,726,586,688,705,720,587,567,547,658,528,384,617,590,614,645,541,728,647,621,571,508,548,609,742,555,660,536,700,80,570,682,656,527,522,664,564,397,620,687,630,711,631,588,732,600,561,607,712,714,747,713,669,703,708,654,722,679,383,602,685,38,406,752,730,500,566,514,510,493,530,734,529,661,599,608,505,604,723,721,596,696,643,637,576,671,678,597,676,701,605,743,603,417,492,552,580,690,626,739,717,640,650,695,539,694,610,523,727,473,662,740,513,395,619,677,693,646,412,707,744,699,749,641,706,516,462,533,577,407,515,481,616,598,581,741,396,659,562,593,612,402,738,520,490,465,651,545,680,633,72,534,652,748,421,702,386,544,391,519,378,692,26,381,66,635,532,81,636,87,625,89,524,512,629,69,623,624,382,380,401,379,39,550</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
@@ -841,7 +827,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>com.tideo.aab</pkg>
 			<vTarg>35</vTarg>
 			<vnme>3.4</vnme>
-			<vnum>31</vnum>
+			<vnum>32</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -15386,7 +15372,7 @@ try {
 		<cdate>1750825517290</cdate>
 		<edate>1752600530865</edate>
 		<id>391</id>
-		<pri>119</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ExitButton</Str>
@@ -19398,55 +19384,59 @@ return shouldStop;</Str>
 	</Task>
 	<Task sr="task535">
 		<cdate>1749734284408</cdate>
-		<edate>1765629948906</edate>
+		<edate>1791090726555</edate>
 		<id>535</id>
 		<nme>Lux Smoothing (Java)</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>474</code>
-			<Str sr="arg0" ve="3">/* --- Java Code for Lux Smoothing (Enhanced with Rounding) --- */
+			<Str sr="arg0" ve="3">/* Java Code for Lux Smoothing with proximity damping. */
 
 import java.math.BigDecimal;
 
-/* Read literal values inserted by Tasker */
-double par1 = %par1;
-double par2 = %par2;
-double AAB_ThreshDynamic = %AAB_ThreshDynamic;
-double AAB_DeltaFactor = %AAB_DeltaFactor;
-double AAB_Zone1End = %AAB_Zone1End;
+/* Read literal values inserted by Tasker. */
+par1 = %par1;
+par2 = %par2;
+AAB_ThreshDynamic = %AAB_ThreshDynamic;
+AAB_DeltaFactor = %AAB_DeltaFactor;
+AAB_Zone1End = %AAB_Zone1End;
+AAB_Proximity = "%AAB_Proximity";
 
-/* A1: Calculate lux_delta */
-double lux_delta_raw = Math.abs((par1 - par2) / (par2 + 1.0));
-double lux_delta = Math.round(lux_delta_raw * 1000.0) / 1000.0;
+/* A1: Calculate lux_delta. */
+lux_delta_raw = Math.abs((par1 - par2) / (par2 + 1.0));
+lux_delta = Math.round(lux_delta_raw * 1000.0) / 1000.0;
 
-/* A2: Calculate effective_delta */
-double effective_delta_raw = lux_delta - (AAB_ThreshDynamic / 100.0);
-double effective_delta = Math.round(effective_delta_raw * 1000.0) / 1000.0;
+/* A2: Calculate effective_delta. */
+effective_delta_raw = lux_delta - (AAB_ThreshDynamic / 100.0);
+effective_delta = Math.round(effective_delta_raw * 1000.0) / 1000.0;
 
-/* A3: Calculate lux_alpha */
-double lux_alpha_raw = 1.0 - Math.exp(-AAB_DeltaFactor * effective_delta);
-double lux_alpha = Math.round(lux_alpha_raw * 1000.0) / 1000.0;
+/* A3: Calculate lux_alpha. */
+lux_alpha_raw = 1.0 - Math.exp(-AAB_DeltaFactor * effective_delta);
+lux_alpha = Math.round(lux_alpha_raw * 1000.0) / 1000.0;
 
-/* A4: Calculate new_smoothed_lux (unrounded) */
-double new_smoothed_lux_raw = (par1 * lux_alpha) + (par2 * (1.0 - lux_alpha));
+/* A3b: Proximity damp, so smoothed lux moves a tenth as far while covered. */
+if (AAB_Proximity.equals("near")) {
+    lux_alpha = Math.round(lux_alpha * 0.1 * 1000.0) / 1000.0;
+}
 
-/* --- NEW LOGIC: Using BigDecimal for readable rounding --- */
+/* A4: Calculate new_smoothed_lux (unrounded). */
+new_smoothed_lux_raw = (par1 * lux_alpha) + (par2 * (1.0 - lux_alpha));
 
-/* Create a BigDecimal object from the calculated double */
-BigDecimal luxToRound = new BigDecimal(new_smoothed_lux_raw);
+/* Use BigDecimal for readable rounding. */
+luxToRound = new BigDecimal(new_smoothed_lux_raw);
 
-String final_lux_string;
+final_lux_string = "";
 if (new_smoothed_lux_raw &lt; AAB_Zone1End) {
-    /* Round to 2 decimal places using HALF_UP rounding (standard) */
-    BigDecimal roundedLux = luxToRound.setScale(2, BigDecimal.ROUND_HALF_UP);
+    /* Round to 2 decimal places using HALF_UP rounding. */
+    roundedLux = luxToRound.setScale(2, BigDecimal.ROUND_HALF_UP);
     final_lux_string = roundedLux.toString();
 } else {
-    /* Round to 0 decimal places. This will not have a ".0" */
-    BigDecimal roundedLux = luxToRound.setScale(0, BigDecimal.ROUND_HALF_UP);
+    /* Round to 0 decimal places. */
+    roundedLux = luxToRound.setScale(0, BigDecimal.ROUND_HALF_UP);
     final_lux_string = roundedLux.toString();
 }
 
-/* Return the final values, using the correctly formatted string */
+/* Return the final values. */
 return final_lux_string + "," + lux_alpha + "," + lux_delta;</Str>
 			<Str sr="arg1" ve="3">%output</Str>
 			<Int sr="arg2" val="0"/>
@@ -20130,7 +20120,7 @@ tasker.setVariable("AAB_Throttle", String.valueOf(aabThrottle));</Str>
 	</Task>
 	<Task sr="task544">
 		<cdate>1749731158782</cdate>
-		<edate>1790405055312</edate>
+		<edate>1791090481837</edate>
 		<id>544</id>
 		<nme>Evaluate Light Change (Java) V2</nme>
 		<pri>100</pri>
@@ -20414,52 +20404,16 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act28" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AAB_Proximity</lhs>
-					<op>2</op>
-					<rhs>near</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LuxAlpha</Str>
-			<Str sr="arg1" ve="3">%lux_results2*0.1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="4"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LastAAB</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act31" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LuxAlpha</Str>
 			<Str sr="arg1" ve="3">%lux_results2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
+			<Int sr="arg5" val="4"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Map Lux to Brightness (Java) V2</Str>
 			<Int sr="arg1">
@@ -20475,7 +20429,17 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LastAAB</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LastAAB</Str>
 			<Str sr="arg1" ve="3">%now</Str>
@@ -20485,7 +20449,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act31" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Thresholds (Java)</Str>
 			<Int sr="arg1">
@@ -20501,7 +20465,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act32" ve="7">
 			<code>35</code>
 			<Int sr="arg0">
 				<var>100</var>
@@ -20518,7 +20482,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AutoBrightRunning</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -20528,7 +20492,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act34" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_MainLoop</Str>
 			<Str sr="arg1" ve="3">Off</Str>
@@ -20538,7 +20502,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act35" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Relative change %relative_change &gt; Dynamic threshold %dynamic_threshold. Updating.</Str>
 			<Int sr="arg1" val="0"/>
@@ -20564,17 +20528,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%elapsed_time</Str>
-			<Str sr="arg1" ve="3">%now - %LastAAB</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_CycleTotal</Str>
 			<Str sr="arg1" ve="3">%TIMEMS-%AAB_CycleStart</Str>
@@ -20590,6 +20544,16 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 					<rhs>1</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%elapsed_time</Str>
+			<Str sr="arg1" ve="3">%now - %LastAAB</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>37</code>
@@ -20625,7 +20589,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 	</Task>
 	<Task sr="task545">
 		<cdate>1753466556230</cdate>
-		<edate>1782666097554</edate>
+		<edate>1791091232055</edate>
 		<id>545</id>
 		<nme>Detect Proximity</nme>
 		<pri>6</pri>
@@ -20670,6 +20634,22 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Evaluate Light Change (Java) V2</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%AAB_LastRawLux</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -26667,7 +26647,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task580">
 		<cdate>1750685644979</cdate>
-		<edate>1786802423285</edate>
+		<edate>1790951078796</edate>
 		<id>580</id>
 		<nme>Advanced Auto Brightness</nme>
 		<pc>Add this task to the launcher for an app-like experience!</pc>
@@ -27814,7 +27794,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task586">
 		<cdate>1756229955456</cdate>
-		<edate>1790862467958</edate>
+		<edate>1791091305917</edate>
 		<id>586</id>
 		<nme>_SuperDimmingScene</nme>
 		<pri>100</pri>
@@ -38682,7 +38662,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task661">
 		<cdate>1750000000000</cdate>
-		<edate>1790870402628</edate>
+		<edate>1791091322601</edate>
 		<id>661</id>
 		<nme>Map Lux to Brightness (Java) V2</nme>
 		<pri>100</pri>
@@ -38819,6 +38799,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 			<coll>false</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_PWMSensitive</lhs>
 					<op>2</op>
@@ -38828,6 +38809,11 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 					<lhs>%calculated_brightness</lhs>
 					<op>6</op>
 					<rhs>%AAB_DimmingThreshold</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%AAB_SDK</lhs>
+					<op>7</op>
+					<rhs>30</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -38889,6 +38875,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_PWMSensitive</lhs>
 					<op>2</op>
@@ -38903,6 +38890,11 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 					<lhs>%calculated_brightness</lhs>
 					<op>7</op>
 					<rhs>%AAB_DimmingThreshold</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%AAB_SDK</lhs>
+					<op>7</op>
+					<rhs>30</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -42110,7 +42102,7 @@ Minimum target: %min_target</Str>
 	</Task>
 	<Task sr="task698">
 		<cdate>1745400000000</cdate>
-		<edate>1790870586356</edate>
+		<edate>1791091375812</edate>
 		<id>698</id>
 		<nme>Smooth DC-Like Brightness Transition V5 (Java)</nme>
 		<pri>100</pri>
@@ -42196,7 +42188,7 @@ Minimum target: %min_target</Str>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BRIGHT</lhs>
-					<op>3</op>
+					<op>6</op>
 					<rhs>%AAB_DimmingThreshold</rhs>
 				</Condition>
 			</ConditionList>
