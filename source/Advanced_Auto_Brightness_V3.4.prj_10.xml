@@ -34,6 +34,7 @@
 		<edate>1772545220017</edate>
 		<flags>8</flags>
 		<id>753</id>
+		<limit>true</limit>
 		<mid0>585</mid0>
 		<nme>Hibernate (Display Off)</nme>
 		<Event sr="con0" ve="2">
@@ -188,6 +189,7 @@
 		<edate>1766776341548</edate>
 		<flags>8</flags>
 		<id>757</id>
+		<limit>true</limit>
 		<mid0>584</mid0>
 		<nme>Repost Foreground Notification</nme>
 		<Time sr="con0">
@@ -223,10 +225,10 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
-		<clp>true</clp>
-		<edate>1790768393080</edate>
+		<edate>1791377990003</edate>
 		<flags>40</flags>
 		<id>758</id>
+		<limit>true</limit>
 		<mid0>90</mid0>
 		<nme>Dynamic Scale Engine</nme>
 		<Time sr="con0">
@@ -334,9 +336,11 @@
 	</Profile>
 	<Profile sr="prof759" ve="2">
 		<cdate>1772804411683</cdate>
+		<clp>true</clp>
 		<edate>1791091232055</edate>
 		<flags>8</flags>
 		<id>759</id>
+		<limit>true</limit>
 		<mid0>545</mid0>
 		<mid1>545</mid1>
 		<nme>Proximity Detection</nme>
@@ -356,6 +360,7 @@
 		<edate>1787771559517</edate>
 		<flags>24</flags>
 		<id>760</id>
+		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -423,6 +428,7 @@ Values
 		<edate>1790795137693</edate>
 		<flags>8</flags>
 		<id>761</id>
+		<limit>true</limit>
 		<mid0>618</mid0>
 		<nme>Initialize (Display On)</nme>
 		<pri>7</pri>
@@ -436,6 +442,7 @@ Values
 		<edate>1773671202321</edate>
 		<flags>8</flags>
 		<id>762</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: App Changed</nme>
 		<Event sr="con0" ve="2">
@@ -494,6 +501,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1790924333106</edate>
 		<flags>8</flags>
 		<id>763</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Battery Changed</nme>
 		<Event sr="con0" ve="2">
@@ -579,6 +587,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781472858010</edate>
 		<flags>8</flags>
 		<id>765</id>
+		<limit>true</limit>
 		<mid0>630</mid0>
 		<mid1>630</mid1>
 		<nme>Context: Location Listener</nme>
@@ -617,6 +626,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781530526604</edate>
 		<flags>8</flags>
 		<id>766</id>
+		<limit>true</limit>
 		<mid0>631</mid0>
 		<nme>Context: Location Refresher</nme>
 		<Time sr="con0">
@@ -666,6 +676,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1784134360368</edate>
 		<flags>8</flags>
 		<id>767</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Location Changed</nme>
 		<State sr="con0" ve="2">
@@ -714,6 +725,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1773671193342</edate>
 		<flags>8</flags>
 		<id>768</id>
+		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>43</mid1>
 		<nme>Context: WiFi (Dis)connected</nme>
@@ -814,9 +826,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.4</name>
-		<pids>755,754,758,763,760,767,762,757,756,766,765,59,753,764,761,768,759,8,769</pids>
-		<scenes>AAB Color Filter,AAB Debug Scene,AAB Reactivity Graph,AAB Menu,AAB Circadian Dimming Graph,AAB Taper Graph,AAB Brightness Settings,AAB Brightness Graph,AAB Profile,AAB Misc Settings,AAB About,AAB Superdimming Settings,AAB Chart.Js License,AAB Privileged Scene,AAB Alpha Graph,AAB Experiment Graph,AAB Experiment Settings,AAB Reactivity Settings,AAB User Guide,AAB Dimming Graph,AAB Power Draw Graph</scenes>
-		<tids>105,67,540,88,411,549,82,638,615,648,618,674,43,725,578,390,606,582,672,628,675,681,91,542,634,735,736,632,90,525,526,595,546,611,466,746,733,569,60,750,511,698,737,594,554,697,691,719,649,575,68,563,622,644,584,517,556,531,729,670,551,537,663,538,565,409,553,559,405,543,715,724,704,665,710,535,521,689,601,683,568,589,592,718,731,560,403,751,509,557,655,657,653,667,583,684,591,579,506,558,613,666,686,709,639,716,585,726,586,688,705,720,587,567,547,658,528,384,617,590,614,645,541,728,647,621,571,508,548,609,742,555,660,536,700,80,570,682,656,527,522,664,564,397,620,687,630,711,631,588,732,600,561,607,712,714,747,713,669,703,708,654,722,679,383,602,685,38,406,752,730,500,566,514,510,493,530,734,529,661,599,608,505,604,723,721,596,696,643,637,576,671,678,597,676,701,605,743,603,417,492,552,580,690,626,739,717,640,650,695,539,694,610,523,727,473,662,740,513,395,619,677,693,646,412,707,744,699,749,641,706,516,462,533,577,407,515,481,616,598,581,741,396,659,562,593,612,402,738,520,490,465,651,545,680,633,72,534,652,748,421,702,386,544,391,519,378,692,26,381,66,635,532,81,636,87,625,89,524,512,629,69,623,624,382,380,401,379,39,550</tids>
+		<pids>761,760,754,755,59,753,757,758,756,764,766,759,768,767,763,762,765,769,8</pids>
+		<scenes>AAB Dimming Graph,AAB Privileged Scene,AAB Chart.Js License,AAB Debug Scene,AAB Profile,AAB Color Filter,AAB Brightness Graph,AAB Taper Graph,AAB Reactivity Settings,AAB Alpha Graph,AAB Circadian Dimming Graph,AAB Misc Settings,AAB Brightness Settings,AAB Menu,AAB User Guide,AAB Reactivity Graph,AAB Experiment Graph,AAB About,AAB Superdimming Settings,AAB Experiment Settings,AAB Power Draw Graph</scenes>
+		<tids>43,589,533,508,527,676,38,567,407,739,722,576,610,715,702,626,396,515,593,720,650,607,693,406,509,500,681,685,679,603,553,80,742,737,402,536,529,586,664,669,465,616,391,677,630,505,602,657,390,531,522,90,592,583,670,557,403,718,378,744,577,640,543,687,662,587,667,622,473,749,570,537,645,631,619,743,752,421,604,703,578,555,727,633,584,600,546,654,601,506,599,539,725,735,692,716,658,641,606,544,648,646,740,680,591,655,661,566,514,653,714,651,663,750,614,541,628,563,705,730,594,719,552,82,666,617,466,513,659,579,530,481,721,462,580,682,395,615,620,728,696,581,411,588,72,736,556,707,611,731,548,523,697,649,409,535,558,613,732,686,734,709,747,568,609,704,87,542,644,597,618,490,684,516,671,751,733,565,383,595,590,675,569,88,665,688,738,621,68,608,746,554,571,729,538,598,551,511,492,564,526,698,105,412,386,384,724,726,560,690,678,562,699,493,748,582,672,689,517,638,660,701,695,647,694,397,637,596,700,91,540,520,712,547,706,561,605,521,559,510,545,67,528,417,691,405,723,549,519,741,652,708,643,632,639,674,683,612,711,656,585,624,575,717,713,525,534,60,710,635,69,636,39,550,26,381,89,625,623,524,512,532,634,629,379,380,382,401,81,66</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
@@ -2743,7 +2755,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Color Filter">
 		<cdate>1755520141437</cdate>
-		<edate>1772692715185</edate>
+		<edate>1791395915190</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>3168</heightPort>
 		<nme>AAB Color Filter</nme>
@@ -5596,7 +5608,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Misc Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1784044813099</edate>
+		<edate>1791192124911</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -6602,7 +6614,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Privileged Scene">
 		<cdate>1750439706851</cdate>
-		<edate>1787572080368</edate>
+		<edate>1791458246489</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Privileged Scene</nme>
@@ -7211,6 +7223,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
             &lt;div
                 class="note"
+                id="nl-temp-note"
                 style="text-align: left;"
             &gt;
                 Lower = warmer (stronger filter). Standard Android range 2596–4082 K.
@@ -7271,6 +7284,63 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                 While the service runs, the temperature follows your circadian curve —
                 warmest at night, relaxing to the weakest filter (4082 K) in daylight.
                 Manual temperature changes are overridden while this is on.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+        &lt;!-- Extended Night Light Toggle --&gt;
+        &lt;div
+            class="row"
+            id="extended-night-light-row"
+            style="flex-direction: column; align-items: stretch;"
+        &gt;
+
+            &lt;div
+                style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                "
+            &gt;
+
+                &lt;div
+                    style="
+                        display: flex;
+                        align-items: center;
+                    "
+                &gt;
+
+                    &lt;span class="label"&gt;
+                        Extended Night Light
+                    &lt;/span&gt;
+
+                    &lt;button
+                        class="info-btn"
+                        onclick="toggleInfo('extended-info')"
+                    &gt;
+                        ⓘ
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+
+                &lt;label class="switch"&gt;
+
+                    &lt;input
+                        type="checkbox"
+                        id="extended-toggle"
+                    &gt;
+
+                    &lt;span class="switch-slider"&gt;&lt;/span&gt;
+                &lt;/label&gt;
+            &lt;/div&gt;
+
+
+            &lt;div
+                id="extended-info"
+                class="info-box"
+            &gt;
+                Unlocks lower and higher temperature thresholds (down to 686 K and up to 7308 K) using privileged commands.
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -7602,6 +7672,9 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
     let dirtyCircadian =
         false;
 
+    let dirtyExtended =
+        false;
+
 
     const SCROLL_STORAGE_KEY =
         'aab_privileged_display_scroll';
@@ -7620,7 +7693,9 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
             if (value === undefined
                     || value === null
-                    || value === 'undef') {
+                    || value === 'undef'
+                    || value === name
+                    || value === '%' + name) {
 
                 return '';
             }
@@ -7636,9 +7711,32 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
     function taskerBoolean(name) {
 
-        return taskerGlobal(name)
-            .trim()
-            .toLowerCase() === 'true';
+        const val =
+            taskerGlobal(name)
+                .trim()
+                .toLowerCase();
+
+        return val === 'true'
+            || val === 'on';
+    }
+
+
+    function setTaskerGlobal(name, value) {
+
+        const cleanName =
+            (name &amp;&amp; name.indexOf('%') === 0)
+                ? name.substring(1)
+                : name;
+
+        try {
+
+            setGlobal(
+                cleanName,
+                String(value)
+            );
+
+        } catch (e) {
+        }
     }
 
 
@@ -7936,6 +8034,11 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             dirtyCircadian =
                 true;
 
+        } else if (kind === 'extended') {
+
+            dirtyExtended =
+                true;
+
         } else {
 
             dirtyAndroid =
@@ -7963,6 +8066,189 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
 
     /* ========================================================= */
+    /* Slider range and threshold limits                         */
+    /* ========================================================= */
+
+    function updateNightLightSliderBounds() {
+
+        const slider =
+            document.getElementById(
+                'nl-temp-slider'
+            );
+
+        const display =
+            document.getElementById(
+                'nl-temp-display'
+            );
+
+        const note =
+            document.getElementById(
+                'nl-temp-note'
+            );
+
+        const circadianInfo =
+            document.getElementById(
+                'circadian-info'
+            );
+
+        if (!slider) {
+            return;
+        }
+
+
+        /*
+         * Base active range check on the live toggle state in the UI so the
+         * range expands immediately before changes are committed.
+         */
+        const extendedToggle =
+            document.getElementById(
+                'extended-toggle'
+            );
+
+        let isExtended =
+            false;
+
+        if (extendedToggle) {
+
+            isExtended =
+                extendedToggle.checked;
+
+        } else {
+
+            const rawExtended =
+                taskerGlobal(
+                    'AAB_ExtendedNightLight'
+                );
+
+            const norm =
+                rawExtended.trim().toLowerCase();
+
+            isExtended =
+                norm === 'true' || norm === 'on';
+        }
+
+
+        let minTemp = 2596;
+        let maxTemp = 4082;
+        let defTemp = 2850;
+
+        const parsedDef =
+            parseInt(
+                taskerGlobal('AAB_TempDefault'),
+                10
+            );
+
+        if (!isNaN(parsedDef)) {
+            defTemp = parsedDef;
+        }
+
+
+        if (isExtended) {
+
+            const parsedMin =
+                parseInt(
+                    taskerGlobal('AAB_TempMin'),
+                    10
+                );
+
+            const parsedMax =
+                parseInt(
+                    taskerGlobal('AAB_TempMax'),
+                    10
+                );
+
+            /*
+             * Instantly expand down to 686 K and up to 7308 K.
+             * If Tasker previously stored a lower/higher device threshold, respect it.
+             */
+            minTemp = (!isNaN(parsedMin) &amp;&amp; parsedMin &lt; 2596) ? parsedMin : 686;
+            maxTemp = (!isNaN(parsedMax) &amp;&amp; parsedMax &gt; 4082) ? parsedMax : 7308;
+
+        } else {
+
+            minTemp = 2596;
+            maxTemp = 4082;
+        }
+
+
+        slider.min =
+            String(minTemp);
+
+        slider.max =
+            String(maxTemp);
+
+
+        if (note) {
+
+            if (isExtended) {
+
+                note.textContent =
+                    'Lower = warmer (stronger filter). Extended range '
+                    + minTemp
+                    + '–'
+                    + maxTemp
+                    + ' K.';
+
+            } else {
+
+                note.textContent =
+                    'Lower = warmer (stronger filter). Standard Android range '
+                    + minTemp
+                    + '–'
+                    + maxTemp
+                    + ' K.';
+            }
+        }
+
+
+        if (circadianInfo) {
+
+            circadianInfo.textContent =
+                'While the service runs, the temperature follows your circadian curve — '
+                + 'warmest at night, relaxing to the weakest filter ('
+                + maxTemp
+                + ' K) in daylight. '
+                + 'Manual temperature changes are overridden while this is on.';
+        }
+
+
+        let currentTemp =
+            parseInt(
+                slider.value,
+                10
+            );
+
+        if (isNaN(currentTemp)) {
+            currentTemp = defTemp;
+        }
+
+
+        const clampedTemp =
+            Math.max(
+                minTemp,
+                Math.min(
+                    maxTemp,
+                    currentTemp
+                )
+            );
+
+        slider.value =
+            clampedTemp;
+
+
+        if (display
+                &amp;&amp; display.textContent !== 'device default') {
+
+            display.textContent =
+                clampedTemp + ' K';
+
+            display.style.color =
+                'var(--yellow)';
+        }
+    }
+
+
+    /* ========================================================= */
     /* Read-state safety gate                                    */
     /* ========================================================= */
 
@@ -7973,6 +8259,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         const ids = [
             'nl-toggle',
             'nl-temp-slider',
+            'extended-toggle',
             'inversion-toggle',
             'aod-toggle',
             'charging-toggle',
@@ -8031,12 +8318,6 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         }
 
 
-        /*
-         * Only Android-backed controls are gated.
-         *
-         * Circadian is AAB-owned and remains editable.
-         */
-
         setAndroidControlsEnabled(
             readOK
         );
@@ -8086,7 +8367,6 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                 'Device state could not be verified. Android-backed changes were not written.'
             );
 
-
         } else {
 
             if (btn) {
@@ -8101,16 +8381,27 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         }
 
 
+        updateNightLightSliderBounds();
+
+
         dirtyAndroid =
             false;
 
         dirtyCircadian =
             false;
+
+        dirtyExtended =
+            false;
     }
 
 
-    function waitForApplyCompletion(
-        androidChangesRequested
+    /*
+     * Generic asynchronous Tasker completion watcher.
+     * Polls until the named task is no longer running.
+     */
+    function waitForTask(
+        taskName,
+        onComplete
     ) {
 
         const startedAt =
@@ -8130,7 +8421,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
                 running =
                     taskRunning(
-                        '_ApplyPrivilegedDisplay'
+                        taskName
                     );
 
             } catch (e) {
@@ -8156,11 +8447,8 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
             /*
              * performTask() does not wait for the task.
-             *
-             * Give Tasker a short opportunity to start it before
-             * deciding that a very fast execution has already ended.
+             * Give Tasker a brief window to start before concluding it completed instantly.
              */
-
             if (!observedRunning
                     &amp;&amp; Date.now() - startedAt &lt; 750) {
 
@@ -8173,9 +8461,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             }
 
 
-            finishApply(
-                androidChangesRequested
-            );
+            onComplete();
         }
 
 
@@ -8186,34 +8472,27 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
     }
 
 
+    function waitForApplyCompletion(
+        androidChangesRequested
+    ) {
+
+        waitForTask(
+            '_ApplyPrivilegedDisplay',
+            () =&gt; {
+
+                finishApply(
+                    androidChangesRequested
+                );
+            }
+        );
+    }
+
+
     /* ========================================================= */
-    /* Apply                                                     */
+    /* Payload construction                                      */
     /* ========================================================= */
 
-    function applyChanges() {
-
-        const btn =
-            document.getElementById(
-                'btn-apply'
-            );
-
-
-        if (!btn
-                || btn.classList.contains(
-                    'btn-disabled'
-                )) {
-
-            return;
-        }
-
-
-        const androidChangesRequested =
-            dirtyAndroid;
-
-
-        /* ----------------------------------------------------- */
-        /* Boolean UI states                                     */
-        /* ----------------------------------------------------- */
+    function buildDisplayPayload() {
 
         const nlVal =
             document
@@ -8279,10 +8558,6 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                   );
 
 
-        /* ----------------------------------------------------- */
-        /* Night Light temperature                               */
-        /* ----------------------------------------------------- */
-
         const tempDisplay =
             document.getElementById(
                 'nl-temp-display'
@@ -8318,10 +8593,6 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         }
 
 
-        /* ----------------------------------------------------- */
-        /* Daltonizer                                            */
-        /* ----------------------------------------------------- */
-
         let daltonizerVal;
 
 
@@ -8347,11 +8618,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         }
 
 
-        /* ----------------------------------------------------- */
-        /* Complete positional payload                           */
-        /* ----------------------------------------------------- */
-
-        const payload = [
+        return [
             nlVal,
             tempVal,
             circadianVal,
@@ -8361,18 +8628,47 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             chargingVal,
             sdrVal
         ].join('|');
+    }
+
+
+    /* ========================================================= */
+    /* Apply                                                     */
+    /* ========================================================= */
+
+    function applyChanges() {
+
+        const btn =
+            document.getElementById(
+                'btn-apply'
+            );
+
+
+        if (!btn
+                || btn.classList.contains(
+                    'btn-disabled'
+                )) {
+
+            return;
+        }
+
+
+        const androidChangesRequested =
+            dirtyAndroid || dirtyExtended;
+
+
+        const extendedToggle =
+            document.getElementById(
+                'extended-toggle'
+            );
+
+        const extendedVal =
+            extendedToggle
+                ? extendedToggle.checked
+                : false;
 
 
         saveScrollPosition();
 
-
-        /*
-         * Do not claim success here.
-         *
-         * performTask() starts the Tasker task asynchronously.
-         * The completion watcher below reads
-         * AAB_PrivilegedReadOK after the task has ended.
-         */
 
         btn.textContent =
             'Applying';
@@ -8382,43 +8678,83 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         );
 
 
-        performTask(
-            '_ApplyPrivilegedDisplay',
-            10,
-            payload
-        );
+        function executeApplyDisplay() {
+
+            /*
+             * Payload is built here, strictly AFTER threshold detection
+             * and slider bounds clamping have settled.
+             */
+            const payload =
+                buildDisplayPayload();
 
 
-        /*
-         * If the WebView survives the Tasker call, retain the
-         * current scroll position.
-         */
-
-        const content =
-            document.getElementById(
-                'mainContent'
+            performTask(
+                '_ApplyPrivilegedDisplay',
+                10,
+                payload
             );
 
-        const currentPosition =
-            getSavedScrollPosition();
+
+            const content =
+                document.getElementById(
+                    'mainContent'
+                );
+
+            const currentPosition =
+                getSavedScrollPosition();
 
 
-        if (content
-                &amp;&amp; currentPosition !== null) {
+            if (content
+                    &amp;&amp; currentPosition !== null) {
 
-            requestAnimationFrame(
-                () =&gt; {
+                requestAnimationFrame(
+                    () =&gt; {
 
-                    content.scrollTop =
-                        currentPosition;
-                }
+                        content.scrollTop =
+                            currentPosition;
+                    }
+                );
+            }
+
+
+            waitForApplyCompletion(
+                androidChangesRequested
             );
         }
 
 
-        waitForApplyCompletion(
-            androidChangesRequested
-        );
+        if (dirtyExtended) {
+
+            setTaskerGlobal(
+                'AAB_ExtendedNightLight',
+                extendedVal ? 'true' : 'false'
+            );
+
+            performTask(
+                '_DetermineNightLightThresh',
+                10,
+                extendedVal ? 'on' : 'off'
+            );
+
+            /*
+             * Wait until _DetermineNightLightThresh finishes before
+             * doing anything else. Then update the slider bounds and clamp
+             * any out-of-range temperature BEFORE constructing the display payload.
+             */
+            waitForTask(
+                '_DetermineNightLightThresh',
+                () =&gt; {
+
+                    updateNightLightSliderBounds();
+
+                    executeApplyDisplay();
+                }
+            );
+
+        } else {
+
+            executeApplyDisplay();
+        }
     }
 
 
@@ -8444,6 +8780,23 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             const AAB_NightLightAvailable =
                 taskerBoolean(
                     'AAB_NightLightAvailable'
+                );
+
+
+            const AAB_SecondaryPrivilege =
+                taskerGlobal(
+                    'AAB_SecondaryPrivilege'
+                ).trim().toLowerCase();
+
+
+            const extendedNightLightSupported =
+                [
+                    'shizuku',
+                    'root',
+                    'adb wifi',
+                    'adb_wifi'
+                ].includes(
+                    AAB_SecondaryPrivilege
                 );
 
 
@@ -8474,6 +8827,12 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             const AAB_NightLightCircadian =
                 taskerBoolean(
                     'AAB_NightLightCircadian'
+                );
+
+
+            const AAB_ExtendedNightLight =
+                taskerBoolean(
+                    'AAB_ExtendedNightLight'
                 );
 
 
@@ -8555,6 +8914,27 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                 if (nightLightCard) {
 
                     nightLightCard.style.display =
+                        'none';
+                }
+            }
+
+
+            /*
+             * Extended night light switch shows only when secondary privilege
+             * (Shizuku, ADB WiFi, or Root) is active, OR if it is currently switched on
+             * so that the user can turn it off.
+             */
+            if (!extendedNightLightSupported &amp;&amp; !AAB_ExtendedNightLight) {
+
+                const extendedNightLightRow =
+                    document.getElementById(
+                        'extended-night-light-row'
+                    );
+
+
+                if (extendedNightLightRow) {
+
+                    extendedNightLightRow.style.display =
                         'none';
                 }
             }
@@ -8663,6 +9043,16 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
 
             setupToggle(
+                'extended-toggle',
+                AAB_ExtendedNightLight,
+                'extended',
+                () =&gt; {
+                    updateNightLightSliderBounds();
+                }
+            );
+
+
+            setupToggle(
                 'inversion-toggle',
                 AAB_Inversion,
                 'android'
@@ -8742,8 +9132,11 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
 
             /* ================================================= */
-            /* Night Light temperature                           */
+            /* Night Light temperature &amp; bounds                  */
             /* ================================================= */
+
+            updateNightLightSliderBounds();
+
 
             const slider =
                 document.getElementById(
@@ -8757,6 +9150,13 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                 );
 
 
+            const defTemp =
+                parseInt(
+                    taskerGlobal('AAB_TempDefault'),
+                    10
+                ) || 2850;
+
+
             let temp =
                 parseInt(
                     AAB_NightLightTemp,
@@ -8768,7 +9168,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                     || AAB_NightLightTemp.trim() === '') {
 
                 slider.value =
-                    2850;
+                    defTemp;
 
 
                 display.textContent =
@@ -8948,25 +9348,14 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             /* Verified-state gate                               */
             /* ================================================= */
 
-            /*
-             * This runs after all controls have been initialised.
-             *
-             * If the reader failed, the UI may still display the
-             * last saved/known values, but Android-backed controls
-             * cannot be changed. The Apply task independently has
-             * the same fail-closed protection.
-             */
-
             applyReadState(
                 AAB_PrivilegedReadOK
             );
 
 
             /*
-             * Restore only after capability-dependent rows have
-             * been hidden and the final layout is established.
+             * Restore scroll only after capability rows have adjusted.
              */
-
             restoreScrollPosition();
         }
     );
@@ -9011,7 +9400,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Profile">
 		<cdate>1751917745014</cdate>
-		<edate>1790924618614</edate>
+		<edate>1791395885393</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Profile</nme>
@@ -9470,7 +9859,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             "AAB_ThreshDim": "0.25",
             "AAB_ThreshBright": "0.08",
             "AAB_ThreshSteepness": "2.1",
-            "AAB_ThreshMidpoint": "3.0",
+            "AAB_ThreshMidpoint": "4.0",
             "AAB_TrustUnreliable": "Off",
             "AAB_ScalingUse": "false",
             "AAB_ScaleSpread": "15",
@@ -9488,6 +9877,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             "AAB_PWMExp": "0.8",
 
             /* Privileged display defaults. */
+            "AAB_ExtendedNightLight": "false",
             "AAB_NightLight": "false",
             "AAB_NightLightCircadian": "false",
             "AAB_Daltonizer": "OFF",
@@ -9553,6 +9943,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             "Privileged Display": [
                 { label: "Night Light", key: "AAB_NightLight", val: "%AAB_NightLight" },
                 { label: "Night Light Temperature", key: "AAB_NightLightTemp", val: "%AAB_NightLightTemp" },
+                { label: "Extended Night Light Range", key: "AAB_ExtendedNightLight", val: "%AAB_ExtendedNightLight" },
                 { label: "Follow Circadian Scaling", key: "AAB_NightLightCircadian", val: "%AAB_NightLightCircadian" },
                 { label: "Color Correction", key: "AAB_Daltonizer", val: "%AAB_Daltonizer" },
                 { label: "Color Inversion", key: "AAB_Inversion", val: "%AAB_Inversion" },
@@ -9599,7 +9990,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 
                 items.forEach(item =&gt; {
                     let cur = (typeof item.val === 'string' &amp;&amp; item.val.startsWith('%'))
-                        ? "Unset"
+                        ? (item.key === 'AAB_ExtendedNightLight' ? "off" : "Unset")
                         : item.val;
 
                     let isMod = false;
@@ -25305,7 +25696,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task570">
 		<cdate>1750095076798</cdate>
-		<edate>1790862370978</edate>
+		<edate>1791192526645</edate>
 		<id>570</id>
 		<nme>Initialize AAB Defaults</nme>
 		<pri>100</pri>
@@ -25507,7 +25898,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<code>547</code>
 			<label>The maximum number of animation steps to perform for the Smooth Brightness Transition task.</label>
 			<Str sr="arg0" ve="3">%AAB_AnimSteps</Str>
-			<Str sr="arg1" ve="3">20</Str>
+			<Str sr="arg1" ve="3">50</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -25517,7 +25908,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<Action sr="act27" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_MinWait</Str>
-			<Str sr="arg1" ve="3">25</Str>
+			<Str sr="arg1" ve="3">5</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -25527,7 +25918,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_MaxWait</Str>
-			<Str sr="arg1" ve="3">65</Str>
+			<Str sr="arg1" ve="3">30</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -26647,7 +27038,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task580">
 		<cdate>1750685644979</cdate>
-		<edate>1790951078796</edate>
+		<edate>1791378252747</edate>
 		<id>580</id>
 		<nme>Advanced Auto Brightness</nme>
 		<pc>Add this task to the launcher for an app-like experience!</pc>
@@ -26957,7 +27348,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 				<Condition sr="c1" ve="3">
 					<lhs>%AAB_Version</lhs>
 					<op>6</op>
-					<rhs>3.4</rhs>
+					<rhs>3.48</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -28526,7 +28917,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task592">
 		<cdate>1767101261376</cdate>
-		<edate>1786133644680</edate>
+		<edate>1791198559635</edate>
 		<id>592</id>
 		<nme>_CreateDefaultProfiles</nme>
 		<pri>100</pri>
@@ -28585,7 +28976,7 @@ JSONObject getBaseProfile() {
     reactivity.put("thresh_dim", 0.25);
     reactivity.put("thresh_bright", 0.08);
     reactivity.put("thresh_steepness", 2.1);
-    reactivity.put("thresh_midpoint", 3.0);
+    reactivity.put("thresh_midpoint", 4.0);
     root.put("reactivity", reactivity);
 
     /* Scaling Defaults */
@@ -28724,8 +29115,10 @@ genOutdoor.put("offset", 15.0);
 genOutdoor.put("scale", 1.15);
 genOutdoor.put("anim_steps", 10);
 genOutdoor.put("min_wait", 10);
-genOutdoor.put("delta_factor", 4.0);
+genOutdoor.put("delta_factor", 4.255);
 
+JSONObject reactOutdoor = profOutdoor.getJSONObject("reactivity");
+reactOutdoor.put("thresh_midpoint", 4.255);
 
 JSONObject curveOutdoor = profOutdoor.getJSONObject("general");
 curveOutdoor.put("form1a", 8.0);
@@ -31864,7 +32257,7 @@ tasker.setVariable("AAB_ContextJSONCache", contextList.toString());
 	</Task>
 	<Task sr="task624">
 		<cdate>1767270990838</cdate>
-		<edate>1772517258464</edate>
+		<edate>1791451989490</edate>
 		<id>624</id>
 		<nme>_GetLocationForContext</nme>
 		<pri>100</pri>
@@ -34090,7 +34483,7 @@ new Handler(Looper.getMainLooper()).post(new Runnable() {
 	</Task>
 	<Task sr="task637">
 		<cdate>1767099945935</cdate>
-		<edate>1786694577294</edate>
+		<edate>1791396347628</edate>
 		<id>637</id>
 		<nme>_ProfileManager</nme>
 		<pri>100</pri>
@@ -34294,7 +34687,7 @@ void performSave(String profileName, boolean silent) {
         reactivity.put("thresh_dim", getG("AAB_ThreshDim", 0.25));
         reactivity.put("thresh_bright", getG("AAB_ThreshBright", 0.08));
         reactivity.put("thresh_steepness", getG("AAB_ThreshSteepness", 2.1));
-        reactivity.put("thresh_midpoint", getG("AAB_ThreshMidpoint", 3.0));
+        reactivity.put("thresh_midpoint", getG("AAB_ThreshMidpoint", 4.0));
         reactivity.put("trust_unreliable", getB("AAB_TrustUnreliable", false));
         root.put("reactivity", reactivity);
 
@@ -34321,6 +34714,10 @@ void performSave(String profileName, boolean silent) {
         /* Save privileged display configuration in logical AAB form. */
         JSONObject privileged = new JSONObject();
         privileged.put("night_light", getB("AAB_NightLight", false));
+        privileged.put(
+            "extended_night_light",
+            getB("AAB_ExtendedNightLight", false)
+        );
 
         String nightLightTemp = tasker.getVariable("AAB_NightLightTemp");
         if (nightLightTemp != null &amp;&amp; nightLightTemp.trim().length() &gt; 0) {
@@ -34426,6 +34823,7 @@ void performLoad(String input) {
                 /* Privileged display defaults. */
                 JSONObject privileged = new JSONObject();
                 privileged.put("night_light", false);
+                privileged.put("extended_night_light", false);
                 privileged.put("night_light_circadian", false);
                 privileged.put("daltonizer", "OFF");
                 privileged.put("inversion", false);
@@ -34797,6 +35195,15 @@ void performLoad(String input) {
                 setG(
                     "AAB_NightLight",
                     privileged.getBoolean("night_light")
+                        ? "true"
+                        : "false"
+                );
+            }
+
+            if (privileged.has("extended_night_light")) {
+                setG(
+                    "AAB_ExtendedNightLight",
+                    privileged.getBoolean("extended_night_light")
                         ? "true"
                         : "false"
                 );
@@ -41517,11 +41924,27 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 	</Task>
 	<Task sr="task69">
 		<cdate>1772003393887</cdate>
-		<edate>1790464882515</edate>
+		<edate>1791383655561</edate>
 		<id>69</id>
 		<nme>_ShowPrivilegedScene</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_SecondaryPrivilegeDetection</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ReadPrivilegedDisplayState</Str>
 			<Int sr="arg1">
@@ -41537,7 +41960,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
@@ -41552,7 +41975,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -41568,12 +41991,12 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
 			<Int sr="arg1" val="7"/>
@@ -41587,7 +42010,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -42920,7 +43343,7 @@ Target brightness: %AAB_CurrentBright</Str>
 	</Task>
 	<Task sr="task703">
 		<cdate>1750682237885</cdate>
-		<edate>1765630094714</edate>
+		<edate>1791192351822</edate>
 		<id>703</id>
 		<nme>_GenerateReactivityGraph (Java)</nme>
 		<pri>100</pri>
@@ -43893,7 +44316,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf((long)calc_dusk));</Str>
 	</Task>
 	<Task sr="task706">
 		<cdate>1764224506296</cdate>
-		<edate>1790862970472</edate>
+		<edate>1791378280592</edate>
 		<id>706</id>
 		<nme>_Updates</nme>
 		<pri>100</pri>
@@ -44339,6 +44762,42 @@ tasker.setVariable("AAB_SDK", String.valueOf(Build.VERSION.SDK_INT));</Str>
 		<Action sr="act36" ve="7">
 			<code>38</code>
 		</Action>
+		<Action sr="act37" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_Version</lhs>
+					<op>6</op>
+					<rhs>3.48</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_DetermineNightLightThresh</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_Version</Str>
+			<Str sr="arg1" ve="3">3.48</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_Version</Str>
@@ -44348,6 +44807,9 @@ tasker.setVariable("AAB_SDK", String.valueOf(Build.VERSION.SDK_INT));</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>
@@ -47936,7 +48398,7 @@ return "";</Str>
 	</Task>
 	<Task sr="task81">
 		<cdate>1787444146307</cdate>
-		<edate>1787575870248</edate>
+		<edate>1791382743704</edate>
 		<id>81</id>
 		<nme>_ForceDark</nme>
 		<pri>100</pri>
@@ -48178,36 +48640,23 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task87">
 		<cdate>1790405087200</cdate>
-		<edate>1790594031603</edate>
+		<edate>1791451963914</edate>
 		<id>87</id>
 		<nme>_DetermineNightLightThresh</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_SecondaryPrivilegeDetection</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%AAB_SecondaryPrivilege</lhs>
-					<op>13</op>
-					<rhs></rhs>
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
-					<lhs>%AAB_SecondaryPrivilege</lhs>
-					<op>2</op>
-					<rhs>None</rhs>
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -48327,7 +48776,32 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			</ConditionList>
 		</Action>
 		<Action sr="act16" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%AAB_TempMin=2596
+%AAB_TempMax=4082
+%AAB_TempDefault=2850</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>123</code>
@@ -48341,6 +48815,28 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%AAB_TempMin=686
+%AAB_TempMax=7308
+%AAB_TempDefault=2850</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">=</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>123</code>
@@ -48800,7 +49296,7 @@ h != "" &amp;&amp; /^[0-9:]+ [-+] / &amp;&amp; index($0, " " h " ") &amp;&amp; r
 	</Task>
 	<Task sr="task90">
 		<cdate>1745400000000</cdate>
-		<edate>1790830602772</edate>
+		<edate>1791377990003</edate>
 		<id>90</id>
 		<nme>Dynamic Scale V13 (Java) App Version</nme>
 		<pri>6</pri>
@@ -50148,7 +50644,7 @@ tasker.setVariable("AAB_ScaleDynamic", scale_bd.toString());</Str>
 	</Task>
 	<Task sr="task91">
 		<cdate>1787575194779</cdate>
-		<edate>1790426827961</edate>
+		<edate>1791383664984</edate>
 		<id>91</id>
 		<nme>_SecondaryPrivilegeDetection</nme>
 		<Action sr="act0" ve="7">
