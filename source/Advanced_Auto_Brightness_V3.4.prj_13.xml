@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="6.7.6-beta">
+<TaskerData sr="" dvi="1" tv="6.7.7-rc">
 	<dmetric>1440.0,3168.0</dmetric>
 	<Profile sr="prof59" ve="2">
 		<cdate>1784028916074</cdate>
@@ -31,10 +31,9 @@
 	<Profile sr="prof753" ve="2">
 		<cdate>1772804411678</cdate>
 		<clp>true</clp>
-		<edate>1772545220017</edate>
+		<edate>1791821101484</edate>
 		<flags>8</flags>
 		<id>753</id>
-		<limit>true</limit>
 		<mid0>585</mid0>
 		<nme>Hibernate (Display Off)</nme>
 		<Event sr="con0" ve="2">
@@ -48,7 +47,6 @@
 		<edate>1782364446752</edate>
 		<flags>8</flags>
 		<id>754</id>
-		<limit>true</limit>
 		<mid0>566</mid0>
 		<nme>Throttle Reinitialization</nme>
 		<State sr="con0" ve="2">
@@ -86,7 +84,7 @@
 	<Profile sr="prof755" ve="2">
 		<cdate>1772804411681</cdate>
 		<clp>true</clp>
-		<edate>1790258052860</edate>
+		<edate>1792056313722</edate>
 		<flags>8</flags>
 		<id>755</id>
 		<mid0>567</mid0>
@@ -106,6 +104,7 @@
 				<bool1>And</bool1>
 				<bool2>And</bool2>
 				<bool3>And</bool3>
+				<bool4>And</bool4>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_Service</lhs>
 					<op>2</op>
@@ -130,6 +129,11 @@
 					<lhs>%AAB_DetectOverrides</lhs>
 					<op>1</op>
 					<rhs>Off</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -189,7 +193,6 @@
 		<edate>1766776341548</edate>
 		<flags>8</flags>
 		<id>757</id>
-		<limit>true</limit>
 		<mid0>584</mid0>
 		<nme>Repost Foreground Notification</nme>
 		<Time sr="con0">
@@ -225,10 +228,10 @@
 	</Profile>
 	<Profile sr="prof758" ve="2">
 		<cdate>1772804411683</cdate>
-		<edate>1791377990003</edate>
+		<clp>true</clp>
+		<edate>1791984261250</edate>
 		<flags>40</flags>
 		<id>758</id>
-		<limit>true</limit>
 		<mid0>90</mid0>
 		<nme>Dynamic Scale Engine</nme>
 		<Time sr="con0">
@@ -247,7 +250,7 @@
 				<bool10>And</bool10>
 				<bool11>Or</bool11>
 				<bool12>And2</bool12>
-				<bool13>Or</bool13>
+				<bool13>Or2</bool13>
 				<bool2>And</bool2>
 				<bool3>Or</bool3>
 				<bool4>And</bool4>
@@ -336,11 +339,9 @@
 	</Profile>
 	<Profile sr="prof759" ve="2">
 		<cdate>1772804411683</cdate>
-		<clp>true</clp>
-		<edate>1791091232055</edate>
+		<edate>1792076723437</edate>
 		<flags>8</flags>
 		<id>759</id>
-		<limit>true</limit>
 		<mid0>545</mid0>
 		<mid1>545</mid1>
 		<nme>Proximity Detection</nme>
@@ -357,10 +358,9 @@
 		<cdate>1772804411684</cdate>
 		<cldm>1</cldm>
 		<clp>true</clp>
-		<edate>1787771559517</edate>
+		<edate>1791815963666</edate>
 		<flags>24</flags>
 		<id>760</id>
-		<limit>true</limit>
 		<mid0>554</mid0>
 		<nme>Monitor Ambient Light</nme>
 		<pri>7</pri>
@@ -425,10 +425,9 @@ Values
 	<Profile sr="prof761" ve="2">
 		<cdate>1772804411685</cdate>
 		<clp>true</clp>
-		<edate>1790795137693</edate>
+		<edate>1791805155112</edate>
 		<flags>8</flags>
 		<id>761</id>
-		<limit>true</limit>
 		<mid0>618</mid0>
 		<nme>Initialize (Display On)</nme>
 		<pri>7</pri>
@@ -442,7 +441,6 @@ Values
 		<edate>1773671202321</edate>
 		<flags>8</flags>
 		<id>762</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: App Changed</nme>
 		<Event sr="con0" ve="2">
@@ -501,7 +499,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1790924333106</edate>
 		<flags>8</flags>
 		<id>763</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Battery Changed</nme>
 		<Event sr="con0" ve="2">
@@ -587,7 +584,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781472858010</edate>
 		<flags>8</flags>
 		<id>765</id>
-		<limit>true</limit>
 		<mid0>630</mid0>
 		<mid1>630</mid1>
 		<nme>Context: Location Listener</nme>
@@ -626,7 +622,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1781530526604</edate>
 		<flags>8</flags>
 		<id>766</id>
-		<limit>true</limit>
 		<mid0>631</mid0>
 		<nme>Context: Location Refresher</nme>
 		<Time sr="con0">
@@ -676,7 +671,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1784134360368</edate>
 		<flags>8</flags>
 		<id>767</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<nme>Context: Location Changed</nme>
 		<State sr="con0" ve="2">
@@ -725,7 +719,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<edate>1773671193342</edate>
 		<flags>8</flags>
 		<id>768</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>43</mid1>
 		<nme>Context: WiFi (Dis)connected</nme>
@@ -770,9 +763,10 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1772804411690</cdate>
 		<cldm>15</cldm>
 		<clp>true</clp>
-		<edate>1787207387141</edate>
+		<edate>1792060181985</edate>
 		<flags>8</flags>
 		<id>769</id>
+		<limit>true</limit>
 		<mid0>528</mid0>
 		<nme>Panic (Reset)</nme>
 		<pri>15</pri>
@@ -826,9 +820,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<clr>4285625406</clr>
 		<id>b3d0ae31-4c7c-4c5b-91f9-1ff7a4655494</id>
 		<name>Advanced Auto Brightness V3.4</name>
-		<pids>761,760,754,755,59,753,757,758,756,764,766,759,768,767,763,762,765,769,8</pids>
-		<scenes>AAB Dimming Graph,AAB Privileged Scene,AAB Chart.Js License,AAB Debug Scene,AAB Profile,AAB Color Filter,AAB Brightness Graph,AAB Taper Graph,AAB Reactivity Settings,AAB Alpha Graph,AAB Circadian Dimming Graph,AAB Misc Settings,AAB Brightness Settings,AAB Menu,AAB User Guide,AAB Reactivity Graph,AAB Experiment Graph,AAB About,AAB Superdimming Settings,AAB Experiment Settings,AAB Power Draw Graph</scenes>
-		<tids>43,589,533,508,527,676,38,567,407,739,722,576,610,715,702,626,396,515,593,720,650,607,693,406,509,500,681,685,679,603,553,80,742,737,402,536,529,586,664,669,465,616,391,677,630,505,602,657,390,531,522,90,592,583,670,557,403,718,378,744,577,640,543,687,662,587,667,622,473,749,570,537,645,631,619,743,752,421,604,703,578,555,727,633,584,600,546,654,601,506,599,539,725,735,692,716,658,641,606,544,648,646,740,680,591,655,661,566,514,653,714,651,663,750,614,541,628,563,705,730,594,719,552,82,666,617,466,513,659,579,530,481,721,462,580,682,395,615,620,728,696,581,411,588,72,736,556,707,611,731,548,523,697,649,409,535,558,613,732,686,734,709,747,568,609,704,87,542,644,597,618,490,684,516,671,751,733,565,383,595,590,675,569,88,665,688,738,621,68,608,746,554,571,729,538,598,551,511,492,564,526,698,105,412,386,384,724,726,560,690,678,562,699,493,748,582,672,689,517,638,660,701,695,647,694,397,637,596,700,91,540,520,712,547,706,561,605,521,559,510,545,67,528,417,691,405,723,549,519,741,652,708,643,632,639,674,683,612,711,656,585,624,575,717,713,525,534,60,710,635,69,636,39,550,26,381,89,625,623,524,512,532,634,629,379,380,382,401,81,66</tids>
+		<pids>753,754,756,757,759,760,761,762,763,764,769,765,766,767,768,8,59,758,755</pids>
+		<scenes>AAB Alpha Graph,AAB Superdimming Settings,AAB Circadian Dimming Graph,AAB Profile,AAB Brightness Graph,AAB Reactivity Settings,AAB Taper Graph,AAB About,AAB Color Filter,AAB Experiment Settings,AAB Misc Settings,AAB Reactivity Graph,AAB Brightness Settings,AAB Menu,AAB Experiment Graph,AAB Power Draw Graph,AAB Chart.Js License,AAB Dimming Graph,AAB User Guide,AAB Debug Scene,AAB Privileged Scene,AAB Hand-off Scene</scenes>
+		<tids>378,379,380,381,382,401,512,524,535,540,541,542,543,545,546,547,548,549,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,569,570,571,575,576,577,578,579,580,581,583,584,585,586,587,588,589,601,619,620,624,634,635,636,638,639,640,641,643,644,645,646,647,648,649,650,652,653,654,655,657,659,663,692,700,703,705,707,622,623,625,626,628,629,630,631,633,38,105,43,26,60,66,90,592,706,567,39,656,81,91,69,67,528,72,80,82,87,88,89,690,740,728,671,98,724,522,609,406,527,519,717,595,403,386,539,99,506,390,533,695,97,523,602,505,684,493,603,685,735,688,666,611,720,490,718,616,696,613,694,679,544,719,734,597,662,582,536,715,701,704,710,665,534,670,743,702,599,521,395,551,537,526,612,682,658,664,617,618,731,600,538,741,384,605,421,727,530,667,747,492,661,531,100,515,637,714,674,466,749,651,686,732,752,738,417,402,722,744,517,678,614,590,660,615,669,725,676,104,383,500,594,598,708,508,509,733,742,607,711,739,529,621,681,730,465,405,514,721,729,396,736,698,513,397,723,675,591,481,510,520,712,699,473,689,516,746,411,751,687,462,604,709,525,102,683,632,748,68,610,697,680,568,750,713,412,737,593,608,606,726,596,407,716,672,677,691,409,511,693,391,550,532</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</eperm0>
@@ -837,9 +831,9 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<feat2>android.hardware.wifi:y</feat2>
 			<launchID>580</launchID>
 			<pkg>com.tideo.aab</pkg>
-			<vTarg>35</vTarg>
+			<vTarg>36</vTarg>
 			<vnme>3.4</vnme>
-			<vnum>32</vnum>
+			<vnum>34</vnum>
 		</Kid>
 		<Share sr="Share">
 			<b>true</b>
@@ -1618,7 +1612,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Brightness Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1785735691264</edate>
+		<edate>1791876402223</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -4176,7 +4170,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Experiment Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1781417959666</edate>
+		<edate>1791796335750</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Experiment Settings</nme>
@@ -5302,9 +5296,1313 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="sceneAAB Hand-off Scene">
+		<cdate>1750439706851</cdate>
+		<edate>1792076681463</edate>
+		<heightLand>1216</heightLand>
+		<heightPort>2944</heightPort>
+		<nme>AAB Hand-off Scene</nme>
+		<widthLand>1440</widthLand>
+		<widthPort>1440</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1440,2944,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">bg_banner_title</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+  /&gt;
+
+  &lt;title&gt;AAB - Adaptive Mode&lt;/title&gt;
+
+  &lt;style&gt;
+    :root {
+        --bg-color: #333333;
+        --card-bg: #404040;
+        --header-bg: #007C63;
+        --text-pri: #E0E0E0;
+        --text-sec: #AAAAAA;
+        --teal: #007C63;
+        --yellow: #FFC107;
+        --red: #FF5252;
+        --green: #4CAF50;
+        --input-bg: #222222;
+        --radius: 12px;
+    }
+
+    * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--bg-color);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #005f4b;
+        border-radius: 3px;
+    }
+
+    body {
+        margin: 0;
+        background-color: var(--bg-color);
+        color: var(--text-pri);
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            'Segoe UI',
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            'Open Sans',
+            'Helvetica Neue',
+            sans-serif;
+        line-height: 1.6;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* ========================================================= */
+    /* Banner                                                    */
+    /* ========================================================= */
+
+    .banner {
+        background-color: #007C63;
+        color: #FFFFFF;
+        padding: clamp(20px, 7vw, 35px) 4vw;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-height: 20vh;
+        overflow: hidden;
+        flex-shrink: 0;
+        z-index: 10;
+    }
+
+    .banner h1 {
+        margin: 0 0 0 5vw;
+        font-weight: 500;
+        line-height: 1;
+        white-space: nowrap;
+        font-size: clamp(16px, 5.5vw, 32px);
+    }
+
+    .hamburger-icon {
+        width: clamp(24px, 7vw, 36px);
+        height: clamp(20px, 6vw, 30px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .hamburger-icon span {
+        display: block;
+        width: 100%;
+        height: 15%;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+
+    /* ========================================================= */
+    /* Content                                                   */
+    /* ========================================================= */
+
+    .content {
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .page-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--text-pri);
+        margin-bottom: 4px;
+    }
+
+    .page-subtitle {
+        font-size: 0.85rem;
+        color: var(--text-sec);
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .section-header {
+        color: var(--teal);
+        font-size: 0.9rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 30px 0 12px 5px;
+        border-bottom: 1px solid #444;
+        padding-bottom: 5px;
+        letter-spacing: 0.5px;
+        text-shadow: 0 0 10px rgba(0, 124, 99, 0.3);
+    }
+
+    .content &gt; .section-header:first-of-type {
+        margin-top: 0;
+    }
+
+    .card {
+        background-color: var(--card-bg);
+        border-radius: var(--radius);
+        overflow: hidden;
+        margin-bottom: 15px;
+        border-top: 2px solid var(--teal);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 16px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .row:last-child {
+        border-bottom: none;
+    }
+
+    .label {
+        font-size: 0.95rem;
+        color: var(--text-pri);
+        font-weight: 500;
+    }
+
+    .note {
+        font-size: 0.8rem;
+        color: var(--text-sec);
+        width: 100%;
+        padding-top: 4px;
+        line-height: 1.4;
+    }
+
+    .label-with-status {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* ========================================================= */
+    /* Badges                                                    */
+    /* ========================================================= */
+
+    .badge {
+        display: inline-block;
+        padding: 3px 8px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+    }
+
+    .badge-green {
+        background: rgba(76, 175, 80, 0.15);
+        color: var(--green);
+        border: 1px solid rgba(76, 175, 80, 0.4);
+    }
+
+    .badge-yellow {
+        background: rgba(255, 193, 7, 0.15);
+        color: var(--yellow);
+        border: 1px solid rgba(255, 193, 7, 0.4);
+    }
+
+    .badge-red {
+        background: rgba(255, 82, 82, 0.15);
+        color: var(--red);
+        border: 1px solid rgba(255, 82, 82, 0.4);
+    }
+
+
+    /* ========================================================= */
+    /* Toggle switch                                             */
+    /* ========================================================= */
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 46px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .switch-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #555;
+        transition: .25s;
+        border-radius: 26px;
+    }
+
+    .switch-slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .25s;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    input:checked + .switch-slider {
+        background-color: var(--teal);
+    }
+
+    input:checked + .switch-slider:before {
+        transform: translateX(20px);
+    }
+
+
+    /* ========================================================= */
+    /* Range Slider                                              */
+    /* ========================================================= */
+
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 6px;
+        border-radius: 3px;
+        background: #555;
+        outline: none;
+        margin: 18px 0 8px 0;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--teal);
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+        transition: transform 0.1s;
+    }
+
+    .slider::-webkit-slider-thumb:active {
+        transform: scale(1.15);
+    }
+
+
+    /* ========================================================= */
+    /* Inputs and Info                                           */
+    /* ========================================================= */
+
+    .text-input {
+        background: var(--input-bg);
+        border: 1px solid #555;
+        border-radius: 8px;
+        color: var(--yellow);
+        font-family: 'SF Mono', 'Roboto Mono', monospace;
+        font-size: 0.95rem;
+        font-weight: 700;
+        padding: 8px 12px;
+        outline: none;
+        width: 120px;
+        text-align: right;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        text-shadow: 0 0 5px rgba(255, 193, 7, 0.2);
+    }
+
+    .text-input:focus {
+        border-color: var(--teal);
+        box-shadow: 0 0 6px rgba(0, 124, 99, 0.4);
+    }
+
+    .text-input:disabled {
+        opacity: 0.45;
+    }
+
+    .text-input::placeholder {
+        color: #666666;
+        font-weight: 400;
+        text-shadow: none;
+    }
+
+    .slider-val {
+        color: var(--yellow);
+        font-family: 'SF Mono', 'Roboto Mono', monospace;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-shadow: 0 0 5px rgba(255, 193, 7, 0.2);
+    }
+
+    .info-btn {
+        background: none;
+        border: none;
+        color: var(--teal);
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 0 8px;
+        margin-left: 5px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.8;
+    }
+
+    .info-box {
+        background: rgba(0,0,0,0.25);
+        border-left: 3px solid var(--teal);
+        padding: 10px 14px;
+        border-radius: 6px;
+        margin-top: 8px;
+        font-size: 0.85rem;
+        color: var(--text-sec);
+        display: none;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .validation-warning {
+        display: none;
+        margin-top: 10px;
+        padding: 10px 12px;
+        border: 1px solid rgba(255, 193, 7, 0.55);
+        border-left: 4px solid var(--yellow);
+        border-radius: 8px;
+        background: rgba(255, 193, 7, 0.08);
+        color: var(--text-pri);
+        font-size: 0.8rem;
+        line-height: 1.45;
+        width: 100%;
+    }
+
+    .validation-warning strong {
+        color: var(--yellow);
+        font-weight: 700;
+    }
+
+    .validation-error {
+        display: none;
+        margin: 0 0 20px 0;
+        padding: 12px 14px;
+        border: 1px solid rgba(255, 82, 82, 0.55);
+        border-left: 4px solid var(--red);
+        border-radius: 8px;
+        background: rgba(255, 82, 82, 0.08);
+        color: var(--text-pri);
+        font-size: 0.82rem;
+        line-height: 1.45;
+    }
+
+    .validation-error strong {
+        color: var(--red);
+        font-weight: 700;
+    }
+
+
+    /* ========================================================= */
+    /* Footer buttons &amp; flash                                    */
+    /* ========================================================= */
+
+    .btn {
+        padding: 12px 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        transition: opacity 0.2s, background-color 0.2s;
+    }
+
+    .btn-teal {
+        background-color: var(--teal);
+    }
+
+    .btn-dark {
+        background-color: var(--input-bg);
+        color: var(--text-sec);
+    }
+
+    .btn-disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    #flash-message {
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 12px 24px;
+        border-radius: var(--radius);
+        background-color: #222;
+        color: white;
+        z-index: 1000;
+        transition: opacity 0.3s;
+        border: 1px solid var(--teal);
+        max-width: 88vw;
+        text-align: center;
+        font-size: 0.85rem;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;div class="banner"&gt;
+      &lt;div
+          class="hamburger-icon"
+          onclick="performTaskSafe('_MenuScene', 10, 'Adaptive');"
+      &gt;
+          &lt;span&gt;&lt;/span&gt;
+          &lt;span&gt;&lt;/span&gt;
+          &lt;span&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;h1&gt;Advanced Auto Brightness&lt;/h1&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class="content" id="mainContent"&gt;
+
+    &lt;div class="page-title"&gt;
+        Hand-off Behavior
+    &lt;/div&gt;
+
+    &lt;div class="page-subtitle"&gt;
+        Configure brightness control hand-off to Android's Adaptive Brightness.
+    &lt;/div&gt;
+
+    &lt;!-- Missing curve parameters alert --&gt;
+    &lt;div
+        class="validation-error"
+        id="curve-missing-banner"
+    &gt;
+        &lt;strong&gt;Curve parameters uninitialized.&lt;/strong&gt;
+        AAB base curve parameters could not be read from Tasker. Enabling Adaptive Brightness is blocked until the active profile is loaded.
+    &lt;/div&gt;
+
+
+    &lt;!-- ========================================================= --&gt;
+    &lt;!-- Adaptive Configuration Section                            --&gt;
+    &lt;!-- ========================================================= --&gt;
+
+    &lt;div class="section-header"&gt;
+        Adaptive Brightness Configuration
+    &lt;/div&gt;
+
+
+    &lt;div class="card"&gt;
+
+        &lt;!-- Adaptive Toggle Row --&gt;
+        &lt;div class="row"&gt;
+            &lt;span class="label"&gt;
+                Adaptive Brightness
+            &lt;/span&gt;
+
+            &lt;label class="switch"&gt;
+                &lt;input
+                    type="checkbox"
+                    id="adaptive-toggle"
+                &gt;
+                &lt;span class="switch-slider"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+
+            &lt;div class="note"&gt;
+                Hands over brightness control to Android when ambient light exceeds the lux threshold.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+        &lt;!-- Handoff Threshold Input Row --&gt;
+        &lt;div
+            class="row"
+            id="threshold-row"
+            style="flex-direction: column; align-items: stretch;"
+        &gt;
+            &lt;div
+                style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                "
+            &gt;
+                &lt;div class="label-with-status"&gt;
+                    &lt;span class="label"&gt;
+                        Handoff Threshold (lx)
+                    &lt;/span&gt;
+
+                    &lt;button
+                        class="info-btn"
+                        onclick="toggleInfo('handoff-info')"
+                    &gt;
+                        ⓘ
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+                &lt;input
+                    type="number"
+                    step="any"
+                    id="handoff-thresh-input"
+                    class="text-input"
+                    placeholder="0"
+                &gt;
+            &lt;/div&gt;
+
+            &lt;div
+                id="handoff-info"
+                class="info-box"
+            &gt;
+                Specifies the lux level where AAB hands control over to Android's Adaptive Brightness.
+                &lt;br&gt;&lt;br&gt;
+                &lt;strong&gt;Criterion:&lt;/strong&gt; Must correspond to at least 90% of AAB's &lt;em&gt;unmodified base curve&lt;/em&gt;. This constraint is deterministic and independent of (circadian) scaling or offsets.
+            &lt;/div&gt;
+
+            &lt;div
+                class="note"
+                id="curve-minimum-note"
+            &gt;
+                Validating against base curve parameters...
+            &lt;/div&gt;
+
+            &lt;!-- Dynamic validation warning banner --&gt;
+            &lt;div
+                class="validation-warning"
+                id="thresh-warning"
+            &gt;
+                &lt;strong&gt;Chosen lux threshold is too low.&lt;/strong&gt;
+                Base curve output at this lux level yields &amp;lt; 90% of maximum brightness. Adjusted to the minimum allowed transfer (&lt;span id="suggested-thresh-val"&gt;&lt;/span&gt; lux). Tap &lt;strong&gt;Apply&lt;/strong&gt; again to set.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+        &lt;!-- Handoff Hysteresis Row --&gt;
+        &lt;div
+            class="row"
+            id="hysteresis-row"
+            style="flex-direction: column; align-items: stretch;"
+        &gt;
+            &lt;div
+                style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                "
+            &gt;
+                &lt;div class="label-with-status"&gt;
+                    &lt;span class="label"&gt;
+                        Hysteresis Band
+                    &lt;/span&gt;
+
+                    &lt;button
+                        class="info-btn"
+                        onclick="toggleInfo('hysteresis-info')"
+                    &gt;
+                        ⓘ
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+                &lt;span id="hysteresis-val-display" class="slider-val"&gt;
+                    80%
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div
+                id="hysteresis-info"
+                class="info-box"
+            &gt;
+                Determines the drop in ambient lux needed to return control to AAB. For example, at 80%, AAB re-engages when light falls to 80% of the Handoff Threshold lux.
+            &lt;/div&gt;
+
+            &lt;input
+                type="range"
+                min="50"
+                max="100"
+                step="1"
+                value="80"
+                class="slider"
+                id="hysteresis-slider"
+            &gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;!-- ========================================================= --&gt;
+    &lt;!-- Calibration Section (Moved Below Configuration)           --&gt;
+    &lt;!-- ========================================================= --&gt;
+
+    &lt;div class="section-header"&gt;
+        Display Range Calibration
+    &lt;/div&gt;
+
+    &lt;div class="card"&gt;
+        &lt;div class="row" style="flex-direction: column; align-items: stretch;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: center; width: 100%;"&gt;
+                &lt;div class="label-with-status"&gt;
+                    &lt;span class="label"&gt;
+                        Hardware Brightness Curve
+                    &lt;/span&gt;
+
+                    &lt;button
+                        class="info-btn"
+                        onclick="toggleInfo('cal-info')"
+                    &gt;
+                        ⓘ
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+                &lt;span id="cal-status-badge" class="badge badge-yellow"&gt;
+                    Checking...
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div id="cal-info" class="info-box"&gt;
+                Calibrates Android system brightness against internal hardware steps via &lt;code&gt;dumpsys display&lt;/code&gt;.
+                &lt;br&gt;&lt;br&gt;
+                &lt;strong&gt;Purpose:&lt;/strong&gt; Allows AAB to detect and read High Brightness Mode (values above 255) when Adaptive Brightness takes over in bright direct sunlight.
+                &lt;br&gt;&lt;br&gt;
+                &lt;em&gt;Note: Running this will step your screen brightness through 13 levels over ~5 seconds. Requires elevated privileges or Tasker DUMP permission.&lt;/em&gt;
+            &lt;/div&gt;
+
+            &lt;div class="note" id="cal-note"&gt;
+                Reading calibration status from Tasker...
+            &lt;/div&gt;
+
+            &lt;div class="validation-error" id="cal-error-banner" style="margin: 12px 0 0 0; display: none;"&gt;
+                &lt;strong&gt;Calibration Failed:&lt;/strong&gt; Unable to sample dumpsys display correctly. Verify Tasker has been granted &lt;code&gt;android.permission.DUMP&lt;/code&gt; via ADB or root.
+            &lt;/div&gt;
+
+            &lt;div style="margin-top: 14px;"&gt;
+                &lt;button
+                    class="btn btn-dark"
+                    id="btn-calibrate"
+                    onclick="handleCalibrationClick()"
+                &gt;
+                    Calibrate Display
+                &lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!-- Footer Actions --&gt;
+    &lt;div
+        style="
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        "
+    &gt;
+        &lt;button
+            class="btn btn-dark"
+            onclick="location.reload()"
+        &gt;
+            Discard
+        &lt;/button&gt;
+
+        &lt;button
+            class="btn btn-teal btn-disabled"
+            id="btn-apply"
+            onclick="applyChanges()"
+        &gt;
+            Applied
+        &lt;/button&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div id="flash-message"&gt;&lt;/div&gt;
+
+
+  &lt;script&gt;
+
+    let initialAdaptiveOn = false;
+    let initialHandoffThresh = '';
+    let initialHysteresis = '';
+    let curveParamsValid = false;
+    let curveParams = null;
+    let minimumAllowedLux = null;
+
+    // Calibration Polling State
+    let calPollTimer = null;
+    let isCalibrating = false;
+
+
+    /* ========================================================= */
+    /* Tasker globals &amp; Task execution                           */
+    /* ========================================================= */
+
+    function taskerGlobal(name) {
+        try {
+            const value = global(name);
+
+            if (value === undefined
+                    || value === null
+                    || value === 'undef'
+                    || value === name
+                    || value === '%' + name) {
+                return '';
+            }
+
+            return String(value);
+        } catch (e) {
+            return '';
+        }
+    }
+
+    function taskerBoolean(name) {
+        const val = taskerGlobal(name).trim().toLowerCase();
+        return val === 'true' || val === 'on';
+    }
+
+    function setTaskerGlobal(name, value) {
+        const cleanName = (name &amp;&amp; name.indexOf('%') === 0)
+            ? name.substring(1)
+            : name;
+
+        try {
+            setGlobal(cleanName, String(value));
+        } catch (e) {
+        }
+    }
+
+    function performTaskSafe(taskName, priority, p1, p2) {
+        try {
+            if (typeof performTask === 'function') {
+                performTask(taskName, priority, p1, p2);
+            } else {
+                console.warn('performTask is not available in this environment:', taskName);
+            }
+        } catch (e) {
+            console.error('Error invoking performTask:', e);
+        }
+    }
+
+
+    /* ========================================================= */
+    /* Display Calibration State &amp; Handlers                      */
+    /* ========================================================= */
+
+    function getCalibrationState() {
+        const cal = taskerGlobal('AAB_BrightCal');
+        const needsCal = taskerGlobal('AAB_NeedsCal').toLowerCase();
+
+        if (cal === 'running') {
+            return 'running';
+        }
+        if (cal === 'error') {
+            return 'error';
+        }
+        if (needsCal === 'true') {
+            return 'needed';
+        }
+        // Valid calibration string verification (at least contains step markers)
+        if (cal &amp;&amp; cal.indexOf(':') !== -1 &amp;&amp; cal.indexOf(',') !== -1) {
+            return 'calibrated';
+        }
+        return 'uncalibrated';
+    }
+
+    function updateCalibrationUI() {
+        const badge = document.getElementById('cal-status-badge');
+        const note = document.getElementById('cal-note');
+        const btn = document.getElementById('btn-calibrate');
+        const errBanner = document.getElementById('cal-error-banner');
+
+        if (!badge || !note || !btn) return;
+
+        const state = getCalibrationState();
+
+        badge.className = 'badge';
+        errBanner.style.display = 'none';
+
+        switch (state) {
+            case 'running':
+                badge.classList.add('badge-yellow');
+                badge.textContent = 'Calibrating...';
+                note.textContent = 'Screen brightness steps are actively being tested. Please wait...';
+                btn.textContent = 'Calibrating...';
+                btn.className = 'btn btn-dark btn-disabled';
+                break;
+
+            case 'calibrated':
+                badge.classList.add('badge-green');
+                badge.textContent = 'Calibrated';
+                note.textContent = 'Hardware brightness curve is verified. Display supports HBM reading above 255.';
+                btn.textContent = 'Recalibrate Display';
+                btn.className = 'btn btn-dark';
+                break;
+
+            case 'error':
+                badge.classList.add('badge-red');
+                badge.textContent = 'Failed';
+                note.textContent = 'Last calibration failed. Elevated privileges or permissions were not detected.';
+                errBanner.style.display = 'block';
+                btn.textContent = 'Retry Calibration';
+                btn.className = 'btn btn-teal';
+                break;
+
+            case 'needed':
+                badge.classList.add('badge-yellow');
+                badge.textContent = 'Update Needed';
+                note.textContent = 'Device fingerprint changed or calibration was invalidated. Calibration recommended.';
+                btn.textContent = 'Calibrate Display';
+                btn.className = 'btn btn-teal';
+                break;
+
+            case 'uncalibrated':
+            default:
+                badge.classList.add('badge-yellow');
+                badge.textContent = 'Not Calibrated';
+                note.textContent = 'Display range is uncalibrated. Readings will be capped at standard 255.';
+                btn.textContent = 'Calibrate Display';
+                btn.className = 'btn btn-teal';
+                break;
+        }
+    }
+
+    function handleCalibrationClick() {
+        if (isCalibrating) return;
+
+        const state = getCalibrationState();
+
+        if (state === 'calibrated') {
+            const proceed = confirm(
+                "Display is already calibrated.\n\nRecalibrating will cycle screen brightness levels for several seconds. Do you want to proceed?"
+            );
+            if (!proceed) return;
+        }
+
+        startCalibration();
+    }
+
+    function startCalibration() {
+        isCalibrating = true;
+        setTaskerGlobal('AAB_BrightCal', 'running');
+        updateCalibrationUI();
+
+        showFlash('Starting display calibration. Do not touch the screen...', 3500);
+
+        performTaskSafe('_CalibrateDisplayRange', 10);
+
+        let attempts = 0;
+        const maxAttempts = 50; // 50 * 500ms = 25 seconds max
+
+        if (calPollTimer) clearInterval(calPollTimer);
+
+        calPollTimer = setInterval(function() {
+            attempts++;
+            const currentCal = taskerGlobal('AAB_BrightCal');
+
+            if (currentCal !== 'running') {
+                clearInterval(calPollTimer);
+                isCalibrating = false;
+                updateCalibrationUI();
+
+                if (currentCal === 'error') {
+                    showFlash('⚠️ Calibration failed. Check Tasker DUMP permission.', 4000);
+                } else if (currentCal.indexOf(':') !== -1) {
+                    showFlash('✓ Display successfully calibrated.', 3500);
+                }
+                return;
+            }
+
+            if (attempts &gt;= maxAttempts) {
+                clearInterval(calPollTimer);
+                isCalibrating = false;
+                setTaskerGlobal('AAB_BrightCal', 'error');
+                updateCalibrationUI();
+                showFlash('⚠️ Calibration timed out.', 4000);
+            }
+        }, 500);
+    }
+
+
+    /* ========================================================= */
+    /* Parameter Ingestion (No Fictitious Fallbacks)             */
+    /* ========================================================= */
+
+    function loadCurveParameters() {
+        const parse = (name) =&gt; {
+            const raw = taskerGlobal(name);
+            if (!raw) return null;
+            const n = parseFloat(raw);
+            return (!isNaN(n) &amp;&amp; isFinite(n)) ? n : null;
+        };
+
+        const z1End = parse('AAB_Zone1End');
+        const z2End = parse('AAB_Zone2End');
+        const f1A   = parse('AAB_Form1A');
+        const f2A   = parse('AAB_Form2A');
+        const f2B   = parse('AAB_Form2B');
+        const f2C   = parse('AAB_Form2C');
+        const f3A   = parse('AAB_Form3A');
+        const maxB  = parse('AAB_MaxBright');
+
+        if (z1End === null || z2End === null ||
+            f1A === null   || f2A === null   || f2B === null || f2C === null ||
+            f3A === null   || maxB === null) {
+            return { valid: false };
+        }
+
+        return {
+            valid: true,
+            z1End, z2End,
+            f1A, f2A, f2B, f2C, f3A,
+            maxB
+        };
+    }
+
+
+    /* ========================================================= */
+    /* Base Curve Evaluation                                     */
+    /* ========================================================= */
+
+    function calculateBaseBrightness(lux, p) {
+        if (lux &lt; p.z1End) {
+            return p.f1A * Math.sqrt(Math.max(0, lux));
+        } else if (lux &lt; p.z2End) {
+            const t1 = Math.pow(Math.max(0, lux - p.f2C), 0.33);
+            const t2 = Math.pow(Math.max(0, p.z1End - p.f2C), 0.33);
+            return p.f2A + p.f2B * (t1 - t2);
+        } else {
+            if (lux &lt;= 0) return 0;
+            return p.maxB - (p.f3A / lux) * p.maxB;
+        }
+    }
+
+    function calculateMinimumAllowedLux(p) {
+        const targetBright = 0.9 * p.maxB;
+
+        const analyticalZone3Lux = 10 * p.f3A;
+
+        if (analyticalZone3Lux &gt;= p.z2End) {
+            return analyticalZone3Lux;
+        }
+
+        let low = 0;
+        let high = Math.max(p.z2End, 10000);
+        for (let i = 0; i &lt; 50; i++) {
+            const mid = (low + high) / 2;
+            if (calculateBaseBrightness(mid, p) &gt;= targetBright) {
+                high = mid;
+            } else {
+                low = mid;
+            }
+        }
+        return high;
+    }
+
+    function formatLuxDisplay(val, p) {
+        const targetBright = 0.9 * p.maxB;
+        const intVal = Math.round(val);
+
+        if (Math.abs(val - intVal) &lt; 0.005 &amp;&amp;
+            calculateBaseBrightness(intVal, p) &gt;= targetBright - 1e-5) {
+            return String(intVal);
+        }
+
+        let decVal = Math.round(val * 100) / 100;
+        if (calculateBaseBrightness(decVal, p) &lt; targetBright - 1e-5) {
+            decVal = Math.ceil(val * 100) / 100;
+        }
+        return String(decVal);
+    }
+
+
+    /* ========================================================= */
+    /* UI Helpers                                                */
+    /* ========================================================= */
+
+    function toggleInfo(id) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function showFlash(message, duration) {
+        const el = document.getElementById('flash-message');
+        if (!el) return;
+
+        el.textContent = message;
+        el.style.visibility = 'visible';
+        el.style.opacity = '1';
+
+        setTimeout(() =&gt; {
+            el.style.opacity = '0';
+            setTimeout(() =&gt; {
+                el.style.visibility = 'hidden';
+            }, 300);
+        }, duration || 2500);
+    }
+
+
+    /* ========================================================= */
+    /* Dirty State Tracking                                      */
+    /* ========================================================= */
+
+    function checkDirty() {
+        const toggle = document.getElementById('adaptive-toggle');
+        const input = document.getElementById('handoff-thresh-input');
+        const histSlider = document.getElementById('hysteresis-slider');
+        const btn = document.getElementById('btn-apply');
+        const warning = document.getElementById('thresh-warning');
+
+        if (!toggle || !input || !btn) return;
+
+        if (warning) {
+            warning.style.display = 'none';
+        }
+
+        const currentAdaptiveOn = toggle.checked;
+        const currentHandoffThresh = input.value.trim();
+        const currentHysteresis = histSlider ? (parseInt(histSlider.value) / 100).toString() : initialHysteresis;
+
+        const isDirty = (currentAdaptiveOn !== initialAdaptiveOn)
+                     || (currentHandoffThresh !== initialHandoffThresh.trim())
+                     || (currentHysteresis !== initialHysteresis);
+
+        if (isDirty) {
+            btn.textContent = 'Apply';
+            btn.classList.remove('btn-disabled');
+        } else {
+            btn.textContent = 'Applied';
+            btn.classList.add('btn-disabled');
+        }
+    }
+
+
+    /* ========================================================= */
+    /* Apply Changes with Gated Validation                       */
+    /* ========================================================= */
+
+    function applyChanges() {
+        const btn = document.getElementById('btn-apply');
+        const toggle = document.getElementById('adaptive-toggle');
+        const input = document.getElementById('handoff-thresh-input');
+        const histSlider = document.getElementById('hysteresis-slider');
+        const warning = document.getElementById('thresh-warning');
+        const suggestedDisplay = document.getElementById('suggested-thresh-val');
+
+        if (!btn || btn.classList.contains('btn-disabled')) return;
+
+        const willBeEnabled = toggle.checked;
+
+        if (willBeEnabled) {
+            if (!curveParamsValid) {
+                showFlash('Cannot enable: Tasker curve parameters uninitialized.', 3500);
+                return;
+            }
+
+            const targetBright = 0.9 * curveParams.maxB;
+            const rawInput = input.value.trim();
+            const currentLux = parseFloat(rawInput);
+
+            const currentBright = (isNaN(currentLux) || currentLux &lt; 0)
+                ? -1
+                : calculateBaseBrightness(currentLux, curveParams);
+
+            if (currentBright &lt; (targetBright - 1e-5)) {
+                const suggestedLuxStr = formatLuxDisplay(minimumAllowedLux, curveParams);
+
+                input.value = suggestedLuxStr;
+
+                if (warning &amp;&amp; suggestedDisplay) {
+                    suggestedDisplay.textContent = suggestedLuxStr;
+                    warning.style.display = 'block';
+                }
+
+                btn.textContent = 'Apply';
+                btn.classList.remove('btn-disabled');
+
+                showFlash('Chosen lux threshold is too low. Suggested level set to ' + suggestedLuxStr + ' lux. Tap Apply again to save.', 4000);
+                return;
+            }
+        }
+
+        const newAdaptiveVal = willBeEnabled ? 'true' : 'false';
+        const newThreshVal = input.value.trim();
+        const newHysteresisVal = histSlider ? (parseInt(histSlider.value) / 100).toString() : '0.8';
+
+        setTaskerGlobal('AAB_AdaptiveOn', newAdaptiveVal);
+        setTaskerGlobal('AAB_AdaptiveHandoffThresh', newThreshVal);
+        setTaskerGlobal('AAB_HandoffHysteresis', newHysteresisVal);
+
+        initialAdaptiveOn = willBeEnabled;
+        initialHandoffThresh = newThreshVal;
+        initialHysteresis = newHysteresisVal;
+
+        if (warning) {
+            warning.style.display = 'none';
+        }
+
+        btn.textContent = 'Applied';
+        btn.classList.add('btn-disabled');
+
+        showFlash('Adaptive settings applied.');
+    }
+
+
+    /* ========================================================= */
+    /* Initialisation                                            */
+    /* ========================================================= */
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('adaptive-toggle');
+        const input = document.getElementById('handoff-thresh-input');
+        const histSlider = document.getElementById('hysteresis-slider');
+        const histDisplay = document.getElementById('hysteresis-val-display');
+        const missingBanner = document.getElementById('curve-missing-banner');
+        const curveNote = document.getElementById('curve-minimum-note');
+
+        // Check Display Calibration Status
+        updateCalibrationUI();
+
+        // Retrieve settings
+        initialAdaptiveOn = taskerBoolean('AAB_AdaptiveOn');
+        initialHandoffThresh = taskerGlobal('AAB_AdaptiveHandoffThresh');
+        
+        const rawHysteresis = taskerGlobal('AAB_HandoffHysteresis');
+        let histVal = 80;
+        if (rawHysteresis !== '') {
+            const parsedHist = parseFloat(rawHysteresis);
+            if (!isNaN(parsedHist)) {
+                histVal = Math.round(parsedHist * 100);
+                if (histVal &lt; 50) histVal = 50;
+                if (histVal &gt; 100) histVal = 100;
+            }
+        }
+        initialHysteresis = (histVal / 100).toString();
+
+        // Ingest curve parameters
+        curveParams = loadCurveParameters();
+        curveParamsValid = curveParams.valid;
+
+        if (missingBanner) {
+            missingBanner.style.display = curveParamsValid ? 'none' : 'block';
+        }
+
+        if (curveParamsValid) {
+            minimumAllowedLux = calculateMinimumAllowedLux(curveParams);
+            const minFormatted = formatLuxDisplay(minimumAllowedLux, curveParams);
+            if (curveNote) {
+                curveNote.textContent = 'Base curve minimum handoff threshold: ≥ ' + minFormatted + ' lux.';
+            }
+        } else {
+            if (curveNote) {
+                curveNote.textContent = 'Curve parameters unavailable. Threshold validation offline.';
+            }
+        }
+
+        if (toggle) {
+            toggle.checked = initialAdaptiveOn;
+            toggle.addEventListener('change', checkDirty);
+        }
+
+        if (input) {
+            input.value = initialHandoffThresh;
+            input.addEventListener('input', checkDirty);
+        }
+
+        if (histSlider) {
+            histSlider.value = histVal;
+            if (histDisplay) {
+                histDisplay.textContent = histVal + '%';
+            }
+            histSlider.addEventListener('input', function() {
+                if (histDisplay) {
+                    histDisplay.textContent = this.value + '%';
+                }
+                checkDirty();
+            });
+        }
+    });
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Str sr="arg8" ve="3"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<PropertiesElement sr="props">
+			<keyTask>100</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">AAB Settings</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="sceneAAB Menu">
 		<cdate>1755240510065</cdate>
-		<edate>1784680862538</edate>
+		<edate>1792077848566</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Menu</nme>
@@ -5515,6 +6813,9 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
         &lt;li&gt;
             &lt;button class="menu-button" onclick="handleNavigation('_SuperDimmingScene')"&gt;Super Dimming&lt;/button&gt;
         &lt;/li&gt;
+                &lt;li&gt;
+            &lt;button class="menu-button" onclick="handleNavigation('_ShowHand-offScene')"&gt;Hand-off Behavior&lt;/button&gt;
+        &lt;/li&gt;
         &lt;li id="privileged-item"&gt;
             &lt;button class="menu-button privileged" onclick="handleNavigation('_ShowPrivilegedScene')"&gt;Privileged Display&lt;/button&gt;
         &lt;/li&gt;
@@ -5608,7 +6909,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Misc Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1791192124911</edate>
+		<edate>1791796177603</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -6614,7 +7915,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Privileged Scene">
 		<cdate>1750439706851</cdate>
-		<edate>1791458246489</edate>
+		<edate>1791915863359</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Privileged Scene</nme>
@@ -9400,7 +10701,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Profile">
 		<cdate>1751917745014</cdate>
-		<edate>1791395885393</edate>
+		<edate>1791915656454</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Profile</nme>
@@ -9876,6 +11177,11 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
             "AAB_PWMSensitive": "false",
             "AAB_PWMExp": "0.8",
 
+            /* Adaptive Brightness Hand-off defaults */
+            "AAB_AdaptiveOn": "false",
+            "AAB_AdaptiveHandoffThresh": "25130",
+            "AAB_HandoffHysteresis": "0.8",
+
             /* Privileged display defaults. */
             "AAB_ExtendedNightLight": "false",
             "AAB_NightLight": "false",
@@ -9938,6 +11244,12 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
                 { label: "Spread", key: "AAB_DimSpread", val: "%AAB_DimSpread" },
                 { label: "Use software dimming", key: "AAB_PWMSensitive", val: "%AAB_PWMSensitive" },
                 { label: "Software exp.", key: "AAB_PWMExp", val: "%AAB_PWMExp" }
+            ],
+
+            "Adaptive Brightness Hand-off": [
+                { label: "Hand-off to Adaptive", key: "AAB_AdaptiveOn", val: "%AAB_AdaptiveOn" },
+                { label: "Handoff Threshold (Lux)", key: "AAB_AdaptiveHandoffThresh", val: "%AAB_AdaptiveHandoffThresh" },
+                { label: "Hysteresis Factor", key: "AAB_HandoffHysteresis", val: "%AAB_HandoffHysteresis" }
             ],
 
             "Privileged Display": [
@@ -10973,7 +12285,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Reactivity Graph">
 		<cdate>1750439706851</cdate>
-		<edate>1775405467546</edate>
+		<edate>1791796043977</edate>
 		<heightLand>1216</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Reactivity Graph</nme>
@@ -11149,7 +12461,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Reactivity Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1781553959881</edate>
+		<edate>1791796516566</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
 		<nme>AAB Reactivity Settings</nme>
@@ -11170,7 +12482,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</WebElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>82,409,1274,150,-1,-1,-1,-1</geom>
+			<geom>84,451,1274,150,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">rectangle_10</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF404040</Str>
@@ -11182,7 +12494,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</RectElement>
 		<TextElement sr="elements10" ve="3">
 			<flags>4</flags>
-			<geom>107,1234,699,100,-1,-1,-1,-1</geom>
+			<geom>109,1272,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>712</longclickTask>
 			<Str sr="arg0" ve="3">thresh_midpoint_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Curve Mid&lt;/b&gt;&lt;/br&gt;
@@ -11209,7 +12521,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements11" ve="3">
 			<flags>4</flags>
-			<geom>107,734,699,100,-1,-1,-1,-1</geom>
+			<geom>109,774,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>493</longclickTask>
 			<Str sr="arg0" ve="3">zone_1_end_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Zone 1 End&lt;/b&gt;&lt;/br&gt;
@@ -11236,7 +12548,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements12" ve="3">
 			<flags>4</flags>
-			<geom>807,734,524,100,-1,-1,-1,-1</geom>
+			<geom>806,774,524,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">zone_1_end_calculated</Str>
 			<Str sr="arg1" ve="3">%aab_zone1end (auto)</Str>
 			<Int sr="arg2" val="17"/>
@@ -11261,7 +12573,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<EditTextElement sr="elements13" ve="3">
 			<flags>4</flags>
-			<geom>807,609,524,100,-1,-1,-1,-1</geom>
+			<geom>806,650,524,100,-1,-1,-1,-1</geom>
 			<valueselectedTask>701</valueselectedTask>
 			<Str sr="arg0" ve="3">dark_threshold</Str>
 			<Str sr="arg1" ve="3">%aab_threshdarkpc</Str>
@@ -11287,7 +12599,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</EditTextElement>
 		<EditTextElement sr="elements14" ve="3">
 			<flags>4</flags>
-			<geom>807,859,524,100,-1,-1,-1,-1</geom>
+			<geom>806,899,524,100,-1,-1,-1,-1</geom>
 			<valueselectedTask>704</valueselectedTask>
 			<Str sr="arg0" ve="3">dim_threshold</Str>
 			<Str sr="arg1" ve="3">%aab_threshdimpc</Str>
@@ -11313,7 +12625,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</EditTextElement>
 		<EditTextElement sr="elements15" ve="3">
 			<flags>4</flags>
-			<geom>807,984,524,100,-1,-1,-1,-1</geom>
+			<geom>806,1023,524,100,-1,-1,-1,-1</geom>
 			<valueselectedTask>708</valueselectedTask>
 			<Str sr="arg0" ve="3">bright_threshold</Str>
 			<Str sr="arg1" ve="3">%aab_threshbrightpc</Str>
@@ -11339,7 +12651,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</EditTextElement>
 		<EditTextElement sr="elements16" ve="3">
 			<flags>4</flags>
-			<geom>807,1109,524,100,-1,-1,-1,-1</geom>
+			<geom>806,1148,524,100,-1,-1,-1,-1</geom>
 			<valueselectedTask>709</valueselectedTask>
 			<Str sr="arg0" ve="3">steepness_threshold</Str>
 			<Str sr="arg1" ve="3">%aab_threshsteepness</Str>
@@ -11365,7 +12677,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</EditTextElement>
 		<RectElement sr="elements17">
 			<flags>4</flags>
-			<geom>82,1559,1282,450,-1,-1,-1,-1</geom>
+			<geom>84,1596,1282,424,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">rectangle_5</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF404040</Str>
@@ -11465,7 +12777,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements21" ve="3">
 			<flags>4</flags>
-			<geom>107,1584,1225,400,-1,-1,-1,-1</geom>
+			<geom>109,1621,1225,374,-1,-1,-1,-1</geom>
 			<longclickTask>711</longclickTask>
 			<Str sr="arg0" ve="3">current_threshold</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Current threshold&lt;/b&gt;&lt;br&gt;&lt;font color="#FFC107" style="font-size:16sp;"&gt;[%AAB_ThreshDynamic%]&lt;/font&gt; at &lt;font color="#FFC107" style="font-size:16sp;"&gt;[%SmoothedLux]&lt;/font&gt;&lt;b style="font-size:18sp;"&gt;&lt;/b&gt; lx&lt;br&gt;&lt;b style="font-size:18sp;"&gt;Sensor dead zone&lt;/b&gt;&lt;br&gt;&lt;font color="#FFC107" style="font-size:16sp;"&gt;[%AAB_ThreshAbsLow]&lt;/font&gt; lx to &lt;font color="#FFC107" style="font-size:16sp;"&gt;[%AAB_ThreshAbsHigh]&lt;/font&gt; lx</Str>
@@ -11517,7 +12829,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<EditTextElement sr="elements23" ve="3">
 			<flags>4</flags>
-			<geom>807,1234,524,100,-1,-1,-1,-1</geom>
+			<geom>806,1272,524,100,-1,-1,-1,-1</geom>
 			<valueselectedTask>713</valueselectedTask>
 			<Str sr="arg0" ve="3">midpoint_reactivity</Str>
 			<Str sr="arg1" ve="3">%aab_threshmidpoint</Str>
@@ -11594,7 +12906,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<RectElement sr="elements26">
 			<flags>4</flags>
-			<geom>82,1384,1274,150,-1,-1,-1,-1</geom>
+			<geom>84,1422,1274,150,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">rectangle_8</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF404040</Str>
@@ -11606,7 +12918,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</RectElement>
 		<TextElement sr="elements27" ve="3">
 			<flags>4</flags>
-			<geom>107,1409,1024,100,-1,-1,-1,-1</geom>
+			<geom>109,1447,1024,100,-1,-1,-1,-1</geom>
 			<longclickTask>729</longclickTask>
 			<Str sr="arg0" ve="3">Trust</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Trust Low-Accuracy Sensor&lt;/b&gt;&lt;/br&gt;
@@ -11634,7 +12946,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		<SwitchElement sr="elements28">
 			<checkchangeTask>733</checkchangeTask>
 			<flags>4</flags>
-			<geom>1107,1384,200,175,-1,-1,-1,-1</geom>
+			<geom>1105,1422,200,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Switch1</Str>
 			<Int sr="arg1" val="0"/>
 			<RectElement sr="background">
@@ -11653,7 +12965,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		<SwitchElement sr="elements29">
 			<checkchangeTask>731</checkchangeTask>
 			<flags>4</flags>
-			<geom>1107,1384,200,175,-1,-1,-1,-1</geom>
+			<geom>1105,1422,200,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Switch2</Str>
 			<Int sr="arg1" val="1"/>
 			<RectElement sr="background">
@@ -11696,7 +13008,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<RectElement sr="elements30">
 			<flags>4</flags>
-			<geom>1163,1440,60,60,-1,-1,-1,-1</geom>
+			<geom>1161,1478,60,60,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Unreliable_on_green</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#FF007C63</Str>
@@ -11708,7 +13020,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</RectElement>
 		<TextElement sr="elements31" ve="3">
 			<flags>4</flags>
-			<geom>107,434,1075,100,-1,-1,-1,-1</geom>
+			<geom>109,476,1075,100,-1,-1,-1,-1</geom>
 			<longclickTask>519</longclickTask>
 			<Str sr="arg0" ve="3">Override</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Use override detection&lt;/b&gt;&lt;/br&gt;
@@ -11736,7 +13048,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		<SwitchElement sr="elements32">
 			<checkchangeTask>526</checkchangeTask>
 			<flags>4</flags>
-			<geom>1107,409,200,175,-1,-1,-1,-1</geom>
+			<geom>1105,451,200,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Switch3</Str>
 			<Int sr="arg1" val="1"/>
 			<RectElement sr="background">
@@ -11755,7 +13067,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		<SwitchElement sr="elements33">
 			<checkchangeTask>525</checkchangeTask>
 			<flags>4</flags>
-			<geom>1107,409,200,175,-1,-1,-1,-1</geom>
+			<geom>1105,451,200,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Switch4</Str>
 			<Int sr="arg1" val="0"/>
 			<RectElement sr="background">
@@ -11773,7 +13085,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</SwitchElement>
 		<RectElement sr="elements34">
 			<flags>4</flags>
-			<geom>1163,465,60,60,-1,-1,-1,-1</geom>
+			<geom>1161,507,60,60,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Override_on_green</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#FF007C63</Str>
@@ -11811,7 +13123,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<RectElement sr="elements5">
 			<flags>4</flags>
-			<geom>82,584,1274,775,-1,-1,-1,-1</geom>
+			<geom>84,625,1274,775,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">rectangle_4</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF404040</Str>
@@ -11823,7 +13135,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</RectElement>
 		<TextElement sr="elements6" ve="3">
 			<flags>4</flags>
-			<geom>107,609,699,100,-1,-1,-1,-1</geom>
+			<geom>109,650,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>719</longclickTask>
 			<Str sr="arg0" ve="3">thresh_dark_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Dark Threshold&lt;/b&gt; &lt;/font&gt;&lt;font color="#FFC107" style="font-size:16sp;"&gt;[%aab_threshdarkpc%]&lt;/font&gt;</Str>
@@ -11849,7 +13161,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>107,859,699,100,-1,-1,-1,-1</geom>
+			<geom>109,899,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>720</longclickTask>
 			<Str sr="arg0" ve="3">thresh_dim_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Dim Threshold&lt;/b&gt; &lt;font color="#FFC107" style="font-size:16sp;"&gt;[%aab_threshdimpc%]&lt;/font&gt;</Str>
@@ -11875,7 +13187,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements8" ve="3">
 			<flags>4</flags>
-			<geom>107,984,699,100,-1,-1,-1,-1</geom>
+			<geom>109,1023,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>721</longclickTask>
 			<Str sr="arg0" ve="3">thresh_bright_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Bright Threshold&lt;/b&gt; &lt;font color="#FFC107" style="font-size:16sp;"&gt;[%aab_threshbrightpc%]&lt;/font&gt;</Str>
@@ -11901,7 +13213,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 		</TextElement>
 		<TextElement sr="elements9" ve="3">
 			<flags>4</flags>
-			<geom>107,1109,699,100,-1,-1,-1,-1</geom>
+			<geom>109,1148,699,100,-1,-1,-1,-1</geom>
 			<longclickTask>722</longclickTask>
 			<Str sr="arg0" ve="3">thresh_steepness_label</Str>
 			<Str sr="arg1" ve="3">&lt;b style="font-size:18sp;"&gt;Curve Slope&lt;/b&gt;&lt;/br&gt;
@@ -11943,7 +13255,7 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 	</Scene>
 	<Scene sr="sceneAAB Superdimming Settings">
 		<cdate>1750439706851</cdate>
-		<edate>1790870067056</edate>
+		<edate>1791795168651</edate>
 		<gridSize>5</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2944</heightPort>
@@ -13360,6 +14672,546 @@ If a configuration makes the display unusable, &lt;strong&gt;shake the device ve
 			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
+	<Task sr="task100">
+		<cdate>1765822136975</cdate>
+		<edate>1773209412089</edate>
+		<id>100</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">AAB Menu</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
+		</Action>
+	</Task>
+	<Task sr="task102">
+		<cdate>1791824466798</cdate>
+		<edate>1791869638754</edate>
+		<id>102</id>
+		<nme>_DetermineMinHand-offThresh</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>474</code>
+			<Str sr="arg0" ve="3">import com.joaomgcd.taskerm.action.java.JavaCodeException;
+
+/* Define helper function to calculate base brightness */
+calcBrightness(lux, params) {
+    if (lux &lt; params[0]) {
+        return params[2] * Math.sqrt(Math.max(0.0, lux));
+    } else if (lux &lt; params[1]) {
+        t1 = Math.pow(Math.max(0.0, lux - params[5]), 0.33);
+        t2 = Math.pow(Math.max(0.0, params[0] - params[5]), 0.33);
+        return params[3] + params[4] * (t1 - t2);
+    } else {
+        if (lux &lt;= 0.0) {
+            return 0.0;
+        }
+        return params[7] - (params[6] / lux) * params[7];
+    }
+}
+
+/* Gather all required Tasker parameters */
+varNames = new String[]{
+    "AAB_Zone1End", 
+    "AAB_Zone2End", 
+    "AAB_Form1A", 
+    "AAB_Form2A", 
+    "AAB_Form2B", 
+    "AAB_Form2C", 
+    "AAB_Form3A", 
+    "AAB_MaxBright"
+};
+
+p = new double[8];
+
+for (int i = 0; i &lt; varNames.length; i++) {
+    val = tasker.getVariable(varNames[i]);
+    if (val == null || val == void || val.trim().length() == 0) {
+        throw new JavaCodeException("Missing required Tasker variable: " + varNames[i]);
+    }
+    try {
+        p[i] = Double.parseDouble(val.trim());
+    } catch (NumberFormatException e) {
+        throw new JavaCodeException("Invalid numeric value for variable: " + varNames[i]);
+    }
+}
+
+targetBright = 0.9 * p[7];
+analyticalZone3Lux = 10.0 * p[6];
+
+minimumAllowedLux = 0.0;
+
+/* Check if target is in Zone 3 analytically */
+if (analyticalZone3Lux &gt;= p[1]) {
+    minimumAllowedLux = analyticalZone3Lux;
+} else {
+    /* Binary search the monotonic curve if target falls below Zone 3 */
+    low = 0.0;
+    high = Math.max(p[1], 10000.0);
+    for (int i = 0; i &lt; 50; i++) {
+        mid = (low + high) / 2.0;
+        if (calcBrightness(mid, p) &gt;= targetBright) {
+            high = mid;
+        } else {
+            low = mid;
+        }
+    }
+    minimumAllowedLux = high;
+}
+
+/* Format display matching the JS implementation */
+intVal = Math.round(minimumAllowedLux);
+intValDouble = intVal * 1.0;
+
+/* Check if the rounded integer value fulfills the target mathematically */
+if (Math.abs(minimumAllowedLux - intValDouble) &lt; 0.005 &amp;&amp; calcBrightness(intValDouble, p) &gt;= targetBright - 1e-5) {
+    return String.valueOf(intVal);
+}
+
+/* Fallback to checking two decimal precision */
+decValRound = Math.round(minimumAllowedLux * 100.0);
+decVal = decValRound / 100.0;
+
+if (calcBrightness(decVal, p) &lt; targetBright - 1e-5) {
+    decValCeil = Math.ceil(minimumAllowedLux * 100.0);
+    decVal = decValCeil / 100.0;
+}
+
+return String.valueOf(decVal);</Str>
+			<Str sr="arg1" ve="3">%min</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoffThresh</lhs>
+					<op>6</op>
+					<rhs>%min</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%min</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_AdaptiveHandoffThresh</Str>
+			<Str sr="arg1" ve="3">%min</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task104">
+		<cdate>1791987659324</cdate>
+		<edate>1792078271889</edate>
+		<id>104</id>
+		<nme>_ReadBrightness</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%current_sys_bright</Str>
+			<Str sr="arg1" ve="3">%AAB_CurrentBright</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>474</code>
+			<Str sr="arg0" ve="3">
+import android.os.Build;
+import android.content.pm.PackageManager;
+import java.util.regex.*;
+import com.joaomgcd.taskerm.shell.CommandResult;
+
+/* --- Validate Calibration --- */
+
+cal = tasker.getVariable("AAB_BrightCal");
+
+if (cal == null || cal.length() == 0 ||
+    cal.equals("error")) {
+    return;
+}
+
+if (!Build.FINGERPRINT.equals(
+        tasker.getVariable("AAB_BrightCalFP"))) {
+
+    tasker.setVariable("AAB_NeedsCal", "true");
+    return;
+}
+
+/* --- Select Execution Backend --- */
+
+privilege = tasker.getVariable("AAB_SecondaryPrivilege");
+
+if (privilege == null) {
+    privilege = "None";
+}
+
+privilege = privilege.trim();
+
+command = "dumpsys display";
+timeout = 5;
+output = null;
+
+try {
+
+    if (privilege.equals("Root")) {
+
+        result = tasker.runShellRoot(command, timeout);
+
+    } else if (privilege.equals("ADB WiFi")) {
+
+        result = tasker.runShellAdbWifi(command, timeout);
+
+    } else if (privilege.equals("Shizuku")) {
+
+        result = tasker.runShellShizuku(command, timeout);
+
+    } else {
+
+        /* Fallback: Tasker with DUMP permission */
+
+        if (context.checkSelfPermission(
+                "android.permission.DUMP")
+                != PackageManager.PERMISSION_GRANTED) {
+
+            tasker.log(
+                "AAB: DUMP permission unavailable."
+            );
+            return;
+        }
+
+        result = tasker.runShellTasker(command, timeout);
+    }
+
+    if (result == null || !result.getSuccess()) {
+
+        tasker.log(
+            "AAB: Display read failed via " + privilege
+        );
+        return;
+    }
+
+    output = result.getOutputString();
+
+} catch (Throwable e) {
+
+    tasker.log(
+        "AAB: Display shell error (" +
+        privilege + "): " + e
+    );
+    return;
+}
+
+if (output == null || output.length() == 0) {
+    tasker.log("AAB: Empty display output.");
+    return;
+}
+
+/* --- Extract Raw Display Brightness --- */
+
+raw = -1.0;
+
+try {
+
+    pat = Pattern.compile(
+        "(?:mScreenBrightness|" +
+        "mDisplayBrightness|" +
+        "mCurrentScreenBrightness)=" +
+        "([0-9]+(?:\\.[0-9]+)?)"
+    );
+
+    matcher = pat.matcher(output);
+
+    if (matcher.find()) {
+        raw = Double.parseDouble(matcher.group(1));
+    }
+
+} catch (Exception e) {
+
+    tasker.log(
+        "AAB: Brightness parsing failed: " + e
+    );
+    return;
+}
+
+if (raw &lt; 0 ||
+    Double.isNaN(raw) ||
+    Double.isInfinite(raw)) {
+
+    tasker.log(
+        "AAB: No valid brightness in display output."
+    );
+    return;
+}
+
+/* --- Parse Calibration Points --- */
+
+try {
+
+    parts = cal.split(",");
+    n = parts.length;
+
+    if (n &lt; 2) {
+        tasker.log(
+            "AAB: Insufficient calibration points."
+        );
+        return;
+    }
+
+    vs = new double[n];
+    rs = new double[n];
+
+    for (i = 0; i &lt; n; i++) {
+
+        kv = parts[i].trim().split(":");
+
+        if (kv.length != 2) {
+            throw new Exception(
+                "Invalid calibration point " + i
+            );
+        }
+
+        vs[i] = Double.parseDouble(kv[0].trim());
+        rs[i] = Double.parseDouble(kv[1].trim());
+
+        if (Double.isNaN(vs[i]) ||
+            Double.isInfinite(vs[i]) ||
+            Double.isNaN(rs[i]) ||
+            Double.isInfinite(rs[i])) {
+
+            throw new Exception(
+                "Non-finite calibration point " + i
+            );
+        }
+
+        /* Raw values must be strictly increasing */
+
+        if (i &gt; 0 &amp;&amp; rs[i] &lt;= rs[i - 1]) {
+            throw new Exception(
+                "Calibration raw values not increasing"
+            );
+        }
+    }
+
+} catch (Exception e) {
+
+    tasker.log(
+        "AAB: Invalid brightness calibration: " + e
+    );
+    return;
+}
+
+/* --- Convert Raw to Calibrated Brightness --- */
+
+if (raw &lt;= rs[0]) {
+
+    /* Below calibration range: clamp to minimum */
+
+    v = vs[0];
+
+} else if (raw &gt; rs[n - 1]) {
+
+    /* Above calibration range: extrapolate */
+
+    span = rs[n - 1] - rs[n - 2];
+
+    slope = (vs[n - 1] - vs[n - 2]) / span;
+
+    v = vs[n - 1] +
+        (raw - rs[n - 1]) * slope;
+
+} else {
+
+    /* Within calibration range: interpolate */
+
+    v = vs[n - 1];
+
+    for (i = 1; i &lt; n; i++) {
+
+        if (raw &lt;= rs[i]) {
+
+            fraction = (raw - rs[i - 1]) /
+                       (rs[i] - rs[i - 1]);
+
+            v = vs[i - 1] +
+                fraction * (vs[i] - vs[i - 1]);
+
+            break;
+        }
+    }
+}
+
+/* --- Validate and Store Results --- */
+
+if (Double.isNaN(v) || Double.isInfinite(v)) {
+
+    tasker.log(
+        "AAB: Invalid calibrated brightness result."
+    );
+    return;
+}
+
+tasker.setVariable(
+    "AAB_DisplayRaw",
+    String.valueOf(raw)
+);
+
+tasker.setVariable(
+    "AAB_CurrentBright",
+    String.valueOf(Math.round(v))
+);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%current_sys_bright</lhs>
+					<op>2</op>
+					<rhs>%AAB_CurrentBright</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_CurrentBright</lhs>
+					<op>7</op>
+					<rhs>255</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">High Brightness Mode activated. </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">aab_toast</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_HBMFlag</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_HBMFlag</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_HBMFlag</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">High Brightness Mode disabled</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">aab_toast</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_HBMFlag</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_HBMFlag</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_HBMFlag</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
 	<Task sr="task105">
 		<cdate>1772373307824</cdate>
 		<edate>1790428195850</edate>
@@ -15576,7 +17428,7 @@ try {
 		<cdate>1750825517290</cdate>
 		<edate>1773345855673</edate>
 		<id>384</id>
-		<pri>107</pri>
+		<pri>114</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -15644,7 +17496,7 @@ try {
 		<cdate>1750825517290</cdate>
 		<edate>1773345293362</edate>
 		<id>386</id>
-		<pri>105</pri>
+		<pri>112</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -15969,7 +17821,7 @@ try {
 	</Task>
 	<Task sr="task401">
 		<cdate>1772003393887</cdate>
-		<edate>1772545534852</edate>
+		<edate>1791828356712</edate>
 		<id>401</id>
 		<nme>_ShowAboutScene</nme>
 		<pri>100</pri>
@@ -16431,7 +18283,7 @@ try {
 	</Task>
 	<Task sr="task43">
 		<cdate>1767258576780</cdate>
-		<edate>1790924413354</edate>
+		<edate>1791868504708</edate>
 		<id>43</id>
 		<nme>_EvaluateContexts V2</nme>
 		<pri>6</pri>
@@ -17401,7 +19253,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		<cdate>1750825517290</cdate>
 		<edate>1751566581823</edate>
 		<id>481</id>
-		<pri>12</pri>
+		<pri>14</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ExitButton</Str>
@@ -20511,7 +22363,7 @@ tasker.setVariable("AAB_Throttle", String.valueOf(aabThrottle));</Str>
 	</Task>
 	<Task sr="task544">
 		<cdate>1749731158782</cdate>
-		<edate>1791090481837</edate>
+		<edate>1792050551741</edate>
 		<id>544</id>
 		<nme>Evaluate Light Change (Java) V2</nme>
 		<pri>100</pri>
@@ -20543,7 +22395,7 @@ tasker.setVariable("AAB_Throttle", String.valueOf(aabThrottle));</Str>
 				<Condition sr="c1" ve="3">
 					<lhs>%TRUN</lhs>
 					<op>2</op>
-					<rhs>*Smooth Brightness Transition*</rhs>
+					<rhs>*Brightness Transition*</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%TRUN</lhs>
@@ -20599,49 +22451,6 @@ tasker.setVariable("AAB_Throttle", String.valueOf(aabThrottle));</Str>
 			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
-			<code>389</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">%AAB_ThreshDynamic=(%dynamic_threshold)*100
-%AAB_ThreshAbsLow=%SmoothedLux*(1-(%AAB_ThreshDynamic/100))
-%AAB_ThreshAbsHigh=%SmoothedLux*(1+(%AAB_ThreshDynamic/100))</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">=</Str>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Map Lux to Brightness (Java) V2</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">%SmoothedLux</Str>
-			<Str sr="arg3" ve="3">%LuxAlpha</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">Evaluate Light Change (Java) V2</Str>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act18" ve="7">
 			<code>474</code>
 			<Str sr="arg0" ve="3">/* --- Java Code for Dynamic Threshold Calculation --- */
 
@@ -20684,15 +22493,61 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Set Thresholds (Java)</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%dynamic_threshold</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_Hand-offDecider</Str>
+			<Int sr="arg1">
+				<var>%priority+2</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Map Lux to Brightness (Java) V2</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%SmoothedLux</Str>
+			<Str sr="arg3" ve="3">%LuxAlpha</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Evaluate Light Change (Java) V2</Str>
+		</Action>
 		<Action sr="act19" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%relative_change</lhs>
-					<op>6</op>
-					<rhs>%dynamic_threshold</rhs>
-				</Condition>
-			</ConditionList>
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>389</code>
@@ -20713,6 +22568,59 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>474</code>
+			<Str sr="arg0" ve="3">/* --- Java Code for Dynamic Threshold Calculation --- */
+
+/* Read all necessary Tasker variables */
+double par1 = %par1;
+double SmoothedLux = %SmoothedLux;
+double AAB_ThreshDim = %AAB_ThreshDim;
+double AAB_ThreshBright = %AAB_ThreshBright;
+double AAB_ThreshSteepness = %AAB_ThreshSteepness;
+double AAB_ThreshMidpoint = %AAB_ThreshMidpoint;
+double AAB_ThreshDark = %AAB_ThreshDark;
+double AAB_Zone1End = %AAB_Zone1End;
+
+/* A15 &amp; A16: Calculate relative_change */
+double lux_difference = Math.abs(par1 - SmoothedLux);
+double relative_change = Math.round((lux_difference / (SmoothedLux + 1.0)) * 1000.0) / 1000.0;
+
+/* A17: Calculate the sigmoid threshold for brighter light */
+double log_lux = Math.log10(SmoothedLux + 1.0);
+double exponent = -AAB_ThreshSteepness * (log_lux - AAB_ThreshMidpoint);
+double thresh_sig = AAB_ThreshDim + (AAB_ThreshBright - AAB_ThreshDim) / (1.0 + Math.exp(exponent));
+thresh_sig = Math.round(thresh_sig * 1000.0) / 1000.0;
+
+/* A18: Calculate the linear threshold for dim light */
+double thresh_low = AAB_ThreshDark - ((AAB_ThreshDark - AAB_ThreshDim) / AAB_Zone1End) * SmoothedLux;
+thresh_low = Math.round(thresh_low * 1000.0) / 1000.0;
+
+/* A19-A23: Choose the correct threshold based on the current lux */
+double dynamic_threshold;
+if (SmoothedLux &lt; AAB_Zone1End) {
+    dynamic_threshold = thresh_low;
+} else {
+    dynamic_threshold = thresh_sig;
+}
+
+/* --- MODIFIED SECTION --- */
+/* Set the Tasker variables directly */
+tasker.setVariable("relative_change", String.valueOf(relative_change));
+tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%relative_change</lhs>
+					<op>6</op>
+					<rhs>%dynamic_threshold</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Thresholds (Java)</Str>
 			<Int sr="arg1">
@@ -20728,14 +22636,14 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act23" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%AAB_CycleStart</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_MainLoop</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -20745,15 +22653,15 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act26" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act27" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Lux Smoothing (Java)</Str>
 			<Int sr="arg1">
@@ -20769,14 +22677,14 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act28" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%lux_results</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act29" ve="7">
 			<code>389</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -20794,7 +22702,17 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LastAAB</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LuxAlpha</Str>
 			<Str sr="arg1" ve="3">%lux_results2</Str>
@@ -20804,7 +22722,23 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="4"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act31" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_Hand-offDecider</Str>
+			<Int sr="arg1">
+				<var>%priority+2</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Map Lux to Brightness (Java) V2</Str>
 			<Int sr="arg1">
@@ -20820,17 +22754,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LastAAB</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LastAAB</Str>
 			<Str sr="arg1" ve="3">%now</Str>
@@ -20840,7 +22764,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act34" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Thresholds (Java)</Str>
 			<Int sr="arg1">
@@ -20856,7 +22780,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act35" ve="7">
 			<code>35</code>
 			<Int sr="arg0">
 				<var>100</var>
@@ -20869,11 +22793,11 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 				<Condition sr="c0" ve="3">
 					<lhs>%TRUN</lhs>
 					<op>3</op>
-					<rhs>*Smooth Brightness Transition*</rhs>
+					<rhs>*Brightness Transition*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AutoBrightRunning</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -20883,7 +22807,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_MainLoop</Str>
 			<Str sr="arg1" ve="3">Off</Str>
@@ -20893,7 +22817,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act38" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Relative change %relative_change &gt; Dynamic threshold %dynamic_threshold. Updating.</Str>
 			<Int sr="arg1" val="0"/>
@@ -20919,7 +22843,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_CycleTotal</Str>
 			<Str sr="arg1" ve="3">%TIMEMS-%AAB_CycleStart</Str>
@@ -20980,7 +22904,7 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 	</Task>
 	<Task sr="task545">
 		<cdate>1753466556230</cdate>
-		<edate>1791091232055</edate>
+		<edate>1792076723437</edate>
 		<id>545</id>
 		<nme>Detect Proximity</nme>
 		<pri>6</pri>
@@ -21039,6 +22963,13 @@ tasker.setVariable("dynamic_threshold", String.valueOf(dynamic_threshold));</Str
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>On</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>
@@ -21897,7 +23828,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 	</Task>
 	<Task sr="task551">
 		<cdate>1745400000000</cdate>
-		<edate>1787488983265</edate>
+		<edate>1792075327437</edate>
 		<id>551</id>
 		<nme>_QSToggleAABService V2</nme>
 		<pri>100</pri>
@@ -22074,6 +24005,42 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act25" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_HandBackToAAB</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%AAB_AdaptiveHandoff</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Reset Brightness and State</Str>
 			<Int sr="arg1">
@@ -22089,7 +24056,13 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Initialize (Display On)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">com.tideo.aab.event</Str>
 			<Int sr="arg1" val="0"/>
@@ -22109,12 +24082,12 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act31" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act32" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -22130,7 +24103,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_Service</Str>
 			<Str sr="arg1" ve="3">On</Str>
@@ -22140,13 +24113,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Initialize (Display On)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act34" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_MainSwitchUI V2</Str>
 			<Int sr="arg1">
@@ -22162,11 +24129,21 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act35" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act36" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_AdaptiveHandoff</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Initial Brightness (Java) V3</Str>
 			<Int sr="arg1">
@@ -22182,46 +24159,16 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act38" ve="7">
 			<code>159</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Initialize (Display On)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Hibernate (Display Off)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Allow Override</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Throttle Reinitialization</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
 		<Action sr="act39" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Proximity Detection</Str>
+			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -22233,58 +24180,94 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 		<Action sr="act40" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Repost Foreground Notification</Str>
+			<Str sr="arg0" ve="3">Hibernate (Display Off)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: App Changed</Str>
+			<Str sr="arg0" ve="3">Allow Override</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act42" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: Battery Changed</Str>
+			<Str sr="arg0" ve="3">Throttle Reinitialization</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: Location Changed</Str>
+			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act44" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: Time Changed</Str>
+			<Str sr="arg0" ve="3">Proximity Detection</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act45" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: Location Listener</Str>
+			<Str sr="arg0" ve="3">Repost Foreground Notification</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act46" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: Location Refresher</Str>
+			<Str sr="arg0" ve="3">Context: App Changed</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act47" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Context: WiFi (Dis)connected</Str>
+			<Str sr="arg0" ve="3">Context: Battery Changed</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act48" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Intent Receiver</Str>
+			<Str sr="arg0" ve="3">Context: Location Changed</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act49" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Context: Time Changed</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Hibernate (Display Off)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Context: Location Listener</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Context: Location Refresher</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Context: WiFi (Dis)connected</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Intent Receiver</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ForegroundNotification</Str>
 			<Int sr="arg1">
@@ -22300,13 +24283,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Hibernate (Display Off)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Dimming Decider</Str>
 			<Int sr="arg1">
@@ -22322,7 +24299,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act56" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">com.tideo.aab.event</Str>
 			<Int sr="arg1" val="0"/>
@@ -22342,7 +24319,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf(sim_calc_dusk));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act57" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
@@ -25181,10 +27158,10 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task567">
 		<cdate>1752239156214</cdate>
-		<edate>1790258679930</edate>
+		<edate>1792056313722</edate>
 		<id>567</id>
 		<nme>Manual Override</nme>
-		<pri>6</pri>
+		<pri>11</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -25422,7 +27399,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_DimmingStatus</Str>
-			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -25567,7 +27544,6 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
-				<bool2>Or</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_Service</lhs>
 					<op>2</op>
@@ -25579,11 +27555,6 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 					<rhs>1</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
-					<lhs>%AAB_Manual_Override</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
 					<lhs>%AAB_Initializing</lhs>
 					<op>2</op>
 					<rhs>true</rhs>
@@ -27038,7 +29009,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task580">
 		<cdate>1750685644979</cdate>
-		<edate>1791378252747</edate>
+		<edate>1792056351099</edate>
 		<id>580</id>
 		<nme>Advanced Auto Brightness</nme>
 		<pc>Add this task to the launcher for an app-like experience!</pc>
@@ -27652,7 +29623,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task582">
 		<cdate>1750798859142</cdate>
-		<edate>1773345240880</edate>
+		<edate>1791826937856</edate>
 		<id>582</id>
 		<nme>_SaveButtonGeneral</nme>
 		<Action sr="act0" ve="7">
@@ -27721,6 +29692,22 @@ if (nightLightAvailableId != 0) {
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_DetermineMinHand-offThresh</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Settings applied!</Str>
 			<Int sr="arg1" val="1"/>
@@ -27739,7 +29726,7 @@ if (nightLightAvailableId != 0) {
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Initial Brightness (Java) V3</Str>
 			<Int sr="arg1">
@@ -27834,7 +29821,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task583">
 		<cdate>1751179902837</cdate>
-		<edate>1765629601691</edate>
+		<edate>1791876309902</edate>
 		<id>583</id>
 		<nme>_RedInvalidFormulae</nme>
 		<Action sr="act0" ve="7">
@@ -28022,7 +30009,7 @@ if (nightLightAvailableId != 0) {
 	</Task>
 	<Task sr="task585">
 		<cdate>1749736716513</cdate>
-		<edate>1772545220017</edate>
+		<edate>1791821101484</edate>
 		<id>585</id>
 		<nme>Reset Brightness and State</nme>
 		<pri>6</pri>
@@ -29236,7 +31223,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765821996685</cdate>
 		<edate>1765821996685</edate>
 		<id>593</id>
-		<pri>102</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
@@ -29951,7 +31938,7 @@ writeProfile("Night Reading", profNight);</Str>
 		<cdate>1765822173043</cdate>
 		<edate>1765822173043</edate>
 		<id>602</id>
-		<pri>105</pri>
+		<pri>15</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">AAB Brightness Settings</Str>
@@ -30607,7 +32594,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 		<cdate>1765830920340</cdate>
 		<edate>1765830920340</edate>
 		<id>615</id>
-		<pri>112</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -30911,7 +32898,7 @@ PWM exponent should be set around 2.2 (range: 0.2 and 3.5).</Str>
 	</Task>
 	<Task sr="task618">
 		<cdate>1749848387367</cdate>
-		<edate>1790795137693</edate>
+		<edate>1792047586647</edate>
 		<id>618</id>
 		<nme>Set Initial Brightness (Java) V3</nme>
 		<pri>8</pri>
@@ -31037,6 +33024,22 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_Hand-offDecider</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>547</code>
 			<label>This skips animations during Map Lux to Brightness</label>
 			<Str sr="arg0" ve="3">%orig_debug</Str>
@@ -31053,17 +33056,6 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 					<rhs>true</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>547</code>
-			<label>This skips smoothing and ensures the new value is set with a maximum alpha. Passed as %par2 into Map Lux To Brightness task.</label>
-			<Str sr="arg0" ve="3">%LuxAlpha</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -31089,11 +33081,22 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>547</code>
+			<label>This skips smoothing and ensures the new value is set with a maximum alpha. Passed as %par2 into Map Lux To Brightness task.</label>
+			<Str sr="arg0" ve="3">%LuxAlpha</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_CycleStart</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -31103,7 +33106,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Map Lux to Brightness (Java) V2</Str>
 			<Int sr="arg1">
@@ -31119,7 +33122,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LastAAB</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -31129,7 +33132,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -31139,31 +33142,47 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3">Advanced Auto Brightness Paused</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3">%AAB_SetupTitle</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%AAB_ScalingUse</lhs>
 					<op>2</op>
 					<rhs>true</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_NightLightCircadian</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%counter</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Dynamic Scale V13 (Java) App Version</Str>
 			<Int sr="arg1">
@@ -31179,20 +33198,10 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%counter</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -31209,7 +33218,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Dimming Decider</Str>
 			<Int sr="arg1">
@@ -31225,10 +33234,10 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AutoBrightRunning</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -31238,7 +33247,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_Throttle</Str>
 			<Str sr="arg1" ve="3">%AAB_AnimSteps * %AAB_MaxWait + 10</Str>
@@ -31248,7 +33257,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_LastSensorAccuracy</Str>
 			<Str sr="arg1" ve="3">%as_accuracy</Str>
@@ -31265,7 +33274,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_LastRawLux</Str>
 			<Str sr="arg1" ve="3">%as_values1</Str>
@@ -31282,7 +33291,7 @@ tasker.setVariable("SmoothedLux", String.valueOf(smoothed_lux_2_digits));</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>474</code>
 			<label>This prevents Monitor Ambient Light profile from interfering from the brightness set in this task.</label>
 			<se>false</se>
@@ -31311,7 +33320,23 @@ if (waitTime &gt; 0) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%caller1</lhs>
+					<op>3</op>
+					<rhs>*_EvaluateContexts*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%caller1</lhs>
+					<op>3</op>
+					<rhs>*_ProfileManager*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ContextF5NetLoc V8</Str>
 			<Int sr="arg1">
@@ -31352,45 +33377,29 @@ if (waitTime &gt; 0) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>3</op>
-					<rhs>*_EvaluateContexts*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%caller1</lhs>
-					<op>3</op>
-					<rhs>*_ProfileManager*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Monitor Ambient Light</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act41" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Proximity Detection</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
 		<Action sr="act42" ve="7">
 			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
+			<Str sr="arg0" ve="3">Proximity Detection</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>159</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Allow Override</Str>
+			<Str sr="arg0" ve="3">Dynamic Scale Engine</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act44" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Allow Override</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act45" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%AAB_Initializing</Str>
 			<Int sr="arg1" val="0"/>
@@ -32022,7 +34031,7 @@ tasker.setVariable("ui_txt_sizes", join(sizes));</Str>
 	</Task>
 	<Task sr="task623">
 		<cdate>1767265610853</cdate>
-		<edate>1786131561870</edate>
+		<edate>1791867324826</edate>
 		<id>623</id>
 		<nme>_ContextManager</nme>
 		<pri>100</pri>
@@ -34084,7 +36093,7 @@ if (distance &gt;= 100) {
 	</Task>
 	<Task sr="task634">
 		<cdate>1772003393887</cdate>
-		<edate>1787447783358</edate>
+		<edate>1791828338341</edate>
 		<id>634</id>
 		<nme>_ShowDebugScene</nme>
 		<pri>100</pri>
@@ -34483,7 +36492,7 @@ new Handler(Looper.getMainLooper()).post(new Runnable() {
 	</Task>
 	<Task sr="task637">
 		<cdate>1767099945935</cdate>
-		<edate>1791396347628</edate>
+		<edate>1792075006189</edate>
 		<id>637</id>
 		<nme>_ProfileManager</nme>
 		<pri>100</pri>
@@ -34711,6 +36720,13 @@ void performSave(String profileName, boolean silent) {
         superdimming.put("pwm_sensitive", getB("AAB_PWMSensitive", false));
         root.put("superdimming", superdimming);
 
+        /* Save adaptive brightness handoff configuration. */
+        adaptiveHandoff = new JSONObject();
+        adaptiveHandoff.put("enabled", getB("AAB_AdaptiveOn", false));
+        adaptiveHandoff.put("threshold", getG("AAB_AdaptiveHandoffThresh", 25130.0));
+        adaptiveHandoff.put("hysteresis", getG("AAB_HandoffHysteresis", 0.8));
+        root.put("adaptive_handoff", adaptiveHandoff);
+
         /* Save privileged display configuration in logical AAB form. */
         JSONObject privileged = new JSONObject();
         privileged.put("night_light", getB("AAB_NightLight", false));
@@ -34819,6 +36835,13 @@ void performLoad(String input) {
                     "superdimming",
                     new JSONObject().put("enabled", false)
                 );
+
+                /* Adaptive handoff defaults. */
+                adaptiveDefault = new JSONObject();
+                adaptiveDefault.put("enabled", false);
+                adaptiveDefault.put("threshold", 25130.0);
+                adaptiveDefault.put("hysteresis", 0.8);
+                root.put("adaptive_handoff", adaptiveDefault);
 
                 /* Privileged display defaults. */
                 JSONObject privileged = new JSONObject();
@@ -35182,6 +37205,37 @@ void performLoad(String input) {
             }
         }
 
+        /* Load adaptive brightness handoff configuration. */
+        adaptiveHandoff = root.optJSONObject("adaptive_handoff");
+        if (adaptiveHandoff != null) {
+            if (adaptiveHandoff.has("enabled")) {
+                setG(
+                    "AAB_AdaptiveOn",
+                    adaptiveHandoff.getBoolean("enabled")
+                        ? "true"
+                        : "false"
+                );
+            }
+
+            if (adaptiveHandoff.has("threshold")) {
+                setG(
+                    "AAB_AdaptiveHandoffThresh",
+                    String.valueOf(
+                        adaptiveHandoff.getDouble("threshold")
+                    )
+                );
+            }
+
+            if (adaptiveHandoff.has("hysteresis")) {
+                setG(
+                    "AAB_HandoffHysteresis",
+                    String.valueOf(
+                        adaptiveHandoff.getDouble("hysteresis")
+                    )
+                );
+            }
+        }
+
         /*
          * Load privileged display settings only when this profile actually
          * contains them. Older profiles therefore preserve current state.
@@ -35538,6 +37592,51 @@ if (MODE.equals("SAVE_FILE")) {
 			</ConditionList>
 		</Action>
 		<Action sr="act33" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_DetermineMinHand-offThresh</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_Hand-offDecider</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_Service</lhs>
+					<op>2</op>
+					<rhs>On</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_Manual_Override</lhs>
+					<op>3</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">com.tideo.aab.event</Str>
 			<Int sr="arg1" val="0"/>
@@ -35557,7 +37656,7 @@ if (MODE.equals("SAVE_FILE")) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act36" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -35567,7 +37666,7 @@ if (MODE.equals("SAVE_FILE")) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Settings loaded: %AAB_CurrentActiveProfile</Str>
 			<Int sr="arg1" val="1"/>
@@ -35586,10 +37685,10 @@ if (MODE.equals("SAVE_FILE")) {
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Settings loaded.</Str>
 			<Int sr="arg1" val="1"/>
@@ -35608,19 +37707,6 @@ if (MODE.equals("SAVE_FILE")) {
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%saved</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -35632,6 +37718,19 @@ if (MODE.equals("SAVE_FILE")) {
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%saved</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Settings saved.</Str>
 			<Int sr="arg1" val="1"/>
@@ -35650,7 +37749,7 @@ if (MODE.equals("SAVE_FILE")) {
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -35660,7 +37759,7 @@ if (MODE.equals("SAVE_FILE")) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">⚠️ ERROR: %err_msg</Str>
 			<Int sr="arg1" val="1"/>
@@ -35679,10 +37778,10 @@ if (MODE.equals("SAVE_FILE")) {
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>53</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">AAB Profile</Str>
@@ -35690,7 +37789,7 @@ if (MODE.equals("SAVE_FILE")) {
 			<Int sr="arg2" val="6"/>
 			<Str sr="arg3" ve="3">javascript:setOverrideUI('%AAB_ContextOverride', '%AAB_CurrentActiveProfile');</Str>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Set Initial Brightness (Java) V3</Str>
 			<Int sr="arg1">
@@ -36749,7 +38848,7 @@ ADB WiFi shell commands are reasonably efficient albeit slow. Note: May need re-
 	</Task>
 	<Task sr="task645">
 		<cdate>1757273818372</cdate>
-		<edate>1786704020445</edate>
+		<edate>1792040386245</edate>
 		<id>645</id>
 		<nme>Disable Super Dimming (Privileged)</nme>
 		<pri>100</pri>
@@ -38162,7 +40261,7 @@ Strength setpoint: %AAB_DimmingStrength</Str>
 	</Task>
 	<Task sr="task654">
 		<cdate>1758642116223</cdate>
-		<edate>1765517035784</edate>
+		<edate>1792040388867</edate>
 		<id>654</id>
 		<nme>Disable Super Dimming (Unprivileged)</nme>
 		<Action sr="act0" ve="7">
@@ -38461,7 +40560,7 @@ for (int i = 0; i &lt; varNames.length; i++) {
 	</Task>
 	<Task sr="task656">
 		<cdate>1752835206309</cdate>
-		<edate>1786535455235</edate>
+		<edate>1791828475759</edate>
 		<id>656</id>
 		<nme>_ExitButton</nme>
 		<pri>100</pri>
@@ -38502,32 +40601,32 @@ for (int i = 0; i &lt; varNames.length; i++) {
 		<Action sr="act14" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Misc Settings</Str>
+			<Str sr="arg0" ve="3">AAB Hand-off Scene</Str>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Profile</Str>
+			<Str sr="arg0" ve="3">AAB Misc Settings</Str>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
+			<Str sr="arg0" ve="3">AAB Profile</Str>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Reactivity Graph</Str>
+			<Str sr="arg0" ve="3">AAB Privileged Scene</Str>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
+			<Str sr="arg0" ve="3">AAB Reactivity Graph</Str>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Superdimming Settings</Str>
+			<Str sr="arg0" ve="3">AAB Reactivity Settings</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>49</code>
@@ -38537,9 +40636,14 @@ for (int i = 0; i &lt; varNames.length; i++) {
 		<Action sr="act20" ve="7">
 			<code>49</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">AAB Taper Graph</Str>
+			<Str sr="arg0" ve="3">AAB Superdimming Settings</Str>
 		</Action>
 		<Action sr="act21" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">AAB Taper Graph</Str>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">AAB User Guide</Str>
@@ -38971,11 +41075,23 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task659">
 		<cdate>1751926861266</cdate>
-		<edate>1767730561775</edate>
+		<edate>1791876116762</edate>
 		<id>659</id>
 		<nme>_UpdateBrightnessFormulae</nme>
 		<pri>1000</pri>
 		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%aab_form2c</lhs>
+					<op>3</op>
+					<rhs>\d+(?:\.\d+)?</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_form2a</Str>
 			<Str sr="arg1" ve="3">%aab_form1a*(sqrt(%aab_zone1end))</Str>
@@ -38985,7 +41101,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_form3a</Str>
 			<Str sr="arg1" ve="3">(%aab_zone2end*(%AAB_MaxBright-(%aab_form2a+%aab_form2b*((%aab_zone2end-%aab_form2c)^0.33-(%aab_zone1end-%aab_form2c)^0.33)))/%AAB_MaxBright)</Str>
@@ -38995,7 +41111,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3"/>
 			<Int sr="arg1" val="0"/>
@@ -39069,7 +41185,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 	</Task>
 	<Task sr="task661">
 		<cdate>1750000000000</cdate>
-		<edate>1791091322601</edate>
+		<edate>1792074282931</edate>
 		<id>661</id>
 		<nme>Map Lux to Brightness (Java) V2</nme>
 		<pri>100</pri>
@@ -39296,7 +41412,7 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 				<Condition sr="c2" ve="3">
 					<lhs>%calculated_brightness</lhs>
 					<op>7</op>
-					<rhs>%AAB_DimmingThreshold</rhs>
+					<rhs>%AAB_DimmingThreshold-0.1</rhs>
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%AAB_SDK</lhs>
@@ -39491,6 +41607,13 @@ tasker.setVariable("brightness_labels", brightness_labels_str.toString());</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act46" ve="7">
 			<code>547</code>
@@ -41924,7 +44047,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 	</Task>
 	<Task sr="task69">
 		<cdate>1772003393887</cdate>
-		<edate>1791383655561</edate>
+		<edate>1791828342839</edate>
 		<id>69</id>
 		<nme>_ShowPrivilegedScene</nme>
 		<pri>100</pri>
@@ -42269,7 +44392,7 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 	</Task>
 	<Task sr="task696">
 		<cdate>1745400000000</cdate>
-		<edate>1790870340829</edate>
+		<edate>1792074245848</edate>
 		<id>696</id>
 		<nme>Smooth Brightness Transition V5 (Java)</nme>
 		<pri>100</pri>
@@ -42307,6 +44430,47 @@ tasker.setVariable("ref_data", ref_data_str.toString());</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_BrightCal</lhs>
+					<op>3</op>
+					<rhs>error</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%AAB_BrightCal</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_ReadBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>474</code>
 			<Str sr="arg0" ve="3">import android.provider.Settings;
 import android.content.ContentResolver;
@@ -42316,160 +44480,197 @@ import android.content.ContentResolver;
 /* 1. Get Content Resolver */
 cResolver = context.getContentResolver();
 
-/* 2. Get Current Brightness (Safely) */
 try {
-    startBrightness = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
-} catch (Exception e) {
-    tasker.log("AAB: Could not read system brightness. Aborting.");
-    return; 
-}
 
-/* 3. Get Target Brightness (%par1) */
-targetStr = tasker.getVariable("par1");
-if (targetStr == null) {
-    tasker.log("AAB: No target brightness (%par1) set. Aborting.");
-    return;
-}
-targetBrightness = Double.parseDouble(targetStr);
-
-/* 4. Get Configuration (%par2 -&gt; loops,wait) */
-par2 = tasker.getVariable("par2");
-if (par2 == null) par2 = "20,30"; /* Default safety fallback */
-parts = par2.split(",");
-loops = Integer.parseInt(parts[0]);
-wait = Long.parseLong(parts[1]);
-
-/* 5. Get Global Settings */
-dimmingThresholdStr = tasker.getVariable("AAB_DimmingThreshold");
-dimmingThreshold = (dimmingThresholdStr != null) ? Double.parseDouble(dimmingThresholdStr) : 5.0;
-
-dimmingEnabledStr = tasker.getVariable("AAB_DimmingEnabled");
-dimmingEnabled = (dimmingEnabledStr != null &amp;&amp; dimmingEnabledStr.equals("true"));
-
-detectOverridesStr = tasker.getVariable("AAB_DetectOverrides");
-detectOverrides = (detectOverridesStr != null &amp;&amp; detectOverridesStr.equals("On"));
-
-/* 6. Calculate Min/Max Targets */
-if (startBrightness &lt; targetBrightness) {
-    minTarget = startBrightness;
-    maxTarget = targetBrightness + 1;
-} else {
-    minTarget = targetBrightness - 1;
-    maxTarget = startBrightness;
-}
-
-/* Export these for the Debug Flash (A13) */
-tasker.setVariable("max_target", String.valueOf(maxTarget));
-tasker.setVariable("min_target", String.valueOf(minTarget));
-tasker.setVariable("loops", String.valueOf(loops));
-tasker.setVariable("wait", String.valueOf(wait));
-
-/* --- Execution Phase --- */
-
-engineStartTime = System.currentTimeMillis();
-consecutiveOutOfBounds = 0;
-overrideTriggerThreshold = 2; 
-previousBrightnessInt = -1;
-
-tasker.log("--- Starting AAB Animation: " + startBrightness + " -&gt; " + targetBrightness + " ---");
-
-for (int counter = 0; counter &lt; loops; counter++) {
-
-    /* Check for manual stop flag - Doing this every frame is necessary for responsiveness, 
-       but we avoid the IPC overhead of writing variables unless necessary below. */
-    override = tasker.getVariable("AAB_Manual_Override");
-    if ("true".equals(override)) {
-        tasker.log("Manual override detected via variable. Stopping.");
-        break;
-    }
-
-    /* Calculate interpolation */
-    progress = (double)counter / loops;
-    calculated_brightness_smooth = startBrightness + progress * (targetBrightness - startBrightness);
-    
-    /* Apply Brightness to System (Every Frame for Smoothness) */
-    brightnessInt = (int) Math.round(calculated_brightness_smooth);
-    if (brightnessInt &lt; 0) brightnessInt = 0;
-    if (brightnessInt &gt; 255) brightnessInt = 255;
-    
-    /* Write to system settings ONLY if value changed */
-    if (brightnessInt != previousBrightnessInt) {
-        Settings.System.putInt(cResolver, Settings.System.SCREEN_BRIGHTNESS, brightnessInt);
-        previousBrightnessInt = brightnessInt;
-    }
-    
-    /* 
-     * OPTIMIZATION: Only update Tasker variables and check overrides every 5th frame.
-     */
-    if (counter % 5 == 0 || counter == loops - 1) {
-        
-        /* 1. Format Display Variable (math-based for efficiency instead of BigDecimal) */
-        AAB_CurrentBright_str = "";
-        if (calculated_brightness_smooth &lt; dimmingThreshold) {
-            /* Round to 1 decimal place: (int)(val * 10) / 10.0 */
-            roundedVal = Math.round(calculated_brightness_smooth * 10.0) / 10.0;
-            AAB_CurrentBright_str = String.valueOf(roundedVal);
-        } else {
-            AAB_CurrentBright_str = String.valueOf(Math.round(calculated_brightness_smooth));
-        }
-        
-        /* 2. Update Global Variable */
-        tasker.setVariable("AAB_CurrentBright", AAB_CurrentBright_str);
-
-        /* 3. Dimming Decider Hook */
-        if (dimmingEnabled) {
-            tasker.callTask("Dimming Decider", null);
-        }
-        
-        /* 4. Override Detection */
-        if (detectOverrides) {
-            try {
-                actualSystemBrightness = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
-                
-                if (actualSystemBrightness &gt; maxTarget + 2 || actualSystemBrightness &lt; minTarget - 2) {
-                    consecutiveOutOfBounds++;
-                    
-                    if (consecutiveOutOfBounds &gt;= overrideTriggerThreshold) {
-                        tasker.log("Hardware override detected (System: " + actualSystemBrightness + " vs Calc: " + brightnessInt + "). Stopping.");
-                        tasker.setVariable("AAB_Manual_Override", "true");
-                        tasker.callTask("Manual Override", null);
-                        break;
-                    }
-                } else {
-                    consecutiveOutOfBounds = 0;
-                }
-            } catch (Exception e) {
-                /* Ignore read errors during loop */
-            }
-        }
-    }
-
-    /* Self-Adjusting Wait */
-    timeSpentSoFar = System.currentTimeMillis() - engineStartTime;
-    targetTimeForStep = (long)((counter + 1) * wait);
-    adjustedWait = targetTimeForStep - timeSpentSoFar;
-    
+    /* 2. Get Current Brightness (Safely) */
     try {
-        if (adjustedWait &gt; 0 &amp;&amp; counter &lt; loops - 1) {
-            Thread.sleep(adjustedWait);
-        }
-    } catch (InterruptedException e) {
-        break;
+        startBrightness = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
+    } catch (Exception e) {
+        tasker.log("AAB: Could not read system brightness. Aborting.");
+        return;
     }
-}
 
-engineEndTime = System.currentTimeMillis();
-tasker.setVariable("java_loop_duration", String.valueOf(engineEndTime - engineStartTime));
-tasker.setVariable("AutoBrightRunning", "0");</Str>
+    /* 3. Check Adaptive Handoff State Before Starting */
+    adaptiveHandoffStr = tasker.getVariable("AAB_AdaptiveHandoff");
+    adaptiveHandoff = (adaptiveHandoffStr != null &amp;&amp; adaptiveHandoffStr.equals("1"));
+
+    if (adaptiveHandoff) {
+        tasker.log("AAB: Adaptive handoff active. Android owns brightness. Aborting.");
+        return;
+    }
+
+    /* 4. Get Target Brightness (%par1) */
+    targetStr = tasker.getVariable("par1");
+    if (targetStr == null) {
+        tasker.log("AAB: No target brightness (%par1) set. Aborting.");
+        return;
+    }
+    targetBrightness = Double.parseDouble(targetStr);
+
+    /* 5. Get Configuration (%par2 -&gt; loops,wait) */
+    par2 = tasker.getVariable("par2");
+    if (par2 == null) par2 = "20,30"; /* Default safety fallback */
+    parts = par2.split(",");
+    loops = Integer.parseInt(parts[0]);
+    wait = Long.parseLong(parts[1]);
+
+    /* 6. Get Global Settings */
+    dimmingThresholdStr = tasker.getVariable("AAB_DimmingThreshold");
+    dimmingThreshold = (dimmingThresholdStr != null) ? Double.parseDouble(dimmingThresholdStr) : 5.0;
+
+    dimmingEnabledStr = tasker.getVariable("AAB_DimmingEnabled");
+    dimmingEnabled = (dimmingEnabledStr != null &amp;&amp; dimmingEnabledStr.equals("true"));
+
+    detectOverridesStr = tasker.getVariable("AAB_DetectOverrides");
+    detectOverrides = (detectOverridesStr != null &amp;&amp; detectOverridesStr.equals("On"));
+
+    /* 7. Calculate Min/Max Targets */
+    if (startBrightness &lt; targetBrightness) {
+        minTarget = startBrightness;
+        maxTarget = targetBrightness + 1;
+    } else {
+        minTarget = targetBrightness - 1;
+        maxTarget = startBrightness;
+    }
+
+    /* Export these for the Debug Flash (A13) */
+    tasker.setVariable("max_target", String.valueOf(maxTarget));
+    tasker.setVariable("min_target", String.valueOf(minTarget));
+    tasker.setVariable("loops", String.valueOf(loops));
+    tasker.setVariable("wait", String.valueOf(wait));
+
+    /* --- Execution Phase --- */
+
+    engineStartTime = System.currentTimeMillis();
+    consecutiveOutOfBounds = 0;
+    overrideTriggerThreshold = 2;
+    previousBrightnessInt = -1;
+
+    tasker.log("--- Starting AAB Animation: " + startBrightness + " -&gt; " + targetBrightness + " ---");
+
+    for (int counter = 0; counter &lt; loops; counter++) {
+
+        /* Synchronize Hand-off: Yield immediately if Android took ownership */  
+        if ("1".equals(tasker.getVariable("AAB_AdaptiveHandoff"))) {  
+            tasker.log("AAB: Adaptive handoff engaged mid-animation. Relinquishing control.");  
+            break;  
+        }  
+
+        /* Check for manual stop flag */  
+        override = tasker.getVariable("AAB_Manual_Override");  
+        if ("true".equals(override)) {  
+            tasker.log("Manual override detected via variable. Stopping.");  
+            break;  
+        }  
+
+        /* Calculate interpolation reaching 100% on the final step */  
+        progress = (loops &lt;= 1) ? 1.0 : (double) counter / (loops - 1);  
+        calculated_brightness_smooth = startBrightness + progress * (targetBrightness - startBrightness);  
+        
+        /* Apply Brightness to System */  
+        brightnessInt = (int) Math.round(calculated_brightness_smooth);  
+        if (brightnessInt &lt; 0) brightnessInt = 0;  
+        if (brightnessInt &gt; 255) brightnessInt = 255;  
+        
+        /* Write to hardware only if value changed; verify write success before updating cache */  
+        if (brightnessInt != previousBrightnessInt) {  
+
+            /* Recheck ownership immediately before writing */  
+            if ("1".equals(tasker.getVariable("AAB_AdaptiveHandoff"))) {  
+                tasker.log("AAB: Handoff engaged before hardware write.");  
+                break;  
+            }  
+
+            try {  
+                if (Settings.System.putInt(  
+                        cResolver,  
+                        Settings.System.SCREEN_BRIGHTNESS,  
+                        brightnessInt)) {  
+                    previousBrightnessInt = brightnessInt;  
+                } else {  
+                    tasker.log("AAB: Brightness write failed.");  
+                    break;  
+                }  
+            } catch (Exception e) {  
+                tasker.log("AAB: Brightness write exception: " + e);  
+                break;  
+            }  
+        }  
+        
+        /* OPTIMIZATION: Update Tasker variables and check overrides every 5th frame */  
+        if (counter % 5 == 0 || counter == loops - 1) {  
+            
+            /* 1. Format Display Variable */  
+            AAB_CurrentBright_str = "";  
+            if (calculated_brightness_smooth &lt; dimmingThreshold) {  
+                roundedVal = Math.round(calculated_brightness_smooth * 10.0) / 10.0;  
+                AAB_CurrentBright_str = String.valueOf(roundedVal);  
+            } else {  
+                AAB_CurrentBright_str = String.valueOf(Math.round(calculated_brightness_smooth));  
+            }  
+            
+            /* 2. Update Global Variable (Displayed brightness) */  
+            tasker.setVariable("AAB_CurrentBright", AAB_CurrentBright_str);  
+
+            /* 3. Dimming Decider Hook */  
+            if (dimmingEnabled) {  
+                tasker.callTask("Dimming Decider", null);  
+            }  
+            
+            /* 4. Override Detection */  
+            if (detectOverrides) {  
+                try {  
+                    actualSystemBrightness = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);  
+                    
+                    if (actualSystemBrightness &gt; maxTarget + 2 || actualSystemBrightness &lt; minTarget - 2) {  
+                        consecutiveOutOfBounds++;  
+                        
+                        if (consecutiveOutOfBounds &gt;= overrideTriggerThreshold) {  
+                            tasker.log("Hardware override detected (System: " + actualSystemBrightness + " vs Calc: " + brightnessInt + "). Stopping.");  
+                            tasker.setVariable("AAB_Manual_Override", "true");  
+                            tasker.callTask("Manual Override", null);  
+                            break;  
+                        }  
+                    } else {  
+                        consecutiveOutOfBounds = 0;  
+                    }  
+                } catch (Exception e) {  
+                    /* Ignore read errors during loop */  
+                }  
+            }  
+        }  
+
+        /* Self-Adjusting Wait */  
+        timeSpentSoFar = System.currentTimeMillis() - engineStartTime;  
+        targetTimeForStep = (long)((counter + 1) * wait);  
+        adjustedWait = targetTimeForStep - timeSpentSoFar;  
+        
+        try {  
+            if (adjustedWait &gt; 0 &amp;&amp; counter &lt; loops - 1) {  
+                Thread.sleep(adjustedWait);  
+            }  
+        } catch (InterruptedException e) {  
+            break;  
+        }  
+    }
+
+    engineEndTime = System.currentTimeMillis();
+    tasker.setVariable("java_loop_duration", String.valueOf(engineEndTime - engineStartTime));
+
+} catch (Exception e) {
+    tasker.log("AAB: Animation error: " + e);
+} finally {
+    tasker.setVariable("AutoBrightRunning", "0");
+}</Str>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Allow Override</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Hardware mode
 Loops: %loops, wait step: %wait ms
@@ -42500,123 +44701,7 @@ Minimum target: %min_target</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-	</Task>
-	<Task sr="task697">
-		<cdate>1753893707751</cdate>
-		<edate>1753893707751</edate>
-		<id>697</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_QSExperimentUIToggle</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task698">
-		<cdate>1745400000000</cdate>
-		<edate>1791091375812</edate>
-		<id>698</id>
-		<nme>Smooth DC-Like Brightness Transition V5 (Java)</nme>
-		<pri>100</pri>
-		<showinnot>false</showinnot>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%AutoBrightRunning</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%AutoBrightRunning</lhs>
-					<op>2</op>
-					<rhs>0</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%AutoBrightRunning</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%currentbrightness</Str>
-			<Str sr="arg1" ve="3">%AAB_PrevBright</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>389</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">%AAB_LastAnimation=%TIMEMS
-%AAB_CycleTime=%TIMEMS - %AAB_CycleStart</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">=</Str>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="1"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>159</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Allow Override</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>810</code>
-			<Int sr="arg0">
-				<var>%AAB_DimmingThreshold</var>
-			</Int>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BRIGHT</lhs>
-					<op>6</op>
-					<rhs>%AAB_DimmingThreshold</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act9" ve="7">
 			<code>474</code>
 			<Str sr="arg0" ve="3">import java.util.HashMap;
 import android.provider.Settings;
@@ -42641,6 +44726,7 @@ dimStart = Double.parseDouble(tasker.getVariable("dim_start"));
 /* Feature Flags */
 privilege = tasker.getVariable("AAB_Privilege");
 detectOverrides = "On".equals(tasker.getVariable("AAB_DetectOverrides"));
+adaptiveHandoff = "1".equals(tasker.getVariable("AAB_AdaptiveHandoff"));
 sdk = Integer.parseInt(tasker.getVariable("AAB_SDK"));
 isAtLeastSdk31 = (sdk &gt;= 31);
 
@@ -42680,8 +44766,20 @@ for (counter = 0; counter &lt; loops; counter++) {
     if ("true".equals(tasker.getVariable("AAB_Manual_Override"))) break;
 
     /* 2. Calculate Values */
-    progress = (double)counter / loops;
-    calculated_bright = startBrightness + progress * (targetBrightness - startBrightness);
+    progress = loops &lt;= 1 
+        ? 1.0 
+        : (double) counter / (loops - 1);
+        
+    /* Adaptive Handoff Logic: Follow System rather than computing */
+    if (adaptiveHandoff) {
+        try {
+            calculated_bright = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
+        } catch (Exception e) {
+            calculated_bright = startBrightness + progress * (targetBrightness - startBrightness);
+        }
+    } else {
+        calculated_bright = startBrightness + progress * (targetBrightness - startBrightness);
+    }
     
     /* Dimming Curve */
     dim_shell_double = dimStart + progress * (finalDim - dimStart);
@@ -42697,12 +44795,15 @@ for (counter = 0; counter &lt; loops; counter++) {
 
     /* OPTIMIZATION: Write Hardware Brightness ONLY if changed */
     if (hardwareTarget != previousHardwareTarget) {
-        Settings.System.putInt(cResolver, Settings.System.SCREEN_BRIGHTNESS, hardwareTarget);
+        /* Avoid writing back to the system if Adaptive Handoff is on and hardware brightness matches calculated brightness, to prevent disabling native auto-brightness */
+        if (!adaptiveHandoff || hardwareTarget != calculated_bright) {
+            Settings.System.putInt(cResolver, Settings.System.SCREEN_BRIGHTNESS, hardwareTarget);
+        }
         previousHardwareTarget = hardwareTarget;
     }
 
     /* 4. Override Detection (Throttled) */
-    if (detectOverrides) {
+    if (detectOverrides &amp;&amp; !adaptiveHandoff) {
         /* OPTIMIZATION: Check only every 5 frames to reduce CPU load */
         if (counter % 5 == 0) {
             try {
@@ -42860,7 +44961,13 @@ for (counter = 0; counter &lt; loops; counter++) {
 
 /* Post-Loop Cleanup */
 if (!"true".equals(tasker.getVariable("AAB_Manual_Override"))) {
-    calculated_bright = targetBrightness;
+    if (adaptiveHandoff) {
+        try {
+            calculated_bright = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
+        } catch (Exception e) {}
+    } else {
+        calculated_bright = targetBrightness;
+    }
 }
 
 /* Final update to ensure target is reached exactly in UI (Primitive Math) */
@@ -42879,29 +44986,449 @@ tasker.setVariable("calculated_brightness_smooth", String.valueOf(calculated_bri
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
-			<code>37</code>
-			<label>Shows 1 decimal point in the scene below %AAB_DimmingThreshold lux and is used for higher accuracy in super dimming.</label>
+	</Task>
+	<Task sr="task697">
+		<cdate>1753893707751</cdate>
+		<edate>1753893707751</edate>
+		<id>697</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_QSExperimentUIToggle</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task698">
+		<cdate>1745400000000</cdate>
+		<edate>1792074411038</edate>
+		<id>698</id>
+		<nme>Smooth DC-Like Brightness Transition V5 (Java)</nme>
+		<pri>100</pri>
+		<showinnot>false</showinnot>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AutoBrightRunning</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%calculated_brightness_smooth</lhs>
-					<op>6</op>
-					<rhs>%AAB_DimmingThreshold</rhs>
+					<lhs>%AutoBrightRunning</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AutoBrightRunning</lhs>
+					<op>13</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%AAB_PrevBright</Str>
-			<Str sr="arg1" ve="3">%calculated_brightness_smooth</Str>
+			<Str sr="arg0" ve="3">%currentbrightness</Str>
+			<Str sr="arg1" ve="3">%AAB_PrevBright</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="1"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%AAB_LastAnimation=%TIMEMS
+%AAB_CycleTime=%TIMEMS - %AAB_CycleStart</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">=</Str>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>159</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Allow Override</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>810</code>
+			<Int sr="arg0">
+				<var>%AAB_DimmingThreshold</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BRIGHT</lhs>
+					<op>6</op>
+					<rhs>%AAB_DimmingThreshold</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AAB_BrightCal</lhs>
+					<op>3</op>
+					<rhs>error</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%AAB_BrightCal</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_ReadBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act19" ve="7">
-			<code>43</code>
+			<code>474</code>
+			<Str sr="arg0" ve="3">import java.util.HashMap;
+import android.provider.Settings;
+import android.content.ContentResolver;
+
+try {
+    /* --- Start Timer --- */
+    engineStartTime = System.currentTimeMillis();
+
+    /* --- Read Parameters --- */
+    targetBrightness = Double.parseDouble(tasker.getVariable("calculated_brightness"));
+    finalDim = Double.parseDouble(tasker.getVariable("final_dim"));
+    loops = Integer.parseInt(tasker.getVariable("loops"));
+    wait = Integer.parseInt(tasker.getVariable("wait"));
+
+    /* Continuity Fix */
+    startBrightness = Double.parseDouble(tasker.getVariable("currentbrightness"));
+
+    /* Animation Config */
+    dimmingThreshold = Double.parseDouble(tasker.getVariable("AAB_DimmingThreshold"));
+    dimStart = Double.parseDouble(tasker.getVariable("dim_start"));
+
+    /* Feature Flags */
+    privilege = tasker.getVariable("AAB_Privilege");
+    detectOverrides = "On".equals(tasker.getVariable("AAB_DetectOverrides"));
+    adaptiveHandoff = "1".equals(tasker.getVariable("AAB_AdaptiveHandoff"));
+    sdk = Integer.parseInt(tasker.getVariable("AAB_SDK"));
+    isAtLeastSdk31 = (sdk &gt;= 31);
+
+    /* Logic Flags */
+    /* Extra Dim requires Android 12 (SDK 31); older versions fall back to unprivileged overlay */
+    isUnprivileged = "None".equals(privilege) || !isAtLeastSdk31;
+    isNativeSecure = "Write Secure".equals(privilege) &amp;&amp; isAtLeastSdk31;
+    requiresTaskCall = !isUnprivileged &amp;&amp; !isNativeSecure;
+
+    /* System Access */
+    cResolver = context.getContentResolver();
+    consecutiveOutOfBounds = 0;
+
+    /* --- LOGIC UPGRADE: Time-Based Override Threshold --- */
+    /* Reduced threshold to 2 because we are checking less frequently (every 5 frames) */
+    overrideTriggerThreshold = 2;
+
+    /* --- STATE TRACKING (Optimization) --- */
+    /* Track previous values to avoid redundant system writes (Battery Saver &amp; Speed) */
+    previousHardwareTarget = -1;
+    previousDimVal = -1;
+    previousAlpha = -1;
+
+    /* Optimization: Cache Dimming Status locally to avoid IPC read inside loop */
+    dimmingStatusVar = tasker.getVariable("AAB_DimmingStatus");
+    dimmingStatusActive = (dimmingStatusVar != null &amp;&amp; dimmingStatusVar.equals("1"));
+
+    dimParams = new HashMap();
+    overlayParams = new HashMap();
+
+    /* Initialize tracking variable outside loop */
+    calculated_bright = startBrightness;
+
+    for (counter = 0; counter &lt; loops; counter++) {
+
+        /* 1. Safety Check */
+        if ("true".equals(tasker.getVariable("AAB_Manual_Override"))) break;
+
+        /* 2. Calculate Values */
+        progress = loops &lt;= 1 
+            ? 1.0 
+            : (double) counter / (loops - 1);
+            
+        /* Adaptive Handoff Logic: Always use the interpolated value */
+        calculated_bright = startBrightness + progress * (targetBrightness - startBrightness);
+        
+        /* Dimming Curve */
+        dim_shell_double = dimStart + progress * (finalDim - dimStart);
+        dim_val = (int) Math.round(dim_shell_double);
+        
+        /* 3. Determine Hardware Target (PWM Logic) */
+        hardwareTarget = 0;
+        if (calculated_bright &lt; dimmingThreshold) {
+            hardwareTarget = (int) Math.round(dimmingThreshold);
+        } else {
+            hardwareTarget = (int) Math.round(calculated_bright);
+        }
+
+        /* OPTIMIZATION: Write Hardware Brightness ONLY if changed */
+        if (!adaptiveHandoff &amp;&amp; hardwareTarget != previousHardwareTarget) {
+            Settings.System.putInt(cResolver, Settings.System.SCREEN_BRIGHTNESS, hardwareTarget);
+            previousHardwareTarget = hardwareTarget;
+        }
+
+        /* 4. Override Detection (Throttled) */
+        if (detectOverrides) {
+            /* OPTIMIZATION: Check only every 5 frames to reduce CPU load */
+            if (!adaptiveHandoff &amp;&amp; counter % 5 == 0) {
+                try {
+                    actualBright = Settings.System.getInt(cResolver, Settings.System.SCREEN_BRIGHTNESS);
+                    
+                    /* Tolerance is 10% of target, but minimum 4 units */
+                    dynamicTolerance = (int) Math.max(4, hardwareTarget * 0.10);
+                    
+                    if (Math.abs(actualBright - hardwareTarget) &gt; dynamicTolerance) {
+                        consecutiveOutOfBounds++;
+                        if (consecutiveOutOfBounds &gt;= overrideTriggerThreshold) {
+                            tasker.setVariable("AAB_Manual_Override", "true");
+                            tasker.callTask("Manual Override", new HashMap()); 
+                            break;
+                        }
+                    } else {
+                        consecutiveOutOfBounds = 0;
+                    }
+                } catch (Exception e) {}
+            }
+        }
+
+        /* 5. APPLY DIMMING LOGIC */
+        
+        if (isUnprivileged) {
+            /* Check local cached boolean instead of IPC call */
+            if (!dimmingStatusActive) {
+                 tasker.callTask("_ShowColorFilter", new HashMap());
+                 tasker.setVariable("AAB_DimmingStatus", "1");
+                 dimmingStatusActive = true;
+            }
+            
+            alphaVal = dim_val;
+            if (alphaVal &gt; 253) alphaVal = 253;
+            if (alphaVal &lt; 0) alphaVal = 0;
+
+            /* OPTIMIZATION: Only calculate hex and update overlay if Alpha Value Changed */
+            if (alphaVal != previousAlpha) {
+                hexStr = Integer.toHexString(alphaVal);
+                if (hexStr.length() &lt; 2) hexStr = "0" + hexStr;
+                colorCode = "#" + hexStr + "000000";
+                
+                tasker.setVariable("AAB_HexOverlay", colorCode);
+                overlayParams.put("par1", colorCode);
+                tasker.callTask("_OverlayColorUpdate", overlayParams);
+                
+                previousAlpha = alphaVal;
+            }
+            
+            /* OPTIMIZATION: Throttle global status updates */
+            if (counter % 5 == 0) {
+                dimPct = dim_shell_double / 2.55;
+                /* Primitive math rounding replaces BigDecimal */
+                roundedDim = Math.round(dimPct * 10.0) / 10.0;
+                tasker.setVariable("AAB_DimmingCurrent", String.valueOf(roundedDim));
+                tasker.setVariable("AAB_DimmingDS", String.valueOf(dim_val));
+            }
+        } 
+        else if (isNativeSecure) {
+            try {
+                if (dim_val &gt; 100) dim_val = 100;
+                if (dim_val &lt; 0) dim_val = 0;
+
+                /* OPTIMIZATION: Only write Secure Setting if value changed */
+                if (dim_val != previousDimVal) {
+                    Settings.Secure.putInt(cResolver, "reduce_bright_colors_level", dim_val);
+                    previousDimVal = dim_val;
+                }
+                
+                if (!dimmingStatusActive) {
+                    Settings.Secure.putInt(cResolver, "reduce_bright_colors_activated", 1);
+                    tasker.setVariable("AAB_DimmingStatus", "1");
+                    dimmingStatusActive = true;
+                }
+                
+                /* OPTIMIZATION: Throttle global status updates */
+                if (counter % 5 == 0) {
+                    roundedDim = Math.round(dim_shell_double * 10.0) / 10.0;
+                    tasker.setVariable("AAB_DimmingCurrent", String.valueOf(roundedDim));
+                    tasker.setVariable("AAB_DimmingDS", String.valueOf(dim_val));
+                }
+            } catch (Exception e) {}
+        }
+        else if (requiresTaskCall) {
+            /* Task Call Logic with fixed Guard clauses to prevent Rejected Copy errors. */
+            isLastLoop = (counter == loops - 1);
+            
+            /* Get fresh TRUN value */
+            trun = tasker.getVariable("TRUN");
+            taskName = "Apply Dimming (Privileged)";
+            
+            /* FRAME DROPPING LOGIC */
+            /* If the task is running... */
+            if (trun != null &amp;&amp; trun.contains(taskName)) {
+                /* If it's the last loop, we MUST wait for the previous task to finish
+                   so we can apply the final brightness value reliably. */
+                if (isLastLoop) {
+                    /* wait for the previous instance to finish (No timeout!) */
+                    while (trun.contains(taskName)) {
+                        try { Thread.sleep(5); } catch (Exception e) {}
+                        trun = tasker.getVariable("TRUN");
+                    }
+                } 
+                /* If it's NOT the last loop, just skip this frame to prevent 
+                   stacking/rejected copy errors. Maintains animation speed. */
+                else {
+                    continue; 
+                }
+            }
+            
+            /* PREPARE AND CALL */
+            dimParams.put("dim_shell", String.valueOf(dim_shell_double));
+            tasker.callTask(taskName, dimParams);
+            
+            /* CRITICAL FIX: START-UP GUARD (Only needed for Last Loop reliability) */
+            /* If this is the last loop, we want to make sure the task we just called 
+               actually starts before we finish the script, ensuring the UI is consistent. */
+            if (isLastLoop) {
+                 sTime = System.currentTimeMillis();
+                 /* Wait up to 200ms for the task to appear in TRUN */
+                 trun = tasker.getVariable("TRUN");
+                 while ((trun == null || !trun.contains(taskName)) &amp;&amp; (System.currentTimeMillis() - sTime &lt; 200)) {
+                     try { Thread.sleep(5); } catch (Exception e) {}
+                     trun = tasker.getVariable("TRUN");
+                 }
+            }
+        }
+
+        /* 6. Update UI Variables */
+        /* OPTIMIZATION: Throttle UI Global updates to every 5 frames */
+        /* OPTIMIZATION: Use Primitive Math instead of BigDecimal object allocation */
+        if (counter % 5 == 0) {
+            currBrightStr = "";
+            if (calculated_bright &lt; dimmingThreshold) {
+                 /* Round to 1 decimal place: (int)(val * 10) / 10.0 */
+                 roundedVal = Math.round(calculated_bright * 10.0) / 10.0;
+                 currBrightStr = String.valueOf(roundedVal);
+            } else {
+                 currBrightStr = String.valueOf(Math.round(calculated_bright));
+            }
+            tasker.setVariable("AAB_CurrentBright", currBrightStr);
+        }
+
+        /* 7. Wait Loop */
+        timeSpent = System.currentTimeMillis() - engineStartTime;
+        targetTime = (long)((counter + 1) * wait);
+        adjustedWait = targetTime - timeSpent;
+        
+        try {
+            if (adjustedWait &gt; 0 &amp;&amp; counter &lt; loops - 1) {
+                Thread.sleep(adjustedWait);
+            }
+        } catch (InterruptedException e) { break; }
+    }
+
+    /* Post-Loop Cleanup */
+    if (!"true".equals(tasker.getVariable("AAB_Manual_Override"))) {
+        if (adaptiveHandoff) {
+            calculated_bright = Double.parseDouble(tasker.getVariable("AAB_CurrentBright"));
+        } else {
+            calculated_bright = targetBrightness;
+        }
+    }
+
+    /* Final update to ensure target is reached exactly in UI (Primitive Math) */
+    if (!adaptiveHandoff) {
+        if (calculated_bright &lt; dimmingThreshold) {
+             roundedVal = Math.round(calculated_bright * 10.0) / 10.0;
+             currBrightStr = String.valueOf(roundedVal);
+        } else {
+             currBrightStr = String.valueOf(Math.round(calculated_bright));
+        }
+        tasker.setVariable("AAB_CurrentBright", currBrightStr);
+    }
+
+    endTime = System.currentTimeMillis();
+    tasker.setVariable("java_loop_duration", String.valueOf(endTime - engineStartTime));
+    tasker.setVariable("calculated_brightness_smooth", String.valueOf(calculated_bright));
+} catch (Exception e) {
+    /* Catch and log errors to avoid halting Tasker cleanup actions */
+    tasker.log("AutoBright execution error: " + e.getMessage());
+} finally {
+    /* Always reset running status */
+    tasker.setVariable("AutoBrightRunning", "0");
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -42914,6 +45441,30 @@ tasker.setVariable("calculated_brightness_smooth", String.valueOf(calculated_bri
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>37</code>
+			<label>Shows 1 decimal point in the scene below %AAB_DimmingThreshold lux and is used for higher accuracy in super dimming.</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%calculated_brightness_smooth</lhs>
+					<op>6</op>
+					<rhs>%AAB_DimmingThreshold</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_PrevBright</Str>
+			<Str sr="arg1" ve="3">%calculated_brightness_smooth</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AAB_PrevBright</Str>
 			<Str sr="arg1" ve="3">%calculated_brightness_smooth</Str>
@@ -42923,20 +45474,20 @@ tasker.setVariable("calculated_brightness_smooth", String.valueOf(calculated_bri
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act24" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act25" ve="7">
 			<code>159</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Allow Override</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act26" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Software dimming
 Loops: %loops, wait step: %wait ms
-Java loop duration: %java_step_duration ms
+Java loop duration: %java_loop_duration ms
 Target brightness: %AAB_CurrentBright</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg10" ve="3"/>
@@ -44316,7 +46867,7 @@ tasker.setVariable("sim_calc_dusk", String.valueOf((long)calc_dusk));</Str>
 	</Task>
 	<Task sr="task706">
 		<cdate>1764224506296</cdate>
-		<edate>1791378280592</edate>
+		<edate>1792056339878</edate>
 		<id>706</id>
 		<nme>_Updates</nme>
 		<pri>100</pri>
@@ -46300,7 +48851,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 		<cdate>1752260155482</cdate>
 		<edate>1752260155482</edate>
 		<id>733</id>
-		<pri>1013</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_ReactivityToggle</Str>
@@ -46758,10 +49309,32 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 	</Task>
 	<Task sr="task744">
 		<cdate>1750706574558</cdate>
-		<edate>1750706574558</edate>
+		<edate>1791876125701</edate>
 		<id>744</id>
 		<pri>105</pri>
 		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%aab_form2c</lhs>
+					<op>2</op>
+					<rhs>[a-zA-Z]</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_form2c</Str>
 			<Str sr="arg1" ve="3">%new_val</Str>
@@ -46771,7 +49344,7 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aab_form3a</Str>
 			<Str sr="arg1" ve="3">(%aab_zone2end*(255-(%aab_form2a+%aab_form2b*((%aab_zone2end-%aab_form2c)^0.33-(%aab_zone1end-%aab_form2c)^0.33)))/255)</Str>
@@ -46780,6 +49353,9 @@ Output resulting from the command. May be empty.&lt;/_array_net.dinglisch.androi
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task746">
@@ -50644,7 +53220,7 @@ tasker.setVariable("AAB_ScaleDynamic", scale_bd.toString());</Str>
 	</Task>
 	<Task sr="task91">
 		<cdate>1787575194779</cdate>
-		<edate>1791383664984</edate>
+		<edate>1792078246992</edate>
 		<id>91</id>
 		<nme>_SecondaryPrivilegeDetection</nme>
 		<Action sr="act0" ve="7">
@@ -50799,6 +53375,246 @@ if (!isPrivilegeSet) {
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task97">
+		<cdate>1791821260436</cdate>
+		<edate>1792072666883</edate>
+		<id>97</id>
+		<nme>_Hand-offDecider</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveOn</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SmoothedLux</lhs>
+					<op>7</op>
+					<rhs>%AAB_AdaptiveHandoffThresh</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_Hand-offToAdaptive</Str>
+			<Int sr="arg1">
+				<var>%priority+3</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>3</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveOn</lhs>
+					<op>3</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SmoothedLux</lhs>
+					<op>6</op>
+					<rhs>%AAB_AdaptiveHandoffThresh*%AAB_HandoffHysteresis</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_HandBackToAAB</Str>
+			<Int sr="arg1">
+				<var>%priority+3</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_AdaptiveHandoff</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task98">
+		<cdate>1791790318347</cdate>
+		<edate>1792075852890</edate>
+		<id>98</id>
+		<nme>_Hand-offToAdaptive</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_AdaptiveHandoff</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AAB_Privilege</lhs>
+					<op>2</op>
+					<rhs>None</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Disable Super Dimming (Unprivileged)</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Disable Super Dimming (Privileged)</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Adaptive Brightness enabled. AAB handed off control to Android. </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">aab_toast</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task99">
+		<cdate>1791790411911</cdate>
+		<edate>1792072984348</edate>
+		<id>99</id>
+		<nme>_HandBackToAAB</nme>
+		<Action sr="act0" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_ReadBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_AdaptiveHandoff</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AAB_HBMFlag</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Adaptive Brightness disabled. AAB is back in control. </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3">aab_toast</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF007C63</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 </TaskerData>
